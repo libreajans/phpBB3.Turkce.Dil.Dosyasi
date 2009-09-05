@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 
 	'TOKEN'					=> 'İşaret',
 	'TOKENS'				=> 'İşaretler',
-	'TOKENS_EXPLAIN'		=> 'İşaretler kullanıcı girişi için yer belirleyicilerdir. Bu uygun tanım, birbiri ile denk olursa giriş geçerli sayılacak. Eğer gerek duyuyorsanız çiftlerin arasında son karakteri bir sayı olarak ekleyerek onları kullanabilirsiniz, örn: {YAZI1}, {YAZI2}.<br /><br />HTML değişkenlerini, language/ dizininden herhangi bir lisan dizisi kullanabilirsiniz: {L_<em>&lt;STRINGNAME&gt;</em>} nerede? <em>&lt;STRINGNAME&gt;</em> eklemeyi istediğiniz dizinin ismi. Örneğin, {L_WROTE} bu şekilde gösterilecek &quot;Alıntı&quot; veya kullanıcının tercümesine göre değişebilir.<br /><br /><strong>Lütfen işaretlerin, aşağıda listelediğinden emin olun, yapının içerisinde biçim kodu kullanılabilirsiniz.</strong>',
+	'TOKENS_EXPLAIN'		=> 'İşaretler kullanıcı girişi için yer belirleyicilerdir. Bu uygun tanım, birbiri ile denk olursa giriş geçerli sayılacak. Eğer gerek duyuyorsanız çiftlerin arasında son karakteri bir sayı olarak ekleyerek onları kullanabilirsiniz, örn: {YAZI1}, {YAZI2}.<br /><br />HTML değişkenlerini, language/ dizininden herhangi bir lisan dizisi kullanabilirsiniz: {L_<em>&lt;STRINGNAME&gt;</em>} nerede? <em>&lt;STRINGNAME&gt;</em> eklemeyi istediğiniz dizinin ismi. Örneğin, {L_WROTE} bu şekilde gösterilecek “alıntı” veya kullanıcının tercümesine göre değişebilir.<br /><br /><strong>Lütfen işaretlerin, aşağıda listelediğinden emin olun, yapının içerisinde biçim kodu kullanılabilirsiniz.</strong>',
 	'TOKEN_DEFINITION'		=> 'Ne olabilir?',
 	'TOO_MANY_BBCODES'		=> 'Daha fazla biçim kodu oluşturamazsınız. Lütfen bir veya daha fazla biçim kodu silip tekrar deneyin.',
 
@@ -51,7 +51,7 @@ $lang = array_merge($lang, array(
 		'IDENTIFIER'	=> 'Latin alfabesinden karakterler (A-Z), sayılar, tire (-) ve altçizgi (_)',
 		'NUMBER'		=> 'Herhangi bir dijital karakter',
 		'EMAIL'			=> 'Geçerli bir e-posta adresi',
-		'URL'			=> 'Geçerli herhangi protokol kullanan bir URL (http, ftp, vb… gibi. Kötü amaç için javascript kullanılamaz). Eğer hiçbiri, verilmezse, &quot;http://&quot;, diziye öneki eklenir.',
+		'URL'			=> 'Geçerli herhangi protokol kullanan bir URL (http, ftp, vb… gibi. Kötü amaç için javascript kullanılamaz). Eğer hiçbiri, verilmezse, “http://”, diziye öneki eklenir.',
 		'LOCAL_URL'		=> 'Yerel bir URL. URL, konu sayfasına göre olmalıdır, ve bir sunucu ismi veya protokolü içeremez.',
 		'COLOR'			=> 'Bir HTML rengi, her biri sayısal biçimde olabilir <samp>#FF1234</samp> veya bir <a href="http://www.w3.org/TR/CSS21/syndata.html#value-def-color">CSS renk anahtar kelimesi</a> gibi <samp>fuchsia</samp> veya <samp>InactiveBorder</samp>.'
 	)
@@ -151,6 +151,8 @@ $lang = array_merge($lang, array(
 	'SMILIES_URL'				=> 'İfade resim dosyası',
 	'SMILIES_WIDTH'				=> 'İfade genişliği',
 
+	'TOO_MANY_SMILIES'			=> '%d ifade sınırına ulaşıldı.',
+	
 	'WRONG_PAK_TYPE'	=> 'Belirtilen paket uygun veriyi içermiyor.', 
 ));
 
@@ -188,6 +190,7 @@ $lang = array_merge($lang, array(
 	'RANK_ADDED'			=> 'Seviye eklendi.',
 	'RANK_IMAGE'			=> 'Seviye resmi',
 	'RANK_IMAGE_EXPLAIN'	=> 'Geçerli seviye için bir resim eklemek için bunu kullanın. Belirteceğiniz resmin dizin yolu phpBB’nin kurulu olduğu dizinde olmalıdır.', //Use this to define a small image associated with the rank. The path is relative to the root phpBB directory.',
+	'RANK_IMAGE_IN_USE'		=> '(Kullanımda)', // In use
 	'RANK_MINIMUM'			=> 'En az ileti',
 	'RANK_REMOVED'			=> 'Seviye silindi.',
 	'RANK_SPECIAL'			=> 'Özel seviye olarak belirle',
