@@ -23,6 +23,7 @@ $lang = array_merge($lang, array(
 	'BUMP_TOPIC'			=> 'Konuyu güncelle',
 
 	'CODE'					=> 'Kod',
+	'COLLAPSE_QR'			=> 'Hızlı cevabı gizle',
 
 	'DELETE_TOPIC'			=> 'Sil',
 	'DOWNLOAD_NOTICE'		=> 'Bu iletideki ekleri görmek için gerekli yetkilere sahip değilsiniz.',
@@ -34,6 +35,7 @@ $lang = array_merge($lang, array(
 	
 	'FILE_NOT_FOUND_404'	=> '<strong>%s</strong> dosyası mevcut değil.',
 	'FORK_TOPIC'			=> 'Kopyala',
+	'FULL_EDITOR'			=> 'Tam editör',
 
 	'LINKAGE_FORBIDDEN'			=> 'Bu panodaki eklentileri görüntülemeye, indirmeye veya link ile bağlanmaya yetkiniz yok.',
 	'LOGIN_NOTIFY_TOPIC'		=> 'Bu konu hakkında bilgilendirildiniz, görüntüleyebilmek için oturum açmanız gerekmektedir.',
@@ -61,11 +63,13 @@ $lang = array_merge($lang, array(
 	'PRINT_TOPIC'			=> 'Yazıcı görüntüsü',
 
 	'QUICK_MOD'				=> 'Yetkili araçları',
+	'QUICKREPLY'			=> 'Hızlı cevap',
 	'QUOTE'					=> 'Alıntı',
 
 	'REPLY_TO_TOPIC'		=> 'Konuya cevap yaz',
 	'RETURN_POST'			=> '%sİletiye dön%s',
 
+	'SHOW_QR'				=> 'Hızlı cevap',
 	'SUBMIT_VOTE'			=> 'Oy ekle',
 
 	'TOTAL_VOTES'			=> 'Toplam oy',
