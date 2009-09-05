@@ -28,8 +28,9 @@ $lang = array_merge($lang, array(
 	'DESELECT_ALL'				=> 'Tümünü seçimden çıkar',
 	'DOWNLOAD_BACKUP'			=> 'Yedek indir',
 
-	'FILE_TYPE'		=> 'Dosya tipi',
-	'FULL_BACKUP'	=> 'Tam',
+	'FILE_TYPE'			=> 'Dosya tipi',
+	'FILE_WRITE_FAIL'	=> 'Dosya depo dizinine yazılamadı.',
+	'FULL_BACKUP'		=> 'Tam',
 
 	'RESTORE_FAILURE'		=> 'Yedek dosyası bozuk olabilir.',
 	'RESTORE_OPTIONS'		=> 'Onarma seçenekleri',
