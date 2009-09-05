@@ -18,10 +18,12 @@ $lang = array_merge($lang, array(
 	'AUTO_PRUNE_VIEWED'				=> 'Otomatik temizleme için konunun son okunma günü',
 	'AUTO_PRUNE_VIEWED_EXPLAIN'		=> 'Konunun temizlenmesi için son izleniminden sonra geçmesi gereken süre.',
 
-	'COPY_PERMISSIONS'				=> 'İzinleri şuradan kopyala',
+	'CONTINUE'						=> 'Devam et',
+	'COPY_PERMISSIONS'				=> 'İzinleri kopyala',
+	'COPY_PERMISSIONS_EXPLAIN'		=> 'Yeni forumunuzun izin ayarlamasını kolaylaştırmak için, mevcut bir forumun izinlerini kopyalayabilirsiniz.',
 	'COPY_PERMISSIONS_ADD_EXPLAIN'	=> 'Bir defa kuralları oluşturduktan sonra yeni oluşturduğunuz forumlarda daha önceden oluşturduğunuz kuralları kullanabilirsiniz. Eğer izinleri kopyalamak için bir forum seçilmezse forum görüntülenmeyecektir.',
 	'COPY_PERMISSIONS_EDIT_EXPLAIN'	=> 'Eğer, izinleri kopyala seçeneğini işaretlerseniz, bu forum seçtiğiniz forumla ile aynı izinlere sahip olacaktır. Bu işlem daha önce tanımlanmış olan diğer izinlerin üzerine yazacaktır. Eğer hiçbir forum seçilmedi ise geçerli olan izinler aynen korunacaktır.',
-	
+	'COPY_TO_ACL'					=> 'Alternatif olarak, bu forum için %sizin ayarları%snı kendiniz de yapabilirsiniz.',
 	'CREATE_FORUM'					=> 'Yeni forum ekle',
 
 	'DECIDE_MOVE_DELETE_CONTENT'		=> 'İçeriği sil veya başka bir foruma taşı',
@@ -37,6 +39,8 @@ $lang = array_merge($lang, array(
 	'ENABLE_INDEXING_EXPLAIN'		=> 'Eğer evet seçilirse bu forumdaki iletiler arama için arşivlenecektir.',
 	'ENABLE_POST_REVIEW'			=> 'İleti İncelemesini Aktifleştir',
 	'ENABLE_POST_REVIEW_EXPLAIN'	=> 'Eğer evet olarak ayarlarsanız, kullanıcılar başlığa yeni ileti eklerken, iletilerini inceleyebileceklerdir. Bu, sohbet forumları için kapalı olmalıdır.',
+	'ENABLE_QUICK_REPLY'			=> 'Hızlı cevabı etkinleştir',
+	'ENABLE_QUICK_REPLY_EXPLAIN'	=> 'Evet seçimi halinde kullanıcılar bu forumda bir hızlı cevap kullanabilir. Ancak bu evet veya hayır ayarı dışında, pano genel ayarlarında hızlı cevap kapalı ise veya foruma ileti yazılamıyorsa, hızlı cevap forumda gösterilmeyecektir.',
 	'ENABLE_RECENT'					=> 'Aktif konuları göster',
 	'ENABLE_RECENT_EXPLAIN'			=> 'Evet olarak seçilirse, aktif başlıkların listesi içinde foruma açılmış olan başlıklar gösterilecektir.',
 	'ENABLE_TOPIC_ICONS'			=> 'Konu simgelerini aç',

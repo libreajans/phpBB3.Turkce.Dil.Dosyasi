@@ -25,7 +25,6 @@ $lang = array_merge($lang, array(
 		
 		<h2>İzin Maskeleri</h2>
 		<p>Bunlar, Yetkililer (Yerel ve Genel), Kullanıcılar, Yöneticiler veya Forumlara atanan efektif izinlerin görülebilmesi için kullanılır.</p>
-	
 		<br />
 
 		<p>phpBB3 panonuzdaki izinlerin kurulması ve yönetilmesini sağlamak hakkında daha fazla bigi edinmek isterseniz, hızlı başlangıç rehberindeki <a  href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5 of our Quick Start Guide</a> bölümüne bakınız.</p>
@@ -55,6 +54,7 @@ $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS_EXPLAIN'				=> 'Buradan kullanıcı ve gruplara yönetici izinleri atayabilirsiniz. Yönetici izinlerine sahip olan herkes yönetici paneline erişebilir.',
 	'ACP_FORUM_MODERATORS_EXPLAIN'				=> 'Buradan kullanıcı ve grupları forum yetkilileri olarak atayabilirsiniz. Forum erişimlerine kullanıcı atamak, genel yetkili izinleri veya yöneticileri tanımlamak için lütfen uygun sayfayı kullanın.',
 	'ACP_FORUM_PERMISSIONS_EXPLAIN'				=> 'Buradan kullanıcıların/grupların hangi forumlara erişebileceklerini değiştirebilirsiniz. Yetkililer ve yöneticiler için lütfen uygun sayfayı kullanın.',
+	'ACP_FORUM_PERMISSIONS_COPY_EXPLAIN'		=> 'Buradan bir forumun izinlerini bir veya birden fazla foruma kopyalabilirsiniz.',
 	'ACP_GLOBAL_MODERATORS_EXPLAIN'				=> 'Buradan kullanıcı ve gruplara genel yetkili izinleri atayabilirsiniz. Bu yetkililer sıradan yetkililer gibidir fakat her forumda yetkilileri vardır.',
 	'ACP_GROUPS_FORUM_PERMISSIONS_EXPLAIN'		=> 'Buradan gruplar için forum izinlerini atayabilirsiniz.',
 	'ACP_GROUPS_PERMISSIONS_EXPLAIN'			=> 'Buradan grupların genel izinlerini atayabilirsiniz - kullanıcı izinleri, genel yetkili izinleri ve yönetim izinleri. Kullanıcı izinleri; avatarların kullanımı, özel mesaj gönderme işlemi, vb. konuları içerir. Genel yetkili izinleri iletilerin onaylanması, forum yönetimi, yasaklama yönetimi, vb. konular ve son olarak yönetim izinleri ise izin değişimleri, özel biçim kodu tanımlama, pano yönetimi vb. konular içerir. Geniş sayıdaki kullanıcılarda bu ayarları değiştirmek için grup izinleri sistemi yöntemi tercih edilir. Kullanıcı izinleri sadece özel durumlarda değiştirilmelidir. Tercih edilmesi gereken yöntem kullanıcıları grup içine yerleştirdikten sonra grup izinlerini tanımlamaktır.',
@@ -84,6 +84,12 @@ $lang = array_merge($lang, array(
 	'APPLY_PERMISSIONS_EXPLAIN'	=> 'İzinler ve roller sadece bu öğe için tanımlandı. Bu maddeye uygulanacağı için bütün maddeler kontrol edilecek.',
 	'AUTH_UPDATED'				=> 'İzinler güncellendi.',
 
+'COPY_PERMISSIONS_CONFIRM'				=> 'Are you sure you wish to carry out this operation? Please be aware that this will overwrite any existing permissions on the selected targets.',
+	'COPY_PERMISSIONS_FORUM_FROM_EXPLAIN'	=> 'İzinlerini kopyalamak istediğiniz kaynak forum.',
+	'COPY_PERMISSIONS_FORUM_TO_EXPLAIN'		=> 'Kopyalanan izinlerin uygulanacağı hedef forumlar.',
+	'COPY_PERMISSIONS_FROM'					=> 'İzinleri kopyala',
+	'COPY_PERMISSIONS_TO'					=> 'İzinleri uygula',
+	
 	'CREATE_ROLE'				=> 'Rol oluştur',
 	'CREATE_ROLE_FROM'			=> 'Ayarları formdan kullan…',
 	'CUSTOM'					=> 'Özel…',
@@ -139,6 +145,7 @@ $lang = array_merge($lang, array(
 	'ROLE_FORUM_POLLS'			=> 'Standart Erişim + Anketler',
 	'ROLE_FORUM_READONLY'		=> 'Sadece Okuma Erişimi',
 	'ROLE_FORUM_STANDARD'		=> 'Standart Erişim',
+	'ROLE_FORUM_NEW_MEMBER'		=> 'Yeni Kayıtlı Kullanıcı',
 	'ROLE_MOD_FULL'				=> 'Tam Yetkili',
 	'ROLE_MOD_QUEUE'			=> 'Onay Yetkilisi',
 	'ROLE_MOD_SIMPLE'			=> 'Basit Yetkili',
@@ -148,6 +155,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOAVATAR'		=> 'Avatar Yok',
 	'ROLE_USER_NOPM'			=> 'Özel Mesajlaşma Yok',
 	'ROLE_USER_STANDARD'		=> 'Standart Özellikler',
+	'ROLE_USER_NEW_MEMBER'		=> 'Yeni Kayıtlı Kullanıcı',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Forum yönetimine ulaşabilir ve forum izinlerini düzenleyebilir.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Panonun bütün yönetimsel görevlerine erişim hakkına sahip olabilir.<br />Tavsiye edilmez.',
@@ -162,6 +170,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_FORUM_POLLS'			=> 'Standart erişim gibidir fakat anket oluşturabilir.',
 	'ROLE_DESCRIPTION_FORUM_READONLY'		=> 'Forumları okuyabilir, fakat yeni konu başlatamaz ve ileti cavaplayamaz.',
 	'ROLE_DESCRIPTION_FORUM_STANDARD'		=> 'Panonun bir çok özelliğini kullanabilir. Eklentileri ve kendi konularını silebilir fakat kendi konularını kilitleyemez ve anket oluşturamaz.',
+	'ROLE_DESCRIPTION_FORUM_NEW_MEMBER'		=> 'Yeni kayıtlı kullanıcılar özel grubu için bir rol; bazı özellikleri yeni kullanıcılara vermemek için <samp>ASLA</samp> izinlerini kullanır.',
 	'ROLE_DESCRIPTION_MOD_FULL'				=> 'Yasaklama dahil tüm yetkili özelliklerini kullanabilir.',
 	'ROLE_DESCRIPTION_MOD_QUEUE'			=> 'Onay bekliyen iletileri onaylayabilir, yönetebilir, düzenleyebilir. Bunun haricinde başka herhangi bir işlem yapamaz.',
 	'ROLE_DESCRIPTION_MOD_SIMPLE'			=> 'Sadece temel konu işlemlerini kullanabilir. Uyarı yollayamaz, onay işlemlerini yapamaz.',
@@ -171,6 +180,7 @@ $lang = array_merge($lang, array(
 	'ROLE_DESCRIPTION_USER_NOAVATAR'		=> 'Sınırlı özelliklere sahiptir, avatar özelliğini kullanamaz.',
 	'ROLE_DESCRIPTION_USER_NOPM'			=> 'Sınırlı özelliklere sahiptir, özel mesajlaşmayı kullanamaz.',
 	'ROLE_DESCRIPTION_USER_STANDARD'		=> 'Bir çok erişime sahiptir fakat bütün kullanıcı özelliklerine değil. Örneğin, kullanıcı ismini değiştiremez ve peş peşe ileti yazmak için yığın mesaj limitini yok sayamaz.', 
+	'ROLE_DESCRIPTION_USER_NEW_MEMBER'		=> 'Yeni kayıtlı kullanıcılar özel grubu için bir rol; bazı özellikleri yeni kullanıcılara vermemek için <samp>ASLA</samp> izinlerini kullanır.',
 	
 	'ROLE_DESCRIPTION_EXPLAIN'		=> 'Rolün işlevi hakkında bir açıklama belirtebilir, tanımlayabilirsiniz. Gireceğiniz açıklama izinler ekranında görüntülenecektir.',
 	'ROLE_DESCRIPTION_LONG'			=> 'Rol tanımlamazı fazla uzun, lütfen 4000 karakterle sınırlayınız.',
@@ -220,7 +230,7 @@ $lang = array_merge($lang, array(
 'TRACE_USER_GLOBAL_YES_TOTAL_NEVER'		=> 'The forum independent user permission evaluates to <samp>EVET</samp> which overwrites the current local result <samp>ASLA</samp>. %sGenel izinleri izle%s',
 'TRACE_USER_GLOBAL_NEVER_TOTAL_KEPT'	=> 'The forum independent user permission evaluates to <samp>ASLA</samp> which doesn’t influence the local permission. %sGenel izinleri izle%s',
 
-'TRACE_USER_FOUNDER'					=> 'The user has the founder type set, therefore admin permissions are set to <samp>EVET</samp> by default.',
+	'TRACE_USER_FOUNDER'					=> 'Bu kullanıcı bir kurucu, bundan dolayı yönetici izinleri her zaman <samp>EVET</samp> ayarlı.',
 'TRACE_USER_KEPT'						=> 'The user’s permission is <samp>HAYIR</samp> so the old total value is kept.',
 'TRACE_USER_KEPT_LOCAL'					=> 'The user’s permission for this forum is <samp>EVET</samp> so the old total value is kept.',
 'TRACE_USER_NEVER_TOTAL_NEVER'			=> 'The user’s permission is set to <samp>ASLA</samp> and the total value is set to <samp>ASLA</samp>, so nothing is changed.',

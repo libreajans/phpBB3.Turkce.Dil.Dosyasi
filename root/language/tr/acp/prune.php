@@ -11,23 +11,22 @@ if (empty($lang) || !is_array($lang)) { $lang = array(); }
 
 // User pruning
 $lang = array_merge($lang, array(
-	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Buradan, forumunuzdaki kullanıcıları silebilir veya pasif edebilirsiniz. Bunun değişik yolları vardır; ileti sayısına göre, son çevrimiçi olduğu tarihe göre, vs. Her iki kriteri birleştirebilir, kullanıcıları en son 2002-01-01 tahinde çevrimiçi olan ve en az 10 iletisi bulunan diye kısıtlayabilmeniz de mümkündür. Alternatif olarak, direkt yazı kutusuna kullanıcıların bir listesini yazıp, onlar için bazı kriterlerin görmezlikten gelinmesini sağlayabilirsiniz. Burada çok dikkatli olmanız gerekmektedir! Bir kullanıcı silindiği takdirde, bunun bir daha dönüşü olamayacaktır.',
-
+	'ACP_PRUNE_USERS_EXPLAIN'	=> 'Bu kısım panodaki kullanıcıları silmeye veya pasif yapmaya izin verir. Kullanıcı hesapları ileti sayısı ve son aktiflik tarihi gibi çeşitli parametrelerle tüm kullanıcılar seçilip, eleme yapılabilir. Hangi hesapların seçileceğini sınırlamak için kriter değiştirilebilir. Örnek olarak 2002-01-01 tarihinden sonra aktif olmayan ileti sayısı 10 iletiden daha az olan kullanıcıları temizlemek şeklinde. Alternatif olarak, kriter ile seçme adımını geçip metin kutusunda her satıra bir kullanıcı adı ekleyebilirsiniz. Bu özelliğe dikkat edin, çünkü kullanıcı bir kez silindikten sonra, yapılan silme işlemini geriye alma imkanı yoktur.',
 	'DEACTIVATE_DELETE'			=> 'Pasif hale getir veya sil',
-	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Seçenek, kullanıcıları pasif hale getirir veya onları tamamen siler. Bu geri dönüşü olmayan bir işlemdir!',
+	'DEACTIVATE_DELETE_EXPLAIN'	=> 'Seçenek, kullanıcıları pasif hale getirir veya onları tamamen siler. Bu geri dönüşü olmayan bir işlemdir, silinen üyeler onarılamaz!',
 	'DELETE_USERS'				=> 'Sil',
 	'DELETE_USER_POSTS'			=> 'Silinecek kullanıcıların iletilerini temizle',
 	'DELETE_USER_POSTS_EXPLAIN' => 'Silinecek kullanıcıların iletilerini siler, eğer kullanıcı pasif ise hiçbir etkisi olmayacaktır.',
 
 	'JOINED_EXPLAIN'			=> '<kbd>YYYY-AA-GG</kbd> biçiminde bir tarih girin.',
 
-	'LAST_ACTIVE_EXPLAIN'		=> '<kbd>YYYY-AA-GG</kbd> biçiminde bir tarih girin.',
+	'LAST_ACTIVE_EXPLAIN'		=> '<kbd>YYYY-AA-GG</kbd> biçiminde bir tarih girin. Hiç oturum açmamış kullanıcıları temizlemek için <kbd>0000-00-00</kbd> biçiminde bir tarih girin, <em>Önce</em> ve <em>Sonra</em> koşulları göz önüne alınmayacaktır.',
 
-	'PRUNE_USERS_LIST'				=> 'Ayrıştırılacak kullanıcılar', // ALEXIS: kullanıcı temizliği olabilir mi ?
+	'PRUNE_USERS_LIST'				=> 'Ayrıştırılacak kullanıcılar', // TODO: kullanıcı temizliği olabilir mi ?
 	'PRUNE_USERS_LIST_DELETE'		=> 'Ayrıştırılan kullanıcılar ile ilgili olarak seçilen kriterlerle takip eden hesaplar silinecektir.',
 	'PRUNE_USERS_LIST_DEACTIVATE'	=> 'Ayrıştırılan kullanıcılar ile ilgili olarak seçilen kriterlerle takip eden hesaplar pasif hale gelecektir.',
 	
-	'SELECT_USERS_EXPLAIN'		=> 'Buraya özel bir kullanıcı ismi yazın, yazdığınız kullanıcılar yukarıdaki kriterlere göre seçeneklendirilecekler.',
+	'SELECT_USERS_EXPLAIN'		=> 'Buraya özel bir kullanıcı ismi yazın, yazdığınız kullanıcılar yukarıdaki kriterlere göre seçeneklendirilecekler. Kurucular temizlemenez.', // TODO: prune "temizleme" yerine "silme" olması gerekebilir
 
 	'USER_DEACTIVATE_SUCCESS'	=> 'Seçilen kullanıcılar pasif edildi.',
 	'USER_DELETE_SUCCESS'		=> 'Seçilen kullanıcılar silindi.',

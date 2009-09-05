@@ -371,6 +371,7 @@ $lang = array_merge($lang, array(
 	'TEMPLATE_LOCATION'			=> 'Şablonu depola', // Store templates in
 	'TEMPLATE_LOCATION_EXPLAIN'	=> 'Resimler her zaman dosya sisteminde depolanır.',
 	'TEMPLATE_NAME'				=> 'Şablon adı',
+	'TEMPLATE_FILE_NOT_WRITABLE'=> '%s tema dosyasına yazılamadı. Lütfen dosya ve dizin izinlerinizi kontrol edin.',
 	'TEMPLATE_REFRESHED'		=> 'Şablon yenilendi.',
 
 	'THEME_ADDED'				=> 'Yeni tema dosya sistemine eklendi.',

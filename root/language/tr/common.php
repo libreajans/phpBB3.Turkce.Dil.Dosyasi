@@ -9,7 +9,7 @@
 // [ phpBB3 Türkçe Dil Paketi ]
 //
 // TERCÜME	: phpBB Türkiye - http://www.phpbbturkiye.net
-// SÜRÜM	: 0.0.74.a - 04 Eylül 2009 - phpBB 3.0.5
+// SÜRÜM	: 0.0.75.a - 05 Eylül 2009 - phpBB 3.0.6-RC1 - r10107
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://www.phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
 //--------------------------------------------------------------------------------------
@@ -45,16 +45,18 @@ if (empty($lang) || !is_array($lang)) { $lang = array(); }
 
 // "sürüm denetimi modülü" tarafından yeni sürüm kontrolü için kullanılması planlanmaktadır. 
 // ayrıntılı bilgi: http://www.phpbbturkiye.net/dil-dosyasi-surum-denetimi-modulu-t14.html
+/*
 $lang = array_merge($lang, array(
 	'TR_VERSION' => array(
-		'LANG'	=> '0.0.73.a',
+		'LANG'	=> '0.0.75.a',
 		'PHPBB'	=> '3.0.5',
 	),
 ));
+*/
 
 // dil değişkenleri
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> "phpBB3 Türkçe: <a href=\"http://www.phpbbturkiye.net\" title=\"phpBB3 geliştirme ve destek\" onclick=\"this.target='_blank'\" rel=\"external\">phpBB Türkiye</a>",
+	'TRANSLATION_INFO'	=> 'phpBB3 Türkçe: <a href="http://www.phpbbturkiye.net" title="phpBB3 geliştirme ve destek" onclick="this.target=\'_blank\'" rel="external">phpBB Türkiye</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'       => '|d M Y|', // 01 Mar 2007
 	'USER_LANG'			=> 'tr',
@@ -264,6 +266,7 @@ $lang = array_merge($lang, array(
 	'G_REGISTERED'				=> 'Kayıtlı kullanıcılar',
 	'G_REGISTERED_COPPA'		=> 'COPPA kayıtlı kullanıcılar',
 	'G_GLOBAL_MODERATORS'		=> 'Genel yetkili',
+	'G_NEWLY_REGISTERED'		=> 'Yeni kayıtlı kullanıcılar',
 
 	'HIDDEN_USERS_ONLINE'			=> '%d gizli kullanıcı çevrimiçi',
 	'HIDDEN_USERS_TOTAL'			=> '%d gizli',
@@ -397,6 +400,8 @@ $lang = array_merge($lang, array(
 	'NO_ONLINE_USERS'			=> 'Kayıtlı kullanıcı yok',
 	'NO_POSTS'					=> 'İleti yok',
 	'NO_POSTS_TIME_FRAME'		=> 'Bu konu içinde, seçilen zaman çerçevesine ait ileti mevcut değil.',
+	'NO_FEED_ENABLED'			=> 'Bu panoda besleme mevcut değil.',//Feeds are not available on this board
+	'NO_FEED'					=> 'İstenilen besleme mevcut değil.',//The requested feed is not available
 	'NO_SUBJECT'				=> 'Hiçbir konu belirtmedi',
 	'NO_SUCH_SEARCH_MODULE'		=> 'Seçilen arama türü bulunamadı.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Desteklenmeyen doğrulama metodu.',
@@ -412,9 +417,9 @@ $lang = array_merge($lang, array(
 
 	// Nullar/Singular/Plural language entry. The key numbers define the number range in which a certain grammatical expression is valid.
 	'NUM_POSTS_IN_QUEUE'		=> array(
-		0			=> 'Kuyrukta ileti yok',		// 0
-		1			=> 'Kuyrukta 1 ileti var',		// 1
-		2			=> 'Kuyrukta %d ileti var',		// 2+
+		0	=> 'Kuyrukta ileti yok',	// 0
+		1	=> 'Kuyrukta 1 ileti var',	// 1
+		2	=> 'Kuyrukta %d ileti var',	// 2+
 	),
 
 	'OCCUPATION'				=> 'Meslek',
@@ -500,6 +505,8 @@ $lang = array_merge($lang, array(
 	'RETURN_PAGE'				=> '%sÖnceki sayfaya geri dön%s',
 	'RETURN_TOPIC'				=> '%sSon ziyaret edilen <strong>konuya</strong> geri dön%s',
 	'RETURN_TO'					=> '', // return - boş kalması daha iyi
+'FEED'						=> 'Feed',
+	'FEED_NEWS'					=> 'Haberler',//News
 	'RULES_ATTACH_CAN'			=> 'Bu forumda dosya <strong>ekleyebilirsiniz</strong>',
 	'RULES_ATTACH_CANNOT'		=> 'Bu forumda dosya <strong>ekleyemezsiniz</strong>',
 	'RULES_DELETE_CAN'			=> 'Bu forumda kendi iletilerinizi <strong>silebilirsiniz</strong>',
@@ -531,6 +538,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_SELF'				=> 'Kendi iletileriniz',
 	'SEARCH_TOPIC'				=> 'Bu konuda ara…',
 	'SEARCH_UNANSWERED'			=> 'Cevapsız iletiler',
+	'SEARCH_UNREAD'				=> 'Okunmamış iletiler',
 	'SECONDS'					=> 'Saniye',
 	'SELECT'					=> 'Seç',
 	'SELECT_ALL_CODE'			=> 'Tümünü seç',
@@ -549,6 +557,7 @@ $lang = array_merge($lang, array(
 	'SORT_JOINED'				=> 'Kayıt Tarihi',
 	'SORT_LOCATION'				=> 'Konum',
 	'SORT_RANK'					=> 'Seviye',
+	'SORT_POSTS'				=> 'İletiler',
 	'SORT_TOPIC_TITLE'			=> 'Konu başlığı',
 	'SORT_USERNAME'				=> 'Kullanıcı',
 	'SPLIT_TOPIC'				=> 'Böl',
@@ -610,6 +619,7 @@ $lang = array_merge($lang, array(
 
 	'TOPIC'				=> 'Konu',
 	'TOPICS'			=> 'Konu',
+	'TOPICS_UNAPPROVED'	=> 'Bu forumda en azından bir tane onaylanmamış konu var.',
 	'TOPIC_ICON'		=> 'Konu ikonu',
 	'TOPIC_LOCKED'		=> 'Bu konu kilitlenmiştir, iletilerinizi düzeltemezsiniz ve cevap yazamazsınız.',
 	'TOPIC_LOCKED_SHORT'=> 'Konu kilitli',	
@@ -655,6 +665,7 @@ $lang = array_merge($lang, array(
 	'USER_POSTS'			=> '%d ileti',
 	'USERS'					=> 'Kullanıcılar',
 	'USE_PERMISSIONS'		=> 'Kullanıcı izinlerini test et',
+	'USER_NEW_PERMISSION_DISALLOWED'	=> 'Bu özelliği kullanmaya yetkili değilsiniz. Buraya yeni kayıt olmuş olabilirsiniz, ancak bu özelliği kullanabilmek için daha fazla katılım yapmanız gerekebilir.',
 
 	'VARIANT_DATE_SEPARATOR'	=> ' / ',	// Tarih düzenlemede gün değişimi için kullanıldı, örnek: "Bugün, 13:37 / 01 Ocak 2007, 13:37" ... takvim tarihi gibi göreceli tarih gösterimi imkanı sağlar
 	'VIEWED'					=> 'Gösterim',
