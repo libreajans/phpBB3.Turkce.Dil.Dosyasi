@@ -182,6 +182,11 @@ $help = array(
 		0 => 'Konu ikonu nedir?',
 		1 => 'Konu ikonları iletilerin içeriğiyle ilgili resimlerdir. Başlık ikonu kullanıp kullanamamanız yöneticilerin vereceği izinlere bağladır.'
 	),
+	// This block will switch the FAQ-Questions to the second template column
+	array(
+		0 => '--',
+		1 => '--'
+	),
 	array(
 		0 => '--',
 		1 => 'Kullanıcı Seviyeleri ve Gruplar'
