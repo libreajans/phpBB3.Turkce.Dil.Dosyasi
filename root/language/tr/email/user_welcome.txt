@@ -3,8 +3,6 @@ Subject: {SITENAME} - aramıza hoşgeldiniz
 {WELCOME_MSG}
 
 Kullanıcı adınız: {USERNAME}
-Parola: {PASSWORD}
-
 Pano adresi: {U_BOARD}
 
 Parolanız sizin dışınızda (pano yöneticileri dahil) hiç kimse tarafından görülemez/bilinemez. Eğer parolanızı unutursanız, mesaj panomuza oturum açtığınız sayfa aracılığıyla sistemden yeni bir parola talebinde bulunabilirsiniz.

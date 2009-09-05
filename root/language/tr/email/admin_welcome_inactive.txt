@@ -5,8 +5,6 @@ Subject: "{SITENAME}" hoşgeldiniz
 Kullanıcı bilgileriniz aşağıdaki gibidir:
 
 Kullanıcı adınız: {USERNAME}
-Parolanız: {PASSWORD}
-
 Pano adresi: {U_BOARD}
 
 Halen kullanılamaz/pasif durumda olan üyelik hesabınız kısa süre içinde pano yöneticisi tarafından kullanıma açılacak ve bu aktifleştirme yeni bir e-posta ile size bildirilecektir.

@@ -22,6 +22,8 @@ $lang = array_merge($lang, array(
 	'BAN_REASON'				=> 'Uzaklaştırma sebebi',
 	'BAN_GIVE_REASON'			=> 'Uzaklaştırma alana gösterilecek sebep',
 	'BAN_UPDATE_SUCCESSFUL'		=> 'Uzaklaştırılmış kullanıcı listesi güncellendi.',
+	'BANNED_UNTIL_DATE'			=> '%s tarihine kadar', // Example: "until Mon 13.Jul.2009, 14:44"
+	'BANNED_UNTIL_DURATION'		=> '%1$s (%2$s tarihine kadar)', // Example: "7 days (until Tue 14.Jul.2009, 14:44)"
 
 	'EMAIL_BAN'					=> 'Bir veya daha fazla e-posta adresi uzaklaştırma',
 	'EMAIL_BAN_EXCLUDE_EXPLAIN'	=> 'Girilen e-posta adreslerini geçerli uzaklaştırmaların dışında tut.',
@@ -49,7 +51,6 @@ $lang = array_merge($lang, array(
 	'USER_NO_BANNED'			=> 'Uzaklaştırılmış kullanıcı yok',
 	'USER_UNBAN'				=> 'Kullanıcı uzaklaştırması kaldır',
 	'USER_UNBAN_EXPLAIN'		=> 'Bilgisayarınız ve tarayıcınız için fare ve klavyenin uygun kombinasyonunu kullanarak, birden çok kullanıcı için tek seferde uzaklaştırmayı kaldırabilir veya uzaklaştırma dışı tutabilirsiniz. Ayrı tutulan kullanıcılar arka planda işaretlenecektir.',
-
 ));
 
 ?>

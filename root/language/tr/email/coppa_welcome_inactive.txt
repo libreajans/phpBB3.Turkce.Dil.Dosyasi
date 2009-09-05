@@ -16,7 +16,6 @@ veya e-posta gönderin:
 “{SITENAME}” - {U_BOARD} katılma izni
 
 Kullanıcı adı: {USERNAME}
-Parola: {PASSWORD}
 E-posta: {EMAIL_ADDRESS}
 
 ÇOCUĞUM TARAFINDAN SAĞLANAN BİLGİYİ İNCELEDİM VE BUNUNLA BİRLİKTE, "{SITENAME}" ADRESİNE BU BİLGİYİ TUTMA İZNİ VERİYORUM.
