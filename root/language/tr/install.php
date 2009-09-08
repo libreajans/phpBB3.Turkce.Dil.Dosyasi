@@ -187,7 +187,7 @@ $lang = array_merge($lang, array(
 		<li>Oracle</li>
 	</ul>
 	
-	<p>Yalnızca sunucunuzun desteklediği veritabanı türleri gösterilecek.',
+	<p>Sadece sunucunuzun desteklediği veritabanı türleri gösterilecek.',
 	'INSTALL_INTRO_NEXT'			=> 'Kurulum işlemine başlamak için, aşağıdaki butona basınız.',
 	'INSTALL_LOGIN'					=> 'Giriş',
 	'INSTALL_NEXT'					=> 'Sonraki Aşama',

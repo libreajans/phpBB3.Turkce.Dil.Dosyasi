@@ -221,7 +221,7 @@ $lang = array_merge($lang, array(
 	'NO_TOPIC_SELECTED'				=> 'Bu işlemi gerçekleştirebilmek için en az bir ileti seçmelisiniz.',
 	'NO_TOPICS_QUEUE'				=> 'Onaylanmayı bekleyen konu yok.',
 
-	'ONLY_TOPIC'					=> 'Yalnızca “%s” konu',
+	'ONLY_TOPIC'					=> 'Sadece “%s” konu',
 	'OTHER_USERS'					=> 'Bu IP adresinden ileti gönderen diğer kullanıcılar',
 
 	'PM_REPORT_CLOSED_SUCCESS'	=> 'Seçilen özel mesaj raporu kapatıldı.',
@@ -264,10 +264,10 @@ $lang = array_merge($lang, array(
 	'REPORT_DELETED_SUCCESS'	=> 'Seçilen rapor silindi.',
 	'REPORT_DETAILS'			=> 'Rapor detayları',
 	'REPORT_MESSAGE'			=> 'Bu mesajı rapor et',
-	'REPORT_MESSAGE_EXPLAIN'	=> 'Seçilen özel mesajları rapor etmek için bu formu kullanın. Rapor yalnızca ileti forum kurallarını çiğnendiğinde kullanılmalıdır. <strong>Rapor edilen mesajların içeriği tüm yetkililerce görülebilecektir.</strong>',
+	'REPORT_MESSAGE_EXPLAIN'	=> 'Seçilen özel mesajları rapor etmek için bu formu kullanın. Rapor sadece ileti forum kurallarını çiğnendiğinde kullanılmalıdır. <strong>Rapor edilen mesajların içeriği tüm yetkililerce görülebilecektir.</strong>',
 	'REPORT_NOTIFY'				=> 'Beni bilgilendir',
 	'REPORT_NOTIFY_EXPLAIN'		=> 'Raporunuz incelendiğinde size haber verilir.',
-	'REPORT_POST_EXPLAIN'		=> 'Bu formu seçili iletiyi hem bölüm yetkilisine hem de pano yöneticisine bildirmek için kullanınız. Rapor yalnızca ileti Forum Kurallarını çiğnediğinde kullanılmalıdır.',
+	'REPORT_POST_EXPLAIN'		=> 'Bu formu seçili iletiyi hem bölüm yetkilisine hem de pano yöneticisine bildirmek için kullanınız. Rapor sadece ileti Forum Kurallarını çiğnediğinde kullanılmalıdır.',
 	'REPORT_REASON'				=> 'Rapor sebebi',
 	'REPORT_TIME'				=> 'Rapor zamanı',
 	'REPORT_TOTAL'				=> '<strong>1</strong> adet rapor incelenmek için bekliyor.',

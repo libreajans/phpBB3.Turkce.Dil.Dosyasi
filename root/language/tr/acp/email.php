@@ -32,7 +32,7 @@ $lang = array_merge($lang, array(
 	'MAIL_NORMAL_PRIORITY'	=> 'Normal',
 	'MAIL_PRIORITY'			=> 'E-posta önemi',
 	'MASS_MESSAGE'			=> 'Mesajınız',
-	'MASS_MESSAGE_EXPLAIN'	=> 'Unutmayın ki yalnızca düz yazı girebilirsiniz. Tüm diğer ekler iletilmeden önce silinecektir',
+	'MASS_MESSAGE_EXPLAIN'	=> 'Unutmayın ki sadece düz yazı girebilirsiniz. Tüm diğer ekler iletilmeden önce silinecektir',
 	
 	'NO_EMAIL_MESSAGE'		=> 'Lütfen mesajınızı yazınız.',
 	'NO_EMAIL_SUBJECT'		=> 'Mesajı göndermek için bir konu girmelisiniz.',
