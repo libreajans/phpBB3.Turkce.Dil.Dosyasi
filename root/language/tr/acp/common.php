@@ -123,8 +123,8 @@ $lang = array_merge($lang, array(
 
 	'ACP_RESTORE'				=> 'Geri yükle',
 
-	'ACP_FEED'					=> 'Feed yönetimi',
-	'ACP_FEED_SETTINGS'			=> 'Feed ayarları',
+	'ACP_FEED'					=> 'Besleme yönetimi',
+	'ACP_FEED_SETTINGS'			=> 'Besleme ayarları',
 	
 	'ACP_SEARCH'				=> 'Arama ayarları',
 	'ACP_SEARCH_INDEX'			=> 'Arama indeksi',
@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 	'ADMIN_INDEX'			=> 'Yönetim anasayfası',
 	'ADMIN_PANEL'			=> 'Yönetim Paneli',
 
-	'ADM_LOGOUT'			=> 'ACP oturum kapat', // Yönetim paneli oturum kapat -> çok uzun :(
+	'ADM_LOGOUT'			=> 'Panel oturum kapat', // Yönetim paneli oturum kapat -> çok uzun :(
 	'ADM_LOGGED_OUT'		=> 'Yönetim paneli oturumu kapatıldı',
 	
 	'BACK'					=> 'Geri',
@@ -384,7 +384,7 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'Lütfen istatistiksel analiz için sunucu ve pano yapılandısı hakkında bilgi gönderiniz. Tüm bilgiler <strong>anonimdir</strong> ve web sitenizi tanımlayabilecek bilgiler dair bilgiler içermez. Bu bilgiler gelecekteki phpBB sürümleri hakkında kararlar vermek için kullanılacaktır. İstatistikler herkesin erişimine açık olacak. Ayrıca, bu veriler phpBB’nin programlama dili olan PHP projeleri ile paylaşılacak.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'Lütfen istatistiksel analiz için sunucu ve pano yapılandırması hakkında bilgi gönderiniz. Tüm bilgiler <strong>anonimdir</strong> ve web sitenizi tanımlayabilecek bilgiler dair bilgiler içermez. Bu bilgiler gelecekteki phpBB sürümleri hakkında kararlar vermek için kullanılacaktır. İstatistikler herkesin erişimine açık olacak. Ayrıca, bu veriler phpBB’nin programlama dili olan PHP projeleri ile paylaşılacak.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Gönderilecek bilgilerin tamamını görmek için aşağıdaki butonu kullanabilirsiniz.',
 	'DONT_SEND_STATISTICS'		=> 'Eğer phpBB için istatistiki bilgiler göndermek istemiyorsanız yönetim paneline dönebilirsiniz.',
 	'GO_ACP_MAIN'				=> 'Yönetim anasayfasına git',
