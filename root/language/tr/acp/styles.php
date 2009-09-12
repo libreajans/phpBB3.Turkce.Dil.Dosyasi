@@ -5,13 +5,6 @@
 * @copyright (c) 2009, Canver Software <http://www.canversoft.net>
 */
 
-/* ALEXIS: önemli kelime tercümeleri
-
-	template	-> şablon	(tema ve stili kapsayan çerçeve tasarım)
-	theme		-> tema		(sanal şablonlar, css ile biçimlenebilen)
-	style		-> stil		(css stilleri)
-*/
-
 // değiştirmeyin
 if (!defined('IN_PHPBB')) { exit; }
 if (empty($lang) || !is_array($lang)) { $lang = array(); }
@@ -43,7 +36,7 @@ $lang = array_merge($lang, array(
 	'CACHE_CACHED'					=> 'Önbelleğe alındı', // cached
 	'CACHE_FILENAME'				=> 'Şablon dosyası',
 	'CACHE_FILESIZE'				=> 'Dosya boyutu',
-	'CACHE_MODIFIED'				=> 'Değiştirildi',//modified
+	'CACHE_MODIFIED'				=> 'Değiştirildi', //modified
 	'CONFIRM_IMAGESET_REFRESH' 		=> 'Tüm resim seti bilgisini yenilemek istediğinizden emin misiniz? Resim seti yapılandırılma dosyasındaki ayarlar tüm değiştirilmiş resim setlerinin üzerine yazılacak.',
 	'CONFIRM_TEMPLATE_CLEAR_CACHE' 	=> 'Şablon dosyalarınızın önbelleğe alınmış tüm sürümlerini temizlemek istediğinizden emin misiniz?',
 	'CONFIRM_TEMPLATE_REFRESH' 		=> 'Dosya sisteminde ve veritabanınında bulunan şablon içerik dosyaları ile birlikte tüm şablon verilerinin yenilenmesini istiyor musunuz? Bu işlem şablon, veritabanında bulunurken, şablon editör ile birlikte taşınan daha önceki bütün değişikliklerin üzerine yazacaktır.',
