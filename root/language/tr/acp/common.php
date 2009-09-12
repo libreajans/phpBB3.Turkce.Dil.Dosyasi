@@ -251,10 +251,10 @@ $lang = array_merge($lang, array(
 	'SELECT_ANONYMOUS'		=> 'Misafir kullanıcıyı seçin', // Select anonymous user
 	'SELECT_OPTION'			=> 'Ayar seç',
 
-	'SETTING_TOO_LOW'		=> 'Ayar için girilen değeri “%1$s” çok düşük. En düşük değer %2$d olabilir.',
-	'SETTING_TOO_BIG'		=> 'Ayar için girilen değeri “%1$s” çok büyük. En büyük değer %2$d olabilir.',	
-	'SETTING_TOO_LONG'		=> 'Ayar için girilen değeri “%1$s” çok uzun. En uzun değer %2$d olabilir.',
-	'SETTING_TOO_SHORT'		=> 'Ayar için girilen değeri “%1$s” çok kısa. En kısa değer %2$d olabilir.',
+	'SETTING_TOO_LOW'		=> 'Ayar için sağlanan “%1$s” değeri çok düşük. En düşük değer %2$d olabilir.',
+	'SETTING_TOO_BIG'		=> 'Ayar için sağlanan “%1$s” değeri çok yüksek. En yüksek değer %2$d olabilir.',	
+	'SETTING_TOO_LONG'		=> 'Ayar için sağlanan “%1$s” değeri çok uzun. En uzun değer %2$d olabilir.',
+	'SETTING_TOO_SHORT'		=> 'Ayar için sağlanan “%1$s” değeri çok kısa. En kısa değer %2$d olabilir.',
 	
 	'SHOW_ALL_OPERATIONS'	=> 'Tüm işlemleri göster', //show all operations
 	
