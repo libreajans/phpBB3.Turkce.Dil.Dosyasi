@@ -60,7 +60,7 @@ $lang = array_merge($lang, array(
 	'DISPLAY_INLINED_EXPLAIN'		=> 'Eğer Hayır seçeneği işaretlenirse, resimler link olarak gösterilecek.',
 	'DISPLAY_ORDER'					=> 'Mesaj eki sıralaması',
 	'DISPLAY_ORDER_EXPLAIN'			=> 'Tarih sıralamasına göre mesaj eklerinin gösterimi.',
-	
+
 	'EDIT_EXTENSION_GROUP'			=> 'Uzantı grubunu düzenle',
 	'EXCLUDE_ENTERED_IP'			=> 'Girilen IP/Sunucu adreslerini kabul etmemek için bu seçeneği etkinleştirin.',
 	'EXCLUDE_FROM_ALLOWED_IP'		=> 'İzin verilen IP/Sunucu adreslerinden IP’yi gizle ',

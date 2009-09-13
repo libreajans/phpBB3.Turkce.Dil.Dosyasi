@@ -15,7 +15,7 @@ $lang = array_merge($lang, array(
 	'ANNOUNCEMENTS'			=> 'Duyurular',
 	
 	'FORUM_PERMISSIONS'		=> 'Forum izinleri',
-		
+
 	'ICON_ANNOUNCEMENT'		=> 'Duyuru',
 	'ICON_STICKY'			=> 'Sabit',
 
@@ -28,7 +28,7 @@ $lang = array_merge($lang, array(
 	'NO_NEW_POSTS_HOT'		=> 'Yeni ileti yok [ Popüler ]',
 	'NO_NEW_POSTS_LOCKED'	=> 'Yeni ileti yok [ Kilitli ]',
 	'NO_READ_ACCESS'		=> 'Bu forumdaki konuları okuyabilmek için gerekli izniniz yok.',
-	
+
 	'POST_FORUM_LOCKED'		=> 'Forum kilitli',
 
 	'TOPICS_MARKED'			=> 'Bu forumdaki tüm konular okundu olarak işaretlendi.',

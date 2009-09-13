@@ -227,34 +227,34 @@ $lang = array_merge($lang, array(
 
 // Feeds
 $lang = array_merge($lang, array(
-	'ACP_FEED_MANAGEMENT'				=> 'General Syndication Feeds settings',
-	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'This Module makes available various ATOM Feeds, parsing any BBCode in posts to make them readable in external feeds.',
+	'ACP_FEED_MANAGEMENT'				=> 'Genel Haber Besleme ayarları',//General Syndication Feeds settings
+	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Bu modül biçim kodlarının temizlenerek okunabilir çeşitli ATOM Beslemelerin sunulmasını sağlar.',
 
-	'ACP_FEED_ENABLE'					=> 'Enable Feeds',
-	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Turns on or off ATOM Feeds for the entire board.<br />Disabling this switches off all Feeds, no matter how the options below are set.',
-	'ACP_FEED_LIMIT'					=> 'Number of items',
-	'ACP_FEED_LIMIT_EXPLAIN'			=> 'The maximum number of feed items to display.',
+	'ACP_FEED_ENABLE'					=> 'Beslemeleri Etkinleştir',
+	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Pano üzerindeki tüm ATOM Beslemeleri açar veya kapatır.<br /> Aşağıda hangi ayarlar olursa olsun, bu ayarın kapatılması tüm beslemelerin durmasına sebep olur.',
+	'ACP_FEED_LIMIT'					=> 'Haber sayısı', //item:haber // Number of items
+	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Gösterilecek maksimum besleme haberi sayısı.',
 
-	'ACP_FEED_OVERALL_FORUMS'			=> 'Enable overall forums feed',
-	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'This feed displays the latest posts from all forums topics.',
-	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Number of items per page to display in the forums feed',
+	'ACP_FEED_OVERALL_FORUMS'			=> 'Forumlarda beslemeleri etkinleştir',
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Bu besleme tüm forumlardaki konulardan son iletileri gösterir.',
+	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Forum beslemeleri içinde gösterilecek sayfa başına haber sayısı',
 
-	'ACP_FEED_OVERALL_TOPIC'			=> 'Enable overall topics feed',
-	'ACP_FEED_OVERALL_TOPIC_EXPLAIN'	=> 'Enables the “All Topics” feed',
-	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Number of items per page to display in the topics feed',
-	'ACP_FEED_FORUM'					=> 'Enable Per-Forum Feeds',
-	'ACP_FEED_FORUM_EXPLAIN'			=> 'Single forum new posts.',
-	'ACP_FEED_TOPIC'					=> 'Enable Per-Topic Feeds',
-	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Single topics new posts.',
-	'ACP_FEED_NEWS'						=> 'News Feeds',
-	'ACP_FEED_NEWS_EXPLAIN'				=> 'Pull the first post from these forums. Select no forums to disable news feed.<br />Select multiple forums by holding <samp>CTRL</samp> and clicking.',
+	'ACP_FEED_OVERALL_TOPIC'			=> 'Konuların beslemelerini etkinleştir',//enable overall topics feed?? overall derken ??
+	'ACP_FEED_OVERALL_TOPIC_EXPLAIN'	=> '“Tüm konuların” beslemesini etkinleştir',
+	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Konuların, beslemesinde gösterilecek sayfa başına haber sayısı',
+	'ACP_FEED_FORUM'					=> 'Forum başına beslemeleri etkinleştir',//forum per
+	'ACP_FEED_FORUM_EXPLAIN'			=> 'Tek forum yeni iletiler.',
+	'ACP_FEED_TOPIC'					=> 'Konu başına Beslemeler',
+	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Tek konu yeni iletiler.',
+	'ACP_FEED_NEWS'						=> 'Haber Beslemeleri',
+	'ACP_FEED_NEWS_EXPLAIN'				=> 'Bu forumlardan ilk iletileri çek. Haber beslemesini kapatmak isterseniz hiçbir forumu seçmeyin. <br /><samp>CTRL</samp> basılı tutup tıklayarak birden fazla forum seçebilirsiniz.',
 
-	'ACP_FEED_GENERAL'					=> 'General Feed Settings',
+	'ACP_FEED_GENERAL'					=> 'Genel Besleme Ayarları',
 
-	'ACP_FEED_ITEM_STATISTICS'			=> 'Item statistics',
-	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Display individual statistics underneath feed items<br />(Posted by, date and time, Replies, Views)',
-	'ACP_FEED_EXCLUDE_ID'				=> 'Exclude these forums',
-	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Content from these will be <strong>not included in feeds</strong>. Select no forum to pull data from all forums.<br />Select/Deselect multiple forums by holding <samp>CTRL</samp> and clicking.',
+	'ACP_FEED_ITEM_STATISTICS'			=> 'Haber İstatistikleri',//Item statistics
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Besleme haberleri altında ayrı ayrı istatistikler göster<br />(Gönderen, tarih ve saat, Cevaplar, Gösterim)',
+	'ACP_FEED_EXCLUDE_ID'				=> 'Bu forumları hariç tut',
+	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Bu forumlardaki içerik <strong>beslemelerde gösterilmeyecektir</strong>. Tüm forumlardan haber çekilmesi için hiçbir forumu seçmeyin.<br /><samp>CTRL</samp> tuşunu basılı tutup tıklayarak birden fazla forum seçebilir veya seçti iseniz çıkarabilirsiniz.',
 ));
 
 // Visual Confirmation Settings
@@ -502,7 +502,7 @@ $lang = array_merge($lang, array(
 	'JAB_SERVER_EXPLAIN'		=> 'Sunucu listesi için %sjabber.org%s adresine bakabilirsiniz.',
 	'JAB_SETTINGS_CHANGED'		=> 'Jabber ayarları değiştirildi.',
 	'JAB_USE_SSL'				=> 'Bağlantı için SSL kullan',
-'JAB_USE_SSL_EXPLAIN'		=> 'If enabled a secure connection is tried to be established. The Jabber port will be modified to 5223 if port 5222 is specified.',
+	'JAB_USE_SSL_EXPLAIN'	=> 'Etkinleştirilmesi halinde güvenli bir bağlantı kurulmaya çalışılır. 5222 portu tanımlı ise, Jabber portu 5223 olarak değiştirilir.',
 	'JAB_USERNAME'				=> 'Jabber kullanıcı adı veya JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Geçerli bir kayıtlı kullanıcı adı veya JID tanımlayın. Kullanıcı adının geçerli olup olmadığı kontrol edilmeyecektir. Sadece bir kullanıcı adı tanımlarsanız, JID değeriniz kullanıcı adınız ve sunucu da yukarıda tanımlandığınız olacaktır. Aksi halde, geçerli bir JID tanımlayın, örneğin kullanıcı@jabber.org.',
 ));

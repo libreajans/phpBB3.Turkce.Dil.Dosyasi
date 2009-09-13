@@ -12,8 +12,7 @@ if (empty($lang) || !is_array($lang)) { $lang = array(); }
 // Database Backup/Restore
 $lang = array_merge($lang, array(
 	'ACP_BACKUP_EXPLAIN'	=> 'Buradan phpBB ile ilgili tüm verileri yedekleyebilirsiniz. Yedek arşivini <samp>store/</samp> dizininde saklayabilir veya doğrudan indirebilirsiniz. Sunucu konfigürasyonunuza bağlı olarak dosyayı birkaç biçimde sıkıştırabilirsiniz.',
-// ALEXIS: tamamlanmamış tercüme
-'ACP_RESTORE_EXPLAIN'	=> 'Buradan phpBB tablolarını kayıt edilen bir dosyadan tam olarak geri yükleyebilirsiniz. Eğer sunucunuz izin veriyorsa gzip veya bzip2 ile sıkıştırılmış dosyalar otomatik olarak açılacaktır. <strong>UYARI:</strong> Bu işlem, mevcut verilerin üstüne yazacak. Onarım uzun sürerse, onarma tamamlanana kadar başka bir sayfaya geçmeyin. Yedekler <samp>store/</samp> dizininde depolanır, bu phpBB’nin pratik depolama ve geri yükleme dizinidir. Restoring backups that were not created by the built in system may or may not work.',
+	'ACP_RESTORE_EXPLAIN'	=> 'Bu işlem kayıt edilmiş bir dosyadan tüm phpBB tablolarını geri yükleyecektir. Eğer sunucunuz destekliyorsa kullanabileceğiniz gzip veya bzip2 sıkıştırılmış dosyaları sunucu otomatik olarak açacaktır. <strong>UYARI:</strong> Bu işlem, mevcut veritabanı içinde bulunan bilgilerin üzerine yazacaktır. Geri yükleme işlemi uzun sürebilir, lütfen geri yükleme tamamlanmadan bu sayfadan başka bir sayfaya geçmeyin. Yedekler <samp>store/</samp> dizininde bulunur ve phpBB’nin yedekleme fonksiyonu tarafından üretildikleri varsayılır. phpBB yedekleme sistemindan farklı bir kaynaktan alınan yedekler çalışmayabilir.',
 
 	'BACKUP_DELETE'		=> 'Yedek silindi.',
 	'BACKUP_INVALID'	=> 'Yedekleme için seçilen yedek dosyası geçersiz.',

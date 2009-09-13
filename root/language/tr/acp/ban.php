@@ -41,7 +41,7 @@ $lang = array_merge($lang, array(
 	'IP_UNBAN_EXPLAIN'			=> 'Bilgisayarınız ve tarayıcınız için fare ve klavyenin uygun bir kombinasyonunu kullanarak, bir çok IP adresi için tek seferde uzaklaştırmayı kaldırabilirsiniz. Ayrı tutulan IP adresleri arkaplanda işaretlenecektir.',
 
 	'LENGTH_BAN_INVALID'		=> 'Tarih <kbd>YYYY-MM-DD</kbd> olarak ayarlanmalıdır.',
-	
+
 	'PERMANENT'					=> 'Sürekli',
 	
 	'UNTIL'						=> 'Önce',

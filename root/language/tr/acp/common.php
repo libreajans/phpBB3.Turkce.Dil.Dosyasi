@@ -406,18 +406,18 @@ $lang = array_merge($lang, array(
 	'LOG_ACL_ADD_ADMIN_GLOBAL_A_'	=> '<strong>Yöneticiler eklendi ya da düzenlendi</strong><br />» %s',
 	'LOG_ACL_ADD_MOD_GLOBAL_M_'		=> '<strong>Genel Yetkililer eklendi ya da düzenlendi</strong><br />» %s',
 
-	'LOG_ACL_ADD_USER_LOCAL_F_'		=> '<strong>Kullanıcıların pano erişimleri eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_USER_LOCAL_M_'		=> '<strong>Kullanıcıların forum yetkili erişimleri, eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_F_'	=> '<strong>Grupların forum erişimleri, eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_GROUP_LOCAL_M_'	=> '<strong>Grupların forum yetkili erişimleri, eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
+'LOG_ACL_ADD_USER_LOCAL_F_'		=> '<strong>Kullanıcıların pano erişimleri eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
+'LOG_ACL_ADD_USER_LOCAL_M_'		=> '<strong>Kullanıcıların forum yetkili erişimleri, eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
+'LOG_ACL_ADD_GROUP_LOCAL_F_'	=> '<strong>Grupların forum erişimleri, eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
+'LOG_ACL_ADD_GROUP_LOCAL_M_'	=> '<strong>Grupların forum yetkili erişimleri, eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
 
-	'LOG_ACL_ADD_MOD_LOCAL_M_'		=> '<strong>Yetkililer eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_ADD_FORUM_LOCAL_F_'	=> '<strong>Forum izinleri eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
+'LOG_ACL_ADD_MOD_LOCAL_M_'		=> '<strong>Yetkililer eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
+'LOG_ACL_ADD_FORUM_LOCAL_F_'	=> '<strong>Forum izinleri eklendi ya da düzenlendi</strong> from %1$s<br />» %2$s',
 
 	'LOG_ACL_DEL_ADMIN_GLOBAL_A_'	=> '<strong>Yöneticiler silindi</strong><br />» %s',
 	'LOG_ACL_DEL_MOD_GLOBAL_M_'		=> '<strong>Genel Yetkililer silindi</strong><br />» %s',
-	'LOG_ACL_DEL_MOD_LOCAL_M_'		=> '<strong>Yetkililer silindi</strong> from %1$s<br />» %2$s',
-	'LOG_ACL_DEL_FORUM_LOCAL_F_'	=> '<strong>Kullanıcı grup forum izinleri iptal edildi</strong> from %1$s<br />» %2$s',
+'LOG_ACL_DEL_MOD_LOCAL_M_'		=> '<strong>Yetkililer silindi</strong> from %1$s<br />» %2$s',
+'LOG_ACL_DEL_FORUM_LOCAL_F_'	=> '<strong>Kullanıcı grup forum izinleri iptal edildi</strong> from %1$s<br />» %2$s',
 
 	'LOG_ACL_TRANSFER_PERMISSIONS'	=> '<strong>İzinler transfer edildi</strong><br />» %s',
 	'LOG_ACL_RESTORE_PERMISSIONS'	=> '<strong>Kullanılan izinler, kendi izinlerine döndürüldü</strong><br />» %s', // Kullanıcı izinlerini test et tikten sonra, eski izinlerine geri döndüğünde 
@@ -490,7 +490,7 @@ $lang = array_merge($lang, array(
 	'LOG_PM_REPORT_CLOSED'		=> '<strong>ÖM raporu kapatıldı</strong><br />» %s',
 	'LOG_PM_REPORT_DELETED'		=> '<strong>PM raporu silindi</strong><br />» %s',
 	'LOG_POST_APPROVED'			=> '<strong>İleti onaylandı</strong><br />» %s',
-	'LOG_POST_DISAPPROVED'		=> '<strong>İleti onaylanmadı “%1$s” sebebinden dolayı</strong><br />» %2$s',
+	'LOG_POST_DISAPPROVED'		=> '<strong>İleti “%1$s” sebebinden dolayı onaylanmadı </strong><br />» %2$s',
 	'LOG_POST_EDITED'			=> '<strong>İleti düzenlendi “%1$s”, yazarı</strong><br />» %2$s',
 	'LOG_REPORT_CLOSED'			=> '<strong>Rapor kapatıldı</strong><br />» %s',
 	'LOG_REPORT_DELETED'		=> '<strong>Rapor silindi</strong><br />» %s',
@@ -522,8 +522,8 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Forum izinleri %1$s`den kopyalandı</strong> <br />» %2$s',
 	'LOG_FORUM_DEL_FORUM'					=> '<strong>Forum silindi</strong><br />» %s',
 	'LOG_FORUM_DEL_FORUMS'					=> '<strong>Forum alt forumları ile beraber silindi</strong><br />» %s',
-'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>Forum silindi ve alt forumları taşındı</strong> to %1$s<br />» %2$s',
-'LOG_FORUM_DEL_MOVE_POSTS'				=> '<strong>Forum silindi ve iletileri taşındı</strong> to %1$s<br />» %2$s',
+	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>%2$s forumu silindi ve alt forumları</strong><br />»%1$s forumuna taşındı',
+	'LOG_FORUM_DEL_MOVE_POSTS'				=> '<strong>%2$s forumu silindi ve iletileri </strong><br />»%1$s forumuna taşındı',
 	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Forum alt forumları ile birlikte silindi, </strong> iletileri taşındı %1$s<br />» %2$s',
 'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Forum silindi, iletileri taşındı</strong> ile %1$s <strong>ve alt forumları</strong> to %2$s<br />» %3$s', //'<strong>Deleted forum, moved posts</strong> to %1$s <strong>and subforums</strong> to %2$s<br />» %3$s',
 	'LOG_FORUM_DEL_POSTS'					=> '<strong>Forum iletileri ile birlikte silindi</strong><br />» %s',
@@ -581,7 +581,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_MASS_EMAIL'		=> '<strong>Yığın e-posta gönderildi</strong><br />» %s',
 
-'LOG_MCP_CHANGE_POSTER'	=> '<strong>“%1$s” konuda ileti yazarı değiştirildi </strong><br />» from %2$s to %3$s',
+	'LOG_MCP_CHANGE_POSTER'	=> '<strong>“%1$s” konusundaki ileti yazarı %2$s</strong><br />%3$s olarak değiştirildi',
 
 	'LOG_MODULE_DISABLE'	=> '<strong>Modül kapatıldı</strong>',
 	'LOG_MODULE_ENABLE'		=> '<strong>Modül açıldı</strong>',
@@ -673,7 +673,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_DEL_POSTS'	=> '<strong>Kullanıcıların tüm iletileri silindi</strong><br />» %s',
 	'LOG_USER_DEL_SIG'		=> '<strong>Kullanıcı imzası silindi</strong><br />» %s',
 	'LOG_USER_INACTIVE'		=> '<strong>Kullanıcı üyeliği pasifleştirildi</strong><br />» %s',
-	'LOG_USER_MOVE_POSTS'	=> '<strong>Kullanıcı iletileri taşındı</strong><br />» posts by “%1$s” to forum “%2$s”',
+'LOG_USER_MOVE_POSTS'	=> '<strong>Kullanıcı iletileri taşındı</strong><br />» posts by “%1$s” to forum “%2$s”',
 	'LOG_USER_NEW_PASSWORD'	=> '<strong>Kullanıcı parolası değiştirildi</strong><br />» %s',
 	'LOG_USER_REACTIVATE'	=> '<strong>Kullanıcı hesabı yeniden aktif edilmeye zorlandı</strong><br />» %s',
 	'LOG_USER_REMOVED_NR'	=> '<strong>Kullanıcı yeni kayıtlı durumu değiştirildi</strong><br />» %s',// Removed newly registered flag from user

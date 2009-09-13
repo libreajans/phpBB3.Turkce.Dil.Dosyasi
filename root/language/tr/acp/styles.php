@@ -25,7 +25,7 @@ $lang = array_merge($lang, array(
 	'ADD_THEME_EXPLAIN' 	=> 'Buradan yeni bir tema ekleyebilirsiniz. Sunucu yapılandırılması ve dosya izinlerine bağlı olarak burada ek tercihler görebilirsiniz. Dilerseniz, buraya bir tema arşivi ithal edebilir veya yükleyebilirsiniz. Eğer bir arşiv yüklemeyi veya ithal etmeyi seçerseniz, tema ismi opsiyonel olarak arşiv isminden atanabilir (Bunun gerçekleşmesi için tema ismini boş bırakmanız yeterlidir).',
 	'ARCHIVE_FORMAT'		=> 'Arşiv dosya türü',
 	'AUTOMATIC_EXPLAIN'		=> 'Otomatik tanıma için boş bırakın.',
-	
+
 	'BACKGROUND'			=> 'Arkaplan',
 	'BACKGROUND_COLOUR'		=> 'Arkaplan rengi',
 	'BACKGROUND_IMAGE'		=> 'Arkaplan resimi',
