@@ -447,8 +447,8 @@ $lang = array_merge($lang, array(
 
 	'MERGE_NO_MERGE_NEW_OPTION'	=> 'Birleştirme - Yeni dosyayı kullan',
 	'MERGE_NO_MERGE_MOD_OPTION'	=> 'Birleştirme - Kurulu dosyayı kullan',
-	'MERGE_MOD_FILE_OPTION'		=> 'Değişiklikleri birleştir (Çakışan bloklar içinde düzenlenmiş kodları kullan)', // Loose ??
-	'MERGE_NEW_FILE_OPTION'		=> 'Değişiklikleri birleştir (Çakışan dosyalar içinde yeni dosya kodlarını kullan)',
+	'MERGE_MOD_FILE_OPTION'		=> 'Değişiklikleri birleştir (Çakışan bloklar içindeki yeni phpBB3 kodları silinir)',
+	'MERGE_NEW_FILE_OPTION'		=> 'Değişiklikleri birleştir (Çakışan bloklar içindeki değişen kodlar silinir)',
 	'MERGE_SELECT_ERROR'		=> 'Değişen dosyaları birleştirme modu doğru değil.',
 	'MERGING_FILES'				=> 'Farklılıkları birleştir',
 	'MERGING_FILES_EXPLAIN'		=> 'Güncel olarak toplarlanan son dosyayı değiştirir.<br /><br />phpBB değiştirilen dosyalarda bütün çalışmaları tamamlayıncaya kadar lütfen bekleyiniz.', //'Currently collecting final file changes.<br /><br />Please wait until phpBB has completed all operations on changed files.',
