@@ -227,31 +227,31 @@ $lang = array_merge($lang, array(
 
 // Feeds
 $lang = array_merge($lang, array(
-	'ACP_FEED_MANAGEMENT'				=> 'Genel Haber Besleme ayarları',//General Syndication Feeds settings
+	'ACP_FEED_MANAGEMENT'				=> 'Genel besleme ayarları',//General Syndication Feeds settings
 	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Bu modül biçim kodlarının temizlenerek okunabilir çeşitli ATOM Beslemelerin sunulmasını sağlar.',
 
-	'ACP_FEED_ENABLE'					=> 'Beslemeleri Etkinleştir',
+	'ACP_FEED_ENABLE'					=> 'Beslemeleri etkinleştir',
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Pano üzerindeki tüm ATOM Beslemeleri açar veya kapatır.<br /> Aşağıda hangi ayarlar olursa olsun, bu ayarın kapatılması tüm beslemelerin durmasına sebep olur.',
 	'ACP_FEED_LIMIT'					=> 'Haber sayısı', //item:haber // Number of items
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Gösterilecek maksimum besleme haberi sayısı.',
 
 	'ACP_FEED_OVERALL_FORUMS'			=> 'Forumlarda beslemeleri etkinleştir',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Bu besleme tüm forumlardaki konulardan son iletileri gösterir.',
-	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Forum beslemeleri içinde gösterilecek sayfa başına haber sayısı',
+	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Forum beslemeleri, sayfa başına haber sayısı',
 
 	'ACP_FEED_OVERALL_TOPIC'			=> 'Konuların beslemelerini etkinleştir',//enable overall topics feed?? overall derken ??
 	'ACP_FEED_OVERALL_TOPIC_EXPLAIN'	=> '“Tüm konuların” beslemesini etkinleştir',
-	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Konuların, beslemesinde gösterilecek sayfa başına haber sayısı',
-	'ACP_FEED_FORUM'					=> 'Forum başına beslemeleri etkinleştir',//forum per
+	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Konu beslemeleri, ayfa başına haber sayısı',
+	'ACP_FEED_FORUM'					=> 'Forum başına beslemeleri etkinleştir',//forum per // 
 	'ACP_FEED_FORUM_EXPLAIN'			=> 'Tek forum yeni iletiler.',
-	'ACP_FEED_TOPIC'					=> 'Konu başına Beslemeler',
+	'ACP_FEED_TOPIC'					=> 'Konu başına beslemeler',
 	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Tek konu yeni iletiler.',
-	'ACP_FEED_NEWS'						=> 'Haber Beslemeleri',
+	'ACP_FEED_NEWS'						=> 'Haber beslemeleri',
 	'ACP_FEED_NEWS_EXPLAIN'				=> 'Bu forumlardan ilk iletileri çek. Haber beslemesini kapatmak isterseniz hiçbir forumu seçmeyin. <br /><samp>CTRL</samp> basılı tutup tıklayarak birden fazla forum seçebilirsiniz.',
 
-	'ACP_FEED_GENERAL'					=> 'Genel Besleme Ayarları',
+	'ACP_FEED_GENERAL'					=> 'Genel besleme ayarları',
 
-	'ACP_FEED_ITEM_STATISTICS'			=> 'Haber İstatistikleri',//Item statistics
+	'ACP_FEED_ITEM_STATISTICS'			=> 'Haber istatistikleri',//Item statistics
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Besleme haberleri altında ayrı ayrı istatistikler göster<br />(Gönderen, tarih ve saat, Cevaplar, Gösterim)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Bu forumları hariç tut',
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Bu forumlardaki içerik <strong>beslemelerde gösterilmeyecektir</strong>. Tüm forumlardan haber çekilmesi için hiçbir forumu seçmeyin.<br /><samp>CTRL</samp> tuşunu basılı tutup tıklayarak birden fazla forum seçebilir veya seçti iseniz çıkarabilirsiniz.',
