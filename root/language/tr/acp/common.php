@@ -384,7 +384,7 @@ $lang = array_merge($lang, array(
 
 // Send statistics page
 $lang = array_merge($lang, array(
-	'EXPLAIN_SEND_STATISTICS'	=> 'Lütfen istatistiksel analiz için sunucu ve pano yapılandırması hakkında bilgi gönderiniz. Tüm bilgiler <strong>anonimdir</strong> ve web sitenizi tanımlayabilecek bilgiler dair bilgiler içermez. Bu bilgiler gelecekteki phpBB sürümleri hakkında kararlar vermek için kullanılacaktır. İstatistikler herkesin erişimine açık olacak. Ayrıca, bu veriler phpBB’nin programlama dili olan PHP projeleri ile paylaşılacak.',
+	'EXPLAIN_SEND_STATISTICS'	=> 'Lütfen istatistiksel analiz için sunucu ve pano yapılandırması hakkında bilgi gönderiniz. Tüm bilgiler <strong>anonimdir</strong> ve web sitenizi tanımlayabilecek bilgiler içermez. Bu bilgiler gelecekteki phpBB sürümleri hakkında kararlar vermek için kullanılacaktır. İstatistikler herkesin erişimine açık olacak. Ayrıca, bu veriler phpBB’nin programlama dili olan PHP projeleri ile paylaşılacak.',
 	'EXPLAIN_SHOW_STATISTICS'	=> 'Gönderilecek bilgilerin tamamını görmek için aşağıdaki butonu kullanabilirsiniz.',
 	'DONT_SEND_STATISTICS'		=> 'Eğer phpBB için istatistiki bilgiler göndermek istemiyorsanız yönetim paneline dönebilirsiniz.',
 	'GO_ACP_MAIN'				=> 'Yönetim anasayfasına git',
