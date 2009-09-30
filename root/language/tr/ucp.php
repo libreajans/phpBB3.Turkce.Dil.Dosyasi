@@ -170,7 +170,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_DATE'				=> '“%s” alanındaki tarih geçersiz.',
 
 	'FOE_MESSAGE'				=> 'Yasaklıdan mesaj',
-	'FOES_EXPLAIN'				=> 'Yasaklılar genel olarak engellenen kullanıcılardır. Bu kullanıcılardan gelen mesajların içerikleri tam görünür olmayacak. Yasaklı kullanıcılardan gelen özel mesajlara hala izin verilir. Yönetici ve Yetkilileri yasaklayamazsınız.', 
+	'FOES_EXPLAIN'				=> 'Yasaklılar genel olarak engellenen kullanıcılardır. Bu kullanıcılardan gelen mesajların içerikleri tam görünür olmayacak. Yasaklı kullanıcılardan gelen özel mesajlara hala izin verilir. Yönetici ve yetkilileri yasaklayamazsınız.', 
 	'FOES_UPDATED'				=> 'Yasaklı listeniz güncellendi.',
 	'FOLDER_ADDED'				=> 'Klasör eklendi.',
 	'FOLDER_MESSAGE_STATUS'		=> '%2$d mesaj kapasitesi, %1$d mesaj var',
@@ -254,7 +254,7 @@ $lang = array_merge($lang, array(
 	'NOT_ADDED_FRIENDS_BOTS'		=> 'Arama robotlarını arkadaş listenize ekleyemezsiniz.',	
 	'NOT_ADDED_FRIENDS_FOES'		=> 'Yasaklı listenizdeki kişileri arkadaş listenize ekleyemezsiniz.',
 	'NOT_ADDED_FRIENDS_SELF'		=> 'Kendinizi arkadaş listenize ekleyemezsiniz.',
-	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Yönetici ve Yetkilileri yasaklı listenize ekleyemezsiniz.',
+	'NOT_ADDED_FOES_MOD_ADMIN'		=> 'Yönetici ve yetkilileri yasaklı listenize ekleyemezsiniz.',
 	'NOT_ADDED_FOES_ANONYMOUS'		=> 'Misafir kullanıcıyı yasaklı listenize ekleyemezsiniz.',
 	'NOT_ADDED_FOES_BOTS'			=> 'Arama robotlarını yasaklı listenize ekleyemezsiniz.',
 	'NOT_ADDED_FOES_FRIENDS'		=> 'Arkadaş listenizdeki kişileri yasaklı listenize ekleyemezsiniz.',
