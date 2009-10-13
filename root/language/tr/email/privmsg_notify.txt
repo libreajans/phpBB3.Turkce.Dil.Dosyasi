@@ -2,7 +2,7 @@ Subject: {SITENAME} - "{USERNAME}" isimli hesabınıza yeni bir özel mesaj gön
 
 Sayın {USERNAME},
 
-Bu e-posta, {SITENAME} mesaj panosunda yer alan hesabınıza yeni bir özel mesaj gönderildiğini haber vermek için sistem tarafından otomatik olarak gönderilmiştir.
+Bu e-posta, "{SITENAME}" mesaj panosunda yer alan hesabınıza yeni bir özel mesaj gönderildiğini haber vermek için sistem tarafından otomatik olarak gönderilmiştir.
 
 Özel mesajı gönderen: {AUTHOR_NAME}
 Mesajın başlığı: {SUBJECT}

@@ -1,0 +1,9 @@
+Subject: "{PM_SUBJECT}" özel mesaj raporunuz deðerlendirildi ve kapatýldý
+
+Sayýn {USERNAME},
+
+"{SITENAME}" mesaj panosunda yer alan "{PM_SUBJECT}" konulu özel mesaj içeriðini pano yönetimine rapor etmiþtiniz. Ýsteðiniz üzerine özel mesaj bir yetkili tarafýndan deðerlendirilmiþ ve gereken yapýlarak raporunuz kapatýlmýþtýr.
+
+Rapor deðerlendirme iþlemi hakkýnda sorularýnýzý raporu kapatan "{CLOSER_NAME}" isimli yetkiliye özel mesaj yazarak iletebilirsiniz.
+
+{EMAIL_SIG}

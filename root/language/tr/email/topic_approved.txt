@@ -2,7 +2,7 @@ Subject: {SITENAME} - konu yayına alındı: {TOPIC_TITLE}
 
 Sayın {USERNAME},
 
-Bu e-posta, {SITENAME} sitesinde açmak istediğiniz "{TOPIC_TITLE}" başlıklı konuya bir yönetici tarafından yayın izni verildiğini haber vermek için sistem tarafından otomatik olarak gönderilmiştir.
+Bu e-posta, "{SITENAME}" sitesinde açmak istediğiniz "{TOPIC_TITLE}" başlıklı konuya bir yönetici tarafından yayın izni verildiğini haber vermek için sistem tarafından otomatik olarak gönderilmiştir.
 
 Açtığınız konu: {U_VIEW_TOPIC}
 

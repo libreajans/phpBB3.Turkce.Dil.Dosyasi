@@ -2,7 +2,7 @@ Subject: {SITENAME} - üyelik hesabınız için yeni parola talebi
 
 Sayın {USERNAME},
 
-{SITENAME} mesaj panosunda bulunan hesabınız için yeni bir parola talebinde bulunuldu. Eğer bu talepte bulunan kişi sizseniz, bu durumda üyeliğinizi kullanılabilir hale getirmek için aşağıdaki bilgilerden yararlanmalı ve üyelik aktivasyonunu gerçekleştirmelisiniz.
+"{SITENAME}" mesaj panosunda bulunan hesabınız için yeni bir parola talebinde bulunuldu. Eğer bu talepte bulunan kişi sizseniz, bu durumda üyeliğinizi kullanılabilir hale getirmek için aşağıdaki bilgilerden yararlanmalı ve üyelik aktivasyonunu gerçekleştirmelisiniz.
 
 Üyelik aktivasyonu: {U_ACTIVATE}
 Yeni şifreniz: {PASSWORD}

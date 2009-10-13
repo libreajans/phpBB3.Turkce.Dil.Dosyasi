@@ -2,7 +2,7 @@ Subject: {SITENAME} - "{POST_SUBJECT}" başlıklı iletinizin onayı kaldırıld
 
 Sayın {USERNAME},
 
-Bu e-posta, {SITENAME} mesaj panosunda yer alan "{POST_SUBJECT}" başlıklı iletinize daha önce verilen onayın bir yetkili tarafından kaldırıldığını haber vermek için sistem tarafından otomatik olarak gönderilmiştir.
+Bu e-posta, "{SITENAME}" mesaj panosunda yer alan "{POST_SUBJECT}" başlıklı iletinize daha önce verilen onayın bir yetkili tarafından kaldırıldığını haber vermek için sistem tarafından otomatik olarak gönderilmiştir.
 
 Onayın kaldırılma sebebi: {REASON}
 

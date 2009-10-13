@@ -1,0 +1,7 @@
+Subject: "{PM_SUBJECT}" özel mesaj raporunuz deðerlendirildi ve silindi
+
+Sayýn {USERNAME},
+
+"{SITENAME}" mesaj panosunda yer alan "{PM_SUBJECT}" konulu özel mesaj içeriðini pano yönetimine rapor etmiþtiniz. Ýsteðiniz üzerine ileti bir yetkili tarafýndan deðerlendirilmiþ ve gereken yapýlarak raporunuz silinmiþtir.
+
+{EMAIL_SIG}

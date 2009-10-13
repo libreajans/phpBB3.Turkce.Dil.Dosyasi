@@ -2,7 +2,7 @@ Subject: {SITENAME} - lütfen üyelik başvurunuzu onaylayın
 
 {WELCOME_MSG}
 
-Kullanıcı adı {USERNAME} olan hesabınızı kullanılabilir hale getirmek için aşağıdaki bağlantıyı kullanabilirsiniz.
+Kullanıcı adı "{USERNAME}" olan hesabınızı kullanılabilir hale getirmek için aşağıdaki bağlantıyı kullanabilirsiniz.
 
 Üyelik aktivasyonu: {U_ACTIVATE}
 
