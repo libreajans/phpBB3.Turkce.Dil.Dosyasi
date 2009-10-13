@@ -1,9 +1,9 @@
-Subject: "{PM_SUBJECT}" özel mesaj raporunuz değerlendirildi ve kapatıldı
+Subject: "{PM_SUBJECT}" Ã¶zel mesaj raporunuz deÄŸerlendirildi ve kapatÄ±ldÄ±
 
-Sayın {USERNAME},
+SayÄ±n {USERNAME},
 
-"{SITENAME}" mesaj panosunda yer alan "{PM_SUBJECT}" konulu özel mesaj içeriğini pano yönetimine rapor etmiştiniz. İsteğiniz üzerine özel mesaj bir yetkili tarafından değerlendirilmiş ve gereken yapılarak raporunuz kapatılmıştır.
+"{SITENAME}" mesaj panosunda yer alan "{PM_SUBJECT}" konulu Ã¶zel mesaj iÃ§eriÄŸini pano yÃ¶netimine rapor etmiÅŸtiniz. Ä°steÄŸiniz Ã¼zerine Ã¶zel mesaj bir yetkili tarafÄ±ndan deÄŸerlendirilmiÅŸ ve gereken yapÄ±larak raporunuz kapatÄ±lmÄ±ÅŸtÄ±r.
 
-Rapor değerlendirme işlemi hakkında sorularınızı raporu kapatan "{CLOSER_NAME}" isimli yetkiliye özel mesaj yazarak iletebilirsiniz.
+Rapor deÄŸerlendirme iÅŸlemi hakkÄ±nda sorularÄ±nÄ±zÄ± raporu kapatan "{CLOSER_NAME}" isimli yetkiliye Ã¶zel mesaj yazarak iletebilirsiniz.
 
 {EMAIL_SIG}
