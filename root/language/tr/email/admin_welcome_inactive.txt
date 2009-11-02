@@ -9,7 +9,7 @@ Pano adresi: {U_BOARD}
 
 Halen kullanılamaz/pasif durumda olan üyelik hesabınız kısa süre içinde pano yöneticisi tarafından kullanıma açılacak ve bu aktifleştirme yeni bir e-posta ile size bildirilecektir.
 
-Parolanız sizin dışınızda (pano yöneticileri dahil) hiç kimse tarafından görülemez/bilinemez. Eğer parolanızı unutursanız, mesaj panomuza oturum açtığınız sayfa aracılığıyla sistemden yeni bir parola talebinde bulunabilirsiniz.
+Parolanız veritabanında güvenli bir biçimde saklanmakta ve tekrar elde edilemez, yöneticiler dahil hiç kimse tarafından bilinemez. Eğer parolanızı unutursanız, mesaj panomuza oturum açtığınız sayfa aracılığıyla sistemden yeni bir parola talebinde bulunabilirsiniz.
 
 Bizimle olduğunuz için teşekkür ederiz.
 

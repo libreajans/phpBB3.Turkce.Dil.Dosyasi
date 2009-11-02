@@ -5,7 +5,7 @@ Subject: {SITENAME} - aramıza hoşgeldiniz
 Kullanıcı adınız: {USERNAME}
 Pano adresi: {U_BOARD}
 
-Parolanız sizin dışınızda (pano yöneticileri dahil) hiç kimse tarafından görülemez/bilinemez. Eğer parolanızı unutursanız, mesaj panomuza oturum açtığınız sayfa aracılığıyla sistemden yeni bir parola talebinde bulunabilirsiniz.
+Parolanız veritabanında güvenli bir biçimde saklanmakta ve tekrar elde edilemez, yöneticiler dahil hiç kimse tarafından bilinemez. Eğer parolanızı unutursanız, mesaj panomuza oturum açtığınız sayfa aracılığıyla sistemden yeni bir parola talebinde bulunabilirsiniz.
 
 Bu e-postayı saklamanızı öneririz. Zira üyelik bilgilerinizi unutmanız halinde kullanabilirsiniz.
 
