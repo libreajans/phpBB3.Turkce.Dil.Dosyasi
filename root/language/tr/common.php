@@ -9,7 +9,7 @@
 // [ phpBB3 Türkçe Dil Paketi ]
 //
 // TERCÜME	: phpBB Türkiye - http://www.phpbbturkiye.net
-// SÜRÜM	: 0.0.80.a - 01 Kasım 2009 - phpBB 3.0.6-RC4
+// SÜRÜM	: 1.0.0 - 18 Kasım 2009 - phpBB 3.0.6
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://www.phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
 //--------------------------------------------------------------------------------------
@@ -48,8 +48,8 @@ if (empty($lang) || !is_array($lang)) { $lang = array(); }
 /*
 $lang = array_merge($lang, array(
 	'TR_VERSION' => array(
-		'LANG'	=> '0.0.80.a',
-		'PHPBB'	=> '3.0.6-RC4',
+		'LANG'	=> '1.0.0',
+		'PHPBB'	=> '3.0.6',
 	),
 ));
 */
