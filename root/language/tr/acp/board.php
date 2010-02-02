@@ -128,15 +128,15 @@ $lang = array_merge($lang, array(
 	'QUEUE_TRIGGER_POSTS'			=> 'Kuyruktaki iletiler için en fazla ileti sayısı',
 	'QUEUE_TRIGGER_POSTS_EXPLAIN'	=> 'İletilerin kuyruğa alınması ayarı etkin iken, kullanıcının onaylanmadan ileti gönderebilmesi için ulaşması gerekli en az ileti sayısıdır. Eğer kullanıcı ileti sayısı bu değerden küçükse, ileti otomatik olarak onay kuyruğuna alınır.',
 	'BUMP_INTERVAL'					=> 'Güncelleme aralığı',
-	'BUMP_INTERVAL_EXPLAIN'			=> 'Bir başlığa gönderilen son ilet ve bu başlığın değiştirilme yeteneği arasında kalan dakika, saat ya da gün sayısı.',
+	'BUMP_INTERVAL_EXPLAIN'			=> 'Bir başlığa gönderilen son ileti ve bu başlığın değiştirilme yeteneği arasında kalan dakika, saat ya da gün sayısı. Bu özelliği kapatmak için, değer olarak 0 yazın.',
 	'CHAR_LIMIT'					=> 'İleti başına en fazla karakter',
-	'CHAR_LIMIT_EXPLAIN'			=> 'Bir iletide kullanılabilecek karakter sayısı. Karakter limitini kaldırmak için, değer olarak sıfır (0) girin.',
+	'CHAR_LIMIT_EXPLAIN'			=> 'Bir iletide kullanılabilecek karakter sayısı. Karakter limitini kaldırmak için, değer olarak 0 yazın.',
 	'DELETE_TIME'					=> 'Silme süresini sınırla',
 	'DELETE_TIME_EXPLAIN'			=> 'Yeni bir iletinin silinme süresini sınırlar. Bu değerin 0 yapılması sınırlama olmamasını sağlar.',
 	'DISPLAY_LAST_EDITED'			=> 'Son değiştirme tarih bilgisini göster',
 	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Son değiştirilme zamanı seçilirse mesajlarda bu bilgi gösterilecektir.',
 	'EDIT_TIME'						=> 'Değiştirme süre sınırı',
-	'EDIT_TIME_EXPLAIN'				=> 'Yeni iletileri değiştirme süresini kısıtlama. Değer olarak sıfır (0) girerseniz bu özellik kullanım dışı kalacaktır.',
+	'EDIT_TIME_EXPLAIN'				=> 'Yeni iletileri değiştirme süresini kısıtlama. Değer olarak 0 yazarsanız bu özellik kullanım dışı kalacaktır.',
 	'FLOOD_INTERVAL'				=> 'İleti gönderim sıklığı', // flood
 	'FLOOD_INTERVAL_EXPLAIN'		=> 'Yeni bir ileti göndermek için kullanıcının beklemesi gereken saniye miktarı. Bu özelliği aktif hale getirmek için izinleri değiştirin.',
 	'HOT_THRESHOLD'					=> 'Popüler konu başlangıç',
@@ -225,37 +225,53 @@ $lang = array_merge($lang, array(
 
 ));
 
+/*
 // Feeds
 $lang = array_merge($lang, array(
-	'ACP_FEED_MANAGEMENT'				=> 'Genel besleme ayarları',//General Syndication Feeds settings
-	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Bu modül biçim kodlarının temizlenerek okunabilir çeşitli ATOM Beslemelerin sunulmasını sağlar.',
-
-	'ACP_FEED_ENABLE'					=> 'Beslemeleri etkinleştir',
-	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Pano üzerindeki tüm ATOM Beslemeleri açar veya kapatır.<br /> Aşağıda hangi ayarlar olursa olsun, bu ayarın kapatılması tüm beslemelerin durmasına sebep olur.',
-	'ACP_FEED_LIMIT'					=> 'Haber sayısı', //item:haber // Number of items
-	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Gösterilecek maksimum besleme haberi sayısı.',
-
-	'ACP_FEED_OVERALL_FORUMS'			=> 'Forumlarda beslemeleri etkinleştir',
-	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Bu besleme tüm forumlardaki konulardan son iletileri gösterir.',
 	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Forum beslemeleri, sayfa başına haber sayısı',
 
 	'ACP_FEED_OVERALL_TOPIC'			=> 'Konuların beslemelerini etkinleştir',//enable overall topics feed?? overall derken ??
 	'ACP_FEED_OVERALL_TOPIC_EXPLAIN'	=> '“Tüm konuların” beslemesini etkinleştir',
 	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Konu beslemeleri, ayfa başına haber sayısı',
-	'ACP_FEED_FORUM'					=> 'Forum başına beslemeleri etkinleştir',//forum per // 
+));
+*/
+
+// Feeds
+$lang = array_merge($lang, array(
+	'ACP_FEED_MANAGEMENT'				=> 'Genel besleme ayarları',//General Syndication Feeds settings
+	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Bu modül biçim kodlarının temizlenerek okunabilir çeşitli ATOM beslemelerin sunulmasını sağlar.',
+
+	'ACP_FEED_ENABLE'					=> 'Beslemeleri etkinleştir',
+	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Pano üzerindeki tüm ATOM beslemeleri açar veya kapatır.<br />Aşağıda hangi ayarlar olursa olsun, bu ayarın kapatılması tüm beslemelerin durmasına sebep olur.',
+	'ACP_FEED_LIMIT'					=> 'Haber sayısı', //item:haber // Number of items
+	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Gösterilecek maksimum besleme haberi sayısı.',
+
+	'ACP_FEED_OVERALL'					=> 'Beslemeleri pano genelinde etkinleştir',
+	'ACP_FEED_OVERALL_EXPLAIN'			=> 'Pano genelinde yeni iletiler.',
+	'ACP_FEED_FORUM'					=> 'Forum başına beslemeleri etkinleştir',
 	'ACP_FEED_FORUM_EXPLAIN'			=> 'Tek forum yeni iletiler.',
 	'ACP_FEED_TOPIC'					=> 'Konu başına beslemeler',
 	'ACP_FEED_TOPIC_EXPLAIN'			=> 'Tek konu yeni iletiler.',
+
+	'ACP_FEED_TOPICS_NEW'				=> 'Yeni konular beslemesini etkinleştir',
+	'ACP_FEED_TOPICS_NEW_EXPLAIN'		=> '"Yeni Konular" beslemesini etkinleştirir, ilk ileti dahil olmak üzere son açılan konuları gösterir.',
+	'ACP_FEED_TOPICS_ACTIVE'			=> 'Aktif konular beslemesini etkinleştir',
+	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> '"Aktif Konular" beslemesini etkinleştirir, ilk ileti dahil olmak üzere son aktif konuları gösterir.',
 	'ACP_FEED_NEWS'						=> 'Haber beslemeleri',
 	'ACP_FEED_NEWS_EXPLAIN'				=> 'Bu forumlardan ilk iletileri çek. Haber beslemesini kapatmak isterseniz hiçbir forumu seçmeyin. <br /><samp>CTRL</samp> basılı tutup tıklayarak birden fazla forum seçebilirsiniz.',
+	
+	'ACP_FEED_OVERALL_FORUMS'			=> 'Forumlarda beslemeleri etkinleştir',
+	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Bu besleme tüm forumlardaki konulardan son iletileri gösterir.',
 
-	'ACP_FEED_GENERAL'					=> 'Genel besleme ayarları',
-
+	'ACP_FEED_HTTP_AUTH'				=> 'HTTP Yetkilendirilmesine izin ver',
+	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'HTTP Yetkilendirilmesine izin verir, gizli misafir kullanıcılar besleme URL adresine <samp>auth=http</samp> paremetresini ekleyerek içeriği alabilirler. Bazı PHP kurulumları ek .htaccess değişiklikleri gerektirebilir. Talimatlar dosyada bulunmaktadır',
 	'ACP_FEED_ITEM_STATISTICS'			=> 'Haber istatistikleri',//Item statistics
-	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Besleme haberleri altında ayrı ayrı istatistikler göster<br />(Gönderen, tarih ve saat, Cevaplar, Gösterim)',
+	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Besleme haberleri altında ayrı ayrı istatistikler göster<br />(Örneğin: gönderen, tarih ve saat, cevaplar, gösterim)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Bu forumları hariç tut',
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Bu forumlardaki içerik <strong>beslemelerde gösterilmeyecektir</strong>. Tüm forumlardan haber çekilmesi için hiçbir forumu seçmeyin.<br /><samp>CTRL</samp> tuşunu basılı tutup tıklayarak birden fazla forum seçebilir veya seçti iseniz çıkarabilirsiniz.',
 ));
+
+
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
@@ -473,7 +489,7 @@ $lang = array_merge($lang, array(
 	'SMTP_DIGEST_MD5'				=> 'DIGEST-MD5',
 	'SMTP_LOGIN'					=> 'LOGIN',
 	'SMTP_PASSWORD'					=> 'SMTP parolası',
-	'SMTP_PASSWORD_EXPLAIN'			=> 'Sadece SMTP sunucunuz bir parola gerektiriyorsa yazınız.',
+	'SMTP_PASSWORD_EXPLAIN'			=> 'Sadece SMTP sunucunuz bir parola gerektiriyorsa yazınız. <em><strong>Uyarı:</strong> bu parola veritabanında düz metin olarak saklanacaktır.</em>',
 	'SMTP_PLAIN'					=> 'PLAIN',
 	'SMTP_POP_BEFORE_SMTP'			=> 'POP-BEFORE-SMTP', 
 	'SMTP_PORT'						=> 'SMTP sunucu portu',
@@ -496,13 +512,14 @@ $lang = array_merge($lang, array(
 	'JAB_PACKAGE_SIZE'			=> 'Jabber paket boyutu',
 	'JAB_PACKAGE_SIZE_EXPLAIN'	=> 'Bu bir pakette yollanan mesajların sayısıdır. Eğer 0 olarak belirlerseniz mesaj hemen yollanır ve daha geç yollama için sırada bekletilmez.',
 	'JAB_PASSWORD'				=> 'Jabber parolası',
+	'JAB_PASSWORD_EXPLAIN'		=> '<em><strong>Uyarı:</strong> bu parola veritabanında düz metin olarak saklanacaktır.</em>',
 	'JAB_PORT'					=> 'Jabber portu',
 	'JAB_PORT_EXPLAIN'			=> 'Eğer portun 5222 olduğundan emin değil iseniz boş bırakın.',
 	'JAB_SERVER'				=> 'Jabber sunucu',
 	'JAB_SERVER_EXPLAIN'		=> 'Sunucu listesi için %sjabber.org%s adresine bakabilirsiniz.',
 	'JAB_SETTINGS_CHANGED'		=> 'Jabber ayarları değiştirildi.',
 	'JAB_USE_SSL'				=> 'Bağlantı için SSL kullan',
-	'JAB_USE_SSL_EXPLAIN'	=> 'Etkinleştirilmesi halinde güvenli bir bağlantı kurulmaya çalışılır. 5222 portu tanımlı ise, Jabber portu 5223 olarak değiştirilir.',
+	'JAB_USE_SSL_EXPLAIN'		=> 'Etkinleştirilmesi halinde güvenli bir bağlantı kurulmaya çalışılır. 5222 portu tanımlı ise, Jabber portu 5223 olarak değiştirilir.',
 	'JAB_USERNAME'				=> 'Jabber kullanıcı adı veya JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Geçerli bir kayıtlı kullanıcı adı veya JID tanımlayın. Kullanıcı adının geçerli olup olmadığı kontrol edilmeyecektir. Sadece bir kullanıcı adı tanımlarsanız, JID değeriniz kullanıcı adınız ve sunucu da yukarıda tanımlandığınız olacaktır. Aksi halde, geçerli bir JID tanımlayın, örneğin kullanıcı@jabber.org.',
 ));

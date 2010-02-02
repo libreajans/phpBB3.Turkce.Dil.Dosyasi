@@ -53,7 +53,7 @@ $lang = array_merge($lang, array(
 	'CONTINUE_OLD_CONVERSION'	=> 'Daha önce başlanmış dönüştürmeye devam et',
 	'CONVERT'					=> 'Dönüştür',
 	'CONVERT_COMPLETE'			=> 'Dönüştürme tamamlandı',
-	'CONVERT_COMPLETE_EXPLAIN'	=> 'Panonuzu phpBB3’e dönüştürdünüz. Giriş yaparak <a href="../">panonuza ulaşabilirsiniz</a>. Lütfen tüm ayarların ve bilgilerin doğru transfer edildiğini kontrol ettikten sonra install dizinini silerek panonuzu erişime açınız. phpBB kullanımı hakkında yardım için çevrimiçi <a href="http://www.phpbb.com/support/documentation/3.0/" onclick="this.target=\'_blank\'">belgeler (İngilizce)</a> ve Türkçe <a href="http://www.phpbbturkiye.net/phpbb3-f4/" onclick="this.target=\'_blank\'">yardım forumları</a> bulunduğunu unutmayınız.',
+	'CONVERT_COMPLETE_EXPLAIN'	=> 'Panonuzu phpBB3’e dönüştürdünüz. Giriş yaparak <a href="../">panonuza ulaşabilirsiniz</a>. Lütfen tüm ayarların ve bilgilerin doğru transfer edildiğini kontrol ettikten sonra install dizinini silerek panonuzu erişime açınız. phpBB kullanımı hakkında yardım için çevrimiçi <a href="http://www.phpbb.com/support/documentation/3.0/">belgeler (İngilizce)</a> ve Türkçe <a href="http://www.phpbbturkiye.net/phpbb3-f4/">yardım forumları</a> bulunduğunu unutmayınız.',
 	'CONVERT_INTRO'				=> 'phpBB’nin birleşmiş yapı dönüştürücüsüne hoşgeldiniz',
 	'CONVERT_INTRO_BODY' 		=> 'Buradan diğer yüklenmiş pano sistemlerinden veri transferinde bulunabilirsiniz. Aşağıdaki liste size şu an için desteklenen dönüştürme modüllerini göstermektedir. Eğer aradığınız dönüştürme modülünü bu listede bulamıyorsanız, lütfen phpbb resmi web sitemizi ziyaret ederek aradığınız dönüştürücünün indirme listemize dahil edilip edilmediğini kontrol ediniz.',
 	'CONVERT_NEW_CONVERSION'	=> 'Yeni dönüşüm',
@@ -107,7 +107,7 @@ $lang = array_merge($lang, array(
 	'DB_PASSWORD'				=> 'Veritabanı parolası',
 	'DB_PORT'					=> 'Veritabanı sunucu portu',
 	'DB_PORT_EXPLAIN'			=> 'Eğer sunucunuz standart olmayan bir porttan çalıştığını biliyorsanız bu seçeneği kullanabilirsiniz.',
-	'DB_UPDATE_NOT_SUPPORTED'	=> 'Bu güncelleme betiği phpBB “%1$s” öncesindeki sürümlerden güncellemeyi desteklemiyor. Şu an kullandığınız sürünümünüz “%2$s”. Lütfen bu dosyayı çalıştırmadan önce bir sonraki sürüme güncelleyin. Bu konuda <a href="http://www.phpbbturkiye.net" title="phpBB3 geliştirme ve destek" onclick="this.target=\'_blank\'" rel="external">phpBB Türkiye</a> sitesinden destek alabilirsiniz.',
+	'DB_UPDATE_NOT_SUPPORTED'	=> 'Bu güncelleme betiği phpBB “%1$s” öncesindeki sürümlerden güncellemeyi desteklemiyor. Şu an kullandığınız sürünümünüz “%2$s”. Lütfen bu dosyayı çalıştırmadan önce bir sonraki sürüme güncelleyin. Bu konuda <a href="http://www.phpbbturkiye.net" title="phpBB3 geliştirme ve destek" rel="external">phpBB Türkiye</a> sitesinden destek alabilirsiniz.',
 	'DB_USERNAME'				=> 'Veritabanı kullanıcı adı',
 	'DB_TEST'					=> 'Bağlantı testi',
 	'DEFAULT_LANG'				=> 'Varsayılan pano dili',
@@ -164,7 +164,7 @@ $lang = array_merge($lang, array(
 		<h2>Mevcut bir panoyu phpBB3 sistemine dönüştürme</h2>
 		<p>phpBB tabanlı dönüştürme çatısı phpBB 2.0.x’den ve diğer mesaj panosu türlerinden phpBB3’e dönüştürme yapmayı destekler. Eğer dönüştürmek istediğiniz bir forumunuz varsa; <a href="%2$s">dönüştürücü ile devam edin</a>.</p>
 		<h2>phpBB3 sisteminize gidin!</h2>
-		<p>Aşağıdaki butona basarak Yönetim Paneli’ne gidebilir ve eğer isterseniz phpBB istatistik verilerini gönderebilirsiniz. Bu bilgileri göndererek phpBB’nin gelişimine katkıda bulunabilirsiniz. Daha sonra, neler yapabileceğinizi öğrenmek için biraz zaman ayırıp yönetim panelini inceleyin. <a href="http://www.phpbb.com/support/documentation/3.0/" onclick="this.target=\'_blank\'">Belgeler (ingilizce)</a> ve Türkçe <a href="http://www.phpbbturkiye.net/phpbb3-f4/" onclick="this.target=\'_blank\'">destek forumları</a> kısımlarında çevrimiçi yardım bulunduğunu unutmayın, daha fazla bilgi için <a href="%3$s">beni oku</a> dosyasını inceleyin.</p><p><strong>Lütfen şimdi install dizininin ismini değiştirin, silin veya taşıyın. Eğer dizin bulunuyorsa, sadece Yönetim Paneli’ne ulaşılabilecek.</strong></p>',
+		<p>Aşağıdaki butona basarak Yönetim Paneli’ne gidebilir ve eğer isterseniz phpBB istatistik verilerini gönderebilirsiniz. Bu bilgileri göndererek phpBB’nin gelişimine katkıda bulunabilirsiniz. Daha sonra, neler yapabileceğinizi öğrenmek için biraz zaman ayırıp yönetim panelini inceleyin. <a href="http://www.phpbb.com/support/documentation/3.0/">Belgeler (ingilizce)</a> ve Türkçe <a href="http://www.phpbbturkiye.net/phpbb3-f4/">destek forumları</a> kısımlarında çevrimiçi yardım bulunduğunu unutmayın, daha fazla bilgi için <a href="%3$s">beni oku</a> dosyasını inceleyin.</p><p><strong>Lütfen şimdi install dizininin ismini değiştirin, silin veya taşıyın. Eğer dizin bulunuyorsa, sadece Yönetim Paneli’ne ulaşılabilecek.</strong></p>',
 	'INSTALL_INTRO'				=> 'Kurulum işlemine hoşgeldiniz',
 	'INSTALL_INTRO_BODY'		=> 'Bu özellik sayesinde, phpBB’yi sunucunuza kurabilirsiniz.</p><p>Bunu yaparken veritabanı detaylarınıza ihtiyacınız olacak. Veritabanı detaylarınızı bilmiyorsanız, Sunucu sağlayıcınızla irtibata geçin. Detaylar olmadan bu işlemi gerçekleştiremezsiniz. Şu bilgiler gereklidir:</p>
 	<ul>
@@ -254,7 +254,7 @@ $lang = array_merge($lang, array(
 	'NO_LOCATION'				=> 'Yeri belirlenemedi. Eğer Imagemagick yüklendiğini biliyorsanız, daha sonra yönetim panelinden yerini belirleyebilirsiniz',
 	'NO_TABLES_FOUND'			=> 'Tablolar bulunamadı.',
 
-	'OVERVIEW_BODY'					=> 'phpBB3’e hoşgeldiniz!<br /><br />phpBB™ dünyada geniş çapta bir kullanıma sahip olan özellik zengini, kullanıcı dostu, yapımcısı olan phpBB Grubu tarafından tam destek verilen, açık kaynaklı bir mesaj panosu çözümüdür. phpBB3, phpBB2’nin popüler olmuş taraflarını geliştirir ve önceki uyarlamalarda mevcut olmayan, genellikle önerilen özellikleri ekler. Beklentilerinizi aştığını umarız.<br /><br />Bu yükleme sistemi; phpBB3’ün yüklenme süreci boyunca size rehberlik edecek, geçmiş sürümlerden phpBB3’ün en son sürümüne güncelleştirme, farklı bir pano sisteminden phpBB3’e dönüştürme, ek olarak phpBB2’den dönüşümü de kapsıyacaktır. Daha çok bilgi için; <a href="../docs/INSTALL.html">kurulum rehberi</a> dosyasını okumanızı tavsiye ederiz.<br /><br />Kurulumdan önce phpBB3 lisansını da okumanız ve anlamanız gerekmektedir. Menüden kendi seçeneklerinize uygun olan işlemi seçebilirsiniz.<br /><br />Daha fazla Türkçe yardım için <a href="http://www.phpbbturkiye.net/" onclick="this.target=\'_blank\'">phpBB Türkiye</a> sitesine göz atabilir, profesyonel phpBB3 desteği almak için <a href="http://www.canversoft.net/" onclick="this.target=\'_blank\'">Canver Software</a> sitesini ziyaret edebilirsiniz.',
+	'OVERVIEW_BODY'					=> 'phpBB3’e hoşgeldiniz!<br /><br />phpBB™ dünyada geniş çapta bir kullanıma sahip olan özellik zengini, kullanıcı dostu, yapımcısı olan phpBB Grubu tarafından tam destek verilen, açık kaynaklı bir mesaj panosu çözümüdür. phpBB3, phpBB2’nin popüler olmuş taraflarını geliştirir ve önceki uyarlamalarda mevcut olmayan, genellikle önerilen özellikleri ekler. Beklentilerinizi aştığını umarız.<br /><br />Bu yükleme sistemi; phpBB3’ün yüklenme süreci boyunca size rehberlik edecek, geçmiş sürümlerden phpBB3’ün en son sürümüne güncelleştirme, farklı bir pano sisteminden phpBB3’e dönüştürme, ek olarak phpBB2’den dönüşümü de kapsıyacaktır. Daha çok bilgi için; <a href="../docs/INSTALL.html">kurulum rehberi</a> dosyasını okumanızı tavsiye ederiz.<br /><br />Kurulumdan önce phpBB3 lisansını da okumanız ve anlamanız gerekmektedir. Menüden kendi seçeneklerinize uygun olan işlemi seçebilirsiniz.<br /><br />Daha fazla Türkçe yardım için <a href="http://www.phpbbturkiye.net/">phpBB Türkiye</a> sitesine göz atabilir, profesyonel phpBB3 desteği almak için <a href="http://www.canversoft.net/">Canver Software</a> sitesini ziyaret edebilirsiniz.',
 
 	'PCRE_UTF_SUPPORT'					=> 'PCRE UTF-8 desteği',
 	'PCRE_UTF_SUPPORT_EXPLAIN'			=> 'Sunucunuz PCRE eklentisi içinde UTF-8 desteği barındırmıyorsa phpBB <strong>çalışmayacaktır</strong>.',
@@ -313,28 +313,28 @@ $lang = array_merge($lang, array(
 	'SUCCESSFUL_CONNECT'				=> 'Bağlantı sağlandı',
 	'SUPPORT_BODY'						=> '
 	<h2>Profesyonel phpBB3 desteği</h2>
-	<p>Profesyonel phpBB3 desteği almak için <a href="http://www.canversoft.net/" onclick="this.target=\'_blank\'">Canver Software</a> sitesini ziyaret edebilirsiniz.</p>
+	<p>Profesyonel phpBB3 desteği almak için <a href="http://www.canversoft.net/">Canver Software</a> sitesini ziyaret edebilirsiniz.</p>
 
 	<h2>Destek ve yardım alma</h2>
 	phpBB Türkiye, phpBB3’ün güncel ve kararlı sürümü için destek sağlanır. Temel destek içeriği:
 	<ul>
-	<li><a href="http://www.phpbbturkiye.net/kurulum-tasima-f82/" onclick="this.target=\'_blank\'">Kurulum, taşıma</a></li>
-	<li><a href="http://www.phpbbturkiye.net/kullanim-ayarlar-f27/" onclick="this.target=\'_blank\'">Kullanım ve ayarlar</a></li>
-	<li><a href="http://www.phpbbturkiye.net/phpbb3-sorunlar-yardim-f15/" onclick="this.target=\'_blank\'">Teknik sorunlar</a></li>
-	<li><a href="http://www.phpbbturkiye.net/guncelleme-f106/" onclick="this.target=\'_blank\'">En son kararlı sürüme güncelleme</a></li>
-	<li><a href="http://www.phpbbturkiye.net/phpbb-2-0-x-den-phpbb3-e-donusturme-f108/" onclick="this.target=\'_blank\'">phpBB 2.0.x’den phpBB3’e dönüştürme</a></li>
-	<li><a href="http://www.phpbbturkiye.net/hata-mesajlari-f25/" onclick="this.target=\'_blank\'">Olası hatalar ve bildirilen sorunlar</a></li>
-	<li><a href="http://www.phpbbturkiye.net/diger-pano-turlerinden-donusum-f109/" onclick="this.target=\'_blank\'">Diğer pano türlerinden dönüşüm</a></li>
+	<li><a href="http://www.phpbbturkiye.net/kurulum-tasima-f82/">Kurulum, taşıma</a></li>
+	<li><a href="http://www.phpbbturkiye.net/kullanim-ayarlar-f27/">Kullanım ve ayarlar</a></li>
+	<li><a href="http://www.phpbbturkiye.net/phpbb3-sorunlar-yardim-f15/">Teknik sorunlar</a></li>
+	<li><a href="http://www.phpbbturkiye.net/guncelleme-f106/">En son kararlı sürüme güncelleme</a></li>
+	<li><a href="http://www.phpbbturkiye.net/phpbb-2-0-x-den-phpbb3-e-donusturme-f108/">phpBB 2.0.x’den phpBB3’e dönüştürme</a></li>
+	<li><a href="http://www.phpbbturkiye.net/hata-mesajlari-f25/">Olası hatalar ve bildirilen sorunlar</a></li>
+	<li><a href="http://www.phpbbturkiye.net/diger-pano-turlerinden-donusum-f109/">Diğer pano türlerinden dönüşüm</a></li>
 	</ul>
 
 	<p>Mevcut phpBB sürümünüzü daima son kararlı sürüm ile değiştirmenizi öneririz.</p>
 
 	<h2>Eklenti ve temalar</h2>
 	<ul>
-	<li><a href="http://www.phpbbturkiye.net/phpbb3-eklenti.php" onclick="this.target=\'_blank\'">phpbb.com onaylı eklentiler</a></li>
-	<li><a href="http://www.phpbbturkiye.net/eklenti-tanitimlari-duyurular-guncellemeler-f30/" onclick="this.target=\'_blank\'">phpBB3 eklentileri</a></li>
-	<li><a href="http://www.phpbbturkiye.net/phpbb-turkiye-eklentileri-f102/" onclick="this.target=\'_blank\'">phpBB Türkiye eklentileri</a></li>
-	<li><a href="http://www.phpbbturkiye.net/tema-tanitimlari-duyurular-guncellemeler-f37/" onclick="this.target=\'_blank\'">phpBB3 temaları</a></li>
+	<li><a href="http://www.phpbbturkiye.net/phpbb3-eklenti.php">phpbb.com onaylı eklentiler</a></li>
+	<li><a href="http://www.phpbbturkiye.net/eklenti-tanitimlari-duyurular-guncellemeler-f30/">phpBB3 eklentileri</a></li>
+	<li><a href="http://www.phpbbturkiye.net/phpbb-turkiye-eklentileri-f102/">phpBB Türkiye eklentileri</a></li>
+	<li><a href="http://www.phpbbturkiye.net/tema-tanitimlari-duyurular-guncellemeler-f37/">phpBB3 temaları</a></li>
 	</ul>',
 
 	'SYNC_FORUMS'				=> 'Forumları uyumlu hale getirme işlemi başlıyor',
@@ -459,7 +459,7 @@ $lang = array_merge($lang, array(
 	'NO_ERRORS'						=> 'Hata yok',
 	'NO_UPDATE_FILES'				=> 'İzlenen dosyalar güncellenmedi',
 	'NO_UPDATE_FILES_EXPLAIN'		=> 'Takip eden dosyalar yeni veya değiştirilmiş fakat normalde bulunan dizin kurulumda bulunamıyor. Eğer bu language/ veya styles/ dışında başka dizinler da içeriyorsa o zaman dizin yapısını değiştirdiniz ve güncelleme yarım kaldı.',
-	'NO_UPDATE_FILES_OUTDATED'		=> 'Geçerli güncelleme dizini bulunamadı, lütfen uygun dosyaları yüklediğinize emin olun.<br /><br />Kurulumunuz güncel görünmüyor. phpBB %1$s sürümünüz için güncelleme mevcuttur, %2$s sürümünden %3$s sürümüne güncelleme yapmak için gereken doğru paket için lütfen <a href="http://www.phpbbturkiye.net/dosyalar/" onclick="this.target=\'_blank\'">http://www.phpbbturkiye.net/dosyalar/</a> adresini ziyaret edin.',
+	'NO_UPDATE_FILES_OUTDATED'		=> 'Geçerli güncelleme dizini bulunamadı, lütfen uygun dosyaları yüklediğinize emin olun.<br /><br />Kurulumunuz güncel görünmüyor. phpBB %1$s sürümünüz için güncelleme mevcuttur, %2$s sürümünden %3$s sürümüne güncelleme yapmak için gereken doğru paket için lütfen <a href="http://www.phpbbturkiye.net/dosyalar/">http://www.phpbbturkiye.net/dosyalar/</a> adresini ziyaret edin.',
 	'NO_UPDATE_FILES_UP_TO_DATE'	=> 'Sürümünüz günceldir. Güncelleme aracını kullanmanıza gerek yok. Eğer dosyalarınızın bütünlük kontrolünü yapmak istiyorsanız güncelleme için doğru dosyaları yükleyin.',
 	'NO_UPDATE_INFO'				=> 'Güncelleme dosya bilgileri bulunamadı.',
 	'NO_UPDATES_REQUIRED'			=> 'Gerekli güncelleme yok',
@@ -533,7 +533,7 @@ $lang = array_merge($lang, array(
 		<p>Kurulumunuzu güncellemek için tavsiye edilen yol sadece geçerli otomatik güncelleme paketi için burada listelenir. INSTALL.html belgesinde listelenen yöntemleri de kullanabilirsiniz. phpBB3 yazılımını otomatik güncellemek için izleyeceğiniz adımlar:</p>
 
 		<ul style="margin-left: 20px; font-size: 1.1em;">
-			<li><a href="http://www.phpbbturkiye.net/dosyalar/" onclick="this.target=\'_blank\'">phpBB Türkiye dosya sayfası</a> ’na gidin ve "Otomatik güncelleme paketi" ’ni indirin.<br /><br /></li>
+			<li><a href="http://www.phpbbturkiye.net/dosyalar/">phpBB Türkiye dosya sayfası</a> ’na gidin ve "Otomatik güncelleme paketi" ’ni indirin.<br /><br /></li>
 			<li>Arşiv dosyasını açın.<br /><br /></li>
 			<li>Sıkıştırılmamış tüm kurulum (install) dizinini phpBB kök dizininize yükleyin/gönderin (config.php dosyasının olduğu dizine).<br /><br /></li>
 		</ul>

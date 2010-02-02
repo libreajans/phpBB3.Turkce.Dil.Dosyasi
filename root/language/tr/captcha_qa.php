@@ -33,6 +33,7 @@ $lang = array_merge($lang, array(
 	'QUESTION_TEXT_EXPLAIN'		=> 'Soru kayıt sırasında sorulacaktır.',
 
 	'QA_ERROR_MSG'				=> 'Lütfen tüm alanları doldurun ve en az bir cevap girin.',
+	'QA_LAST_QUESTION'			=> 'Bu eklenti aktif iken tüm soruları silemezsiniz.',
 ));
 
 ?>

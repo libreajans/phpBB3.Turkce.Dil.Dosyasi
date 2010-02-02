@@ -241,7 +241,6 @@ $lang = array_merge($lang, array(
 	'PARSE_URLS'						=> 'Linkleri ayrıştır',
 	'PERMISSIONS_TRANSFERRED'			=> 'İzinler transfer edildi',
 	'PERMISSIONS_TRANSFERRED_EXPLAIN'	=> 'Şu anda %1$s izinlerine sahipsiniz. Bu kullanıcının izinleri ile panoyu kullanabilirsiniz, fakat yönetim yetki izinleri transfer edilmediğinden dolayı yönetim paneline erişilemeyecektir. İstediğiniz zaman <a href="%2$s"><strong>eski izinlerinize dönebilirsiniz</strong></a>.',
-	'PIXEL'								=> 'px',
 	'PROCEED_TO_ACP'					=> '%sYönetim Paneline ilerle%s',
 
 	'REMIND'				=> 'Hatırlat',
@@ -290,7 +289,7 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'Pano çözümünüz için phpBB’yi seçtiğiniz için teşekkür ederiz. Bu sayfadan panonuz için çeşitli istatistikleri kolayca izleyebilirsiniz. Sayfanın sol tarafındaki bağlantılar tecrübenize göre panonuzu her yönüyle yönetmenizi sağlar. Her sayfada, araçları nasıl kullanacağınıza dair bilgiler içerecektir. Anlamadığınız her ayar, öğrenmek istediğiniz herşey için <a href="http://www.phpbbturkiye.net" title="phpBB3 destek ve geliştirme" onclick="this.target=\'_blank\'">phpBB Türkiye</a> sitemizden yardım isteyebilirsiniz.',
+	'ADMIN_INTRO'				=> 'Pano çözümünüz için phpBB’yi seçtiğiniz için teşekkür ederiz. Bu sayfadan panonuz için çeşitli istatistikleri kolayca izleyebilirsiniz. Sayfanın sol tarafındaki bağlantılar tecrübenize göre panonuzu her yönüyle yönetmenizi sağlar. Her sayfada, araçları nasıl kullanacağınıza dair bilgiler içerecektir. Anlamadığınız her ayar, öğrenmek istediğiniz herşey için <a href="http://www.phpbbturkiye.net" title="phpBB3 destek ve geliştirme">phpBB Türkiye</a> sitemizden yardım isteyebilirsiniz.',
 	'ADMIN_LOG'					=> 'Kaydedilen yönetici eylemleri',
 	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Bu pano yöneticisinin son beş hareketinin bir ön izlemesini verir. Bütün yönetici kayıtlarını görmek için ilgili menü seçeneğini ya da aşağıdaki bağlantıyı tıklayın.',
 	'AVATAR_DIR_SIZE'			=> 'Avatar dizini boyutu',
@@ -313,6 +312,8 @@ $lang = array_merge($lang, array(
 	'NUMBER_USERS'		=> 'Üye sayısı',
 	'NUMBER_ORPHAN'		=> 'Sahipsiz eklentiler',
 
+	'PHP_VERSION_OLD'	=> ' Bu sunucudaki PHP sürümü phpBB’nin ileriki sürümlerinde desteklenmeyecektir. %sDetaylar%s',
+	
 	'POSTS_PER_DAY'		=> 'Gün başına ileti',
 
 	'PURGE_CACHE'			=> 'Önbelleği temizle',

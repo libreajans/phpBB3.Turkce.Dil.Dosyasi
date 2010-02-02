@@ -9,7 +9,7 @@
 // [ phpBB3 Türkçe Dil Paketi ]
 //
 // TERCÜME	: phpBB Türkiye - http://www.phpbbturkiye.net
-// SÜRÜM	: 1.0.0 - 18 Kasım 2009 - phpBB 3.0.6
+// SÜRÜM	: 1.0.1 - 02 Şubat 2010 - phpBB 3.0.7-RC1
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://www.phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
 //--------------------------------------------------------------------------------------
@@ -48,15 +48,15 @@ if (empty($lang) || !is_array($lang)) { $lang = array(); }
 /*
 $lang = array_merge($lang, array(
 	'TR_VERSION' => array(
-		'LANG'	=> '1.0.0',
-		'PHPBB'	=> '3.0.6',
+		'LANG'	=> '1.0.1',
+		'PHPBB'	=> '3.0.7-RC1',
 	),
 ));
 */
 
 // dil değişkenleri
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'phpBB3 Türkçe: <a href="http://www.phpbbturkiye.net" title="phpBB3 geliştirme ve destek" onclick="this.target=\'_blank\'" rel="external">phpBB Türkiye</a>',
+	'TRANSLATION_INFO'	=> 'phpBB3 Türkçe: <a href="http://www.phpbbturkiye.net" title="phpBB3 geliştirme ve destek" rel="external">phpBB Türkiye</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'       => '|d M Y|', // 01 Mar 2007
 	'USER_LANG'			=> 'tr',
@@ -433,6 +433,7 @@ $lang = array_merge($lang, array(
 
 	'PAGE_OF'					=> '<strong>%2$d</strong> sayfadan <strong>%1$d</strong>. sayfa', 
 	'PASSWORD'					=> 'Parola',
+	'PIXEL'						=> 'px',
 	'PLAY_QUICKTIME_FILE'		=> 'Quicktime dosyasını oynat',
 	'PM'						=> 'Özel mesaj',
 	'POSTING_MESSAGE'			=> '%s içinde mesaj gönderiyor',
@@ -506,7 +507,9 @@ $lang = array_merge($lang, array(
 	'RETURN_TOPIC'				=> '%sSon ziyaret edilen <strong>konuya</strong> geri dön%s',
 	'RETURN_TO'					=> '', // return - boş kalması daha iyi
 	'FEED'						=> 'Besleme',
-	'FEED_NEWS'					=> 'Haberler',//News
+	'FEED_NEWS'					=> 'Haberler',
+	'FEED_TOPICS_ACTIVE'		=> 'Aktif Konular',
+	'FEED_TOPICS_NEW'			=> 'Yeni Konular',
 	'RULES_ATTACH_CAN'			=> 'Bu forumda dosya <strong>ekleyebilirsiniz</strong>',
 	'RULES_ATTACH_CANNOT'		=> 'Bu forumda dosya <strong>ekleyemezsiniz</strong>',
 	'RULES_DELETE_CAN'			=> 'Bu forumda kendi iletilerinizi <strong>silebilirsiniz</strong>',
