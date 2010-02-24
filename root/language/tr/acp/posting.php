@@ -15,6 +15,9 @@ $lang = array_merge($lang, array(
 	'ACP_BBCODES_EXPLAIN'		=> 'Biçim kodları bir şeyin nasıl gösterilmesini kararlaştırabileceğiniz özel bir HTML uygulamasıdır. Bu sayfayı kullanarak biçim kodu ekleyebilir, kaldırabilir ya da mevcut kodları düzenleyebilirsiniz.',
 	'ADD_BBCODE'				=> 'Yeni bir biçim kodu ekle',
 
+	'BBCODE_DANGER'				=> 'Oluşturmaya çalıştığınız biçim kodunda bir HTML özniteliği içine bir {TEXT} belirteci yerliştirmeye çalışıyor gibi görünüyorsunuz. Bu olası bir XSS güvenlik açığı oluşturabilir. {SIMPLETEXT} veya {INTTEXT} gibi daha kısıtlayıcı belirteçler kullanmayı deneyiniz. Eğer riski göze alıyorsanız önermediğimiz bu işleme devam edebilirsiniz.',
+	'BBCODE_DANGER_PROCEED'		=> 'Devam', //'I understand the risk',
+	
 	'BBCODE_ADDED'				=> 'Biçim kodu eklendi.',
 	'BBCODE_EDITED'				=> 'Biçim kodu düzenlendi.',
 	'BBCODE_NOT_EXIST'			=> 'Seçtiğiniz biçim kodu mevcut değil.',
@@ -47,6 +50,7 @@ $lang = array_merge($lang, array(
 
 	'tokens'	=>	array(
 		'TEXT'			=> 'Herhangi bir metin ve yabancı karakterleri kullanabilirsiniz. Sayılar  vb. gibi. HTML etiketlerinde bu işareti kullanmamalısınız. Onun yerine IDENTIFIER veya SIMPLETEXT kullanmayı deneyebilirsiniz.',
+		'INTTEXT'		=> 'Unicode harf karakteri, sayılar, boşluklar, virgüller, noktalar, eksi, artı, tire, alt-çizgi ve aralıklama karakteri.',
 		'SIMPLETEXT'	=> 'Latin alfabesinden karakterler (A-Z), sayılar (0-1), boşluklar ( ), virgüller (,), noktalar (.), eksi işareti (-), artı işareti (+), tire (-) ve altçizgi (_)',
 		'IDENTIFIER'	=> 'Latin alfabesinden karakterler (A-Z), sayılar, tire (-) ve altçizgi (_)',
 		'NUMBER'		=> 'Herhangi bir dijital karakter',
