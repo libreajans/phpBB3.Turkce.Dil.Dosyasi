@@ -466,7 +466,7 @@ $lang = array_merge($lang, array(
 	'NO_VISIBLE_CHANGES'			=> 'Görünen değişiklik yok',
 	'NOTICE'						=> 'Uyarı',
 	'NUM_CONFLICTS'					=> 'Uyuşmazlıkların sayısı',
-	'NUMBER_OF_FILES_COLLECTED'		=> 'Henüz %2$d dosyadan %1$d tanesi kontrol edildi.<br />Lütfen tüm dosyalar kontrol edilene kadar bekleyiniz.', // Currently differences of %1$d of %2$d files have been checked.
+	'NUMBER_OF_FILES_COLLECTED'		=> 'Henüz %2$d dosyadan %1$d tanesi kontrol edildi.<br />Lütfen tüm dosyalar kontrol edilene kadar bekleyiniz.',
 	
 	'OLD_UPDATE_FILES'		=> 'Güncelleme dosyalarının zamanı geçmiş. Güncelleme dosyaları phpBB %1$s’den phpBB %2$s’e güncelleme yapmaktadır ancak son phpBB sürümü %3$s’dir.',
 
