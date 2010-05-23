@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 
 // Registration Settings
 $lang = array_merge($lang, array(
-	'ACP_REGISTER_SETTINGS_EXPLAIN'	=> 'Buradan profil ve kayıt olmakla ilgili bütün ayarları düzenleyebilirsiniz..',
+	'ACP_REGISTER_SETTINGS_EXPLAIN'	=> 'Buradan profil ve kayıt olmakla ilgili bütün ayarları düzenleyebilirsiniz.',
 
 	'ACC_ACTIVATION'				=> 'Hesap etkinleştirme',
 	'ACC_ACTIVATION_EXPLAIN'		=> 'Bu kullanıcının panoya hızlı giriş yapıp-yapamayacağını ya da onayın gerekli olup-olmadığına karar vermenizi sağlar. İsterseniz yeni kayıt alımını tamamen durdurabilirsiniz.',
