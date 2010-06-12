@@ -6,38 +6,41 @@
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
-if (empty($lang) || !is_array($lang)) { $lang = array(); }
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
 /**
-*	MODDERS PLEASE NOTE
-*
-*	You are able to put your permission sets into a separate file too by
-*	prefixing the new file with permissions_ and putting it into the acp 
-*	language folder.
-*
-*	An example of how the file could look like:
-*
-*	<code>
-*
-*	if (empty($lang) || !is_array($lang))
-*	{
-*		$lang = array();
-*	}
-*
-*	// Adding new category
-*	$lang['permission_cat']['bugs'] = 'Bugs';
-*
-*	// Adding new permission set
-*	$lang['permission_type']['bug_'] = 'Bug Permissions';
-*
-*	// Adding the permissions
-*	$lang = array_merge($lang, array(
-*		'acl_bug_view'		=> array('lang' => 'Can view bug reports', 'cat' => 'bugs'),
-*		'acl_bug_post'		=> array('lang' => 'Can post bugs', 'cat' => 'post'), // Using a phpBB category here
-*	));
-*
-*	</code>
-*/
+ *	MODDERS PLEASE NOTE
+ *
+ *	You are able to put your permission sets into a separate file too by
+ *	prefixing the new file with permissions_ and putting it into the acp 
+ *	language folder.
+ *
+ *	An example of how the file could look like:
+ *
+ *	<code>
+ *
+ *	if (empty($lang) || !is_array($lang))
+ *	{
+ *		$lang = array();
+ *	}
+ *
+ *	// Adding new category
+ *	$lang['permission_cat']['bugs'] = 'Bugs';
+ *
+ *	// Adding new permission set
+ *	$lang['permission_type']['bug_'] = 'Bug Permissions';
+ *
+ *	// Adding the permissions
+ * 	$lang = array_merge($lang, array(
+ *		'acl_bug_view'		=> array('lang' => 'Can view bug reports', 'cat' => 'bugs'),
+ *		'acl_bug_post'		=> array('lang' => 'Can post bugs', 'cat' => 'post'), // Using a phpBB category here
+ *	));
+ *
+ *	</code>
+ */
 
 // Define categories and permission types
 $lang = array_merge($lang, array(

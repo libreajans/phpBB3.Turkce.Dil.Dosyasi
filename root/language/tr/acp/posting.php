@@ -6,7 +6,10 @@
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
-if (empty($lang) || !is_array($lang)) { $lang = array(); }
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
 // BBCodes 
 // Note to translators: you can translate everything but what's between { and }

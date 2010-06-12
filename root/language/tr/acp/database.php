@@ -6,7 +6,10 @@
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
-if (empty($lang) || !is_array($lang)) { $lang = array(); }
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
 // Database Backup/Restore
 $lang = array_merge($lang, array(

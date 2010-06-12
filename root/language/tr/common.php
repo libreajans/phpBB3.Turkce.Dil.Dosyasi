@@ -40,7 +40,10 @@
 // ’ » “ ” …
 //
 
-if (empty($lang) || !is_array($lang)) { $lang = array(); }
+if (empty($lang) || !is_array($lang))
+{
+	$lang = array();
+}
 
 // "sürüm denetimi modülü" tarafından yeni sürüm kontrolü için kullanılması planlanmaktadır. 
 // ayrıntılı bilgi: http://www.phpbbturkiye.net/dil-dosyasi-surum-denetimi-modulu-t14.html
