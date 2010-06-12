@@ -1,4 +1,4 @@
-<?php
+<?php defined('IN_PHPBB') OR die('No direct access allowed.');
 /**
  * @author Sevdin Filiz <angelside@users.sourceforge.net>
  * @copyright (c) 2005 phpBB Group <http://www.phpbb.com>			[phpBB sistemi]
@@ -6,8 +6,6 @@
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
-// değiştirmeyin
-if (!defined('IN_PHPBB')) { exit; }
 if (empty($lang) || !is_array($lang)) { $lang = array(); }
 
 // Database Backup/Restore
