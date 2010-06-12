@@ -1,9 +1,11 @@
 <?php
 /**
-* @version $Id$
-* @author Sevdin Filiz <angelside@users.sourceforge.net>
-* @copyright (c) 2009, Canver Software <http://www.canversoft.net>
-*/
+ * @author Sevdin Filiz <angelside@users.sourceforge.net>
+ * @copyright (c) 2005 phpBB Group <http://www.phpbb.com>			[phpBB sistemi]
+ * @copyright (c) 2010 Canver Software <http://www.canversoft.net>	[tercüme]
+ * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ */
+
 // değiştirmeyin
 if (!defined('IN_PHPBB')) { exit; }
 if (empty($lang) || !is_array($lang)) { $lang = array(); }
