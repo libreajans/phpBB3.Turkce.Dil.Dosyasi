@@ -48,12 +48,12 @@ $lang = array_merge($lang, array(
 		'actions'		=> 'Eylemler',
 		'content'		=> 'İçerik',
 		'forums'		=> 'Forumlar',
-		'misc'			=> 'Diğer', // diğer, çeşitli - Misc
+		'misc'			=> 'Diğer',
 		'permissions'	=> 'İzinler',
 		'pm'			=> 'Özel mesajlar',
 		'polls'			=> 'Anketler',
 		'post'			=> 'İleti',
-		'post_actions'	=> 'İleti hareketleri',//post action
+		'post_actions'	=> 'İleti hareketleri',
 		'posting'		=> 'İleti gönderme',
 		'profile'		=> 'Profil',
 		'settings'		=> 'Ayarlar',
@@ -106,9 +106,9 @@ $lang = array_merge($lang, array(
 
 	'acl_u_sendemail'	=> array('lang' => 'E-posta gönderebilir', 'cat' => 'misc'),
 	'acl_u_sendim'		=> array('lang' => 'Anlık mesaj gönderebilir', 'cat' => 'misc'),
-	'acl_u_ignoreflood'	=> array('lang' => 'Flood limitini geçersiz kılabilir', 'cat' => 'misc'), // Can ignore flood limit
-	'acl_u_hideonline'	=> array('lang' => 'Çevrimiçi durumunu gizleyebilir', 'cat' => 'misc'), // Can hide online status
-	'acl_u_viewonline'	=> array('lang' => 'Kimler çevrimiçi listesinde gizlenmiş olanları görebilir', 'cat' => 'misc'), // Can view hidden online users
+	'acl_u_ignoreflood'	=> array('lang' => 'Flood limitini geçersiz kılabilir', 'cat' => 'misc'),
+	'acl_u_hideonline'	=> array('lang' => 'Çevrimiçi durumunu gizleyebilir', 'cat' => 'misc'),
+	'acl_u_viewonline'	=> array('lang' => 'Kimler çevrimiçi listesinde gizlenmiş olanları görebilir', 'cat' => 'misc'),
 	'acl_u_search'		=> array('lang' => 'Panoda arama yapabilir', 'cat' => 'misc'),
 ));
 
@@ -144,7 +144,7 @@ $lang = array_merge($lang, array(
 	'acl_f_email'		=> array('lang' => 'Konuları e-posta olarak gönderebilir', 'cat' => 'actions'),
 
 	'acl_f_search'		=> array('lang' => 'Arama yapabilir', 'cat' => 'misc'),
-	'acl_f_ignoreflood' => array('lang' => 'Flood limitini kaldırabilir', 'cat' => 'misc'),//can ignore flood limit
+	'acl_f_ignoreflood' => array('lang' => 'Flood limitini kaldırabilir', 'cat' => 'misc'),
 	'acl_f_postcount'	=> array('lang' => 'İleti sayacını arttırabilir<br /><em>Lütfen bu seçeneğin sadece yeni iletileri kapsadığını unutmayınız.</em>', 'cat' => 'misc'),
 	'acl_f_noapprove'	=> array('lang' => 'Onaylama almadan cevap yazabilir', 'cat' => 'misc'),
 ));

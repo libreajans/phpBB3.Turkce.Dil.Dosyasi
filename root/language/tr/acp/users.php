@@ -17,7 +17,7 @@ $lang = array_merge($lang, array(
 	'AT_LEAST_ONE_FOUNDER' 	=> 'Bu kurucu kişiyi normal kullanıcı olarak değiştirmeniz mümkün değildir. Bu pano için en azından bir kurucu olması şarttır. Eğer bu kullanıcının yöneticilik vasfını kaldırmak istiyorsanız, başka bir kullanıcıyı kurucu seviyesine yükseltmeniz gerekmektedir.',
 
 	'BAN_ALREADY_ENTERED'	=> 'Uzaklaştırma bilgisi başarıyla girildi. Uzaklaştırma listesi güncellendi.',
-	'BAN_SUCCESSFUL'		=> 'Uzaklaştırma girişi başarılı.', // Ban entered successfully
+	'BAN_SUCCESSFUL'		=> 'Uzaklaştırma girişi başarılı.',
 
 	'CANNOT_BAN_FOUNDER'			=> 'Kurucu hesabı uzaklaştıramazsınız.',
 	'CANNOT_BAN_YOURSELF'			=> 'Kendinizi uzaklaştıramazsınız.',
@@ -37,7 +37,7 @@ $lang = array_merge($lang, array(
 	'DELETE_USER'			=> 'Kullanıcı sil',
 	'DELETE_USER_EXPLAIN'	=> 'Lütfen dikkat edin. Bir üyeyi silme işleminin geri dönüşü yoktur.',
 
-	'FORCE_REACTIVATION_SUCCESS'	=> 'Tekrar aktiflik zorlaması başarılı.', // Successfully forced re-activation
+	'FORCE_REACTIVATION_SUCCESS'	=> 'Tekrar aktiflik zorlaması başarılı.',
 	'FOUNDER'						=> 'Kurucu',
 	'FOUNDER_EXPLAIN'				=> 'Kurucular tüm yönetimsel yetkilere sahiptirler ve hiçbir zaman uzaklaştırılamazlar, silinemezler veya kurucu olmayan üyeler tarafından değiştirilemezler.',
 	
@@ -72,7 +72,7 @@ $lang = array_merge($lang, array(
 	'USER_ADMIN_AVATAR_REMOVED'		=> 'Avatar kullanıcı hesabından silindi.',
 	'USER_ADMIN_BAN_EMAIL'			=> 'E-postaya göre uzaklaştır',
 	'USER_ADMIN_BAN_EMAIL_REASON'	=> 'E-posta adresi kullanıcı yönetimi ile uzaklaştırıldı',
-	'USER_ADMIN_BAN_IP'				=> 'IP’e göre uzaklaştır', // Ban by IP
+	'USER_ADMIN_BAN_IP'				=> 'IP’ye göre uzaklaştır',
 	'USER_ADMIN_BAN_IP_REASON'		=> 'IP kullanıcı yönetimi ile uzaklaştırıldı',
 	'USER_ADMIN_BAN_NAME_REASON'	=> 'Kullanıcı adı kullanıcı yönetimi ile uzaklaştırıldı',
 	'USER_ADMIN_BAN_USER'			=> 'Kullanıcı adına göre uzaklaştır',
@@ -98,7 +98,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_NORMAL'				=> 'Kullanıcı tanımlandı; bir grup kullanıcısı',
 	'USER_GROUP_PENDING'			=> 'Gruptaki kullanıcılar bekleme modunda',
 	'USER_GROUP_SPECIAL'			=> 'Önceden tanımlanmış bir grup kullanıcısı',
-	'USER_LIFTED_NR'				=> 'Kullanıcının yeni kayıtlı üye durumu başarıyla değiştirildi.',//Successfully removed the user’s newly registered status.
+	'USER_LIFTED_NR'				=> 'Kullanıcının yeni kayıtlı üye durumu başarıyla değiştirildi.',
 	'USER_NO_ATTACHMENTS'			=> 'Gösterilecek herhangi bir iliştirili dosya yok.',
 	'USER_OUTBOX_EMPTIED'			=> 'Kullanıcının özel mesaj gönderilenler klasörü başarıyla boşaltıldı.',
 	'USER_OUTBOX_EMPTY'				=> 'Kullanıcı özel mesaj gönderilenler klasörü zaten boştu.',

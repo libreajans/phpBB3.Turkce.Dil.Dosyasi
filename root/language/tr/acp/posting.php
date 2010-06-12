@@ -18,7 +18,7 @@ $lang = array_merge($lang, array(
 	'ADD_BBCODE'				=> 'Yeni bir biçim kodu ekle',
 
 	'BBCODE_DANGER'				=> 'Oluşturmaya çalıştığınız biçim kodunda bir HTML özniteliği içine bir {TEXT} belirteci yerliştirmeye çalışıyor gibi görünüyorsunuz. Bu olası bir XSS güvenlik açığı oluşturabilir. {SIMPLETEXT} veya {INTTEXT} gibi daha kısıtlayıcı belirteçler kullanmayı deneyiniz. Eğer riski göze alıyorsanız önermediğimiz bu işleme devam edebilirsiniz.',
-	'BBCODE_DANGER_PROCEED'		=> 'Devam', //'I understand the risk',
+	'BBCODE_DANGER_PROCEED'		=> 'Devam', // I understand the risk',
 	
 	'BBCODE_ADDED'				=> 'Biçim kodu eklendi.',
 	'BBCODE_EDITED'				=> 'Biçim kodu düzenlendi.',
@@ -75,18 +75,18 @@ $lang = array_merge($lang, array(
 
 	'CODE'						=> 'Kod',
 	'CURRENT_ICONS'				=> 'Geçerli ikonlar',
-	'CURRENT_ICONS_EXPLAIN'		=> 'Mevcut bulunan ikonlara ne yapacağınızı seçiniz', //Choose what to do with the currently installed icons
+	'CURRENT_ICONS_EXPLAIN'		=> 'Mevcut bulunan ikonlara ne yapacağınızı seçiniz',
 	'CURRENT_SMILIES'			=> 'Geçerli ifadeler',
-	'CURRENT_SMILIES_EXPLAIN'	=> 'Mevcut bulunan ifadelere ne yapacağınızı seçiniz',//'Choose what to do with the currently installed smilies',
+	'CURRENT_SMILIES_EXPLAIN'	=> 'Mevcut bulunan ifadelere ne yapacağınızı seçiniz',
 
 	'DISPLAY_ON_POSTING'		=> 'Gönderim sayfasında göster',
-	'DISPLAY_POSTING'			=> 'Gönderim sayfasında', // On posting page
-	'DISPLAY_POSTING_NO'		=> 'Gönderim sayfasında değil', // Not on posting page
+	'DISPLAY_POSTING'			=> 'Gönderim sayfasında',
+	'DISPLAY_POSTING_NO'		=> 'Gönderim sayfasında değil',
 
-	'EDIT_ICONS'				=> 'İkonları düzenle', // Edit icons
-	'EDIT_SMILIES'				=> 'İfadeleri düzenle', // Edit smilies
+	'EDIT_ICONS'				=> 'İkonları düzenle',
+	'EDIT_SMILIES'				=> 'İfadeleri düzenle',
 	'EMOTION'					=> 'İfade',
-	'EXPORT_ICONS'				=> 'icons.pak ihraç et ve indir', // Export and download icons.pak
+	'EXPORT_ICONS'				=> 'icons.pak ihraç et ve indir',
 	'EXPORT_ICONS_EXPLAIN'		=> '%sBu bağlantıyı tıkladığınızda yerleştirilen iconlar için "icons.pak" <samp>icons.pak</samp> isminde bir yükleme paketi oluşturulacaktır. Oluşturulan bu dosyanın formatı bu iki uzantıda olabilir <samp>.zip</samp> veya <samp>.tgz</samp> ifade içeriklerini<samp>icons.pak</samp> dosyala%s.',
 	'EXPORT_SMILIES'			=> 'smilies.pak ihraç et ve indir',
 	'EXPORT_SMILIES_EXPLAIN'	=> '%sBu bağlantıyı tıkladığınızda yerleştirilen ifadeler için "smilies.pak" isminde bir yükleme paketi oluşturulacaktır <samp>smilies.pak</samp> Oluşturulan bu dosyanın formatı şu iki uzantıda olabilir <samp>.zip</samp> veya <samp>.tgz</samp> ifade içeriklerini <samp>smilies.pak</samp> dosyala%s.',
@@ -128,9 +128,9 @@ $lang = array_merge($lang, array(
 	'NO_SMILIES_EXPORT'	=> 'Bir paket oluşturacak herhangi bir ifadeniz yok.',
 	'NO_SMILIES_PAK'	=> 'İfade paketi bulunamadı.',
 
-	'PAK_FILE_NOT_READABLE'	=> '<samp>.pak</samp> dosyası okunamadı.', // Could not read <samp>.pak</samp> file
+	'PAK_FILE_NOT_READABLE'	=> '<samp>.pak</samp> dosyası okunamadı.',
 
-	'REPLACE_MATCHES'	=> 'Eşleşenlerin üzerine yaz', //Replace matches 
+	'REPLACE_MATCHES'	=> 'Eşleşenlerin üzerine yaz',
 
 	'SELECT_PACKAGE'			=> 'Bir paket dosyası seçiniz',
 	'SMILIES_ADD'				=> 'Yeni bir ifade ekle',
@@ -172,7 +172,7 @@ $lang = array_merge($lang, array(
 
 	'NO_WORD'		=> 'Değiştirmek için herhangi bir kelime seçilmedi.',
 
-	'REPLACEMENT'	=> 'Yerine konacak', // -
+	'REPLACEMENT'	=> 'Yerine konacak',
 
 	'UPDATE_WORD'	=> 'Kelime sansürünü güncelle',
 
@@ -191,11 +191,11 @@ $lang = array_merge($lang, array(
 	
 	'NO_ASSIGNED_RANK'		=> 'Özel seviye atanmadı.',
 	'NO_RANK_TITLE'			=> 'Seviye için bir başlık belirtilmedi.',
-	'NO_UPDATE_RANKS'		=> 'Seviye başarıyla silindi. Ancak bu seviyeyi kullanan hesaplar değiştirilmedi. Bu hesapları elle değiştirmek zorundasınız.', //The rank was successfully deleted. However user accounts using this rank were not updated. You will need to manually reset the rank on these accounts.',
+	'NO_UPDATE_RANKS'		=> 'Seviye başarıyla silindi. Ancak bu seviyeyi kullanan hesaplar değiştirilmedi. Bu hesapları elle değiştirmek zorundasınız.',
 
 	'RANK_ADDED'			=> 'Seviye eklendi.',
 	'RANK_IMAGE'			=> 'Seviye resmi',
-	'RANK_IMAGE_EXPLAIN'	=> 'Geçerli seviye için bir resim eklemek için bunu kullanın. Belirteceğiniz resmin dizin yolu phpBB’nin kurulu olduğu dizinde olmalıdır.', //Use this to define a small image associated with the rank. The path is relative to the root phpBB directory.',
+	'RANK_IMAGE_EXPLAIN'	=> 'Geçerli seviye için bir resim eklemek için bunu kullanın. Belirteceğiniz resmin dizin yolu phpBB’nin kurulu olduğu dizinde olmalıdır.',
 	'RANK_IMAGE_IN_USE'		=> '(Kullanımda)', // In use
 	'RANK_MINIMUM'			=> 'En az ileti',
 	'RANK_REMOVED'			=> 'Seviye silindi.',
@@ -211,25 +211,25 @@ $lang = array_merge($lang, array(
 	'ADD_DISALLOW_EXPLAIN'	=> 'Herhangi bir joker karakteri * kullanıcı isimlerine engel olmak için kullanabilirsin.',
 	'ADD_DISALLOW_TITLE'	=> 'Yasaklı bir kullanıcı adı ekle',
 
-	'DELETE_DISALLOW_EXPLAIN'	=> 'Bu listeden yasaklı kullanıcıları kaldırabilirsiniz.', //-Acaba yasağı mı kaldırabilirsin diyor?- You can remove a disallowed username by selecting the username from this list and clicking submit',
+	'DELETE_DISALLOW_EXPLAIN'	=> 'Bu listeden yasaklı kullanıcıları kaldırabilirsiniz.', // - Acaba yasağı mı kaldırabilirsin diyor?- You can remove a disallowed username by selecting the username from this list and clicking submit',
 	'DELETE_DISALLOW_TITLE'		=> 'Yasaklı kullanıcı adını kaldır.',
-	'DISALLOWED_ALREADY'		=> 'Girdiğiniz isim yasaklanamıyor. Olası nedenler: "İsim zaten yasaklılar listesinde, girdiğiniz kelime sansürlü kelimeler listesinde, bir kullanıcı halen bu ismi kullanıyor" olabilir.', //The name you entered could not be disallowed. It either already exists in the list, exists in the word censor list, or a matching username is present.',
+	'DISALLOWED_ALREADY'		=> 'Girdiğiniz isim yasaklanamıyor. Olası nedenler: "İsim zaten yasaklılar listesinde, girdiğiniz kelime sansürlü kelimeler listesinde, bir kullanıcı halen bu ismi kullanıyor" olabilir.',
 	'DISALLOWED_DELETED'		=> 'Yasaklı kullanıcı adı kaldırıldı.',
 	'DISALLOW_SUCCESSFUL'		=> 'Yasaklı kullanıcı adı eklendi.',
 
 	'NO_DISALLOWED'				=> 'Yasaklı kullanıcı adı yok',
-	'NO_USERNAME_SPECIFIED'		=> 'İşlem yapmak için bir kullanıcı adı seçmediniz.', //You haven’t selected or entered a username to operate with.',
+	'NO_USERNAME_SPECIFIED'		=> 'İşlem yapmak için bir kullanıcı adı seçmediniz.',
 ));
 
 // Reasons
 $lang = array_merge($lang, array(
 	'ACP_REASONS_EXPLAIN'	=> 'Buradan iletileri kabul etmediğiniz durumlarda raporlarda ve red mesajlarında kullanılanılacak olan nedenleri yönetebilirsiniz. Varsayılan olarak gelen sadece bir neden (* ile işaretlenmiştir) bulunmaktadır ve kaldırılamaz. Genel içerikli mesajlarda kullanılır ve bir nedene uymayan iletiler için uygundur.',
 	'ADD_NEW_REASON'		=> 'Yeni sebep ekle',
-	'AVAILABLE_TITLES'		=> 'Geçerli yerel nedenler.', //Available localized reason titles',
+	'AVAILABLE_TITLES'		=> 'Geçerli yerel nedenler.',
 
-	'IS_NOT_TRANSLATED'			=> 'Sebep yerelleştirilmedi.', // Reason has <strong>not</strong> been localised
+	'IS_NOT_TRANSLATED'			=> 'Sebep yerelleştirilmedi.',
 	'IS_NOT_TRANSLATED_EXPLAIN'	=> 'Sebep yeri <strong>mevcut değil</strong>. Eğer yerel form sağlamak istiyorsanız, dil dosyası rapor sebep kısmından doğru anahtarları belirtin.',
-	'IS_TRANSLATED'				=> 'Sebep yerelleştirildi.', //Reason has been localised
+	'IS_TRANSLATED'				=> 'Sebep yerelleştirildi.',
 	'IS_TRANSLATED_EXPLAIN'		=> 'Sebep yeri mevcut. Eğer buraya girdiğiniz başlık dil dosyası rapor sebep kısmında belirlendiyse, başlık ve açıklama yerel form olarak kullanılacaktır.',
 
 	'NO_REASON'					=> 'Sebep bulunamadı.',

@@ -21,24 +21,10 @@
 // phpBB Türkiye, phpBB3 Türkçe dil dosyası hata bildirim forumu
 // http://www.phpbbturkiye.net/hata-raporlari-f93/
 //
-// -------------------------------------------------------------------------------------
-
-
-// DEVELOPERS PLEASE NOTE
 //
-// All language files should use UTF-8 as their encoding and the files must not contain a BOM.
-//
-// Placeholders can now contain order information, e.g. instead of
-// 'Page %s of %s' you can (and should) write 'Page %1$s of %2$s', this allows
-// translators to re-order the output of data while ensuring it remains correct
-//
-// You do not need this where single placeholders are used, e.g. 'Message %d' is fine
-// equally where a string contains only two placeholders which are used to wrap text
-// in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
-//
-// Some characters you may want to copy&paste: 
+// Some characters you may want to copy&paste:
 // ’ » “ ” …
-//
+// -------------------------------------------------------------------------------------
 
 if (empty($lang) || !is_array($lang))
 {
@@ -185,7 +171,7 @@ $lang = array_merge($lang, array(
 	'ENCLOSURE'							=> 'Çevir',
 	'ERR_CHANGING_DIRECTORY'			=> 'Dizin değiştirilemiyor.',
 	'ERR_CONNECTING_SERVER'				=> 'Sunucuya bağlanırken hata oluştu.',
-	'ERR_JAB_AUTH'						=> 'Jabber sunucusu kimliğinizi onaylamadı.', //  Could not authorise on Jabber server
+	'ERR_JAB_AUTH'						=> 'Jabber sunucusu kimliğinizi onaylamadı.',
 	'ERR_JAB_CONNECT'					=> 'Jabber sunucuya bağlanılamadı.',
 	'ERR_UNABLE_TO_LOGIN'				=> 'Yazılan kullanıcı adı veya parola geçersiz.',
 	'ERR_UNWATCHING'					=> 'Aboneliği iptal etmeyi denerken bir hata oluştu.',
@@ -216,7 +202,7 @@ $lang = array_merge($lang, array(
 	'FORUM_LOCKED'			=> 'Forum kilitli',
 	'FORUM_RULES'			=> 'Forum kuralları',
 	'FORUM_RULES_LINK'		=> 'Forum kurallarını görmek için buraya tıklayın',
-	'FROM'					=> 'kimden', // from
+	'FROM'					=> 'kimden',
 	'FSOCK_DISABLED'		=> 'Çalışma tamamlanamadı, çünkü <var>fsockopen</var> fonksiyonu engellenmiş veya sunucu tarafından sorgulanamıyor.',
 
 	'FTP_FSOCK_HOST'				=> 'FTP sunucusu',
@@ -290,11 +276,11 @@ $lang = array_merge($lang, array(
 	'IMAGE'						=> 'Resim',
 	'IMAGE_FILETYPE_INVALID'	=> '%d resim dosya tipi, mimetype %s için desteklenmiyor.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Resim dosya tipi uyumsuz: beklenen uzantı %1$s fakat %2$s uzantısı belirlenmiş.',
-	'IN'						=> ' - ', // in  ALEXIS: sadece tire koydum
+	'IN'						=> ' - ', // in
 	'INDEX'						=> 'Pano anasayfası',
 	'INFORMATION'				=> 'Bilgi',
 	'INTERESTS'					=> 'İlgi alanları',
-    'INVALID_DIGEST_CHALLENGE'	=> 'Geçersiz derleme sorgusu.', //Invalid digest challenge
+    'INVALID_DIGEST_CHALLENGE'	=> 'Geçersiz derleme sorgusu.',
 	'INVALID_EMAIL_LOG'			=> '<strong>%s</strong> belki geçersiz bir e-posta adresi?', 
 	'IP'						=> 'IP',
 	'IP_BLACKLISTED'			=> '%1$s IP adresi, kara listede olması sebebiyle engellenmiş. Detaylar için bakabilirsiniz: <a href="%2$s">%2$s</a>.',
@@ -366,8 +352,8 @@ $lang = array_merge($lang, array(
 	'NEW_PMS'					=> '<strong>%d</strong> yeni özel mesaj',
 	'NEW_POST'					=> 'Yeni ileti',
 	'NEW_POSTS'					=> 'Yeni iletiler',
-	'NEXT'						=> 'Sonraki', // pagination fonksiyonunda kullanılıyor
-	'NEXT_STEP'					=> 'Sonraki',
+	'NEXT'						=> 'Sonraki', // sayfalama fonksiyonunda kullanılıyor
+	'NEXT_STEP'					=> 'Sonraki', // "sonraki aşama" anlamında
 	'NEVER'						=> 'Asla',
 	'NO'						=> 'Hayır',
 	'NOT_ALLOWED_MANAGE_GROUP'	=> 'Bu grubu yönetme yetkiniz bulunmamamaktadır.', 
@@ -380,7 +366,7 @@ $lang = array_merge($lang, array(
 	'NO_ACTION'					=> 'Hiçbir işlem belirtilmedi.',
 	'NO_ADMINISTRATORS'			=> 'Yönetici mevcut değil.',
 	'NO_AUTH_ADMIN'				=> 'Yönetici izinlerine sahip değilsiniz ve bu yüzden yönetim paneline erişim izniniz yok.',
-	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Bir başka kullanıcıyı yeniden doğrulamanız mümkün değildir.', // sabri ünalın yorumu
+	'NO_AUTH_ADMIN_USER_DIFFER'	=> 'Bir başka kullanıcıyı yeniden doğrulamanız mümkün değildir.',
 	'NO_AUTH_OPERATION'			=> 'Bu işlemi tamamlamak için gerekli izinleriniz yok.',
 	'NO_CONNECT_TO_SMTP_HOST'	=> 'SMTP sunucusuna bağlanılamadı : %1$s : %2$s',
 	'NO_BIRTHDAYS'				=> 'Bugün doğum günü olan kullanıcımız yok.',
@@ -407,8 +393,8 @@ $lang = array_merge($lang, array(
 	'NO_SUBJECT'				=> 'Hiçbir konu belirtmedi',
 	'NO_SUCH_SEARCH_MODULE'		=> 'Seçilen arama türü bulunamadı.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Desteklenmeyen doğrulama metodu.',
-	'NO_TOPIC'					=> 'Talep edilen konu mevcut değil.', //The requested topic does not exist
-	'NO_TOPIC_FORUM'			=> 'Konu veya forum mevcut değil.', // The topic or forum no longer exists
+	'NO_TOPIC'					=> 'Talep edilen konu mevcut değil.',
+	'NO_TOPIC_FORUM'			=> 'Konu veya forum mevcut değil.',
 	'NO_TOPICS'					=> 'Bu forumda hiçbir konu veya ileti mevcut değil.',
 	'NO_TOPICS_TIME_FRAME'		=> 'Bu forum içinde, seçilen zaman çerçevesine ait konu mevcut değil.', 
 	'NO_UNREAD_PM'				=> '<strong>0</strong> okunmamış mesaj',
@@ -445,10 +431,10 @@ $lang = array_merge($lang, array(
 	'POST_STICKY'				=> 'Sabit',
 	'POSTED'					=> 'Tarih',
 	'POSTED_IN_FORUM'			=> 'forumda',
-	'POSTED_ON_DATE'			=> '', // tarih - ALEXIS boş bıraktı
+	'POSTED_ON_DATE'			=> '', // tarih - boş bırakıldı
 	'POSTS'						=> 'İleti',
 	'POSTS_UNAPPROVED'			=> 'Bu konuda en az bir ileti onaylanmadı.',
-	'POST_BY_AUTHOR'			=> '', // by / gönderen - ALEXIS boş bıraktı
+	'POST_BY_AUTHOR'			=> '', // by / gönderen - boş bırakıldı
 	'POST_BY_FOE'				=> 'Bu ileti engelli listenizde olan <strong>%1$s</strong> tarafından yazılmış. İletiyi görmek için %2$sburaya%3$s tıklayın.',
 	'POST_DAY'					=> 'Günlük ileti: %.2f',
 	'POST_DETAILS'				=> 'İleti detayları',
@@ -463,7 +449,7 @@ $lang = array_merge($lang, array(
 	'POST_TOPIC'				=> 'Yeni bir konu gönder',
 	'POST_UNAPPROVED'			=> 'Bu ileti onay bekliyor',
 	'PREVIEW'					=> 'Önizleme',
-	'PREVIOUS'					=> 'Önceki', // pagination fonksiyonunda kullanılıyor
+	'PREVIOUS'					=> 'Önceki', // sayfalama fonksiyonunda kullanılıyor
 	'PREVIOUS_STEP'				=> 'Önceki', // "önceki aşama" anlamında
 	'PRIVACY'					=> 'Gizlilik ilkeleri',
 	'PRIVATE_MESSAGE'			=> 'Özel mesaj',
@@ -539,7 +525,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_FOR'				=> 'Arama',
 	'SEARCH_FORUM'				=> 'Bu forumda ara…',	
 	'SEARCH_NEW'				=> 'Yeni iletiler',
-	'SEARCH_POSTS_BY'			=> 'Gönderene göre ara', // Search posts by
+	'SEARCH_POSTS_BY'			=> 'Gönderene göre ara',
 	'SEARCH_SELF'				=> 'Kendi iletileriniz',
 	'SEARCH_TOPIC'				=> 'Bu konuda ara…',
 	'SEARCH_UNANSWERED'			=> 'Cevapsız iletiler',
@@ -549,7 +535,7 @@ $lang = array_merge($lang, array(
 	'SELECT_ALL_CODE'			=> 'Tümünü seç',
 	'SELECT_DESTINATION_FORUM'	=> 'Lütfen bir hedef forum seçiniz',
 	'SELECT_FORUM'				=> 'Forum seçiniz',
-	'SEND_EMAIL'				=> 'E-posta', // Used for submit buttons
+	'SEND_EMAIL'				=> 'E-posta', // "gönder" butonu için kullanılıyor
 	'SEND_EMAIL_USER'			=> 'E-posta', // Used as: {L_SEND_EMAIL_USER} {USERNAME} -> E-mail UserX
 	'SEND_PRIVATE_MESSAGE'		=> 'Özel mesaj gönder',
 	'SETTINGS'					=> 'Ayarlar',
@@ -688,8 +674,8 @@ $lang = array_merge($lang, array(
 	'VIEW_LATEST_POST'			=> 'Son iletiyi göster',
 	'VIEW_NEWEST_POST'			=> 'İlk okunmamış iletiyi göster',
 	'VIEW_NOTES'				=> 'Üye notları',
-	'VIEW_ONLINE_TIME'			=> 'son %d dakika içinde aktif olan kullanıcılara dayanmaktadır.', // ALEXIS: küçük harf ile başlıyor
-	'VIEW_ONLINE_TIMES'			=> 'son %d dakika içinde aktif olan kullanıcılara dayanmaktadır.', // ALEXIS: küçük harf ile başlıyor
+	'VIEW_ONLINE_TIME'			=> 'son %d dakika içinde aktif olan kullanıcılara dayanmaktadır.', // küçük harf ile başlıyor
+	'VIEW_ONLINE_TIMES'			=> 'son %d dakika içinde aktif olan kullanıcılara dayanmaktadır.', // küçük harf ile başlıyor
 	'VIEW_TOPIC'				=> 'Konuyu görüntüle',
 	'VIEW_TOPIC_ANNOUNCEMENT'	=> 'Duyuru: ',
 	'VIEW_TOPIC_GLOBAL'			=> 'Genel Duyuru: ',
@@ -712,7 +698,7 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_JABBER'		=> 'Girdiğiniz isim geçerli bir Jabber hesap adı değil.',
 	'WRONG_DATA_LANG'		=> 'Belirtilen dil geçerli değil.',
 	'WRONG_DATA_WEBSITE'	=> 'Web site adresi geçerli bir adres değil, protokol dahil edilmelidir. Örneğin: http://www.phpbbturkiye.net/.',
-	'WROTE'					=> 'yazdı', // küçük harf ile başlıyor değiştirmeyin !
+	'WROTE'					=> 'yazdı', // küçük harf ile başlıyor
 
 	'YEAR'				=> 'Yıl',
     'YEAR_MONTH_DAY'	=> '(YYYY-AA-GG)', 
@@ -728,7 +714,7 @@ $lang = array_merge($lang, array(
 		'TOMORROW'	=> 'Yarın',
 		'YESTERDAY'	=> 'Dün',
 		'AGO'		=> array(
-			0		=> 'bir dakikadan az', // less than a minute ago
+			0		=> 'bir dakikadan az',
 			1		=> '%d dakika önce',
 			2		=> '%d dakika önce',
 			60		=> '1 saat önce',
@@ -877,7 +863,7 @@ $lang = array_merge($lang, array(
 
 	// Varsayılan biçim, sadece kurulum sırasında kullanılır.
 	// Uygun gördüğünüz başka bir saat biçimi ile değiştirebilirsiniz
-	'default_dateformat'	=> 'D M d, Y g:i a', // Pts Oca 01, 2007 1:37 ös
+	'default_dateformat'	=> 'd M Y, H:i', // 01 Oca 2007, 13:37
 ));
 
 ?>

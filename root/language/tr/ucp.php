@@ -29,7 +29,7 @@ $lang = array_merge($lang, array(
 	Sizin hesabınız size özel belirleyici bir salt ad (bundan sonra "Kullanıcı adı" olarak anılacaktır), giriş için bir parola (bundan sonra "parolanız" olarak anılacaktır), ve kişisel ve geçerli bir e-posta adresiniz (bundan sonra "e-postanız" olarak anılacaktır) ile sınırlandırılacaktır. “%1$s” mesaj panosu üzerindeki hesabınıza ait bilgiler yaşadığınız ülkenin veri koruma yasalarıyla korunmaktadır. “%1$s” mesaj panosu kayıt olma sürecinde adınız, parolanız ve e-posta gibi gerekli bilgiler dışında kalan ve zorunlu ya da tercihe bağlı olan bilgiler konumuz dışındadır. Dahası, hesabınız içinde, phpBB yazılımı tarafından otomatik olarak oluşturulan e-postalar için opt-in ya da opt-out of seçeneğine de sahipsiniz.<br /> 
 	<br />
 	Parolanız şifrelenmiştir, yani güvendedir (tek yönlü şifreleme). Ancak yine de, aynı parolayı birden fazla farklı sitede kullanmanız önerilmez. Parolanız  “%1$s” altında bulunan hesabınıza ulaşma yolunuzdur,bu yüzden parolanızı iyi koruyunuz ve hiçbir şart altında “%1$s”, phpBB ya da başka bir üçüncü parti yazılım tarafından talep edilmeyecektir.  Hesabınızın parolasını unuttuğunuzda, “Parolamı unuttum” özelliği phpBB yazılımı tarafından sağlanmaktadır. Bu yöntem sizden e-posta adresinizi ve kullanıcı adınızı doğrulamanızı isteyecektir. Sonrasında, phpBB yazılımı hesabınızı kurtarmak için yeni bir parola oluşturacaktır.<br />
-	', //48. satırdaki opt-in opt-out hakkında bir fikrim olmadığı için olduğu gibi bıraktım.
+	', // opt-in opt-out hakkında bir fikrim olmadığı için olduğu gibi bıraktım.
 ));
 
 // dil değişkenleri
@@ -138,7 +138,7 @@ $lang = array_merge($lang, array(
 	'DELETE_MESSAGES_IN_FOLDER'	=> 'Klasör ile birlikte tüm mesajları sil',
 	'DELETE_RULE'				=> 'Kuralı sil',
 	'DELETE_RULE_CONFIRM'		=> 'Bu kuralı silmek istediğinizden emin misiniz?',
-	'DEMOTE_SELECTED'			=> 'Grup liderliğinden ayrıl', // Seçilenin rütbesini düşür', //kontrol edilecek
+	'DEMOTE_SELECTED'			=> 'Grup liderliğinden ayrıl', // Seçilenin rütbesini düşür
 	'DISABLE_CENSORS'			=> 'Kelime sansürüne izin ver',
 	'DISPLAY_GALLERY'			=> 'Galeriyi göster',
 	'DOMAIN_NO_MX_RECORD_EMAIL'	=> 'Girilen e-posta alan adının MX kaydı geçerli değil.',
@@ -182,7 +182,7 @@ $lang = array_merge($lang, array(
 	'FOLDER_RENAMED'			=> 'Klasör yeniden adlandırıldı.',
 	'FOLDER_REMOVED'			=> 'Klasör silindi.',
 	'FOLDER_STATUS_MSG'			=> 'Klasör %1$d%% dolu (%3$d mesaj kapasitesi, %2$d mesaj var)',
-	'FORWARD_PM'				=> 'Özel mesajı sevket', // ÖM sevket
+	'FORWARD_PM'				=> 'Özel mesajı sevket',
 	'FORCE_PASSWORD_EXPLAIN'	=> 'Panoyu dolaşmaya devam etmeden önce parolanızı değiştirmelisiniz.',
 	'FRIEND_MESSAGE'			=> 'Arkadaştan mesaj',
 	'FRIENDS'					=> 'Arkadaşlar',
@@ -202,7 +202,7 @@ $lang = array_merge($lang, array(
 	'HIDE_ONLINE'				=> 'Çevrimiçi durumumu gizle',
 	'HIDE_ONLINE_EXPLAIN'		=> 'Bu özellikte yapılan değişiklikler panoyu bir dahaki ziyaretinizde etkin olacaktır.',
 	'HOLD_NEW_MESSAGES'			=> 'Yeni mesaj kabul etme (Yeni mesajlar yeterli alan sağlanana kadar tutulacaktır.)',
-	'HOLD_NEW_MESSAGES_SHORT'	=> 'Yeni mesajlar kısaltılacak',//New messages will be held back  held=tutmak  short= kısa yeni mesajlar tutulacak
+	'HOLD_NEW_MESSAGES_SHORT'	=> 'Yeni mesajlar kısaltılacak',
 
 	'IF_FOLDER_FULL'			=> 'Eğer klasör dolu ise',
 	'IMPORTANT_NEWS'			=> 'Önemli duyurular',
@@ -235,10 +235,10 @@ $lang = array_merge($lang, array(
 	'MESSAGE_STORED'				=> 'Mesaj gönderildi.',
 	'MESSAGE_TO'					=> 'Kime',
 	'MESSAGES_DELETED'				=> 'Mesajlar silindi.',
-	'MOVE_DELETED_MESSAGES_TO'		=> 'Silinen klasördeki mesajları taşı', //Move messages from removed folder to
+	'MOVE_DELETED_MESSAGES_TO'		=> 'Silinen klasördeki mesajları taşı',
 	'MOVE_DOWN'						=> 'Aşağı taşı',
 	'MOVE_MARKED_TO_FOLDER'			=> 'İşaretlileri taşı %s',
-	'MOVE_PM_ERROR'					=> 'Mesajları yeni klasöre taşırken hata oluştu, %2d mesajın %1d tanesi taşınabildi.', //An error occurred while moving the messages to the new folder, only %1d from %2d messages were moved.
+	'MOVE_PM_ERROR'					=> 'Mesajları yeni klasöre taşırken hata oluştu, %2d mesajın %1d tanesi taşınabildi.',
 	'MOVE_TO_FOLDER'				=> 'Klasöre taşı',
 	'MOVE_UP'						=> 'Yukarı taşı',
 
@@ -350,7 +350,7 @@ $lang = array_merge($lang, array(
 	'RENAME'							=> 'Yeniden adlandır',
 	'RENAME_FOLDER'						=> 'Klasörü yeniden adlandır',
 	'REPLIED_MESSAGE'					=> 'Cevaplanmış mesaj',
-	'REPLY_TO_ALL'						=> 'Göndereni ve tüm alıcıları cevapla', // Reply to sender and all recipients
+	'REPLY_TO_ALL'						=> 'Göndereni ve tüm alıcıları cevapla',
 	'REPORT_PM'							=> 'Özel mesajı rapor et',
 	'RESIGN_SELECTED'					=> 'Seçilen gruptan ayrıl',
 	'RETURN_FOLDER'						=> '%1$sÖnceki klasöre geri dön%2$s',
@@ -365,7 +365,7 @@ $lang = array_merge($lang, array(
 	'SAME_PASSWORD_ERROR'		=> 'Oluşturmak istediğiniz parola eskisiyle aynı.',
 	'SEARCH_YOUR_POSTS'			=> 'iletilerinize bakın',
 	'SEND_PASSWORD'				=> 'Parola gönder',
-	'SENT_AT'					=> 'Tarih', // Sent // Used before dates in private messages
+	'SENT_AT'					=> 'Tarih', // Sent
 	'SHOW_EMAIL'				=> 'Kullanıcılar benimle e-posta ile iletişim kurabilir',
 	'SIGNATURE_EXPLAIN'			=> 'Buraya yazacağınız metin iletinize eklenecektir. Kullanabileceğiniz karakter limiti %d karakterdir.',
 	'SIGNATURE_PREVIEW'			=> 'Gönderdiğiniz mesajlarda imzanız burdaki gibi gösterilecek',
@@ -436,7 +436,7 @@ $lang = array_merge($lang, array(
 	'UCP_ZEBRA'								=> 'Arkadaş &amp; yasaklılar',
 	'UCP_ZEBRA_FOES'						=> 'Yasaklılar',
 	'UCP_ZEBRA_FRIENDS'						=> 'Arkadaşlar',
-	'UNDISCLOSED_RECIPIENT'					=> 'Kimliği gizli', // Undisclosed Recipient
+	'UNDISCLOSED_RECIPIENT'					=> 'Kimliği gizli',
 	'UNKNOWN_FOLDER'						=> 'Bilinmeyen klasör',
 	'UNWATCH_MARKED'						=> 'İzlemeyi bırak',
 	'UPLOAD_AVATAR_FILE'					=> 'Bilgisayarınızdan yükleyin',

@@ -32,7 +32,7 @@ $lang = array_merge($lang, array(
 		<p>phpBB3 panonuzdaki izinlerin kurulması ve yönetilmesini sağlamak hakkında daha fazla bigi edinmek isterseniz, hızlı başlangıç rehberindeki <a  href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5 of our Quick Start Guide</a> bölümüne bakınız.</p>
 	',
 
-	'ACL_NEVER'				=> 'Asla', // Never
+	'ACL_NEVER'				=> 'Asla',
 	'ACL_SET'				=> 'İzin ayarları',
 	'ACL_SET_EXPLAIN'		=> 'İzinler basit bir <samp>EVET</samp>/<samp>HAYIR</samp> sistem tabanlıdır. Bir kullanıcı veya grup için <samp>ASLA</samp> seçeneği ayarlanırsa, onun için atanan herhangi başka bir değere önem verilmez. Eğer bu değerlerin kullanıcılar ya da kullanıcı gruplarındaki ayarların yerini almasını istemiyorsanız <samp>HAYIR</samp> seçeneğini seçin. Eğer değerler bu seçenek için başka bir yerde ayarlanırsa tercih olarak seçilen kabul edilecektir, aksi takdirde <samp>ASLA</samp> olarak kabul edilecektir. Tüm öğeler (önlerindeki seçme kutusuyla) işaretlendiğinde, belirlediğiniz izin ayarı kopyalanacaktır.',
 	'ACL_SETTING'			=> 'Ayarlar',
@@ -49,7 +49,7 @@ $lang = array_merge($lang, array(
 	'ACL_TYPE_LOCAL_F_'		=> 'Forum izinleri',
 	
 	'ACL_NO'				=> 'Hayır',
-	'ACL_VIEW'				=> 'Görüntüleme izinleri', // Viewing permissions
+	'ACL_VIEW'				=> 'Görüntüleme izinleri',
 	'ACL_VIEW_EXPLAIN'		=> 'Burada kullanıcıların/grupların geçerli izinlerini göreceksiniz. Kırmızı kareler kullanıcıların/grupların izinsiz olduğunu, yeşil kareler ise kullanıcıların/grupların izinli olduğunu belirtir', 
 	'ACL_YES'				=> 'Evet',
 
@@ -99,7 +99,7 @@ $lang = array_merge($lang, array(
 	'DEFAULT'					=> 'Varsayılan',
 	'DELETE_ROLE'				=> 'Rolü sil',
 	'DELETE_ROLE_CONFIRM'		=> 'Bu rolü silmek istediğinizden emin misiniz? Bu rol atanmış öğeler kendilerinin izin ayarlarını <strong>kaybetmeyecektir</strong>.',
-	'DISPLAY_ROLE_ITEMS'		=> 'Bu rolü kullanan maddeleri göster', //  View items using this role
+	'DISPLAY_ROLE_ITEMS'		=> 'Bu rolü kullanan maddeleri göster',
 
 	'EDIT_PERMISSIONS'			=> 'İzinleri değiştir',
 	'EDIT_ROLE'					=> 'Rolü değiştir',
@@ -248,13 +248,13 @@ $lang = array_merge($lang, array(
 	'TRACE_TOTAL'							=> 'Toplam',
 
 	'USERS_NOT_ASSIGNED'			=> 'Bu rol için kullanıcı atanmadı',
-	'USER_IS_MEMBER_OF_DEFAULT'		=> 'aşağıdaki ön tanımlı atanan grupların üyesidir', // is a member of the following pre-defined groups
-	'USER_IS_MEMBER_OF_CUSTOM'		=> 'aşağıdaki grupların üyesidir', // is a member of the following user defined groups
+	'USER_IS_MEMBER_OF_DEFAULT'		=> 'aşağıdaki ön tanımlı atanan grupların üyesidir',
+	'USER_IS_MEMBER_OF_CUSTOM'		=> 'aşağıdaki grupların üyesidir',
 
-	'VIEW_ASSIGNED_ITEMS'	=> 'Atanan öğlere bak', // View assigned items
+	'VIEW_ASSIGNED_ITEMS'	=> 'Atanan öğlere bak',
 	'VIEW_LOCAL_PERMS'		=> 'Yerel izinler',
 	'VIEW_GLOBAL_PERMS'		=> 'Genel izinler',
-	'VIEW_PERMISSIONS'		=> 'İzinleri görüntüle', // View permissions
+	'VIEW_PERMISSIONS'		=> 'İzinleri görüntüle',
 
 	'WRONG_PERMISSION_TYPE'				=> 'Yanlış izin tipi seçildi.',
 	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'İzin ayarları geçersiz bir biçimdedir, phpBB doğru olarak işlem yapmayacaktır.',

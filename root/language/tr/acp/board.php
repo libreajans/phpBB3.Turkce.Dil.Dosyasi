@@ -155,7 +155,7 @@ $lang = array_merge($lang, array(
 	'MAX_POST_URLS_EXPLAIN'			=> 'Bir konuda izin verilen en fazla bağlantı sınırı. Bağlantı sınırı koymamak için 0 yazın.',
 	'MIN_CHAR_LIMIT'				=> 'İleti/mesaj başına minimum karakter',
 	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'Kullanıcının bir ileti veya özel mesajda kullanması gerekli minimum karakter sayısı.',
-	'POSTING'						=> 'Gönderim seçenekleri',//posting // ileti seçenekleri için legend bu
+	'POSTING'						=> 'Gönderim seçenekleri', // ileti seçenekleri için legend bu
 	'POSTS_PER_PAGE'				=> 'Sayfa başına ileti',
 	'QUOTE_DEPTH_LIMIT'				=> 'Mesajlarda iç içe geçmiş en fazla alıntı sayısı',
 	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Mesajda iç içe geçmiş en fazla alıntı sayısıdır. Sınırsız olması için 0 olarak ayarlayın.',
@@ -193,10 +193,10 @@ $lang = array_merge($lang, array(
 	'NEW_MEMBER_POST_LIMIT_EXPLAIN'	=> 'Yeni üyeler bu ileti sayısına ulaşana kadar <em>Yeni Kayıtlı Kullanıcılar</em> grubundadır. Bu grubu yeni üyelerin özel mesaj sistemini kullanamamaları sağlamak için veya iletilerini gözden geçirilmek için kullanabilirsiniz. <strong>0 değeri girilmesi bu özelliği kullanım dışı yapar.</strong>',
 	'NEW_MEMBER_GROUP_DEFAULT'		=> 'Yeni Kayıtlı Kullanıcılar grubunu varsayılan yap',
 	'NEW_MEMBER_GROUP_DEFAULT_EXPLAIN'	=> 'Evet seçilmesi ve ileti limiti tanımlanması yeni kayıtlı üyeyi <em>Yeni Kayıtlı Kullanıcılar</em> grubuna üye yapmakla kalmaz, eklenilen grubu da varsayılan grup yapar. Varsayılan gruba bir seviye ve/veya avatar atanması halinde, yeni kayıtlı kulllanıcı o seviye ve avatarı alacağı için, varsayılan grup seçimi kullanışlı bir özellik olabilir.',
-	'ACC_ADMIN'						=> 'Yönetici', // By Admin
+	'ACC_ADMIN'						=> 'Yönetici',
 	'ACC_DISABLE'					=> 'Kapalı',
 	'ACC_NONE'						=> 'Yok',
-	'ACC_USER'						=> 'Kullanıcı', // By user
+	'ACC_USER'						=> 'Kullanıcı',
 //	'ACC_USER_ADMIN'				=> 'Kullanıcı + Yönetici',
 	'ALLOW_EMAIL_REUSE'				=> 'E-posta adresinin tekrar kullanımı',
 	'ALLOW_EMAIL_REUSE_EXPLAIN'		=> 'Farklı kullanıcılar aynı e-posta adresi ile kayıt olabilir.',
@@ -241,12 +241,12 @@ $lang = array_merge($lang, array(
 
 // Feeds
 $lang = array_merge($lang, array(
-	'ACP_FEED_MANAGEMENT'				=> 'Genel besleme ayarları',//General Syndication Feeds settings
+	'ACP_FEED_MANAGEMENT'				=> 'Genel besleme ayarları',
 	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Bu modül biçim kodlarının temizlenerek okunabilir çeşitli ATOM beslemelerin sunulmasını sağlar.',
 
 	'ACP_FEED_ENABLE'					=> 'Beslemeleri etkinleştir',
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Pano üzerindeki tüm ATOM beslemeleri açar veya kapatır.<br />Aşağıda hangi ayarlar olursa olsun, bu ayarın kapatılması tüm beslemelerin durmasına sebep olur.',
-	'ACP_FEED_LIMIT'					=> 'Haber sayısı', //item:haber // Number of items
+	'ACP_FEED_LIMIT'					=> 'Haber sayısı',
 	'ACP_FEED_LIMIT_EXPLAIN'			=> 'Gösterilecek maksimum besleme haberi sayısı.',
 
 	'ACP_FEED_OVERALL'					=> 'Beslemeleri pano genelinde etkinleştir',
@@ -268,7 +268,7 @@ $lang = array_merge($lang, array(
 
 	'ACP_FEED_HTTP_AUTH'				=> 'HTTP Yetkilendirilmesine izin ver',
 	'ACP_FEED_HTTP_AUTH_EXPLAIN'		=> 'HTTP Yetkilendirilmesine izin verir, gizli misafir kullanıcılar besleme URL adresine <samp>auth=http</samp> paremetresini ekleyerek içeriği alabilirler. Bazı PHP kurulumları ek .htaccess değişiklikleri gerektirebilir. Talimatlar dosyada bulunmaktadır',
-	'ACP_FEED_ITEM_STATISTICS'			=> 'Haber istatistikleri',//Item statistics
+	'ACP_FEED_ITEM_STATISTICS'			=> 'Haber istatistikleri',
 	'ACP_FEED_ITEM_STATISTICS_EXPLAIN'	=> 'Besleme haberleri altında ayrı ayrı istatistikler göster<br />(Örneğin: gönderen, tarih ve saat, cevaplar, gösterim)',
 	'ACP_FEED_EXCLUDE_ID'				=> 'Bu forumları hariç tut',
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Bu forumlardaki içerik <strong>beslemelerde gösterilmeyecektir</strong>. Tüm forumlardan haber çekilmesi için hiçbir forumu seçmeyin.<br /><samp>CTRL</samp> tuşunu basılı tutup tıklayarak birden fazla forum seçebilir veya seçti iseniz çıkarabilirsiniz.',
@@ -359,7 +359,7 @@ $lang = array_merge($lang, array(
 	'YES_ONLINE_TRACK'				=> 'Kullanıcı çevrimiçi/çevrimdışı bilgisini göster',
 	'YES_ONLINE_TRACK_EXPLAIN'		=> 'Kullanıcıların çevirimiçi bilgilerini kullanıcı hesap bilgilerinde ve ileti gösterim ekranında göster.', 
 	'YES_POST_MARKING'				=> 'Noktalı başlıkları aktif hale getir.',
-	'YES_POST_MARKING_EXPLAIN'		=> 'Kullanıcının bir konuya ileti yazıp yazmadığını göster.',//Indicates whether user has posted to a topic. //çeviri tam olarak doğru olmayabilir.
+	'YES_POST_MARKING_EXPLAIN'		=> 'Kullanıcının bir konuya ileti yazıp yazmadığını göster.',
 	'YES_READ_MARKING'				=> 'Sunucu taraflı konu işaretlemeye izin ver',
 	'YES_READ_MARKING_EXPLAIN'		=> 'Okundu/okunmadı durum bilgilerini çerez yerine veritabanında depolar.',
 ));
@@ -417,7 +417,7 @@ $lang = array_merge($lang, array(
 	'SERVER_URL_SETTINGS'		=> 'Sunucu URL ayarları',
 	'SMILIES_PATH'				=> 'İfade depolama yolu',
 	'SMILIES_PATH_EXPLAIN'		=> 'phpBB ana dizini altındaki yol, örn. <samp>images/smilies</samp>.',
-	'UPLOAD_ICONS_PATH'			=> 'Uzantı grubu ikonları depo yolu', // Extension group icons storage path
+	'UPLOAD_ICONS_PATH'			=> 'Uzantı grubu ikonları depo yolu',
 	'UPLOAD_ICONS_PATH_EXPLAIN'	=> 'phpBB ana dizini altındaki yol, örn. <samp>images/upload_icons</samp>.',
 ));
 
@@ -432,8 +432,8 @@ $lang = array_merge($lang, array(
 	'AUTOLOGIN_LENGTH_EXPLAIN'		=> 'Belirlediğiniz günde giriş anahtarı kaldırılır. Kapatmak için 0 yazınız.', 
 	'BROWSER_VALID'					=> 'Web tarayıcı doğrulama',
 	'BROWSER_VALID_EXPLAIN'			=> 'Tarayıcı doğrulamayı aktif hale getirmeniz oturum güveliğini arttıracaktır.',
-	'CHECK_DNSBL'					=> 'DNS kara listesinde IP kontrolü', //Check IP against DNS Blackhole List
-	'CHECK_DNSBL_EXPLAIN'			=> 'Eğer aktif ise, kullanıcıların iletileri ve kayıtları sırasında DNSBL servislerini izleyerek buna karşı IP adresi kontrol edilir: <a href="http://spamcop.net">spamcop.net</a> ve <a href="http://spamhaus.org">spamhaus.org</a>. Bu arama hemen de olabilir, sunucunuzun yapılandırılmasına bağlı olarak zaman da alabilir. Eğer yavaşlama olursa veya çok fazla kesin yanlış bilgi varsa bu özelliği kapatmanız önerilir.',//If slowdowns are experienced or too many false positives reported it is recommended to disable this check
+	'CHECK_DNSBL'					=> 'DNS kara listesinde IP kontrolü',
+	'CHECK_DNSBL_EXPLAIN'			=> 'Eğer aktif ise, kullanıcıların iletileri ve kayıtları sırasında DNSBL servislerini izleyerek buna karşı IP adresi kontrol edilir: <a href="http://spamcop.net">spamcop.net</a> ve <a href="http://spamhaus.org">spamhaus.org</a>. Bu arama hemen de olabilir, sunucunuzun yapılandırılmasına bağlı olarak zaman da alabilir. Eğer yavaşlama olursa veya çok fazla kesin yanlış bilgi varsa bu özelliği kapatmanız önerilir.',
 	'CLASS_B'						=> 'A.B',
 	'CLASS_C'						=> 'A.B.C',
 	'EMAIL_CHECK_MX'				=> 'Geçerli MX kaydı için alan adını kontrol et', 

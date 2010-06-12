@@ -103,7 +103,7 @@ $lang = array_merge($lang, array(
 	'ACP_MOD_LOGS'				=> 'Yetkili kayıtları',
 	'ACP_MOD_ROLES'				=> 'Yetkili rolleri',
 
-	'ACP_NO_ITEMS'				=> 'Burada henüz öğe yok.', // There are no items yet.
+	'ACP_NO_ITEMS'				=> 'Burada henüz öğe yok.',
 
 	'ACP_ORPHAN_ATTACHMENTS'	=> 'Sahipsiz eklentiler',
 
@@ -257,7 +257,7 @@ $lang = array_merge($lang, array(
 	'SETTING_TOO_LONG'		=> 'Ayar için sağlanan “%1$s” değeri çok uzun. En uzun değer %2$d olabilir.',
 	'SETTING_TOO_SHORT'		=> 'Ayar için sağlanan “%1$s” değeri çok kısa. En kısa değer %2$d olabilir.',
 	
-	'SHOW_ALL_OPERATIONS'	=> 'Tüm işlemleri göster', //show all operations
+	'SHOW_ALL_OPERATIONS'	=> 'Tüm işlemleri göster',
 	
 	'UCP'					=> 'Kullanıcı Paneli',
 	'USERNAMES_EXPLAIN'		=> 'Farklı kullanıcı adlarını yeni satırlara yazınız.',
@@ -280,9 +280,9 @@ $lang = array_merge($lang, array(
 	'ACP_USERS_LOGS_EXPLAIN'	=> 'Buradan kullanıcıların tüm hareketlerini görebilirsiniz (raporlar, uyarılar ve kullanıcı notları).',
 	'ALL_ENTRIES'				=> 'Tüm girişler',
 
-	'DISPLAY_LOG'	=> 'Kayıtları öncekilerden başlayarak göster', //entries=  kayıt, adet. girdi sayısı
+	'DISPLAY_LOG'	=> 'Kayıtları öncekilerden başlayarak göster',
 
-	'NO_ENTRIES'	=> 'Kayıt yok.', // Bu periot için kayıt yok
+	'NO_ENTRIES'	=> 'Kayıt yok.',
 
 	'SORT_IP'		=> 'IP adresi',
 	'SORT_DATE'		=> 'Tarih',
@@ -339,7 +339,7 @@ $lang = array_merge($lang, array(
 	'RESYNC_STATS'					=> 'İstatistikleri senkronize et',
 	'RESYNC_STATS_CONFIRM'			=> 'İstatistikleri senkronize etmek istediğinizden emin misiniz?',
 	'RESYNC_STATS_EXPLAIN'			=> 'Toplam iletileri, konuları, kullanıcı ve dosyaları yeniden hesapla.',
-	'RUN'							=> 'Şimdi çalıştır', // Run now
+	'RUN'							=> 'Şimdi çalıştır',
 
 	'STATISTIC'					=> 'İstatistik',
 	'STATISTIC_RESYNC_OPTIONS'	=> 'İstatistik senkronize et veya sıfırla',
@@ -472,13 +472,13 @@ $lang = array_merge($lang, array(
 	'LOG_CONFIG_MESSAGE'		=> '<strong>Özel mesaj ayarları değiştirildi</strong>',
 	'LOG_CONFIG_POST'			=> '<strong>Gönderim ayarları değiştirildi</strong>',
 	'LOG_CONFIG_REGISTRATION'	=> '<strong>Kullanıcı kayıt ayarları değiştirildi</strong>',
-	'LOG_CONFIG_FEED'			=> '<strong>Besleme haber ayarları değiştirildi</strong>',// Altered syndication feeds settings
+	'LOG_CONFIG_FEED'			=> '<strong>Besleme haber ayarları değiştirildi</strong>',
 	'LOG_CONFIG_SEARCH'			=> '<strong>Arama ayarları değiştirildi</strong>',
 	'LOG_CONFIG_SECURITY'		=> '<strong>Güvenlik ayarları değiştirildi</strong>',
 	'LOG_CONFIG_SERVER'			=> '<strong>Sunucu ayarları değiştirildi</strong>',
 	'LOG_CONFIG_SETTINGS'		=> '<strong>Pano ayarları değiştirildi</strong>',
 	'LOG_CONFIG_SIGNATURE'		=> '<strong>İmza ayarları değiştirildi</strong>',
-	'LOG_CONFIG_VISUAL'			=> '<strong>Bot koruması ayarları değiştirildi</strong>', // eskisi: Görsel doğrulama ayarları değiştirildi
+	'LOG_CONFIG_VISUAL'			=> '<strong>Bot koruması ayarları değiştirildi</strong>',
 
 	'LOG_APPROVE_TOPIC'			=> '<strong>Konu onayladı</strong><br />» %s',
 	'LOG_BUMP_TOPIC'			=> '<strong>Kullanıcı konuyu güncelledi</strong><br />» %s',
@@ -528,10 +528,10 @@ $lang = array_merge($lang, array(
 	'LOG_FORUM_DEL_MOVE_FORUMS'				=> '<strong>%2$s forumu silindi ve alt forumları</strong><br />»%1$s forumuna taşındı',
 	'LOG_FORUM_DEL_MOVE_POSTS'				=> '<strong>%2$s forumu silindi ve iletileri </strong><br />»%1$s forumuna taşındı',
 	'LOG_FORUM_DEL_MOVE_POSTS_FORUMS'		=> '<strong>Forum alt forumları ile birlikte silindi, </strong> iletileri taşındı %1$s<br />» %2$s',
-	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Forum silindi, iletileri şuraya taşındı</strong> %1$s, <strong>ve alt forumları şuraya</strong> %2$s<br />» %3$s', //'<strong>Deleted forum, moved posts</strong> to %1$s <strong>and subforums</strong> to %2$s<br />» %3$s',
+	'LOG_FORUM_DEL_MOVE_POSTS_MOVE_FORUMS'	=> '<strong>Forum silindi, iletileri şuraya taşındı</strong> %1$s, <strong>ve alt forumları şuraya</strong> %2$s<br />» %3$s',
 	'LOG_FORUM_DEL_POSTS'					=> '<strong>Forum iletileri ile birlikte silindi</strong><br />» %s',
 	'LOG_FORUM_DEL_POSTS_FORUMS'			=> '<strong>Forum iletileri, alt forumlarıyla birlikte silindi</strong><br />» %s',
-	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Forum iletileri ile birlikte silindi, </strong> alt forumları ise taşındı %1$s<br />» %2$s', //Deleted forum and its messages, moved subforums</strong> "to"
+	'LOG_FORUM_DEL_POSTS_MOVE_FORUMS'		=> '<strong>Forum iletileri ile birlikte silindi, </strong> alt forumları ise taşındı %1$s<br />» %2$s',
 	'LOG_FORUM_EDIT'						=> '<strong>Forum detayları düzenlendi</strong><br />» %s',
 	'LOG_FORUM_MOVE_DOWN'					=> '<strong>Forum taşındı</strong> %1$s <strong>aşağı</strong> %2$s',
 	'LOG_FORUM_MOVE_UP'						=> '<strong>Forum taşındı</strong> %1$s <strong>yukarı</strong> %2$s',
@@ -569,7 +569,7 @@ $lang = array_merge($lang, array(
 	'LOG_INSTALL_CONVERTED'	=> '<strong>%1$s sistemini %2$s sistemine dönüştürüldü</strong>',
 	'LOG_INSTALL_INSTALLED'	=> '<strong>phpBB %s yüklendi</strong>',
 
-	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Web tarayıcısı oturum IP’si proxy yönlendirmesi= X_FORWARDED_FOR kontrolü başarısız</strong><br />»Kullanıcı IP adresi “<em>%1$s</em>” oturuma karşı kontrol edilen IP “<em>%2$s</em>”, kullanıcı tarayıcısı bağlı “<em>%3$s</em>” oturum tarayıcısına karşı kontrol edilen bağlı “<em>%4$s</em>” ve kullanıcı X_FORWARDED_FOR bağlı “<em>%5$s</em>” oturum tarayıcısına karşı kontrol edilen X_FORWARDED_FOR bağlı “<em>%6$s</em>”.',//Oturum IP/web tarayıcı/X_FORWARDED_FOR kontrolü başarısız
+	'LOG_IP_BROWSER_FORWARDED_CHECK'	=> '<strong>Web tarayıcısı oturum IP’si proxy yönlendirmesi= X_FORWARDED_FOR kontrolü başarısız</strong><br />»Kullanıcı IP adresi “<em>%1$s</em>” oturuma karşı kontrol edilen IP “<em>%2$s</em>”, kullanıcı tarayıcısı bağlı “<em>%3$s</em>” oturum tarayıcısına karşı kontrol edilen bağlı “<em>%4$s</em>” ve kullanıcı X_FORWARDED_FOR bağlı “<em>%5$s</em>” oturum tarayıcısına karşı kontrol edilen X_FORWARDED_FOR bağlı “<em>%6$s</em>”.',
 
 	'LOG_JAB_CHANGED'			=> '<strong>Jabber üyeliği değiştirildi</strong>',
 	'LOG_JAB_PASSCHG'			=> '<strong>Jabber parolası değiştirildi</strong>',
@@ -705,7 +705,7 @@ $lang = array_merge($lang, array(
 	'LOG_USER_GROUP_RESIGN'			=> '<strong>Kullanıcı grup üyeliğinden ayrıldı</strong><br />» %s',
 
 	'LOG_WARNING_DELETED'		=> '<strong>Kullanıcı uyarısı silindi</strong><br />» %s',
-	'LOG_WARNINGS_DELETED'		=> '<strong>%2$s kullanıcı uyarısı silindi</strong><br />» %1$s', // Example: '<strong>Deleted 2 user warnings</strong><br />» username'
+	'LOG_WARNINGS_DELETED'		=> '<strong>%2$s kullanıcı uyarısı silindi</strong><br />» %1$s',
 	'LOG_WARNINGS_DELETED_ALL'	=> '<strong>Tüm kullanıcı üyarıları silindi</strong><br />» %s',
 	
 	'LOG_WORD_ADD'		=> '<strong>Kelime sansürü eklendi</strong><br />» %s',

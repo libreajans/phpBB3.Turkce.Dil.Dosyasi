@@ -33,7 +33,7 @@ $lang = array_merge($lang, array(
 	'EDITED_TIMES_TOTAL'	=> 'En son %1$s tarafından, %2$s tarihinde değiştirildi, toplamda %3$d değişiklik yapıldı.',
 	'EDITED_TIME_TOTAL'		=> 'En son %1$s tarafından, %2$s tarihinde değiştirildi, toplamda %3$d değişiklik yapıldı.',
 	'EMAIL_TOPIC'			=> 'Arkadaşına gönder',
-	'ERROR_NO_ATTACHMENT'	=> 'Seçilen eklenti mevcut değil.', // The selected attachment does not exist anymore
+	'ERROR_NO_ATTACHMENT'	=> 'Seçilen eklenti mevcut değil.',
 	
 	'FILE_NOT_FOUND_404'	=> '<strong>%s</strong> dosyası mevcut değil.',
 	'FORK_TOPIC'			=> 'Kopyala',

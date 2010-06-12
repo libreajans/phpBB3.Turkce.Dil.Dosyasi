@@ -67,7 +67,7 @@ $lang = array_merge($lang, array(
 
 	'UNINSTALLED_LANGUAGE_PACKS'	=> 'Kaldırılmış dil paketleri',
 
-	'UNABLE_TO_WRITE_FILE'		=> 'Dosya %s hedefine yazılamadı.',//The file could not be written to 
+	'UNABLE_TO_WRITE_FILE'		=> 'Dosya %s hedefine yazılamadı.',
 	'UPLOAD_COMPLETED'			=> 'Yükleme tamamlandı',
 	'UPLOAD_FAILED'				=> 'Yükleme bilinmeyen bir sebep yüzünden kesildi. İlgili dosyaları elle değiştirmeniz gerekebilir.',
 	'UPLOAD_METHOD'				=> 'Yükleme metodu',

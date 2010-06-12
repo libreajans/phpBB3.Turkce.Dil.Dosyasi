@@ -27,7 +27,7 @@ $lang = array_merge($lang, array(
 	'IGNORED_TERMS'			=> 'Görmezden gelindi',
 	'IGNORED_TERMS_EXPLAIN'	=> 'Aramanızda bazı kelimeler görmezden gelindi, çünkü bunlar yaygın kelimelerdir: <strong>%s</strong>.',
 
-	'JUMP_TO_POST'			=> 'İletiye git', // Jump to post
+	'JUMP_TO_POST'			=> 'İletiye git',
 
 	'LOGIN_EXPLAIN_EGOSEARCH'		=> 'Kendi iletilerinizi görmek için kayıt olmalı ve oturum açmanız gerekmektedir.',
 	'LOGIN_EXPLAIN_UNREADSEARCH'	=> 'Kendi okunmamış iletilerinizi görmek için kayıt olmalı ve oturum açmanız gerekmektedir.',

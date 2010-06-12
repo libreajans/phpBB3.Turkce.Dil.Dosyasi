@@ -62,7 +62,7 @@ $lang = array_merge($lang, array(
 	'CONVERT_NOT_EXIST'			=> 'Belirtilen dönüştürücü mevcut değil.',
 	'CONVERT_OPTIONS'			=> 'Seçenekler',
 	'CONVERT_SETTINGS_VERIFIED'	=> 'Yazdığınız bilgiler onaylandı. Dönüştürme işlemlerine başlamak için aşağıdaki butona basınız.',
-	'CONV_ERR_FATAL'			=> 'Tehlikeli dönüştürme hatası!',//Fatal conversion error
+	'CONV_ERR_FATAL'			=> 'Tehlikeli dönüştürme hatası!',
 
 	'CONV_ERROR_ATTACH_FTP_DIR' 		=> 'Ekli dosyalar için eski panonuzdaki FTP sistemi aktif hale getirilmiştir. Lütfen tüm ekli dosyaları erişilebilir dizine kopyalayınız. FTP yüklemesini kapatmayı unutmayınız ve doğru dizinin seçildiğine emin olunuz. Eğer işleminiz bitti ise dönüştürücü modülü baştan başlatınız.',
 	'CONV_ERROR_CONFIG_EMPTY'			=> 'Dönüştürme için yapılandırma bilgileri mevcut değil.', 
@@ -141,10 +141,10 @@ $lang = array_merge($lang, array(
 	'FILES_OPTIONAL_EXPLAIN'	=> '<strong>İsteğe bağlı</strong> - Bu dosyalara ve dizinlere izin ayarları zorunlu değildir. Eğer dosyalar, dizinler mevcut değilse veya yazılamıyorsa; kurulum sihirbazı farklı tekniklerle ilerlemeye devam edecektir. Fakat bu dosyalar, dizinler ve izinler daha hızlı bir kurulum için önerilmektedir.',
 	'FILES_REQUIRED'			=> 'Dosyalar ve dizinler',
 	'FILES_REQUIRED_EXPLAIN'	=> '<strong>Gerekli</strong> - phpBB, doğru olarak çalışabilmek için aşağıdaki dosyalara veya dizinlere yazma iznine ihtiyaç duyar. Eğer dosyanın veya dizinin yanıda "Bulunamadı" yazısını görüyorsanız, bu dosyaları veya dizinleri siz de oluşturabilirsiniz. Eğer dosyaların veya dizinlerin yanında "Yazılabilir Değil" yazısını görüyorsanız, bu dosyaların veya dizinlerin izinlerini değiştirerek, phpBB’ye bu dosyalara yazma izni verebilirsiniz.',
-	'FILLING_TABLE'				=> 'Doldurulan tablo: <strong>%s</strong>',//burası table tekil, Sadece tablo Dolduruluyorda olabilir  
+	'FILLING_TABLE'				=> 'Doldurulan tablo: <strong>%s</strong>',// burası "table" tekil
 	'FILLING_TABLES'			=> 'Tablolar dolduruluyor',// burası "tables" çoğul
 	'FIREBIRD_DBMS_UPDATE_REQUIRED'	=> 'phpBB Firebird/Interbase 2.1 sürümü öncesini artık desteklemiyor. Bu güncellemede ilerlemeden önce, lütfen Fireboard kurulumunuzu en az 2.1.0 sürümüne güncelleyin.',
-	'FINAL_STEP'				=> 'Son adım', // Process final step
+	'FINAL_STEP'				=> 'Son adım',
 	'FORUM_ADDRESS'				=> 'Pano adresi',
 	'FORUM_ADDRESS_EXPLAIN'		=> 'Önceki panonuzun adresidir. Örneğin: <samp>http://www.sitenizinadi.com/phpBB3/</samp>. Eğer burası boş bırakılmayıp bir adres girildiyse, iletiler, özel mesajlar ve imzalar dahil olmak üzere adresin tüm misalleri yeni adres ile değiştirilecektir.',
 	'FORUM_PATH'				=> 'Pano yolu',
@@ -226,14 +226,14 @@ $lang = array_merge($lang, array(
 	'INST_ERR_PREFIX_TOO_LONG'		=> 'Belirttiğiniz tablo öneki çok uzun. En fazla %d karakter olmalıdır.',
 	'INST_ERR_USER_TOO_LONG'		=> 'Girdiğiniz kullanıcı adı çok uzun. En fazla 20 karakter olmalıdır.',
 	'INST_ERR_USER_TOO_SHORT'		=> 'Girdiğiniz kullanıcı adı çok kısa. En az 3 karakter olmalıdır.',
-	'INVALID_PRIMARY_KEY'			=> 'Geçersiz birincil anahtar: %s', // Invalid primary key
+	'INVALID_PRIMARY_KEY'			=> 'Geçersiz birincil anahtar: %s', 
 
 	'LONG_SCRIPT_EXECUTION'		=> 'Bu işlem biraz zaman alabilir... Lütfen yazılımı durdurmayın.',
 	
 	// mbstring
 	'MBSTRING_CHECK'						=> '<samp>mbstring</samp> özelliği sınaması',
 	'MBSTRING_CHECK_EXPLAIN'				=> '<strong>Gerekli</strong> - <samp>mbstring</samp> Multibyte dizi fonksiyonlarını destekleyen bir PHP eklentisidir. Sağladığınız mbstring’ler phpBB ile uyumsuz ve kapatılmalı.',
-	'MBSTRING_FUNC_OVERLOAD'				=> 'Fonksiyona aşırı yüklenildi', //? //Function overloading
+	'MBSTRING_FUNC_OVERLOAD'				=> 'Fonksiyona aşırı yüklenildi',
 	'MBSTRING_FUNC_OVERLOAD_EXPLAIN'		=> '<var>mbstring.func_overload</var> 0 ile 4 arasında bir değer almalı.',
 	'MBSTRING_ENCODING_TRANSLATION'			=> 'Şeffaf karakter kodlaması',
 	'MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> 0 olmalı.',
@@ -276,7 +276,7 @@ $lang = array_merge($lang, array(
 	'PHP_VERSION_REQD'					=> 'PHP sürümü >= 4.3.3',
 	'POST_ID'							=> 'İleti ID',
 	'PREFIX_FOUND'						=> 'Tablolarınızda yapılan arama, öneki <strong>%s</strong> olan geçerli bir kurulum buldu.',
-	'PREPROCESS_STEP'					=> 'Fonksiyon/girdiler için çoklu işlemler yapılıyor', //Executing pre-processing functions/queries
+	'PREPROCESS_STEP'					=> 'Fonksiyon/girdiler için çoklu işlemler yapılıyor',
 	'PRE_CONVERT_COMPLETE'			=> 'Dönüştürme işlemi için tüm ön hazırlıklar tamamlandı. Artık dönüştürme işlemine başlayabilirsiniz. Bazı işlemleri el yordamı ile yapmanızın gerekebileceğini unutmayın. Dönüştürme işleminden sonra, özellikle izinleri kontrol edin, arama dizinlerinizi yeniden inşa edin, ayrıca tüm dosyaların (avatar ve ifadeler gibi) doğru olarak kopyalandığından emin olun.',
 	'PROCESS_LAST'					=> 'Son işlemler gerçekleştiriliyor',
 
@@ -315,7 +315,7 @@ $lang = array_merge($lang, array(
 	'SUCCESSFUL_CONNECT'				=> 'Bağlantı sağlandı',
 	'SUPPORT_BODY'						=> '
 	<h2>Profesyonel phpBB3 desteği</h2>
-	<p>Profesyonel phpBB3 desteği almak için <a href="http://www.canversoft.net/">Canver Software</a> sitesini ziyaret edebilirsiniz.</p>
+	<p>Profesyonel ve ücretli phpBB3 desteği almak için <a href="http://www.canversoft.net/">Canver Software</a> sitesini ziyaret edebilirsiniz.</p>
 
 	<h2>Destek ve yardım alma</h2>
 	phpBB Türkiye, phpBB3’ün güncel ve kararlı sürümü için destek sağlanır. Temel destek içeriği:
@@ -340,10 +340,10 @@ $lang = array_merge($lang, array(
 	</ul>',
 
 	'SYNC_FORUMS'				=> 'Forumları uyumlu hale getirme işlemi başlıyor',
-	'SYNC_POST_COUNT'			=> 'İleti sayaçları senkronize ediliyor', // post_counts 
-	'SYNC_POST_COUNT_ID'		=> 'İleti sayaçları %1$s’den %2$s’e senkronize edildi.', //  Synchronising post_counts from <var>entry</var> %1$s to %2$s.
+	'SYNC_POST_COUNT'			=> 'İleti sayaçları senkronize ediliyor',
+	'SYNC_POST_COUNT_ID'		=> 'İleti sayaçları %1$s’den %2$s’e senkronize edildi.', // Synchronising post_counts from <var>entry</var> %1$s to %2$s.
 	'SYNC_TOPICS'				=> 'Konuları uyumlu hale getirme işlemi başlayor',
-	'SYNC_TOPIC_ID'				=> 'Konu numaraları %1$s’den %2$s’e senkronize edildi.', //Synchronising topics from <var>topic_id</var> %1$s to %2$s.
+	'SYNC_TOPIC_ID'				=> 'Konu numaraları %1$s’den %2$s’e senkronize edildi.', // Synchronising topics from <var>topic_id</var> %1$s to %2$s.
 
 	'TABLES_MISSING'			=> 'Şu tablolar bulunamadı<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Veritabanı tabloları için ön ek',
@@ -356,7 +356,7 @@ $lang = array_merge($lang, array(
 	'UNWRITABLE'				=> 'yazılabilir değil',
 	'UPDATE_TOPICS_POSTED'		=> 'Gönderilen konu bilgileri oluşturuluyor.',
 	'UPDATE_TOPICS_POSTED_ERR'	=> 'Gönderilen konu bilgileri oluşturulurken bir hata oluştu. Dönüştürme işlemi tamamlandıktan sonra bu adımı Yönetim Paneli’nden yeniden deneyebilirsiniz.',
-	'VERIFY_OPTIONS'			=> 'Dönüşürme seçenekleri doğrulanıyor', // Verifying conversion options
+	'VERIFY_OPTIONS'			=> 'Dönüşürme seçenekleri doğrulanıyor',
 	'VERSION'					=> 'Sürüm',
 	
 	'WELCOME_INSTALL'			=> 'phpBB3 kurulumuna hoşgeldiniz',
@@ -380,18 +380,18 @@ $lang = array_merge($lang, array(
 	'CHECK_UPDATE_DATABASE'			=> 'Güncelleme işlemine devam et',
 	'COLLECTED_INFORMATION'			=> 'Dosya bilgileri',
 	'COLLECTED_INFORMATION_EXPLAIN'	=> 'Aşağıdaki liste size güncellenmesi gereken dosyaların bir dökümünü sunmaktadır. Lütfen, liste halinde verilmiş bu bilgilerin yanında bulunan açıklamaları inceleyerek, ilgili işlemin ne hakkında olduğunu ve ne işe yaradığını tespit edin. Güncelleme işlemini sorunsuz gerçekleştirmek için ne yapmak istediğinize karar verin.',
-	'COLLECTING_FILE_DIFFS'			=> 'Dosya farklılıklarını belirle', //Collecting file differences
+	'COLLECTING_FILE_DIFFS'			=> 'Dosya farklılıklarını belirle',
 	'COMPLETE_LOGIN_TO_BOARD'		=> 'Tüm dosyalar phpBB’nin son sürümüne güncellendi. Şimdi <a href="../ucp.php?mode=login">panonuza oturum açmalı</a> ve her şeyin normal olduğundan emin olmalısınız. Kurulum dizini olan install dizinini silmeyi unutmayınız',
-	'CONTINUE_UPDATE_NOW'			=> 'Güncelleme işlemine şimdi devam et',		// Shown within the database update script at the end if called from the updater
-	'CONTINUE_UPDATE'				=> 'Güncellemeye şimdi devam et',					// Shown after file upload to indicate the update process is not yet finished
+	'CONTINUE_UPDATE_NOW'			=> 'Güncelleme işlemine şimdi devam et', // Shown within the database update script at the end if called from the updater
+	'CONTINUE_UPDATE'				=> 'Güncellemeye şimdi devam et', // Shown after file upload to indicate the update process is not yet finished
 	
 	'CURRENT_FILE'					=> 'Çakışma başlangıcı - Güncelleme öncesi orijinal dosya kodları',
 	'CURRENT_VERSION'				=> 'Şimdiki sürüm',
 
 	'DATABASE_TYPE'					=> 'Veritabanı türü',
 	'DATABASE_UPDATE_INFO_OLD'		=> 'Kurulum dizinindeki veritabanı güncellemesi zaman aşımına uğramış. Lütfen güncelleme sürümünün doğru olduğundan emin olun.',
-	'DELETE_USER_REMOVE'			=> 'Kullanıcı ve iletilerini sil', // Delete user and remove posts
-	'DELETE_USER_RETAIN'			=> 'Kullanıcıyı sil, iletilerini muhafaza et', //Delete user but keep posts
+	'DELETE_USER_REMOVE'			=> 'Kullanıcı ve iletilerini sil',
+	'DELETE_USER_RETAIN'			=> 'Kullanıcıyı sil, iletilerini muhafaza et',
 	'DESTINATION'					=> 'Hedef dosya',
 	'DIFF_INLINE'					=> 'Satır içi',
 	'DIFF_RAW'						=> 'Ham karşılaştırmayı birleştir',
@@ -402,10 +402,10 @@ $lang = array_merge($lang, array(
 	'DONE'							=> 'Tamam',
 	'DOWNLOAD'						=> 'İndir',
 	'DOWNLOAD_AS'					=> 'Farklı indir',
-	'DOWNLOAD_UPDATE_METHOD_BUTTON'	=> 'Değiştirilen arşiv dosyalarını indir (önerilir)', // Download modified files archive (önerilir)
+	'DOWNLOAD_UPDATE_METHOD_BUTTON'	=> 'Değiştirilen arşiv dosyalarını indir (önerilir)',
 	'DOWNLOAD_CONFLICTS'			=> 'Bu dosya için uyuşmazlıkları indirin',
 	'DOWNLOAD_CONFLICTS_EXPLAIN'	=> 'Uyuşmazlıkları fark etmek için &lt;&lt;&lt; içinde arama yapın',
-	'DOWNLOAD_UPDATE_METHOD'		=> 'Değiştirilen arşiv dosyalarını indir', //Download modified files archive
+	'DOWNLOAD_UPDATE_METHOD'		=> 'Değiştirilen arşiv dosyalarını indir',
 	'DOWNLOAD_UPDATE_METHOD_EXPLAIN'=> 'Kurulumdan sonra arşivi çıkarmalısınız. İçerisinde phpBB ana dizinine yüklemeniz gereken düzenlenmiş dosyalar bulunuyor. Lütfen bu dosyaları normalde bulundukları yerlere koyun. Tüm dosyaları gönderdikten sonra, diğer butonu kullanarak dosyaları sınayın.',
 
 	'ERROR'			=> 'Hata',
@@ -413,7 +413,7 @@ $lang = array_merge($lang, array(
 
 	'FILE_ALREADY_UP_TO_DATE'		=> 'Dosya zaten güncel.',
 	'FILE_DIFF_NOT_ALLOWED'			=> 'Dosya, karşılaştırma yapmaya izinli değil.',
-	'FILE_USED'						=> 'Bilgi kullanım yeri',	// Single file
+	'FILE_USED'						=> 'Bilgi kullanım yeri',
 	'FILES_CONFLICT'				=> 'Uyuşmayan dosyalar',
 	'FILES_CONFLICT_EXPLAIN' 		=> 'Bu dosyalar modifiye edilmiştir ve eski sürümdeki orijinal dosyaları temsil etmemektedir. phpBB, sözkonusu dosyların birleştirmeye çalışılır ise ciddi şekilde uyuşmazlık yaratabileceğini tespit etti. Lütfen bu uyuşmazsızlık olası nedenlerini el yordamı ile kendiniz tespit etmeye çalışınız veya tercih edilen birleştirme metodunu kullanarak güncelleme işlemine devam ediniz. Çakışmaları tespit etmeyi başardı iseniz, modifikasyon işleminin ardından yeniden el yordamı ile kontrol ediniz. Aynı zamanda her dosya için istediğiniz bir birleştirme metodu da kullabileceğinizi hatırlatmak isteriz.',
 	'FILES_MODIFIED'				=> 'Düzenlenen dosyalar',
@@ -453,7 +453,7 @@ $lang = array_merge($lang, array(
 	'MERGE_NEW_FILE_OPTION'		=> 'Değişiklikleri birleştir (Çakışan bloklar içindeki değişen kodlar silinir)',
 	'MERGE_SELECT_ERROR'		=> 'Değişen dosyaları birleştirme modu doğru değil.',
 	'MERGING_FILES'				=> 'Farklılıkları birleştir',
-	'MERGING_FILES_EXPLAIN'		=> 'Güncel olarak toplarlanan son dosyayı değiştirir.<br /><br />phpBB değiştirilen dosyalarda bütün çalışmaları tamamlayıncaya kadar lütfen bekleyiniz.', //'Currently collecting final file changes.<br /><br />Please wait until phpBB has completed all operations on changed files.',
+	'MERGING_FILES_EXPLAIN'		=> 'Güncel olarak toplarlanan son dosyayı değiştirir.<br /><br />phpBB değiştirilen dosyalarda bütün çalışmaları tamamlayıncaya kadar lütfen bekleyiniz.',
 
 	'NEW_FILE'						=> 'Çakışmaların sonu',
 	'NEW_USERNAME'					=> 'Yeni kullanıcı adı',
@@ -488,8 +488,8 @@ $lang = array_merge($lang, array(
 	'SHOW_DIFF_FINAL'			=> 'Dosya sonucunu göster',
 	'SHOW_DIFF_MODIFIED'		=> 'Birleştirilen farkları göster',
 	'SHOW_DIFF_NEW'				=> 'Dosya içeriğini göster',
-	'SHOW_DIFF_NEW_CONFLICT'	=> 'Farklılıkları göster', // Show differences
-	'SHOW_DIFF_NOT_MODIFIED'	=> 'Farklılıkları göster', // Show differences
+	'SHOW_DIFF_NEW_CONFLICT'	=> 'Farklılıkları göster',
+	'SHOW_DIFF_NOT_MODIFIED'	=> 'Farklılıkları göster',
 	'SOME_QUERIES_FAILED'		=> 'Bazı sorgular hatalı, raporlar ve hatalar aşağıda listelenmiştir.',
 	'SQL'						=> 'SQL',
 	'SQL_FAILURE_EXPLAIN' 		=> 'Bu hata iletisini alıyor olabilirsiniz ama büyük olasılıkla güncelleme işleminize devam etmek için bir sorun teşkil etmediğini de belirtmek isteriz. Güncelleme işlemine kaldığınız yerden devam edebilmeniz için destek forumlarımızı ziyaret etmenizi öneririz. <a href="../docs/README.html">README</a> dosyasına da bakmanızı öneririz.',
@@ -497,12 +497,12 @@ $lang = array_merge($lang, array(
 	'STAGE_UPDATE_DB'			=> 'Veritabanı güncellemesi',
 	'STAGE_UPDATE_FILES'		=> 'Dosya güncellemesi',
 	'STAGE_VERSION_CHECK'		=> 'Sürüm denetimi',
-	'STATUS_CONFLICT'			=> 'Uyuşmayan dosyaları değiştir', // Modified file producing conflicts
+	'STATUS_CONFLICT'			=> 'Uyuşmayan dosyaları değiştir',
 	'STATUS_MODIFIED'			=> 'Değişmiş dosya',
 	'STATUS_NEW'				=> 'Yeni dosya',
 	'STATUS_NEW_CONFLICT'		=> 'Yeni dosya uyuşmazlığı',
 	'STATUS_NOT_MODIFIED'		=> 'Değişmeyen dosya',
-	'STATUS_UP_TO_DATE'			=> 'Zaten güncel olan dosya', //orjinali= Already updated file / Dosya zaten güncel  
+	'STATUS_UP_TO_DATE'			=> 'Zaten güncel olan dosya',
 
 	'TOGGLE_DISPLAY'			=> 'Dosya listesini göster/gizle',
 	'TRY_DOWNLOAD_METHOD'		=> 'Değiştirilmiş dosyaları indirme yöntemini denemek isteyebilirsiniz.<br />Bu yöntem her zaman çalışır ve aynı zamanda tavsiye edilen güncelleme yoludur.',
@@ -514,7 +514,7 @@ $lang = array_merge($lang, array(
 	'UPDATE_DATABASE_SCHEMA'		=> 'Veritabanı şeması güncelleniyor',
 	'UPDATE_FILES'					=> 'Dosyaları güncelle',
 	'UPDATE_FILES_NOTICE'			=> 'Lütfen sunucudaki dosyalarınızı da güncellediğinize emin olun, bu dosya sadece veritabanınızı günceller.',
-	'UPDATE_INSTALLATION'			=> 'phpBB güncelleme', // Update phpBB installation
+	'UPDATE_INSTALLATION'			=> 'phpBB güncelleme',
 	'UPDATE_INSTALLATION_EXPLAIN' 	=> 'Bu seçenek ile mevcut phpBB yazılımınızı, en son sürüme yükseltmeniz mümkündür.<br />Bu süreç esnasında tüm dosyalarınızın doğruluk ve bütünlüğü kontrol edilecektir. Güncelleme işleminden önce tüm farklılıkları gözden geçirebilmeniz mümkündür.<br /><br />Dosya güncellemesi iki şekilde yapılabilir!</p>
 
 	<h2>El Yordamı ile Güncelleme</h2>
@@ -527,7 +527,6 @@ $lang = array_merge($lang, array(
 		<h1>Yayınlanma duyurusu</h1>
 
 		<p>Lütfen, güncelleme işlemine devam etmeden önce faydalı bilgiler içeren <a href="%1$s" title="%1$s"><strong>son sürüm duyurusunu</strong></a> okuyun. Aynı zamanda tam indirme bağlantılarına ve nelerin değiştiğine de bu bağlantıyla ulaşılabilir.</p>
-
 		<br />
 
 		<h1>Kurulumunuzu Otomatik Kurulum Paketi ile nasıl güncelleyeceksiniz</h1>
