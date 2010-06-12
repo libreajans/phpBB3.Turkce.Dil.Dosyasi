@@ -228,21 +228,15 @@ $lang = array_merge($lang, array(
 
 ));
 
-/*
-// Feeds
-$lang = array_merge($lang, array(
-	'ACP_FEED_OVERALL_FORUMS_LIMIT'		=> 'Forum beslemeleri, sayfa başına haber sayısı',
-
-	'ACP_FEED_OVERALL_TOPIC'			=> 'Konuların beslemelerini etkinleştir',//enable overall topics feed?? overall derken ??
-	'ACP_FEED_OVERALL_TOPIC_EXPLAIN'	=> '“Tüm konuların” beslemesini etkinleştir',
-	'ACP_FEED_OVERALL_TOPIC_LIMIT'		=> 'Konu beslemeleri, ayfa başına haber sayısı',
-));
-*/
-
-// Feeds
+// Feed settings
 $lang = array_merge($lang, array(
 	'ACP_FEED_MANAGEMENT'				=> 'Genel besleme ayarları',
 	'ACP_FEED_MANAGEMENT_EXPLAIN'		=> 'Bu modül biçim kodlarının temizlenerek okunabilir çeşitli ATOM beslemelerin sunulmasını sağlar.',
+
+	'ACP_FEED_GENERAL'					=> 'Genel besleme ayarları',
+	'ACP_FEED_POST_BASED'				=> 'İleti tabanlı besleme ayarları',
+	'ACP_FEED_TOPIC_BASED'				=> 'Konu tabanlı besleme ayarları',
+	'ACP_FEED_SETTINGS_OTHER'			=> 'Diğer ayarlar', // Other feeds and settings
 
 	'ACP_FEED_ENABLE'					=> 'Beslemeleri etkinleştir',
 	'ACP_FEED_ENABLE_EXPLAIN'			=> 'Pano üzerindeki tüm ATOM beslemeleri açar veya kapatır.<br />Aşağıda hangi ayarlar olursa olsun, bu ayarın kapatılması tüm beslemelerin durmasına sebep olur.',
@@ -262,7 +256,7 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_TOPICS_ACTIVE_EXPLAIN'	=> '"Aktif Konular" beslemesini etkinleştirir, ilk ileti dahil olmak üzere son aktif konuları gösterir.',
 	'ACP_FEED_NEWS'						=> 'Haber beslemeleri',
 	'ACP_FEED_NEWS_EXPLAIN'				=> 'Bu forumlardan ilk iletileri çek. Haber beslemesini kapatmak isterseniz hiçbir forumu seçmeyin. <br /><samp>CTRL</samp> basılı tutup tıklayarak birden fazla forum seçebilirsiniz.',
-	
+
 	'ACP_FEED_OVERALL_FORUMS'			=> 'Forumlarda beslemeleri etkinleştir',
 	'ACP_FEED_OVERALL_FORUMS_EXPLAIN'	=> 'Bu besleme tüm forumlardaki konulardan son iletileri gösterir.',
 
@@ -273,8 +267,6 @@ $lang = array_merge($lang, array(
 	'ACP_FEED_EXCLUDE_ID'				=> 'Bu forumları hariç tut',
 	'ACP_FEED_EXCLUDE_ID_EXPLAIN'		=> 'Bu forumlardaki içerik <strong>beslemelerde gösterilmeyecektir</strong>. Tüm forumlardan haber çekilmesi için hiçbir forumu seçmeyin.<br /><samp>CTRL</samp> tuşunu basılı tutup tıklayarak birden fazla forum seçebilir veya seçti iseniz çıkarabilirsiniz.',
 ));
-
-
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
@@ -442,7 +434,7 @@ $lang = array_merge($lang, array(
 	'FORCE_PASS_CHANGE_EXPLAIN'		=> 'Kullanıcıların şifrelerini değiştirmesi için geçecek gün sayısı. Bu özelliği kapatmak için 0 yazın.',
 	'FORM_TIME_MAX'					=> 'Formların gönderilmesi için en fazla zaman',
 	'FORM_TIME_MAX_EXPLAIN'			=> 'Bu süre içinde kullanıcı formu göndermek zorunda. Kapatmak için -1 yazın. Oturum sonlanırsa, bu ayara aldırmayarak form geçersiz olabilir.',	
-	'FORM_SID_GUESTS'				=> 'Bu bağ misafir oturumlarına oluşturulur',//Tie forms to guest sessions
+	'FORM_SID_GUESTS'				=> 'Bu bağ misafir oturumlarına oluşturulur',
 	'FORM_SID_GUESTS_EXPLAIN'		=> 'Eğer aktif hale getirilirse, misafir kullanıcılar için oturum-özel olacak. Bazı servis sağlayıcılarda bununla ilgili sorun çıkabilir.',
 	'FORWARDED_FOR_VALID'			=> '<var>X_FORWARDED_FOR</var> başlıklarını kontrol et',
 	'FORWARDED_FOR_VALID_EXPLAIN'	=> 'Oturumlar sadece gönderilen <var>X_FORWARDED_FOR</var> başlık daha önceki bir talepte gönderilene denk ise devam edecektir. Uzaklaştırmalar <var>X_FORWARDED_FOR</var> içinde olan IP adreslerine karşı da kontrol edilecektir.',
