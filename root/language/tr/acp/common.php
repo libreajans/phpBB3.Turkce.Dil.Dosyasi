@@ -616,8 +616,8 @@ $lang = array_merge($lang, array(
 	'LOG_PRUNE'					=> '<strong>Forumlar temizlendi</strong><br />» %s',
 	'LOG_AUTO_PRUNE'			=> '<strong>Forumlar otomatik temizlendi</strong><br />» %s',
 	'LOG_PRUNE_USER_DEAC'		=> '<strong>Kullanıcıların hesabını pasifleştirdi</strong><br />» %s',
-	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Kullanıcılar budandı ve ilerileri silindi</strong><br />» %s',
-	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Kullanıcılar silindi ve mesajları tutuldu</strong><br />» %s',
+	'LOG_PRUNE_USER_DEL_DEL'	=> '<strong>Kullanıcılar temizlendi, ilerileri silindi</strong><br />» %s',
+	'LOG_PRUNE_USER_DEL_ANON'	=> '<strong>Kullanıcılar temizlendi, mesajları tutuldu</strong><br />» %s',
 
 	'LOG_PURGE_CACHE'			=> '<strong>Önbellek temizlendi</strong>',
 	'LOG_PURGE_SESSIONS'		=> '<strong>Oturumları temizle</strong>',
