@@ -24,15 +24,15 @@ $lang = array_merge($lang, array(
 	'ANSWER'					=> 'Cevap',
 	'EDIT_QUESTION'				=> 'Soru düzenleme',
 	'QUESTIONS'					=> 'Sorular',
-	'QUESTIONS_EXPLAIN'			=> 'Kayıt sırasında, kullanıcılardan burada belirtilen sorulardan birinin cevabı istenecektir. Bu eklentiyi kullanmak için en az bir soru varsayılan dilde girilmiş olmalıdır. Bu soruları cevaplamak hedef kitleniz için kolay olacaktır, ancak Google™ mantığında çalışan duyarlı botların anlama yeteneğinin ötesindedir.  Soru kümelerini geniş tutmak düzenli ve iyi sonuçlar verecektir. Eğer yeterli gelmeyeceğini düşünürseniz daha iyi bir koruma için büyük-küçük harf duyarlığı, boşluk ve noktalama işaretleri için sıkı kontrolü açın.',
+	'QUESTIONS_EXPLAIN'			=> 'Soru/Cevap eklentisinin aktif edildiği her formda, kullanıcılardan burada belirtilen sorulardan birinin cevabı istenecektir. Bu eklentiyi kullanmak için en az bir soru varsayılan dilde girilmiş olmalıdır. Bu soruları cevaplamak hedef kitleniz için kolay olacaktır, ancak Google™ mantığında çalışan duyarlı botların anlama yeteneğinin ötesindedir.  Soru kümelerini geniş tutmak düzenli ve iyi sonuçlar verecektir. Eğer yeterli gelmeyeceğini düşünürseniz daha iyi bir koruma için büyük-küçük harf karışıklığı, boşluk ve noktalama işaretleri için sıkı kontrolü açın.',
 	'QUESTION_DELETED'			=> 'Soru silindi',
 	'QUESTION_LANG'				=> 'Dil',
 	'QUESTION_LANG_EXPLAIN'		=> 'Bu sorunun ve cevabın yazıldığı dil.',
 	'QUESTION_STRICT'			=> 'Sıkı kontrol',
-	'QUESTION_STRICT_EXPLAIN'	=> 'Eğer izin verilirse, büyük-küçük harf duyarlılığı ve boşluklar zorunlu kılınacaktır.',
+	'QUESTION_STRICT_EXPLAIN'	=> 'Büyük-küçük harf karışıklılığını, boşlukları ve noktalama işaretlerini zorunlu kıl.',
 
 	'QUESTION_TEXT'				=> 'Soru',
-	'QUESTION_TEXT_EXPLAIN'		=> 'Soru kayıt sırasında sorulacaktır.',
+	'QUESTION_TEXT_EXPLAIN'		=> 'Kullanıcıya sorulacak soru.',
 
 	'QA_ERROR_MSG'				=> 'Lütfen tüm alanları doldurun ve en az bir cevap girin.',
 	'QA_LAST_QUESTION'			=> 'Bu eklenti aktif iken tüm soruları silemezsiniz.',

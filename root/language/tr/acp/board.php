@@ -27,7 +27,8 @@ $lang = array_merge($lang, array(
 	'SITE_DESC'						=> 'Pano açıklaması',
 	'SITE_NAME'						=> 'Pano adı',
 	'SYSTEM_DST'					=> 'Yaz saati/<abbr title="Gün ışığından yararlanma">DST</abbr> etkin',
-	'SYSTEM_TIMEZONE'				=> 'Sistem zaman dilimi',
+	'SYSTEM_TIMEZONE'				=> 'Misafir zaman dilimi',
+	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'Oturum açmamış kullanıcılar (misafir, bot) için gösterilecek zaman dilimi. Oturum açan kullanıcılar kendi zaman dilimlerini kayıt sırasında veya kullanıcı panellerinden değiştirebilirler.',
 	'WARNINGS_EXPIRE'				=> 'Uyarı süresi',
 	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Uyarıların üye kaydından otomatik olarak silinmesinden önce geçmesi gereken gün sayısı.',
 ));
@@ -62,7 +63,7 @@ $lang = array_merge($lang, array(
 	'ALLOW_SMILIES'				=> 'İfadelere izin ver',
 	'ALLOW_TOPIC_NOTIFY'		=> 'Konu aboneliğine izin ver',
 	'BOARD_PM'					=> 'Özel mesajlaşma',
-	'BOARD_PM_EXPLAIN'			=> 'Özel mesaj sistemini tüm kullanıcılar için açar veya kapatır.',
+	'BOARD_PM_EXPLAIN'			=> 'Özel mesaj sistemini tüm kullanıcılar için açar.',
 ));
 
 // Avatar Settings
@@ -137,7 +138,7 @@ $lang = array_merge($lang, array(
 	'DELETE_TIME'					=> 'Silme süresini sınırla',
 	'DELETE_TIME_EXPLAIN'			=> 'Yeni bir iletinin silinme süresini sınırlar. Bu değerin 0 yapılması sınırlama olmamasını sağlar.',
 	'DISPLAY_LAST_EDITED'			=> 'Son değiştirme tarih bilgisini göster',
-	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Son değiştirilme zamanı seçilirse mesajlarda bu bilgi gösterilecektir.',
+	'DISPLAY_LAST_EDITED_EXPLAIN'	=> 'Son değiştirilme zamanı seçilirse iletilerde bu bilgi gösterilecektir.',
 	'EDIT_TIME'						=> 'Değiştirme süre sınırı',
 	'EDIT_TIME_EXPLAIN'				=> 'Yeni iletileri değiştirme süresini kısıtlama. Değer olarak 0 yazarsanız bu özellik kullanım dışı kalacaktır.',
 	'FLOOD_INTERVAL'				=> 'İleti gönderim sıklığı', // flood
@@ -157,8 +158,8 @@ $lang = array_merge($lang, array(
 	'MIN_CHAR_LIMIT_EXPLAIN'		=> 'Kullanıcının bir ileti veya özel mesajda kullanması gerekli minimum karakter sayısı.',
 	'POSTING'						=> 'Gönderim seçenekleri', // ileti seçenekleri için legend bu
 	'POSTS_PER_PAGE'				=> 'Sayfa başına ileti',
-	'QUOTE_DEPTH_LIMIT'				=> 'Mesajlarda iç içe geçmiş en fazla alıntı sayısı',
-	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Mesajda iç içe geçmiş en fazla alıntı sayısıdır. Sınırsız olması için 0 olarak ayarlayın.',
+	'QUOTE_DEPTH_LIMIT'				=> 'İç içe geçmiş en fazla alıntı sayısı',
+	'QUOTE_DEPTH_LIMIT_EXPLAIN'		=> 'Bir iletide iç içe geçmiş en fazla alıntı sayısıdır. Sınırsız olması için 0 olarak ayarlayın.',
 	'SMILIES_LIMIT'					=> 'İletide izin verilen en fazla ifade',
 	'SMILIES_LIMIT_EXPLAIN'			=> 'Bir iletideki en fazla ifade sayısı. İfade sınırı koymamak için 0 yazın.',
 	'SMILIES_PER_PAGE'				=> 'Sayfa başına ifade sayısı',
@@ -223,9 +224,6 @@ $lang = array_merge($lang, array(
 	'USERNAME_CHARS_EXPLAIN'		=> 'Kullanıcı adı belirlenirken sınırlı tipte özel karakter girebilir bunlar, boşluk, -, +, _, [ ve ]’dir.',
 	'USERNAME_LENGTH'				=> 'Kullanıcı adı uzunluğu',
 	'USERNAME_LENGTH_EXPLAIN'		=> 'En az ve en çok kullanıcı adı karakter uzunluğu.',
-	'VISUAL_CONFIRM_REFRESH'		=> 'Kullanıcıların görsel doğrulama resimini yenileyebilsin',
-	'VISUAL_CONFIRM_REFRESH_EXPLAIN'=> 'Kullanıcılar, eğer görsel doğrulama kodunu okuyamazsa, yeni onaylama kodu talep etmelerine izin ver.',   
-
 ));
 
 // Feed settings
@@ -270,43 +268,45 @@ $lang = array_merge($lang, array(
 
 // Visual Confirmation Settings
 $lang = array_merge($lang, array(
-	'ACP_VC_SETTINGS_EXPLAIN'	=> 'Burada görsel doğrulamanın ve doğrulama kodunun varsayılan ayarlarını belirleyebilirsiniz.',
+	'ACP_VC_SETTINGS_EXPLAIN'	=> 'Buradan istem dışı iletileri engellemek üzere kullanacağınız eklentiyi seçip yapılandırabilirsiniz. Bu eklentiler genellikle bir görsel doğrulma kodu <em>CAPTCHA</em> ile kullanıcıları zorlarlar. Bunları bir otomatik ileti gönderi yazılımının çözmesi zordur.',
 
 	'AVAILABLE_CAPTCHAS'					=> 'Mevcut eklentiler',
-	'CAPTCHA_UNAVAILABLE'					=> 'Gereksinimleri yerine getirilmediği için bu görsel doğrulama seçilemez.',
-	'CAPTCHA_GD'							=> 'GD doğrulama kodu',
-	'CAPTCHA_GD_3D'							=> 'GD 3D doğrulama kodu',
-	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'GD doğrulama kodu arkaplan uygulaması',
-	'CAPTCHA_GD_EXPLAIN'					=> 'Daha gelişmiş bir doğrulama kodu yapmak için GD kullanın.',
-	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Doğrulama kodunu güçlendirmek için GD uygulamasını kullanır.',
-	'CAPTCHA_GD_X_GRID'						=> 'GD doğrulama kodu arkaplan uygulaması x-ekseni',
-	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'GD tabanlı doğrulama kodunu güçlendirmek için bu ayarları düşük seviyede kullanın. 0 x-eksenli arkaplan uygulamasını kısık hale getirecektir.',
-	'CAPTCHA_GD_Y_GRID'						=> 'GD doğrulama kodu arkaplan uygulaması y-ekseni',
-	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'GD tabanlı doğrulama kodunu güçlendirmek için bu ayarları düşük seviyede kullanın. 0 y-eksenli arkaplan uygulaması kısık hale getirecektir.',
-	'CAPTCHA_GD_WAVE'						=> 'GD doğrulama kodu dalga bozulması',
-	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Bu doğrulama kodu için uygulanan bir dalga bozulmasıdır.',
+	'CAPTCHA_UNAVAILABLE'					=> 'Gereksinimleri yerine getirilmediği için bu eklenti seçilemez.',
+	'CAPTCHA_GD'							=> 'GD resmi',
+	'CAPTCHA_GD_3D'							=> 'GD 3D resmi',
+	'CAPTCHA_GD_FOREGROUND_NOISE'			=> 'Arkaplan gürültüsü',
+	'CAPTCHA_GD_EXPLAIN'					=> 'Daha gelişmiş bir istek dışı ileti engelleyici yapmak için GD kullanın.',
+	'CAPTCHA_GD_FOREGROUND_NOISE_EXPLAIN'	=> 'Resim okunmasını zorlaştırmak için arkaplan gürültüsü kullanın.',
+	'CAPTCHA_GD_X_GRID'						=> 'Arkaplan gürültüsü x-ekseni',
+	'CAPTCHA_GD_X_GRID_EXPLAIN'				=> 'Güçlendirmek için bu ayarları düşük seviyede kullanın. 0 x-eksenli arkaplan uygulamasını kısık hale getirecektir.',
+	'CAPTCHA_GD_Y_GRID'						=> 'Arkaplan gürültüsü y-ekseni',
+	'CAPTCHA_GD_Y_GRID_EXPLAIN'				=> 'Güçlendirmek için bu ayarları düşük seviyede kullanın. 0 y-eksenli arkaplan uygulaması kısık hale getirecektir.',
+	'CAPTCHA_GD_WAVE'						=> 'Dalga bozulması',
+	'CAPTCHA_GD_WAVE_EXPLAIN'				=> 'Resim için uygulanan bir dalga bozulmasıdır.',
 	'CAPTCHA_GD_3D_NOISE'					=> '3D-gürültü nesneleri ekle',
-	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'Bu harfler üzerine doğrulama kodu için ilave nesneler ekler.',
+	'CAPTCHA_GD_3D_NOISE_EXPLAIN'			=> 'Bu harfler resim üzerine ilave nesneler ekler.',
 	'CAPTCHA_GD_FONTS'						=> 'Farklı yazı tipi kullan',
 	'CAPTCHA_GD_FONTS_EXPLAIN'				=> 'Bu ayar kaç tane farklı harf şekli kullanılacağını kontrol eder. Varsayılan şekiller kullanabilir veya değiştirilmiş harfler gösterebilirsiniz. Küçük harf eklemek de mümkündür.',
 	'CAPTCHA_FONT_DEFAULT'					=> 'Varsayılan',
 	'CAPTCHA_FONT_NEW'						=> 'Yeni şekiller',
 	'CAPTCHA_FONT_LOWER'					=> 'Küçük harf de kullan',
-	'CAPTCHA_NO_GD'							=> 'GD olmayan doğrulama kodu',
-	'CAPTCHA_PREVIEW_MSG'					=> 'Görsel doğrulama ayarlarınız kaydedilmedi. Bu sadece bir önizlemedir.',
-	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Doğrulama kodu mavcut ayarları kullanıyor gibi görünüyor. Sayfayı yenilemek için önizleme butonunu tıklayın. Doğrulama kodlarının rastgele olduğunu ve bir görüntünün diğerinden farklı olacağını unutmayın.',
+	'CAPTCHA_NO_GD'							=> 'Basit resim',
+	'CAPTCHA_PREVIEW_MSG'					=> 'Değişiklikler kaydedilmedi. Bu sadece bir önizlemedir.',
+	'CAPTCHA_PREVIEW_EXPLAIN'				=> 'Mavcut ayarları kullanıyor gibi görünüyor. Sayfayı yenilemek için önizleme butonunu tıklayın. Resimlerin rastgele olduğunu ve bir görüntünün diğerinden farklı olacağını unutmayın.',
 
-	'CAPTCHA_SELECT'						=> 'Kurulu doğrulama kodu eklentileri',
-	'CAPTCHA_SELECT_EXPLAIN'				=> 'Açılan menüde pano tarafından tanınan doğrulama kodlarını bulunur. Gri renkte olan ifadeler şu anda mevcut olmayan ve kullanılmadan önce yapılandırılması gereken eklentilerdir.',
-	'CAPTCHA_CONFIGURE'						=> 'Doğrulama kodlarını yapılandır',
-	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Seçilen doğrulama kodunun ayarlarını değiştirir.',
+	'CAPTCHA_SELECT'						=> 'Kurulu eklentiler',
+	'CAPTCHA_SELECT_EXPLAIN'				=> 'Açılan menüde pano tarafından tanınan eklentiler bulunur. Gri renkte olan ifadeler şu anda mevcut olmayan ve kullanılmadan önce yapılandırılması gereken eklentilerdir.',
+	'CAPTCHA_CONFIGURE'						=> 'Eklentileri yapılandır',
+	'CAPTCHA_CONFIGURE_EXPLAIN'				=> 'Seçilen eklentinin ayarlarını değiştirir.',
 	'CONFIGURE'								=> 'Yapılandır',
-	'CAPTCHA_NO_OPTIONS'					=> 'Bu doğrulama kodu yapılandırma seçenekleri içermiyor.',
+	'CAPTCHA_NO_OPTIONS'					=> 'Bu eklenti yapılandırma seçenekleri içermiyor.',
 	
-	'VISUAL_CONFIRM_POST'					=> 'Görsel doğrulamayı misafirler için aktif hale getir',
-	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Yığın halinde ileti gönderilimesini engellemek için misafirlerin rastgele resim eşleşimli görsel doğrulama kodu girmesi gerekmektedir.',
-	'VISUAL_CONFIRM_REG'					=> 'Kayıtlar için görsel doğrulamayı aktif hale getir',
-	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Yeni üyelerin yığın halinde kayıt olmalarını engellemek için rastgele resim eşleşimli görsel doğrulama kodu girmesi gerekmektedir. Bazı eklentiler bu seçeneği sunmayabilir.',
+	'VISUAL_CONFIRM_POST'					=> 'İstek dışı ileti engelleyiciyi misafirler için aktif hale getir',
+	'VISUAL_CONFIRM_POST_EXPLAIN'			=> 'Yığın halinde ileti gönderilimesini engellemek için misafirlere istek dışı ileti engelleyici işlemler uygular.',
+	'VISUAL_CONFIRM_REG'					=> 'Kayıtlar için istek dışı ileti engelleyiciyi aktif hale getir',
+	'VISUAL_CONFIRM_REG_EXPLAIN'			=> 'Yeni üyelerin yığın halinde kayıt olmalarını engellemek için istek dışı kayıt engelleyici işlemler uygular.',
+	'VISUAL_CONFIRM_REFRESH'				=> 'Kullanıcılar istek dışı kayıt engelleyici işlemini yenileyebilsin',
+	'VISUAL_CONFIRM_REFRESH_EXPLAIN'		=> 'Kullanıcılar, eğer istek dışı kayıt engelleyici işlemini çözemezse, yeni işlem talep etmelerine izin ver. Bazı eklentiler bunu desteklemeyebilir',   
 ));
 
 // Cookie Settings
@@ -335,11 +335,11 @@ $lang = array_merge($lang, array(
 	'LOAD_CPF_VIEWPROFILE'			=> 'Profillerde özel profil alanlarını göster',
 	'LOAD_CPF_VIEWTOPIC'			=> 'Konularda özel profil alanlarını göster',
 	'LOAD_USER_ACTIVITY'			=> 'Kullanıcı aktivitelerini göster',
-	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Aktif konu/forum kısımlarında kullanıcı panelini ve kullanıcı profillerini göster. Eğer 1 milyon mesaja sahip bir foruma sahip iseniz, bu özelliği kapamanızı tavsiye ederiz.',
+	'LOAD_USER_ACTIVITY_EXPLAIN'	=> 'Aktif konu/forum kısımlarında kullanıcı panelini ve kullanıcı profillerini göster. Eğer 1 milyon iletiye sahip bir foruma sahip iseniz, bu özelliği kapamanızı tavsiye ederiz.',
 	'RECOMPILE_STYLES'				=> 'Eskimiş stil bileşenlerini tekrar derle',
 	'RECOMPILE_STYLES_EXPLAIN'		=> 'Dosya sistemindeki güncellenmiş stil bileşenlerini kontrol et ve tekrar derle.',
 	'YES_ANON_READ_MARKING'			=> 'Misafirler için konu işaretlemeye izin ver',
-	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Misafirler için okundu/okunmadı durum bilgilerini depola. Eğer kapatılırsa, misafirler iletileri daima okunmuş görecektir.',
+	'YES_ANON_READ_MARKING_EXPLAIN'	=> 'Misafirler için okundu/okunmadı durum bilgilerini depolar. Eğer kapatılırsa, misafirler iletileri daima okunmuş görecektir.',
 	'YES_BIRTHDAYS'					=> 'Doğum günü listesine izin ver',
 	'YES_BIRTHDAYS_EXPLAIN'			=> 'Doğum günlerinin liste halinde sıralanmasını istiyorsanız bu özelliği açmanız gerekir. Eğer kapatırsanız doğum günü listesinde görüntülenmezler.',
 	'YES_JUMPBOX'					=> 'Forum seçim kutusunu göster',
@@ -354,6 +354,7 @@ $lang = array_merge($lang, array(
 	'YES_POST_MARKING_EXPLAIN'		=> 'Kullanıcının bir konuya ileti yazıp yazmadığını göster.',
 	'YES_READ_MARKING'				=> 'Sunucu taraflı konu işaretlemeye izin ver',
 	'YES_READ_MARKING_EXPLAIN'		=> 'Okundu/okunmadı durum bilgilerini çerez yerine veritabanında depolar.',
+	'YES_UNREAD_SEARCH'				=> 'Okunmamış iletilerde arama yapmaya izin ver',
 ));
 
 // Auth settings

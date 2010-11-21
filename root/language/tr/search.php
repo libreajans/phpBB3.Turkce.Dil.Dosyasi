@@ -36,9 +36,10 @@ $lang = array_merge($lang, array(
 	
 	'NO_KEYWORDS'			=> 'Aramak için en az bir kelime girmelisiniz. Her kelime en az %d harften oluşmalı ve %d karakteri aşmamalı.',
 	'NO_RECENT_SEARCHES'	=> 'Son zamanlarda arama yapılmadı.',
-	'NO_SEARCH'				=> 'Üzgünüm, fakat arama sistemini kullanma izniniz bulunmamaktadır.',
+	'NO_SEARCH'				=> 'Arama sistemini kullanma izniniz bulunmamaktadır.',
 	'NO_SEARCH_RESULTS'		=> 'Arama kriterlerinize göre uygun sonuç bulunamadı.',
-	'NO_SEARCH_TIME'		=> 'Üzgünüm fakat şu anda aramayı kullanamazsınız. Birkaç dakika içinde tekrar deneyiniz.',
+	'NO_SEARCH_TIME'		=> 'Şu anda aramayı kullanamazsınız. Birkaç dakika içinde tekrar deneyiniz.',
+	'NO_SEARCH_UNREADS'		=> 'Okunmamış iletilerinde arama yapma kapatılmıştır.',
 	'WORD_IN_NO_POST'		=> 'Sonuç bulunamadı, <strong>%s</strong> kelimesini içeren herhangi bir ileti yok.',
 	'WORDS_IN_NO_POST'		=> 'Sonuç bulunamadı, <strong>%s</strong> kelimelerini içeren herhangi bir ileti yok.',
 

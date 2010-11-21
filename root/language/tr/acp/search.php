@@ -36,6 +36,9 @@ $lang = array_merge($lang, array(
 	'FULLTEXT_MYSQL_PCRE'					=> 'Latin olmayan UTF-8 karakterleri için PCRE kullanımı:',
 	'FULLTEXT_MYSQL_MBSTRING_EXPLAIN'		=> 'Eğer PRCE unicode karakter özelliklerine sahip değilse, arama uygulaması mbstring düzenli ifade motorunu kullanmayı deneyecektir.',
 	'FULLTEXT_MYSQL_PCRE_EXPLAIN'			=> 'Latin dışı karakterler için arama yapmak isterseniz, bu arama uygulaması sadece PHP 4.4, 5.1 ve üzeri sürümlerde bulunan PRCE unicode karakter özelliklerine ihtiyaç duyar.',
+	
+	'FULLTEXT_MYSQL_MIN_SEARCH_CHARS_EXPLAIN'	=> 'Arama indeksinde kayıt altına alınacak en az karakter. Siz veya barındırıcınız bu ayarı sadece mysql ayarlarından değiştirebilir.',
+	'FULLTEXT_MYSQL_MAX_SEARCH_CHARS_EXPLAIN'	=> 'Arama indeksinde altına alınacak en fazla karakter. Siz veya barındırıcınız bu ayarı sadece mysql ayarlarından değiştirebilir.',
 
 	'GENERAL_SEARCH_SETTINGS'				=> 'Genel arama ayarları',
 	'GO_TO_SEARCH_INDEX'					=> 'Arama anasayfasına git',
@@ -47,13 +50,13 @@ $lang = array_merge($lang, array(
 	'LIMIT_SEARCH_LOAD'						=> 'Arama sayfası sistem yüklenme sınırı',
 	'LIMIT_SEARCH_LOAD_EXPLAIN'				=> 'Eğer 1 dakikalık sistem yükü bu değeri aşarsa arama sayfası çevrimdışı olur. 1.0, bir işlemcinin ~100% kullanımına karşı gelir. Bu sadece UNIX tabanlı sunucularda işlevseldir.',
 
-	'MAX_SEARCH_CHARS'						=> 'Aramada kayıt altına alınacak en yüksek karakter',
-	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Aramada kayıt altına alınacak karakterler bundan fazla olmayacak.',
+	'MAX_SEARCH_CHARS'						=> 'Arama indeksinde kayıt altına alınacak en fazla karakter',
+	'MAX_SEARCH_CHARS_EXPLAIN'				=> 'Arama indeksinde altına alınacak karakterler bundan fazla olmayacak.',
 	'MAX_NUM_SEARCH_KEYWORDS'				=> 'İzin verilen en fazla anahtar kelime sayısı',
 	'MAX_NUM_SEARCH_KEYWORDS_EXPLAIN'		=> 'Bir kullanıcının arama yapabileceği en fazla kelime sayısı. 0 yazılırsa sınırsız sayıda kelime aranabilir.',
 
-	'MIN_SEARCH_CHARS'						=> 'Aramada kayıt altına alınacak en düşük karakter',
-	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Aramada kayıt altına alınacak karakterler bundan düşük olmayacak.',
+	'MIN_SEARCH_CHARS'						=> 'Aramada kayıt altına alınacak en az karakter',
+	'MIN_SEARCH_CHARS_EXPLAIN'				=> 'Aramada kayıt altına alınacak karakterler bundan az olmayacak.',
 	'MIN_SEARCH_AUTHOR_CHARS'				=> 'En az yazar ismi karakter uzunluğu',
 	'MIN_SEARCH_AUTHOR_CHARS_EXPLAIN'		=> 'Kullanıcılar jokerli yazar araması yaparken en az bu sayı kadar harf girmek zorundalar. Yazar adı karakter sayısı burada girilen sayıdan daha az olsa bile, yazarın tam adını girerek iletilerini arayabilirsiniz.',
 

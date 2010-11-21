@@ -16,10 +16,10 @@ $lang = array_merge($lang, array(
 	'ADMIN_CONFIG'				=> 'Yönetici ayarları',
 	'ADMIN_PASSWORD'			=> 'Yönetici parolası',
 	'ADMIN_PASSWORD_CONFIRM'	=> 'Yönetici parolasını doğrula',
-	'ADMIN_PASSWORD_EXPLAIN'	=> '(6 ve 30 karakter arası uzunluğunda.)',
+	'ADMIN_PASSWORD_EXPLAIN'	=> '(6 ve 30 karakter arası uzunluğunda)',
 	'ADMIN_TEST'				=> 'Yönetici ayarları kontrolü',
 	'ADMIN_USERNAME'			=> 'Yönetici üye adı',
-	'ADMIN_USERNAME_EXPLAIN'	=> '(3 ve 20 karakter arası uzunluğunda.)',
+	'ADMIN_USERNAME_EXPLAIN'	=> '(3 ve 20 karakter arası uzunluğunda)',
 	'APP_MAGICK'				=> 'Imagemagick desteği [ eklentiler için ]',
 	'AUTHOR_NOTES'				=> 'Yazar notları<br />» %s',
 	'AVAILABLE'					=> 'Mevcut',
@@ -104,7 +104,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> '<var>query_first</var> yürütülürken hata oluştu, %s (“%s”).',
 	'DB_ERR_SELECT'				=> '<code>SELECT</code> sorgusu çalışırken hata oluştu.',
 	'DB_HOST'					=> 'Veritabanı sunucu adı veya DSN',
-	'DB_HOST_EXPLAIN'			=> 'DSN - Data Source Name ifadesinin kısaltmasıdır. Sadece ODBC kurulumlarında bulunur.',
+	'DB_HOST_EXPLAIN'			=> 'DSN - Data Source Name ifadesinin kısaltmasıdır. Sadece ODBC kurulumlarında bulunur. PostgreSQL için, TCP üzerinden bağlamak için UNIX alan soketi ve 127.0.0.1 ile yerel sunucusuna bağlanmak için localhost kullanın.',
 	'DB_NAME'					=> 'Veritabanı adı',
 	'DB_PASSWORD'				=> 'Veritabanı parolası',
 	'DB_PORT'					=> 'Veritabanı sunucu portu',
@@ -122,7 +122,8 @@ $lang = array_merge($lang, array(
 	'DLL_GD'					=> 'GD grafik desteği [ Görsel Doğrulama ]',
 	'DLL_MBSTRING'				=> 'Multi-byte karakter desteği',
 	'DLL_MSSQL'					=> 'MSSQL Server 2000+',
-	'DLL_MSSQL_ODBC'			=> 'MSSQL Server 2000+ via ODBC',
+	'DLL_MSSQL_ODBC'			=> 'MSSQL Server 2000+, ODBC ile',
+	'DLL_MSSQLNATIVE'			=> 'MSSQL Server 2005+ [ Native ]', // Native
 	'DLL_MYSQL'					=> 'MySQL',
 	'DLL_MYSQLI'				=> 'MySQL - MySQLi kütüphaneli',
 	'DLL_ORACLE'				=> 'Oracle',
@@ -186,6 +187,7 @@ $lang = array_merge($lang, array(
 		<li>SQLite 2.8.2+</li>
 		<li>Firebird 2.1+</li>
 		<li>MS SQL Server 2000 veya üzeri (direkt veya ODBC ile)</li>
+		<li>MS SQL Server 2005 veya üzeri (native)</li>
 		<li>Oracle</li>
 	</ul>
 	
@@ -560,6 +562,7 @@ $lang = array_merge($lang, array(
 	'UPDATING_DATA'					=> 'Veri güncelleniyor',
 	'UPDATING_TO_LATEST_STABLE'		=> 'Veritabanı en son stabil sürüme güncelleniyor',
 	'UPDATED_VERSION'				=> 'Güncellenen sürüm',
+	'UPGRADE_INSTRUCTIONS'			=> 'Yeni <strong>%1$s</strong> sürümü mevcuttur. Nasıl güncelleme yapacağınızı öğrenmek için <a href="%2$s" title="%2$s"><strong>sürüm duyurusu</strong></a>nu okuyun.',
 	'UPLOAD_METHOD'					=> 'Yükleme metodu',
 
 	'UPDATE_DB_SUCCESS'				=> 'Veritabanı güncellemesi başarılı.',
@@ -585,18 +588,8 @@ $lang = array_merge($lang, array(
 	'CONFIG_SITE_DESC'				=> 'Panonuz için kısa bir açıklama',
 	'CONFIG_SITENAME'				=> 'siteismi.com',
 
-	'DEFAULT_INSTALL_POST'				=> 'Bu metin phpBB3 kurulumuyla gelen örnek bir iletidir. Her şey çalışıyor görünmekte. İsterseniz bu iletiyi silebilir ve işinize pano ayarları ile devam edebilirsiniz. Kurulum sürecinde ilk kategoriniz ve ilk forumunuza önceden belirlenmiş kullanıcı grupları olan, yöneticiler, genel yetkililer, misafirler, kayıtlı kullanıcılar ve kayıtlı COPPA kullanıcıları için uygun izin ayarları yapıldı. İlk kategori ve forumunuzu silmeyi seçerseniz, bu kullanıcı gruplarının tümüne oluşturduğunuz her yeni kategori ve forumda izinler atamayı unutmayın. İlk kategori ve ilk forumunuzun adlarının değiştirilmesi ve yeni oluşturulan kategori ve forumlara ilk izinlerin kopyalanması tavsiye edilir. İyi eğlenceler!',
+	'DEFAULT_INSTALL_POST'			=> 'Bu metin phpBB3 kurulumuyla gelen örnek bir iletidir. Her şey çalışıyor görünmekte. İsterseniz bu iletiyi silebilir ve işinize pano ayarları ile devam edebilirsiniz. Kurulum sürecinde ilk kategoriniz ve ilk forumunuza önceden belirlenmiş kullanıcı grupları olan, yöneticiler, genel yetkililer, misafirler, kayıtlı kullanıcılar ve kayıtlı COPPA kullanıcıları için uygun izin ayarları yapıldı. İlk kategori ve forumunuzu silmeyi seçerseniz, bu kullanıcı gruplarının tümüne oluşturduğunuz her yeni kategori ve forumda izinler atamayı unutmayın. İlk kategori ve ilk forumunuzun adlarının değiştirilmesi ve yeni oluşturulan kategori ve forumlara ilk izinlerin kopyalanması tavsiye edilir. İyi eğlenceler!',
 	
-	'EXT_GROUP_ARCHIVES'			=> 'Arşivler',
-	'EXT_GROUP_DOCUMENTS'			=> 'Dokümanlar',
-	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'İndirilebilir Dosyalar',
-	'EXT_GROUP_FLASH_FILES'			=> 'Flash Dosyaları',
-	'EXT_GROUP_IMAGES'				=> 'Resimler',
-	'EXT_GROUP_PLAIN_TEXT'			=> 'Düz Metin',
-	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Media',
-	'EXT_GROUP_REAL_MEDIA'			=> 'Real Media',
-	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media',
-
 	'FORUMS_FIRST_CATEGORY'			=> 'İlk kategoriniz',
 	'FORUMS_TEST_FORUM_DESC'		=> 'İlk forumunuz için açıklama.',
 	'FORUMS_TEST_FORUM_TITLE'		=> 'İlk forumunuz',

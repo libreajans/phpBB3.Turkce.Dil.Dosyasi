@@ -74,6 +74,16 @@ $lang = array_merge($lang, array(
 	'EXTENSION_GROUP_DELETED'		=> 'Uzantı grubu başarılı bir şekilde silindi.',
 	'EXTENSION_GROUP_EXIST'			=> 'Bu %s uzantı grubu zaten kayıtlı.',
 
+	'EXT_GROUP_ARCHIVES'			=> 'Arşivler',
+	'EXT_GROUP_DOCUMENTS'			=> 'Dokümanlar',
+	'EXT_GROUP_DOWNLOADABLE_FILES'	=> 'İndirilebilir Dosyalar',
+	'EXT_GROUP_FLASH_FILES'			=> 'Flash Dosyaları',
+	'EXT_GROUP_IMAGES'				=> 'Resimler',
+	'EXT_GROUP_PLAIN_TEXT'			=> 'Düz Metin',
+	'EXT_GROUP_QUICKTIME_MEDIA'		=> 'Quicktime Media',
+	'EXT_GROUP_REAL_MEDIA'			=> 'Real Media',
+	'EXT_GROUP_WINDOWS_MEDIA'		=> 'Windows Media',
+
 	'GO_TO_EXTENSIONS'		=> 'Uzantı yönetim ekranı',
 	'GROUP_NAME'			=> 'Grup adı',
 

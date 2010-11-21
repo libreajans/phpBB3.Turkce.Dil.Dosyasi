@@ -19,6 +19,7 @@ $lang = array_merge($lang, array(
 	'BAN_ALREADY_ENTERED'	=> 'Uzaklaştırma bilgisi başarıyla girildi. Uzaklaştırma listesi güncellendi.',
 	'BAN_SUCCESSFUL'		=> 'Uzaklaştırma girişi başarılı.',
 
+	'CANNOT_BAN_ANONYMOUS'			=> 'Misafir kullanıcı hesabını uzaklaştıramazsınız. Misafir kullanıcı izinleri "İzinler" sekmesinden değiştirilebilir.',
 	'CANNOT_BAN_FOUNDER'			=> 'Kurucu hesabı uzaklaştıramazsınız.',
 	'CANNOT_BAN_YOURSELF'			=> 'Kendinizi uzaklaştıramazsınız.',
 	'CANNOT_DEACTIVATE_BOT'			=> 'Bot hesabı pasif edemezsiniz. Onun yerine lütfen bot sayfasından botu pasif edin.',

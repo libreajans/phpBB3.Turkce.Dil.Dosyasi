@@ -10,7 +10,7 @@
 // [ phpBB3 Türkçe Dil Paketi ]
 //
 // TERCÜME	: phpBB Türkiye - http://www.phpbbturkiye.net
-// SÜRÜM	: 1.0.4 - 06 Mart 2010 - phpBB 3.0.7-PL1
+// SÜRÜM	: 1.0.5 - 21 Kasım 2010 - phpBB 3.0.8
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://www.phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
 //--------------------------------------------------------------------------------------
@@ -30,17 +30,6 @@ if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
-
-// "sürüm denetimi modülü" tarafından yeni sürüm kontrolü için kullanılması planlanmaktadır. 
-// ayrıntılı bilgi: http://www.phpbbturkiye.net/dil-dosyasi-surum-denetimi-modulu-t14.html
-/*
-$lang = array_merge($lang, array(
-	'TR_VERSION' => array(
-		'LANG'	=> '1.0.4',
-		'PHPBB'	=> '3.0.7-PL1',
-	),
-));
-*/
 
 // dil değişkenleri
 $lang = array_merge($lang, array(
@@ -128,7 +117,7 @@ $lang = array_merge($lang, array(
 	'COMMA_SEPARATOR'		=> ', ',	// Used in pagination of ACP & prosilver, use localised comma if appropriate, eg: Ideographic or Arabic
 	'CONFIRM'				=> 'Doğrula',
 	'CONFIRM_CODE'			=> 'Doğrulama kodu',
-	'CONFIRM_CODE_EXPLAIN'	=> 'Resimde gördüğünüz karakterleri aynen yazınız. Tüm karakterler küçük-büyük harf duyarsızdır ve içerisinde sıfır rakamı yer almaz.',
+	'CONFIRM_CODE_EXPLAIN'	=> 'Resimde gördüğünüz karakterleri aynen yazınız. Tüm karakterler küçük-büyük harf duyarsızdır .',
 	'CONFIRM_CODE_WRONG'	=> 'Doğrulama kodunu eksik veya yanlış yazdınız.',
 	'CONFIRM_OPERATION'		=> 'Bu işlemi gerçekleştirmek istediğinizden emin misiniz?',
 	'CONGRATULATIONS'		=> 'Tebrikler',
@@ -299,6 +288,7 @@ $lang = array_merge($lang, array(
 	'LAST_VISIT'						=> 'Son ziyaret',
 	'LDAP_NO_LDAP_EXTENSION'			=> 'LDAP eklentisi mevcut değil.',
 	'LDAP_NO_SERVER_CONNECTION'			=> 'LDAP sunucusuna bağlanılamıyor.',
+	'LDAP_SEARCH_FAILED'				=> 'LDAP dizininde arama yaparken bir hata oluştu.',
 	'LEGEND'							=> 'Yetkiler', // Legend
 	'LOCATION'							=> 'Konum',
 	'LOCK_POST'							=> 'İletiyi kilitle',
@@ -307,7 +297,7 @@ $lang = array_merge($lang, array(
 	'LOGIN'								=> 'Oturum Aç',
 	'LOGIN_CHECK_PM'					=> 'Özel mesajlarınızı kontrol etmek için oturum açın.',
 	'LOGIN_CONFIRMATION'				=> 'Oturum açma doğrulama',
-	'LOGIN_CONFIRM_EXPLAIN'				=> 'Brute Force tekniği ile oturum açma denemelerini engellemek için belirlenen başarısız oturum açma denemesi sonunda doğrulama kodu girmenizi istenmektedir. Kod aşağıdaki resim içine yerleştirilmiştir. Eğer kod bozuk görünüyor veya kodu okuyamıyorsanız yardım için lütfen %spano yöneticisi%s ile irtibata geçin.',
+	'LOGIN_CONFIRM_EXPLAIN'				=> '"Brute Force" tekniği ile oturum açma denemelerini engellemek için belirlenen başarısız oturum açma denemesi sonunda doğrulama kodu girmenizi istenmektedir. Kod aşağıdaki resim içine yerleştirilmiştir. Eğer kod bozuk görünüyor veya kodu okuyamıyorsanız yardım için lütfen %spano yöneticisi%s ile irtibata geçin.', // unused
 	'LOGIN_ERROR_ATTEMPTS'				=> 'İzin verilen en fazla oturum açma denemesini aştınız. Kullanıcı adınız ve parolanıza ek olarak aşağıdaki resimde görülen kod doğrulamasını da doldurmalısınız.',
 	'LOGIN_ERROR_EXTERNAL_AUTH_APACHE'	=> 'Apache tarafından doğrulanmadınız.',
 	'LOGIN_ERROR_PASSWORD'				=> 'Girdiğiniz parola yanlış. Lütfen parolanızı kontrol edip tekrar deneyiniz. Eğer sorun yaşamaya devam ederseniz %spano yöneticisi%s ile irtibata geçin.',
@@ -350,8 +340,8 @@ $lang = array_merge($lang, array(
 	'NEW_MESSAGES'				=> 'Yeni mesajlar',
 	'NEW_PM'					=> '<strong>%d</strong> yeni özel mesaj',
 	'NEW_PMS'					=> '<strong>%d</strong> yeni özel mesaj',
-	'NEW_POST'					=> 'Yeni ileti',
-	'NEW_POSTS'					=> 'Yeni iletiler',
+	'NEW_POST'					=> 'Yeni ileti',	// Not used anymore
+	'NEW_POSTS'					=> 'Yeni iletiler',	// Not used anymore
 	'NEXT'						=> 'Sonraki', // sayfalama fonksiyonunda kullanılıyor
 	'NEXT_STEP'					=> 'Sonraki', // "sonraki aşama" anlamında
 	'NEVER'						=> 'Asla',
@@ -384,7 +374,7 @@ $lang = array_merge($lang, array(
 	'NO_MODERATORS'				=> 'Yetkili mevcut değil.',
 	'NO_NEW_MESSAGES'			=> 'Yeni mesaj yok',
 	'NO_NEW_PM'					=> '<strong>0</strong> yeni özel mesaj',
-	'NO_NEW_POSTS'				=> 'Yeni ileti yok',
+	'NO_NEW_POSTS'				=> 'Yeni ileti yok',	// Not used anymore
 	'NO_ONLINE_USERS'			=> 'Kayıtlı kullanıcı yok',
 	'NO_POSTS'					=> 'İleti yok',
 	'NO_POSTS_TIME_FRAME'		=> 'Bu konu içinde, seçilen zaman çerçevesine ait ileti mevcut değil.',
@@ -398,6 +388,7 @@ $lang = array_merge($lang, array(
 	'NO_TOPICS'					=> 'Bu forumda hiçbir konu veya ileti mevcut değil.',
 	'NO_TOPICS_TIME_FRAME'		=> 'Bu forum içinde, seçilen zaman çerçevesine ait konu mevcut değil.', 
 	'NO_UNREAD_PM'				=> '<strong>0</strong> okunmamış mesaj',
+	'NO_UNREAD_POSTS'			=> 'Okunmamış ileti yok',
     'NO_UPLOAD_FORM_FOUND'		=> 'Yükleme başlatıldı ancak geçerli dosya yükleme formu bulunamadı',
 	'NO_USER'					=> 'Talep edilen kullanıcı mevcut değil.',
 	'NO_USERS'					=> 'Talep edilen kullanıcılar mevcut değil.',
@@ -424,6 +415,7 @@ $lang = array_merge($lang, array(
 	'PIXEL'						=> 'px',
 	'PLAY_QUICKTIME_FILE'		=> 'Quicktime dosyasını oynat',
 	'PM'						=> 'Özel mesaj',
+	'PM_REPORTED'				=> 'Rapora bakmak için tıklayın',
 	'POSTING_MESSAGE'			=> '%s içinde mesaj gönderiyor',
 	'POSTING_PRIVATE_MESSAGE'	=> 'Özel mesaj yazıyor',
 	'POST'						=> 'İleti',
@@ -568,6 +560,8 @@ $lang = array_merge($lang, array(
 	'THE_TEAM'			=> 'Yönetim ekibi',
 	'TIME'				=> 'Zaman',
 
+	'TOO_LARGE'						=> 'Girdiğiniz değer çok büyük.',
+	'TOO_LARGE_MAX_RECIPIENTS'		=> '<strong>Özel mesaj başına en fazla alıcı sayısı</strong> için girdiğiniz değer çok büyük.',
 	'TOO_LONG'						=> 'Yazdığınız değer çok uzun.',
 	'TOO_LONG_AIM'					=> 'Yazdığınız AOL Messenger ismi çok uzun.',
 	'TOO_LONG_CONFIRM_CODE'			=> 'Yazdığınız doğrulama kodu çok uzun.',
@@ -607,7 +601,9 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_EMAIL_CONFIRM'		=> 'Yazdığınız e-posta adresi doğrulaması çok kısa.',
 	'TOO_SHORT_WEBSITE'				=> 'Yazdığınız web sitesi adresi çok kısa.',
 	'TOO_SHORT_YIM'					=> 'Yazdığınız Yahoo! Messenger ismi çok kısa.',
-
+	'TOO_SMALL'						=> 'Girdiğiniz değer çok küçük.',
+	'TOO_SMALL_MAX_RECIPIENTS'		=> '<strong>Özel mesaj başına en fazla alıcı sayısı</strong> için girdiğiniz değer çok küçük.',,
+	
 	'TOPIC'				=> 'Konu',
 	'TOPICS'			=> 'Konu',
 	'TOPICS_UNAPPROVED'	=> 'Bu forumda en azından bir tane onaylanmamış konu var.',
@@ -641,6 +637,8 @@ $lang = array_merge($lang, array(
 	'UNREAD_MESSAGES'		=> 'Okunmamış mesajlar',
 	'UNREAD_PM'				=> '<strong>%d</strong> okunmamış',
 	'UNREAD_PMS'			=> '<strong>%d</strong> okunmamış',
+	'UNREAD_POST'			=> 'Okunmamış ileti',
+	'UNREAD_POSTS'			=> 'Okunmamış ileti',
 	'UNWATCHED_FORUMS'			=> 'Seçilen forumlara daha uzun süre abone olamazsınız.', 
 	'UNWATCHED_TOPICS'			=> 'Seçilen konulara daha uzun süre abone olamazsınız.',
 	'UNWATCHED_FORUMS_TOPICS'	=> 'Seçilen girdilere daha uzun süre abone olamazsınız.',
