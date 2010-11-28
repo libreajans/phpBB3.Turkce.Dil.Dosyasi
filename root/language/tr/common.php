@@ -602,12 +602,7 @@ $lang = array_merge($lang, array(
 	'TOO_SHORT_WEBSITE'				=> 'Yazdığınız web sitesi adresi çok kısa.',
 	'TOO_SHORT_YIM'					=> 'Yazdığınız Yahoo! Messenger ismi çok kısa.',
 	'TOO_SMALL'						=> 'Girdiğiniz değer çok küçük.',
-<<<<<<< HEAD
 	'TOO_SMALL_MAX_RECIPIENTS'		=> '<strong>Özel mesaj başına en fazla alıcı sayısı</strong> için girdiğiniz değer çok küçük.',
-=======
-	'TOO_SMALL_MAX_RECIPIENTS'		=> '<strong>Özel mesaj başına en fazla alıcı sayısı</strong> için girdiğiniz değer çok küçük.',,
->>>>>>> 6db1b7d... phpBB 3.0.8 değişiklikleri
-	
 	'TOPIC'				=> 'Konu',
 	'TOPICS'			=> 'Konu',
 	'TOPICS_UNAPPROVED'	=> 'Bu forumda en azından bir tane onaylanmamış konu var.',
