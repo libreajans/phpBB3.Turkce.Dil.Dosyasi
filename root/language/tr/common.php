@@ -1,16 +1,16 @@
 <?php defined('IN_PHPBB') OR die('No direct access allowed.');
 /**
  * @author Sevdin Filiz <angelside@users.sourceforge.net>
- * @copyright (c) 2005 phpBB Group <http://www.phpbb.com>			[phpBB sistemi]
- * @copyright (c) 2010 Canver Software <http://www.canversoft.net>	[tercüme]
+ * @copyright (c) phpBB Group <http://www.phpbb.com>			[phpBB sistemi]
+ * @copyright (c) Canver Software <http://www.canversoft.net>	[tercüme]
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
 // -------------------------------------------------------------------------------------
 // [ phpBB3 Türkçe Dil Paketi ]
 //
-// TERCÜME	: phpBB Türkiye - http://www.phpbbturkiye.net
 // SÜRÜM	: 1.0.5 - 21 Kasım 2010 - phpBB 3.0.8
+// TERCÜME	: phpBB Türkiye - http://www.phpbbturkiye.net
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://www.phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
 //--------------------------------------------------------------------------------------
@@ -22,7 +22,7 @@
 // http://www.phpbbturkiye.net/hata-raporlari-f93/
 //
 //
-// Some characters you may want to copy&paste:
+// Kopyala-yapıştır yapabileceğiniz bazı karakterler:
 // ’ » “ ” …
 // -------------------------------------------------------------------------------------
 
