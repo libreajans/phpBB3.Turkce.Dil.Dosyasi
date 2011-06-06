@@ -283,7 +283,7 @@ $lang = array_merge($lang, array(
 	'RETURN_POST'				=> '%sİletiye dön%s',
 	'RETURN_QUEUE'				=> '%sOnay bekleyenlere dön%s', 
 	'RETURN_REPORTS'			=> '%sRaporlara dön%s',
-	'RETURN_TOPIC_SIMPLE'		=> '%sKonulara dön%s',
+	'RETURN_TOPIC_SIMPLE'		=> '%sKonuya dön%s',
 
 	'SEARCH_POSTS_BY_USER'				=> 'İletiyi arayan kişi',
 	'SELECT_ACTION'						=> 'İstediğiniz işlemi seçiniz',
