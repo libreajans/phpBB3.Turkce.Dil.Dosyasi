@@ -261,9 +261,9 @@ $lang = array_merge($lang, array(
 	'INSTALLED_TEMPLATE'		=> 'Kurulu şablonlar',
 	'INSTALLED_THEME'			=> 'Kurulu temalar',
 	
-	'KEEP_IMAGESET'				=> '"%s" resim setini koru',
-	'KEEP_TEMPLATE'				=> '"%s" şablonunu koru',
-	'KEEP_THEME'				=> '"%s" stilini koru',
+	'KEEP_IMAGESET'				=> '“%s” resim setini koru',
+	'KEEP_TEMPLATE'				=> '“%s” şablonunu koru',
+	'KEEP_THEME'				=> '“%s” stilini koru',
 
 	'LINE_SPACING'				=> 'Satır aralığı',
 	'LOCALISED_IMAGES'			=> 'Yerelleştir',
@@ -301,7 +301,7 @@ $lang = array_merge($lang, array(
 	'REPLACE_TEMPLATE_EXPLAIN'	=> 'Bu şablon üzerine yazdığınızı silerek yerini alacaktır.',
 	'REPLACE_THEME'				=> 'Temanın üzerine yaz',
 	'REPLACE_THEME_EXPLAIN'		=> 'Bu tema üzerine yazdığınızı silerek yerini alacaktır.',
-	'REPLACE_WITH_OPTION'		=> '"%s" ile değiştir',
+	'REPLACE_WITH_OPTION'		=> '“%s” ile değiştir',
 	'REQUIRES_IMAGESET'			=> 'Bu stilin kurulumu için %s resim seti yüklü olması gerekiyor.',
 	'REQUIRES_TEMPLATE'			=> 'Bu stilin kurulumu için %s şablonun yüklü olması gerekiyor.',
 	'REQUIRES_THEME'			=> 'Bu stilin kurulumu için %s tamanın yüklü olması gerekiyor.',
