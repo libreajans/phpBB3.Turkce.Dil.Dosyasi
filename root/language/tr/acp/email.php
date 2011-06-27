@@ -28,7 +28,10 @@ $lang = array_merge($lang, array(
 	'SEND_TO_GROUP'			=> 'Gruba gönder',
 	'SEND_TO_USERS'			=> 'Kullanıcıya gönder',
 	'SEND_TO_USERS_EXPLAIN'	=> 'Buraya isim girerseniz seçili grup bilgisinin üzerine yazılır. Her ismi ayrı bir satıra yazınız.',
-	
+
+	'MAIL_BANNED'			=> 'Uzaklaştırılmış kullanıcılara e-posta',
+	'MAIL_BANNED_EXPLAIN'	=> 'Bir gruba toplu e-posta gönderirken uzaklaştırılan kullanıcılara e-posta alma durumunu buradan seçebilirsiniz.',
+
 	'MAIL_HIGH_PRIORITY'	=> 'Yüksek',
 	'MAIL_LOW_PRIORITY'		=> 'Düşük',
 	'MAIL_NORMAL_PRIORITY'	=> 'Normal',

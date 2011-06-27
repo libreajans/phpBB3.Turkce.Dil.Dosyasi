@@ -186,9 +186,8 @@ $lang = array_merge($lang, array(
 	'MCP_WARN_POST'			=> 'Bir iletiden dolayı uyar',
 	'MCP_WARN_USER'			=> 'Kullanıcı uyar',
 
-	'MERGE_POSTS'			=> 'Seçilen iletileri birleştir',
-	'MERGE_POSTS_CONFIRM'	=> 'Seçilen iletileri birleştirmek istediğinizden emin misiniz?',
-	'MERGE_TOPIC_EXPLAIN' 	=> 'Aşağıdaki formu kullanarak, seçmiş olduğunuz iletileri başka bir konu altında birleştirebilirsiniz. Bu iletiler yeniden sıraya konmayacaktır. Lütfen hedef konu id’sini girin veya birini seçmek için “Konu Seç” butonuna tıklayın.',
+	'MERGE_POSTS_CONFIRM'	=> 'Seçilen iletileri taşımak istediğinizden emin misiniz?',
+	'MERGE_TOPIC_EXPLAIN' 	=> 'Aşağıdaki formu kullanarak, seçmiş olduğunuz iletileri başka bir konu altına taşıyabilirsiniz. İletiler bu konudan ayrılacak ve başka bir konu ile birleşecektir. Bu iletiler yeniden sıraya konmayacaktır. Lütfen hedef konu id numarası girin veya birini seçmek için “Konu Seç” butonuna tıklayın.',
 	'MERGE_TOPIC_ID'		=> 'Birleştirilecek konuya ait id',
 	'MERGE_TOPICS'			=> 'Konuları birleştir',
 	'MERGE_TOPICS_CONFIRM'	=> 'Seçilen konuları birleştirmek istediğinizden emin misiniz?',

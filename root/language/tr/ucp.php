@@ -94,6 +94,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_REMOVE_FOLDER'		=> 'Bu klasör silinemez.',
 	'CHANGE_DEFAULT_GROUP'		=> 'Varsayılan grubu değiştir',
 	'CHANGE_PASSWORD'			=> 'Parola değiştir',
+	'CLICK_GOTO_FOLDER'			=> '%1$s“%3$s” klasörünüze gidin%2$s',
 	'CLICK_RETURN_FOLDER'		=> '%1$s“%3$s” klasörünüze dönün%2$s',
 	'CONFIRMATION'				=> 'Kayıt doğrulaması',
 	'CONFIRM_CHANGES'			=> 'Değişiklikleri onayla',
@@ -169,6 +170,7 @@ $lang = array_merge($lang, array(
 	'FIELD_INVALID_CHARS_ALPHA_ONLY'	=> '“%s” alanı geçersiz karakter içeriyor, sadece harf ve rakamlara izin veriliyor.',
 	'FIELD_INVALID_CHARS_SPACERS_ONLY'	=> '“%s” alanı geçersiz karakter içeriyor, sadece harf, rakam, boşluk veya -+_[] karakterlerine izin veriliyor.',
 	'FIELD_INVALID_DATE'				=> '“%s” alanındaki tarih geçersiz.',
+	'FIELD_INVALID_VALUE'				=> '“%s” alanındaki değer geçersiz.',
 
 	'FOE_MESSAGE'				=> 'Yasaklıdan mesaj',
 	'FOES_EXPLAIN'				=> 'Yasaklılar genel olarak engellenen kullanıcılardır. Bu kullanıcılardan gelen mesajların içerikleri tam görünür olmayacak. Yasaklı kullanıcılardan gelen özel mesajlara hala izin verilir. Yönetici ve yetkilileri yasaklayamazsınız.', 

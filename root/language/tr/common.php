@@ -9,7 +9,7 @@
 // -------------------------------------------------------------------------------------
 // [ phpBB3 Türkçe Dil Paketi ]
 //
-// SÜRÜM	: 1.0.6 - 27 Mayıs 2011 - phpBB 3.0.8
+// SÜRÜM	: 1.0.6 - 28 Haziran 2011 - phpBB 3.0.9.RC1
 // TERCÜME	: phpBB Türkiye - http://www.phpbbturkiye.net
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://www.phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
@@ -183,7 +183,7 @@ $lang = array_merge($lang, array(
 	'FORM_INVALID'			=> 'Gönderilen form geçersizdir. Tekrar göndermeyi deneyin.',
 	'FORUM'					=> 'Forum',
 	'FORUMS'				=> 'Forumlar',
-	'FORUMS_MARKED'			=> 'Tüm forumlar okundu olarak işaretlendi.',
+	'FORUMS_MARKED'			=> 'Seçilen forumlar okundu olarak işaretlendi.',
 	'FORUM_CAT'				=> 'Forum kategorisi',
 	'FORUM_INDEX'			=> 'Pano anasayfası',
 	'FORUM_LINK'			=> 'Forum linki',
@@ -315,13 +315,14 @@ $lang = array_merge($lang, array(
 	'MARK'					=> 'İşaret',
 	'MARK_ALL'				=> 'Hepsini işaretle',
 	'MARK_FORUMS_READ'		=> 'Tüm forumları okundu olarak işaretle',
+	'MARK_SUBFORUMS_READ'	=> 'Tüm alt forumları okundu olarak işaretle',
 	'MB'					=> 'MB',
 	'MIB'					=> 'MiB',
 	'MCP'					=> 'Yetkili Paneli',
 	'MEMBERLIST'			=> 'Üyeler',
 	'MEMBERLIST_EXPLAIN'	=> 'Üyelerin tam listesini göster',
 	'MERGE'					=> 'Birleştir',
-	'MERGE_POSTS'			=> 'İletileri birleştir',
+	'MERGE_POSTS'			=> 'İletileri taşı',
 	'MERGE_TOPIC'			=> 'Konuları birleştir',
 	'MESSAGE'				=> 'Mesaj',
 	'MESSAGES'				=> 'Mesaj',
@@ -522,6 +523,7 @@ $lang = array_merge($lang, array(
 	'SEARCH_TOPIC'				=> 'Bu konuda ara…',
 	'SEARCH_UNANSWERED'			=> 'Cevapsız iletiler',
 	'SEARCH_UNREAD'				=> 'Okunmamış iletiler',
+	'SEARCH_USER_POSTS'			=> 'Kullanıcının iletilerini ara',
 	'SECONDS'					=> 'Saniye',
 	'SELECT'					=> 'Seç',
 	'SELECT_ALL_CODE'			=> 'Tümünü seç',

@@ -29,8 +29,9 @@ $lang = array_merge($lang, array(
 
 	'JUMP_TO_POST'			=> 'İletiye git',
 
-	'LOGIN_EXPLAIN_EGOSEARCH'		=> 'Kendi iletilerinizi görmek için kayıt olmalı ve oturum açmanız gerekmektedir.',
-	'LOGIN_EXPLAIN_UNREADSEARCH'	=> 'Kendi okunmamış iletilerinizi görmek için kayıt olmalı ve oturum açmanız gerekmektedir.',
+	'LOGIN_EXPLAIN_EGOSEARCH'	=> 'Kendi iletilerinizi görmek için kayıt olmalı ve oturum açmanız gerekmektedir.',
+	'LOGIN_EXPLAIN_UNREADSEARCH'=> 'Kendi okunmamış iletilerinizi görmek için kayıt olmalı ve oturum açmanız gerekmektedir.',
+	'LOGIN_EXPLAIN_NEWPOSTS'	=> 'Son ziyaretinizden beri gönderilen iletileri görmek için kayıt olmalı ve oturum açmanız gerekmektedir.',
 	
 	'MAX_NUM_SEARCH_KEYWORDS_REFINE'	=> 'Arama yapmak için çok fazla sayıda kelime tanımladınız. Lütfen %1$d kelimeden fazla yazmayınız.',
 	

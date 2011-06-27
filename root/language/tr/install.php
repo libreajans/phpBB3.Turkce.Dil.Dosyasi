@@ -104,7 +104,7 @@ $lang = array_merge($lang, array(
 	'DB_ERR_QUERY_FIRST_TABLE'	=> '<var>query_first</var> yürütülürken hata oluştu, %s (“%s”).',
 	'DB_ERR_SELECT'				=> '<code>SELECT</code> sorgusu çalışırken hata oluştu.',
 	'DB_HOST'					=> 'Veritabanı sunucu adı veya DSN',
-	'DB_HOST_EXPLAIN'			=> 'DSN - Data Source Name ifadesinin kısaltmasıdır. Sadece ODBC kurulumlarında bulunur. PostgreSQL için, TCP üzerinden bağlamak için UNIX alan soketi ve 127.0.0.1 ile yerel sunucusuna bağlanmak için localhost kullanın.',
+	'DB_HOST_EXPLAIN'			=> 'DSN - Data Source Name ifadesinin kısaltmasıdır. Sadece ODBC kurulumlarında bulunur. PostgreSQL için, TCP üzerinden bağlamak için UNIX alan soketi ve 127.0.0.1 ile yerel sunucusuna bağlanmak için localhost kullanın. SQLite için, veritabanı dosyanızın tam yolunu yazın.',
 	'DB_NAME'					=> 'Veritabanı adı',
 	'DB_PASSWORD'				=> 'Veritabanı parolası',
 	'DB_PORT'					=> 'Veritabanı sunucu portu',
@@ -367,7 +367,7 @@ $lang = array_merge($lang, array(
 
 // Updater
 $lang = array_merge($lang, array(
-	'ALL_FILES_UP_TO_DATE'	=> 'Tüm dosyalar phpBB’nin son sürümüne güncellendi. Şimdi <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">panonuza oturum açmalı</a> ve herşeyin normal olduğundan emin olmalısınız. Kurulum dizini olan install dizinini silmeyi veya adını değiştirmeyi unutmayınız. Lütfen bize sunucu ve pano ayarları hakkında <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">İstatistikleri gönder</a> yönetim paneli modülü ile güncel bilgi gönderin.',
+	'ALL_FILES_UP_TO_DATE'	=> 'Tüm dosyalar phpBB’nin son sürümüne güncellendi. Şimdi <a href="../ucp.php?mode=login">panonuza oturum açmalı</a> ve herşeyin normal olduğundan emin olmalısınız. Kurulum dizini olan install dizinini silmeyi veya adını değiştirmeyi unutmayınız. Lütfen bize sunucu ve pano ayarları hakkında <a href="../ucp.php?mode=login&amp;redirect=adm/index.php%3Fi=send_statistics%26mode=send_statistics">İstatistikleri gönder</a> yönetim paneli modülü ile güncel bilgi gönderin.',
 	'ARCHIVE_FILE'			=> 'Arşivdeki hedef dizin',
 
 	'BACK'			=> 'Geri',

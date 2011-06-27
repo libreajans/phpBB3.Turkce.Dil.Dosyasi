@@ -143,6 +143,7 @@ $lang = array_merge($lang, array(
 	'SMILIES_EDIT'				=> 'İfade düzenle',
 	'SMILIE_NO_CODE'			=> '“%s” ifadesi, ifade kodu belirtilmediği için kabul edilmedi.',
 	'SMILIE_NO_EMOTION'			=> '“%s” ifadesi, ifade resmi belirtilmediği için kabul edilmedi.',
+	'SMILIE_NO_FILE'			=> '“%s” ifadesi, dosya eksik olduğu için kabul edilmedi.',
 	'SMILIES_NONE_EDITED'		=> 'Hiçbir ifade güncellenmedi.',
 	'SMILIES_ONE_EDITED'		=> 'İfade güncellendi.',
 	'SMILIES_EDITED'			=> 'İfadeler güncellendi.',
@@ -206,14 +207,14 @@ $lang = array_merge($lang, array(
 
 // Disallow Usernames
 $lang = array_merge($lang, array(
-	'ACP_DISALLOW_EXPLAIN'	=> 'Buradan kullanılmasını istemediğiniz kullanıcı adlarını belirleyebilirsiniz. İzin verilmeyen kullanıcı adları * joker karakterini içerebilir. Lütfen, daha önce kayıt edilmiş bir kullanıcı adını yasaklayamayacağınızı unutmayın, eğer yine de söz konusu kullanıcı adına izin vermek istemiyor iseniz, önce bu ismi silmelisiniz.',
+	'ACP_DISALLOW_EXPLAIN'	=> 'Buradan kullanılmasını istemediğiniz kullanıcı adlarını belirleyebilirsiniz. İzin verilmeyen kullanıcı adları * joker karakterini içerebilir.',
 	
 	'ADD_DISALLOW_EXPLAIN'	=> 'Herhangi bir joker karakteri * kullanıcı isimlerine engel olmak için kullanabilirsin.',
 	'ADD_DISALLOW_TITLE'	=> 'Yasaklı bir kullanıcı adı ekle',
 
 	'DELETE_DISALLOW_EXPLAIN'	=> 'Bu listeden yasaklı kullanıcıları kaldırabilirsiniz.', // - Acaba yasağı mı kaldırabilirsin diyor?- You can remove a disallowed username by selecting the username from this list and clicking submit',
 	'DELETE_DISALLOW_TITLE'		=> 'Yasaklı kullanıcı adını kaldır.',
-	'DISALLOWED_ALREADY'		=> 'Girdiğiniz isim yasaklanamıyor. Olası nedenler: "İsim zaten yasaklılar listesinde, girdiğiniz kelime sansürlü kelimeler listesinde, bir kullanıcı halen bu ismi kullanıyor" olabilir.',
+	'DISALLOWED_ALREADY'		=> 'Girdiğiniz isim yasaklanamıyor.',
 	'DISALLOWED_DELETED'		=> 'Yasaklı kullanıcı adı kaldırıldı.',
 	'DISALLOW_SUCCESSFUL'		=> 'Yasaklı kullanıcı adı eklendi.',
 

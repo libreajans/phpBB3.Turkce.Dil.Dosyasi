@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'DELETE_IMAGESET'			=> 'Resim setini sil',
 	'DELETE_IMAGESET_EXPLAIN'	=> 'Buradan seçilmiş bir resim setini veritabanınından silebilirsiniz. Buna ek olarak, eğer gerekli izinlere sahipseniz seçilmiş olan seti dosya sisteminden silebilirsiniz. Lütfen bu işlemin geri dönülebilirliğinin olmadığını dikkate alın. İleride olası kullanımlar için önceden ayarlarınızı ihraç etmeniz önerilmektedir.',
 	'DELETE_STYLE'				=> 'Stili sil',
-	'DELETE_STYLE_EXPLAIN' 		=> 'Seçilmiş stili buradan kaldırabilirsiniz. Ancak, buradan tüm stil elemanlarını kaldıramazsınız. Bunlar ayrıca temizlenmelidir. Stilleri silerken dikkat ediniz zira bu durumun geri döndürebilirliği mümkün değildir.',
+	'DELETE_STYLE_EXPLAIN' 		=> 'Seçilmiş stili buradan kaldırabilirsiniz. Stilleri silerken dikkat ediniz zira bu durumun geri dönüşü mümkün değildir.',
 	'DELETE_TEMPLATE'			=> 'Şablonu sil',
 	'DELETE_TEMPLATE_EXPLAIN'	=> 'Buradan seçilen şablon setini veritabanından silebilirsiniz. Ek olarak, eğer izinleriniz varsa dosya sistemi kaydını seçebilir ve silebilirsiniz. Lütfen geri alma şansınızın olmadığını unutmayın. Şablon silindiğinde verileri tamamen kaybedeceksiniz. Yeniden kullanım için ilk önce şablonu dışa aktarabilirsiniz.',
 	'DELETE_THEME'				=> 'Temayı sil',
@@ -260,6 +260,10 @@ $lang = array_merge($lang, array(
 	'INSTALLED_STYLE'			=> 'Kurulu stiller',
 	'INSTALLED_TEMPLATE'		=> 'Kurulu şablonlar',
 	'INSTALLED_THEME'			=> 'Kurulu temalar',
+	
+	'KEEP_IMAGESET'				=> '"%s" resim setini koru',
+	'KEEP_TEMPLATE'				=> '"%s" şablonunu koru',
+	'KEEP_THEME'				=> '"%s" stilini koru',
 
 	'LINE_SPACING'				=> 'Satır aralığı',
 	'LOCALISED_IMAGES'			=> 'Yerelleştir',
@@ -297,6 +301,7 @@ $lang = array_merge($lang, array(
 	'REPLACE_TEMPLATE_EXPLAIN'	=> 'Bu şablon üzerine yazdığınızı silerek yerini alacaktır.',
 	'REPLACE_THEME'				=> 'Temanın üzerine yaz',
 	'REPLACE_THEME_EXPLAIN'		=> 'Bu tema üzerine yazdığınızı silerek yerini alacaktır.',
+	'REPLACE_WITH_OPTION'		=> '"%s" ile değiştir',
 	'REQUIRES_IMAGESET'			=> 'Bu stilin kurulumu için %s resim seti yüklü olması gerekiyor.',
 	'REQUIRES_TEMPLATE'			=> 'Bu stilin kurulumu için %s şablonun yüklü olması gerekiyor.',
 	'REQUIRES_THEME'			=> 'Bu stilin kurulumu için %s tamanın yüklü olması gerekiyor.',
