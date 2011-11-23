@@ -44,6 +44,9 @@ $lang = array_merge($lang, array(
 
 	'LENGTH_BAN_INVALID'		=> 'Tarih <kbd>YYYY-MM-DD</kbd> olarak ayarlanmalıdır.',
 
+	'OPTIONS_BANNED'			=> 'Uzaklaştırıldı', // Banned
+	'OPTIONS_EXCLUDED'			=> 'Hariç tutuldu', // Excluded
+
 	'PERMANENT'					=> 'Sürekli',
 	
 	'UNTIL'						=> 'Önce',

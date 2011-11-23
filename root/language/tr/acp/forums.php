@@ -48,7 +48,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_TOPIC_ICONS'			=> 'Konu simgelerini aç',
 
 	'FORUM_ADMIN'						=> 'Forum yönetimi',
-	'FORUM_ADMIN_EXPLAIN' 				=> 'Buradan, yeni forumlar ekleyebilir, her bir forum için değiştirme, kitleme, kilit açma, ve bazı önemli ayarlar yapabilmeniz mümkündür. Aynı zamanda buradan forumunuzun senkronizasyonunu yeniden yapılandırabilirsiniz. phpBB3’te kategoriler yoktur, her şey forum tabanlıdır. Her forumun kendine ait sayısız alt-forumu olabilir. Hangisine ileti gönderilip gönderilmeyeceğine karar verebilirsiniz (eğer ileti gönderilmemesini isterseniz kategori gibi davranır). <strong>Yeni açılan forumları göstermek için uygun izin ayarlarını yapmanız veya mevcut izinlerden kopyalamanız gerekmektedir.</strong>',
+	'FORUM_ADMIN_EXPLAIN' 				=> 'phpBB3’te her şey forum tabanlıdır. Bir kategori sadece forumun özel bir türüdür. Her forumun kendine ait sayısız alt-forumu olabilir. Buradan, yeni forumlar ekleyebilir, her bir forum için değiştirme, kitleme, kilit açma, ve bazı önemli ayarlar yapabilmeniz mümkündür. Aynı zamanda buradan forumunuzun senkronizasyonunu yeniden yapılandırabilirsiniz. Hangisine ileti gönderilip gönderilmeyeceğine karar verebilirsiniz (eğer ileti gönderilmemesini isterseniz kategori gibi davranır). <strong>Yeni açılan forumları göstermek için uygun izin ayarlarını yapmanız veya mevcut izinlerden kopyalamanız gerekmektedir.</strong>',
 	'FORUM_AUTO_PRUNE'					=> 'Otomatik ileti temizliği',
 	'FORUM_AUTO_PRUNE_EXPLAIN'			=> 'Zaman aşımına uğramış konuları otomatik olarak temizler.',
 	'FORUM_CREATED'						=> 'Forum oluşturuldu.',

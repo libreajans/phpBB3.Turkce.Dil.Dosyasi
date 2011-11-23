@@ -113,6 +113,7 @@ $lang = array_merge($lang, array(
 	'CURRENT_IMAGE'				=> 'Geçerli resim',
 	'CURRENT_PASSWORD'			=> 'Geçerli parola',
 	'CURRENT_PASSWORD_EXPLAIN'	=> 'E-posta adresinizi veya kullanıcı adınızı değiştirmek için mevcut parolanızı yazmalısınız.',
+	'CUR_PASSWORD_EMPTY'		=> 'Mevcut parolanızı yazmadınız.',
 	'CUR_PASSWORD_ERROR'		=> 'Mevcut parolanızı yanlış girdiniz.',
 	'CUSTOM_DATEFORMAT'			=> 'Özel…',
 
@@ -243,9 +244,11 @@ $lang = array_merge($lang, array(
 	'MOVE_TO_FOLDER'				=> 'Klasöre taşı',
 	'MOVE_UP'						=> 'Yukarı taşı',
 
+	'NEW_EMAIL_CONFIRM_EMPTY'		=> 'Onaylamak için bir e-pota adresi yazmadınız.',
 	'NEW_EMAIL_ERROR'				=> 'Girdiğiniz e-posta adresleri birbiri ile uyuşmuyor.',
 	'NEW_FOLDER_NAME'				=> 'Yeni klasör adı',
 	'NEW_PASSWORD'					=> 'Yeni parola',
+	'NEW_PASSWORD_CONFIRM_EMPTY'	=> 'Onaylamak için bir parola yazmadınız.',
 	'NEW_PASSWORD_ERROR'			=> 'Girdiğiniz parolalar birbiri ile uyuşmuyor.',
 	'NOTIFY_METHOD'					=> 'Bildiri metodu',
 	'NOTIFY_METHOD_BOTH'			=> 'Her ikisi',

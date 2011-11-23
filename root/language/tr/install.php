@@ -204,6 +204,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'						=> 'Kurulum hatası',
 	'INST_ERR_DB_CONNECT'			=> 'Veritabanı bağlantısı sağlanamadı, hata mesajını inceleyiniz.',
 	'INST_ERR_DB_FORUM_PATH'		=> 'Sağladığınız veritabanı dizini; pano dizin ağacı içinde bulunuyor. Bu dizini internet ağından ulaşılamayacak bir yere koymalısınız.',
+'INST_ERR_DB_INVALID_PREFIX'=> 'The prefix you entered is invalid. It must start with an alphanumeric character and must only contain alphanumeric characters, numbers and underscores.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Hata mesajı bulunamadı.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Bu makinede yüklü olan MySQL sürümü, seçmiş olduğunuz “MySQL - MySQLi kütüphaneli” özelliğini desteklemiyor. Lütfen “MySQL” seçeneğini deneyiniz.',
 	'INST_ERR_DB_NO_SQLITE'			=> 'Kurulu olan SQLite sürümü çok eski. En az 2.8.2’ye güncellenmeli.',
@@ -349,6 +350,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> 'Şu tablolar bulunamadı<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Veritabanı tabloları için ön ek',
+'TABLE_PREFIX_EXPLAIN'		=> 'The prefix must start with an alphanumeric character and must only contain alphanumeric characters, numbers and underscores.',
 	'TABLE_PREFIX_SAME'			=> 'Tablo ön-eki dönüştürme yapacağınız yazılıma ait olmalıdır.<br />» Sağlanan ön-ek %s idi.',
 	'TESTS_PASSED'				=> 'Testler başarılı',
 	'TESTS_FAILED'				=> 'Testler başarısız',

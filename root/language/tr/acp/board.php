@@ -30,7 +30,7 @@ $lang = array_merge($lang, array(
 	'SYSTEM_TIMEZONE'				=> 'Misafir zaman dilimi',
 	'SYSTEM_TIMEZONE_EXPLAIN'		=> 'Oturum açmamış kullanıcılar (misafir, bot) için gösterilecek zaman dilimi. Oturum açan kullanıcılar kendi zaman dilimlerini kayıt sırasında veya kullanıcı panellerinden değiştirebilirler.',
 	'WARNINGS_EXPIRE'				=> 'Uyarı süresi',
-	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Uyarıların üye kaydından otomatik olarak silinmesinden önce geçmesi gereken gün sayısı.',
+	'WARNINGS_EXPIRE_EXPLAIN'		=> 'Uyarıların üye kaydından otomatik olarak silinmesinden önce geçmesi gereken gün sayısı. Değer olarak 0 yazmak uyarıyı kalıcı yapar.',
 ));
 
 // Board Features

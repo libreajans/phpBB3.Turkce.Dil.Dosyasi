@@ -25,7 +25,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_A_HELP'				=> 'Satır içi yüklenmiş eklenti: [attachment=]dosyaadı.uzt[/attachment]',
 	'BBCODE_B_HELP'				=> 'Kalın yazı: [b]yazı[/b]',
 	'BBCODE_C_HELP'				=> 'Kod görüntüle: [code]kod[/code]',
-	'BBCODE_E_HELP'				=> 'Liste: Liste öğesi ekle',
+	'BBCODE_D_HELP'				=> 'Flash: [flash=genişlik,yükseklik]http://url[/flash]',
 	'BBCODE_F_HELP'				=> 'Yazı büyüklüğü: [size=85]küçük yazı[/size]',
 	'BBCODE_IS_OFF'				=> '%sBiçim kodu%s <em>KAPALI</em>',
 	'BBCODE_IS_ON'				=> '%sBiçim kodu%s <em>AÇIK</em>',
@@ -38,7 +38,7 @@ $lang = array_merge($lang, array(
 	'BBCODE_S_HELP'				=> 'Yazı rengi: [color=red]yazı[/color] İpucu: color=#FF0000 şeklinde de kullanabilirsiniz',
 	'BBCODE_U_HELP'				=> 'Altı çizili yazı: [u]yazı[/u]',
 	'BBCODE_W_HELP'				=> 'Bağlantı ekle: [url]http://url[/url] veya [url=http://url]bağlantı bilgisi[/url]',
-	'BBCODE_D_HELP'				=> 'Flash: [flash=genişlik,yükseklik]http://url[/flash]',
+	'BBCODE_Y_HELP'				=> 'Liste: Liste öğesi ekle',
 	'BUMP_ERROR'				=> 'Son iletinizden bu kadar kısa bir süre sonra bu konuyu güncelleyemezsiniz', 
 
 	'CANNOT_DELETE_REPLIED'		=> 'Üzgünüz, sadece <strong>yanıtlanmamış</stron> iletilerinizi silebilirsiniz.',

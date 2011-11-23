@@ -35,6 +35,9 @@ $lang = array_merge($lang, array(
 
 	'RESTORE_FAILURE'		=> 'Yedek dosyası bozuk olabilir.',
 	'RESTORE_OPTIONS'		=> 'Onarma seçenekleri',
+
+	'RESTORE_SELECTED_BACKUP'	=> 'Seçilen yedeği geri yüklemek istediğinize emin misiniz?',
+
 	'RESTORE_SUCCESS'		=> 'Veritabanı onarıldı.<br /><br />Panonuz, yedeği aldığınız zamana geri dönmüş olması gerekiyor.',
 
 	'SELECT_ALL'			=> 'Tümünü seç',

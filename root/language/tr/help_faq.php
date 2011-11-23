@@ -38,7 +38,7 @@ $help = array(
 	),
 	array(
 		0 => 'Daha önce üye olduğum halde neden oturum açamıyorum?!',
-		1 => 'Kayıt aşamasında verdiğiniz e-posta adresine gönderilen iletide mevcut bulunan kullanıcı adınızı ve parolanızı kontrol edin ve yeniden oturum açmayı deneyin. Bir sebeplerden ötürü yöneticilerden biri kullanıcı adınızı silmiş ya da üyeliğinizi pasif hale getirmiş olabilir. Bununla birlikte, bir çok pano yöneticisi veritabanının aşırı kullanımını önlemek için uzun bir süre herhangi bir katılım göstermeyen üyeleri belli aralıklarla silmektedir. Eğer ikinci ihtimal söz konusu ise yeniden kayıt olmayı ve daha aktif bir katılım göstermeyi deneyin.'
+		1 => 'Bir sebeplerden ötürü yöneticilerden biri kullanıcı adınızı silmiş ya da üyeliğinizi pasif hale getirmiş olabilir. Bununla birlikte, bir çok pano yöneticisi veritabanının aşırı kullanımını önlemek için uzun bir süre herhangi bir katılım göstermeyen üyeleri belli aralıklarla silmektedir. Eğer ikinci ihtimal söz konusu ise yeniden kayıt olmayı ve daha aktif bir katılım göstermeyi deneyin.'
 	),
 	array(
 		0 => 'COPPA nedir?',
@@ -323,5 +323,3 @@ $help = array(
 		1 => '"Yönetim ekibi" sayfasındaki herhangi bir yönetici şikayetlerinizi iletebileceğiniz uygun iletişim noktası olabilir. Eğer yine cevap alamazsanız site sahibi ile iletişime geçebilirsiniz. Eğer pano ücretsiz bir servis üzerinde çalışıyorsa (örneğin Yahoo!, free.fr, f2s.com, vb), yönetim ya da kötü kullanım servisiyle iletişim kurabilirsiniz. Unutmayın ki; phpBB Grubu <strong>herhangi bir yetkiye sahip değildir</strong> ve hiç bir şekilde nasıl, nerede ya da kim tarafından bu panonun kullanılacağı üzerinde sorumluluk kabul etmez. Yasal durumlarla ilgili olarak <strong>doğrudan</strong> phpBB.com sitesi ile ilgili olmadıkça phpBB Grubu ile iletişime geçmeyin. Eğer phpBB Grubu ile bu yazılımın herhangi bir 3. parti kullanımıyla ilgili olarak talepte bulunursanız kısa bir cevap alabilir ya da hiç bir cevap alamayabilirsiniz.'
 	)
 );
-
-?>
