@@ -302,15 +302,15 @@ $lang = array_merge($lang, array(
 	'DATABASE_SERVER_INFO'	=> 'Veritabanı sunucusu',
 	'DATABASE_SIZE'			=> 'Veritabanı boyutu',
 
-// Enviroment configuration checks, mbstring related
-'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Function overloading is improperly configured',
-'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> must be set to either 0 or 4. You can check the current value on the <samp>PHP information</samp> page.',
-'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Transparent character encoding is improperly configured',
-'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> must be set to 0. You can check the current value on the <samp>PHP information</samp> page.',
-'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP input character conversion is improperly configured',
-'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> must be set to <samp>pass</samp>. You can check the current value on the <samp>PHP information</samp> page.',
-'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP output character conversion is improperly configured',
-'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> must be set to <samp>pass</samp>. You can check the current value on the <samp>PHP information</samp> page.',
+	// Enviroment configuration checks, mbstring related
+	'ERROR_MBSTRING_FUNC_OVERLOAD'					=> 'Fonksişyon aşırı yüklenmesi yanlış ayarlanmış',
+	'ERROR_MBSTRING_FUNC_OVERLOAD_EXPLAIN'			=> '<var>mbstring.func_overload</var> 0 veya 4 olarak ayarlanmış olmalıdır. Geçerli değeri <samp>PHP bilgileri</samp> sayfasından kontrol edebilirsiniz.',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION'			=> 'Şeffaf karakter kodlaması yanlış yapılandırılmış',
+	'ERROR_MBSTRING_ENCODING_TRANSLATION_EXPLAIN'	=> '<var>mbstring.encoding_translation</var> 0 olarak ayarlanmış olmalıdır. Geçerli değeri <samp>PHP bilgileri</samp> sayfasından kontrol edebilirsiniz.',
+	'ERROR_MBSTRING_HTTP_INPUT'						=> 'HTTP girdi karakter dönüşümü yanlış yapılandırılmış',
+	'ERROR_MBSTRING_HTTP_INPUT_EXPLAIN'				=> '<var>mbstring.http_input</var> <samp>pass</samp> olarak ayarlanmış olmalıdır.. Geçerli değeri <samp>PHP bilgileri</samp> sayfasından kontrol edebilirsiniz.',
+	'ERROR_MBSTRING_HTTP_OUTPUT'					=> 'HTTP output character conversion is improperly configured',
+	'ERROR_MBSTRING_HTTP_OUTPUT_EXPLAIN'			=> '<var>mbstring.http_output</var> <samp>pass</samp> olarak ayarlanmış olmalıdır.. Geçerli değeri <samp>PHP bilgileri</samp> sayfasından kontrol edebilirsiniz.',
 
 	'FILES_PER_DAY'		=> 'Gün başına eklenti',
 	'FORUM_STATS'		=> 'Pano istatistikleri',

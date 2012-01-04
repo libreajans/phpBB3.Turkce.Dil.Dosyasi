@@ -204,7 +204,7 @@ $lang = array_merge($lang, array(
 	'INST_ERR'						=> 'Kurulum hatası',
 	'INST_ERR_DB_CONNECT'			=> 'Veritabanı bağlantısı sağlanamadı, hata mesajını inceleyiniz.',
 	'INST_ERR_DB_FORUM_PATH'		=> 'Sağladığınız veritabanı dizini; pano dizin ağacı içinde bulunuyor. Bu dizini internet ağından ulaşılamayacak bir yere koymalısınız.',
-'INST_ERR_DB_INVALID_PREFIX'=> 'The prefix you entered is invalid. It must start with a letter and must only contain letters, numbers and underscores.',
+	'INST_ERR_DB_INVALID_PREFIX'	=> 'Yazdığınız ön ek geçersiz. Ön ek, harf ile başlamalı, içeriği sadece harf, sayı ve alt çizgiden oluşmalıdır.',
 	'INST_ERR_DB_NO_ERROR'			=> 'Hata mesajı bulunamadı.',
 	'INST_ERR_DB_NO_MYSQLI'			=> 'Bu makinede yüklü olan MySQL sürümü, seçmiş olduğunuz “MySQL - MySQLi kütüphaneli” özelliğini desteklemiyor. Lütfen “MySQL” seçeneğini deneyiniz.',
 	'INST_ERR_DB_NO_SQLITE'			=> 'Kurulu olan SQLite sürümü çok eski. En az 2.8.2’ye güncellenmeli.',
@@ -280,8 +280,8 @@ $lang = array_merge($lang, array(
 	'POST_ID'							=> 'İleti ID',
 	'PREFIX_FOUND'						=> 'Tablolarınızda yapılan arama, öneki <strong>%s</strong> olan geçerli bir kurulum buldu.',
 	'PREPROCESS_STEP'					=> 'Fonksiyon/girdiler için çoklu işlemler yapılıyor',
-	'PRE_CONVERT_COMPLETE'			=> 'Dönüştürme işlemi için tüm ön hazırlıklar tamamlandı. Artık dönüştürme işlemine başlayabilirsiniz. Bazı işlemleri el yordamı ile yapmanızın gerekebileceğini unutmayın. Dönüştürme işleminden sonra, özellikle izinleri kontrol edin, arama dizinlerinizi yeniden inşa edin, ayrıca tüm dosyaların (avatar ve ifadeler gibi) doğru olarak kopyalandığından emin olun.',
-	'PROCESS_LAST'					=> 'Son işlemler gerçekleştiriliyor',
+	'PRE_CONVERT_COMPLETE'				=> 'Dönüştürme işlemi için tüm ön hazırlıklar tamamlandı. Artık dönüştürme işlemine başlayabilirsiniz. Bazı işlemleri el yordamı ile yapmanızın gerekebileceğini unutmayın. Dönüştürme işleminden sonra, özellikle izinleri kontrol edin, arama dizinlerinizi yeniden inşa edin, ayrıca tüm dosyaların (avatar ve ifadeler gibi) doğru olarak kopyalandığından emin olun.',
+	'PROCESS_LAST'						=> 'Son işlemler gerçekleştiriliyor',
 
 	'REFRESH_PAGE'				=> 'Otomatik sayfa yenilemesi',
 	'REFRESH_PAGE_EXPLAIN'		=> 'Eğer evet olarak ayarlandı ise; dönüştürücü, dönüştürme işlemine devam edebilmek için, bir adımı bitirdiğinde sayfayı yenileyecektir. Eğer ilk defa dönüştürme yapıyor ve hataları test ediyorsanız bu özelliği hayır olarak seçmenizi tavsiye ederiz.',
@@ -289,7 +289,7 @@ $lang = array_merge($lang, array(
 	'REQUIREMENTS_EXPLAIN'		=> 'phpBB tam kurulum işleminden önce sunucu ayarlarınızla ve dosyalarınızla ilgili bir test yapacaktır. Bu testin amacı phpBB’nin sunucunuza kurulabilirliliğini ve çalışabilirliğini test etmektir. Lütfen sonuçları detaylı olarak inceleyiniz ve bütün testler bitmeden ilerlemeyiniz. İsteğe bağlı eklentiler ve modüller için gerekli olan özellikler de listelenmiş ve bunlarla ilgili testler de yapılmıştır. Dilerseniz bu özellikleri sunucunuzdan aktif edebilirsiniz.',
 	'RETRY_WRITE'				=> 'Ayar dosyası yazılımı yeniden çalıştırılıyor',
 	'RETRY_WRITE_EXPLAIN'		=> 'phpBB’nin yazması için isterseniz config.php izinlerini değiştirebilirsiniz. Bunu yapmayı tekrar denemek istiyorsanız aşağıdaki tekrar dene bağına tıklayın. phpBB kurulumu tamamlandıktan sonra config.php izinlerini eski haline getirtmeyi unutmayınız.',
-		
+
 	'SCRIPT_PATH'						=> 'Pano yolu',
 	'SCRIPT_PATH_EXPLAIN'				=> 'Alan adınıza göre phpBB3’ün bulunduğu göreceli dizin.',
 	'SELECT_LANG'						=> 'Dil seçimi',
@@ -350,7 +350,7 @@ $lang = array_merge($lang, array(
 
 	'TABLES_MISSING'			=> 'Şu tablolar bulunamadı<br />» <strong>%s</strong>.',
 	'TABLE_PREFIX'				=> 'Veritabanı tabloları için ön ek',
-'TABLE_PREFIX_EXPLAIN'		=> 'The prefix must start with a letter and must only contain letters, numbers and underscores.',
+	'TABLE_PREFIX_EXPLAIN'		=> 'Ön ek, harf ile başlamalı, içeriği sadece harf, sayı ve alt çizgiden oluşmalıdır.',
 	'TABLE_PREFIX_SAME'			=> 'Tablo ön-eki dönüştürme yapacağınız yazılıma ait olmalıdır.<br />» Sağlanan ön-ek %s idi.',
 	'TESTS_PASSED'				=> 'Testler başarılı',
 	'TESTS_FAILED'				=> 'Testler başarısız',
