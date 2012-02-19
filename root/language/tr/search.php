@@ -75,8 +75,8 @@ $lang = array_merge($lang, array(
 	'SORT_DESCENDING'			=> 'Azalan',
 	'SORT_FORUM'				=> 'Forum',
 	'SORT_POST_SUBJECT'			=> 'İleti konusu',
-	'SORT_TIME'					=> 'İleti zamanı',
-
+	'SORT_TIME'					=> 'Gönderim zamanı',
+	
 	'TOO_FEW_AUTHOR_CHARS'	=> 'Yazar adının en azından %d karakterini yazmalısınız.',
 ));
 
