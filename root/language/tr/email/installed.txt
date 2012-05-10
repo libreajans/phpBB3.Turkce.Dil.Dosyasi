@@ -7,8 +7,8 @@ Parolanız veritabanında güvenli bir biçimde saklanmakta ve tekrar elde edile
 Kullanıcı adı: {USERNAME}
 Pano adresi: {U_BOARD}
 
-Eğer bir sorun olduğunu düşünüyorsanız, phpBB kurulumu dahil pek çok konuda "phpBB Türkiye" destek sitesi olan http://www.phpbbturkiye.net/ adresinden yardım alabilirsiniz. Yazılım ve panonuzu güncel ve güvenli tutmak için, http://www.phpbbturkiye.net/ haber ve duyurularını sıkça takip etmeniz önerilir.
+Eğer bir sorun olduğunu düşünüyorsanız, phpBB kurulumu dahil pek çok konuda "phpBB Türkiye" destek sitesi olan http://phpbbturkiye.net/ adresinden yardım alabilirsiniz. Yazılım ve panonuzu güncel ve güvenli tutmak için, http://phpbbturkiye.net/ haber ve duyurularını sıkça takip etmeniz önerilir.
 
-Profesyonel düzeyde phpBB desteği almak, eklenti kurdurmak istiyorsanız, bu konuda ücretli destek veren http://www.canversoft.net/ web sayfasını ziyaret edebilirsiniz.
+Profesyonel düzeyde phpBB desteği almak, eklenti kurdurmak istiyorsanız, bu konuda ücretli destek veren http://canversoft.net/ web sayfasını ziyaret edebilirsiniz.
 
 {EMAIL_SIG}

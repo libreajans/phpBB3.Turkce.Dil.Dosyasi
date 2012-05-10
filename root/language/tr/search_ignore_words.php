@@ -1,13 +1,13 @@
 <?php defined('IN_PHPBB') OR die('No direct access allowed.');
 /**
  * @author Sevdin Filiz <angelside@users.sourceforge.net>
- * @copyright (c) phpBB Group <http://www.phpbb.com>			[phpBB sistemi]
- * @copyright (c) Canver Software <http://www.canversoft.net>	[tercüme]
+ * @copyright (c) phpBB Group <http://phpbb.com>			[phpBB sistemi]
+ * @copyright (c) Canver Software <http://canversoft.net>	[tercüme]
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
 // listeye dahil edilebilecek uygun kelimeleri lütfen bildiriniz
-// http://www.phpbbturkiye.net/hata-raporlari-f93/
+// http://phpbbturkiye.net/hata-raporlari-f93/
 $words = array(
 	'ama',
 	'ancak',

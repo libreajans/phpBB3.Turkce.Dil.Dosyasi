@@ -1,8 +1,8 @@
 <?php defined('IN_PHPBB') OR die('No direct access allowed.');
 /**
  * @author Sevdin Filiz <angelside@users.sourceforge.net>
- * @copyright (c) phpBB Group <http://www.phpbb.com>			[phpBB sistemi]
- * @copyright (c) Canver Software <http://www.canversoft.net>	[tercüme]
+ * @copyright (c) phpBB Group <http://phpbb.com>			[phpBB sistemi]
+ * @copyright (c) Canver Software <http://canversoft.net>	[tercüme]
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
@@ -10,8 +10,8 @@
 // [ phpBB3 Türkçe Dil Paketi ]
 //
 // SÜRÜM	: 1.0.9 - 04 Ocak 2012 - phpBB 3.0.10
-// TERCÜME	: phpBB Türkiye - http://www.phpbbturkiye.net
-// LİSANS	: Genel Kamu Lisansı (GPL)  http://www.phpbbturkiye.net/hakkinda/gpl-lisansi.html
+// TERCÜME	: phpBB Türkiye - http://phpbbturkiye.net
+// LİSANS	: Genel Kamu Lisansı (GPL)  http://phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
 //--------------------------------------------------------------------------------------
 // [ Hata bildirimi ]
@@ -19,7 +19,7 @@
 // Gözden kaçan hataları veya yanlış olduğunu düşündüğünüz ifadeler için önerilerinizi lütfen bildiriniz.
 //
 // phpBB Türkiye, phpBB3 Türkçe dil dosyası hata bildirim forumu
-// http://www.phpbbturkiye.net/hata-raporlari-f93/
+// http://phpbbturkiye.net/hata-raporlari-f93/
 //
 //
 // Kopyala-yapıştır yapabileceğiniz bazı karakterler:
@@ -33,7 +33,7 @@ if (empty($lang) || !is_array($lang))
 
 // dil değişkenleri
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> 'phpBB3 Türkçe: <a href="http://www.phpbbturkiye.net" title="phpBB3 geliştirme ve destek" rel="external">phpBB Türkiye</a>',
+	'TRANSLATION_INFO'	=> 'phpBB3 Türkçe: <a href="http://phpbbturkiye.net" title="phpBB3 geliştirme ve destek" rel="external">phpBB Türkiye</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'       => '|d M Y|', // 01 Mar 2007
 	'USER_LANG'			=> 'tr',
@@ -706,7 +706,7 @@ $lang = array_merge($lang, array(
 	'WRONG_DATA_ICQ'		=> 'Girdiğiniz numara geçerli bir ICQ numarası değil.',
 	'WRONG_DATA_JABBER'		=> 'Girdiğiniz isim geçerli bir Jabber hesap adı değil.',
 	'WRONG_DATA_LANG'		=> 'Belirtilen dil geçerli değil.',
-	'WRONG_DATA_WEBSITE'	=> 'Web site adresi geçerli bir adres değil, protokol dahil edilmelidir. Örneğin: http://www.phpbbturkiye.net/.',
+	'WRONG_DATA_WEBSITE'	=> 'Web site adresi geçerli bir adres değil, protokol dahil edilmelidir. Örneğin: http://phpbbturkiye.net/.',
 	'WROTE'					=> 'yazdı', // küçük harf ile başlıyor
 
 	'YEAR'				=> 'Yıl',

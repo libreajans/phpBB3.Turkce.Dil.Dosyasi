@@ -1,8 +1,8 @@
 <?php defined('IN_PHPBB') OR die('No direct access allowed.');
 /**
  * @author Sevdin Filiz <angelside@users.sourceforge.net>
- * @copyright (c) phpBB Group <http://www.phpbb.com>			[phpBB sistemi]
- * @copyright (c) Canver Software <http://www.canversoft.net>	[tercüme]
+ * @copyright (c) phpBB Group <http://phpbb.com>			[phpBB sistemi]
+ * @copyright (c) Canver Software <http://canversoft.net>	[tercüme]
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
@@ -402,7 +402,7 @@ $lang = array_merge($lang, array(
 	'SCRIPT_PATH'				=> 'Yazılım yolu',
 	'SCRIPT_PATH_EXPLAIN'		=> 'phpBB’nin alan adı altındaki göreceli yolu, örn. <samp>/phpBB3</samp>.',
 	'SERVER_NAME'				=> 'Alan adı',
-	'SERVER_NAME_EXPLAIN'		=> 'Bu panonun çalıştığı alan adı (örn: <samp>www.phpbbturkiye.net</samp>).',
+	'SERVER_NAME_EXPLAIN'		=> 'Bu panonun çalıştığı alan adı (örn: <samp>phpbbturkiye.net</samp>).',
 	'SERVER_PORT'				=> 'Sunucu portu',
 	'SERVER_PORT_EXPLAIN'		=> 'Sunucunun çalıştığı port, genellikle 80, eğer sadece farklı ise değiştiriniz.',
 	'SERVER_PROTOCOL'			=> 'Sunucu protokolü',

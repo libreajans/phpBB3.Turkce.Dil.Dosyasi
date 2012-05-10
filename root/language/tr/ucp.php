@@ -1,8 +1,8 @@
 <?php defined('IN_PHPBB') OR die('No direct access allowed.');
 /**
  * @author Sevdin Filiz <angelside@users.sourceforge.net>
- * @copyright (c) phpBB Group <http://www.phpbb.com>			[phpBB sistemi]
- * @copyright (c) Canver Software <http://www.canversoft.net>	[tercüme]
+ * @copyright (c) phpBB Group <http://phpbb.com>			[phpBB sistemi]
+ * @copyright (c) Canver Software <http://canversoft.net>	[tercüme]
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
@@ -15,7 +15,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> '“%1$s” (bu yazıda “biz”, “bize”, “bizim”, “%1$s”, “%2$s” olarak anılacak) kullanım hakkı için, takip eden şartların yasal bağlayıcılığını kabul etmelisiniz. Eğer yasal bağlayıcılığı olan bu şartların tümünü kabul etmiyorsanız lütfen “%1$s” mesaj panosuna erişmeyin ve/veya kullanmayın. Şartları herhangi bir zaman değiştirebilir ve sizi azami derecede bilgilendirebiliriz. Ancak, yasal bağlayıcılığı olan bu şartları düzenli olarak incelemelisiniz. Yapılan değişiklik ve güncellemeleri kabul ediyorsanız “%1$s” mesaj panosunu kullanmaya devam edin.<br />
 	<br />
-	Forumlarımız gücünü bir mesaj panosu çözümü olan <a href="http://www.phpbb.com">phpBB</a> (bu yazıda “onlar”, “onlara”, “onların”, “phpBB yazılımı”, “www.phpbb.com”, “phpBB Grubu”, “phpBB Takımı” olarak anılacak) yazılımından alır. phpBB yazılımı sadece internet tabanlı tartışma ve mesajlaşmayı kolaylaştırır. phpBB hakkında daha fazla bilgi için <a href="http://www.phpbbturkiye.net/">phpBB Türkiye</a> sitesine göz atabilirsiniz.<br />
+	Forumlarımız gücünü bir mesaj panosu çözümü olan <a href="http://www.phpbb.com">phpBB</a> (bu yazıda “onlar”, “onlara”, “onların”, “phpBB yazılımı”, “www.phpbb.com”, “phpBB Grubu”, “phpBB Takımı” olarak anılacak) yazılımından alır. phpBB yazılımı sadece internet tabanlı tartışma ve mesajlaşmayı kolaylaştırır. phpBB hakkında daha fazla bilgi için <a href="http://phpbbturkiye.net/">phpBB Türkiye</a> sitesine göz atabilirsiniz.<br />
 	<br />
 	Küfür, müstehcen, terbiyesiz, iftira niteliğinde, iğrenç, tehdit edici, cinsel yönü olan iletiler veya ülkenizdeki kanunları, “%1$s” mesaj panosunun barındırıldığı ülkenin veya uluslararası kanunları çiğneyecek herhangi bir içerik göndermeyeceğinizi kabul ediyorsunuz. Aksi halde, hemen ve sürekli olarak uzaklaştırılabileceğiniz gibi eğer tarafımızca uygun görülürse internet servis sağlayıcınız da haberdar edilebilir. Bu koşulları güçlendirmek için tüm iletilerdeki IP adresleri kayıt altına alınır. Uygun görüldüğünde, herhangi bir konunuzun, herhangi bir zamanda “%1$s” tarafından silinebileceğini, değiştirilebileceğini, taşınabileceğini veya kilitlenebileceğini kabul ediyorsunuz. Bir kullanıcı olarak girdiğiniz tüm bilgilerin bir veritabanında saklanacağını kabul ediyorsunuz. İzniniz olmadan bu bilgiler üçüncü şahıslara dağıtılmayacak, ancak yapılacak herhangi bir saldırı / hack sonucunda bu bilgilerin dağıtılmasından ne “%1$s” ne de phpBB sorumlu tutulamaz.',
 

@@ -1,8 +1,8 @@
 <?php defined('IN_PHPBB') OR die('No direct access allowed.');
 /**
  * @author Sevdin Filiz <angelside@users.sourceforge.net>
- * @copyright (c) phpBB Group <http://www.phpbb.com>			[phpBB sistemi]
- * @copyright (c) Canver Software <http://www.canversoft.net>	[tercüme]
+ * @copyright (c) phpBB Group <http://phpbb.com>			[phpBB sistemi]
+ * @copyright (c) Canver Software <http://canversoft.net>	[tercüme]
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
@@ -291,7 +291,7 @@ $lang = array_merge($lang, array(
 
 // Index page
 $lang = array_merge($lang, array(
-	'ADMIN_INTRO'				=> 'Pano çözümünüz için phpBB’yi seçtiğiniz için teşekkür ederiz. Bu sayfadan panonuz için çeşitli istatistikleri kolayca izleyebilirsiniz. Sayfanın sol tarafındaki bağlantılar tecrübenize göre panonuzu her yönüyle yönetmenizi sağlar. Her sayfada, araçları nasıl kullanacağınıza dair bilgiler içerecektir. Anlamadığınız her ayar, öğrenmek istediğiniz herşey için <a href="http://www.phpbbturkiye.net" title="phpBB3 destek ve geliştirme">phpBB Türkiye</a> sitemizden yardım isteyebilirsiniz.',
+	'ADMIN_INTRO'				=> 'Pano çözümünüz için phpBB’yi seçtiğiniz için teşekkür ederiz. Bu sayfadan panonuz için çeşitli istatistikleri kolayca izleyebilirsiniz. Sayfanın sol tarafındaki bağlantılar tecrübenize göre panonuzu her yönüyle yönetmenizi sağlar. Her sayfada, araçları nasıl kullanacağınıza dair bilgiler içerecektir. Anlamadığınız her ayar, öğrenmek istediğiniz herşey için <a href="http://phpbbturkiye.net" title="phpBB3 destek ve geliştirme">phpBB Türkiye</a> sitemizden yardım isteyebilirsiniz.',
 	'ADMIN_LOG'					=> 'Kaydedilen yönetici eylemleri',
 	'ADMIN_LOG_INDEX_EXPLAIN'	=> 'Bu pano yöneticisinin son beş hareketinin bir ön izlemesini verir. Bütün yönetici kayıtlarını görmek için ilgili menü seçeneğini ya da aşağıdaki bağlantıyı tıklayın.',
 	'AVATAR_DIR_SIZE'			=> 'Avatar dizini boyutu',
