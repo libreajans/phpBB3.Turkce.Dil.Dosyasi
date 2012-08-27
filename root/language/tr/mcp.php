@@ -83,7 +83,7 @@ $lang = array_merge($lang, array(
 	'FORUM_NOT_EXIST'		=> 'Seçtiğiniz forum mevcut değil.',
 	'FORUM_NOT_POSTABLE'	=> 'Seçtiğiniz foruma ileti gönderilemiyor.',
 	'FORUM_STATUS'			=> 'Forum durumu',
-	'FORUM_STYLE'			=> 'Forum stili',
+	'FORUM_STYLE'			=> 'Forum biçimi',
 
 	'GLOBAL_ANNOUNCEMENT'	=> 'Genel duyuru',
 

@@ -36,7 +36,7 @@ $lang = array_merge($lang, array(
 
 	'DELETE_POSTS'			=> 'İleti sil',
 	'DELETE_USER'			=> 'Kullanıcı sil',
-	'DELETE_USER_EXPLAIN'	=> 'Lütfen dikkat edin. Bir üyeyi silme işleminin geri dönüşü yoktur.',
+	'DELETE_USER_EXPLAIN'	=> 'Lütfen dikkat edin. Bir üyeyi silme işleminin geri dönüşü yoktur. Bu kullanıcı tarafından gönderilen okunmamış özel mesajlar silinecek ve bunlar alıcılar için mevcut olmayacaktır.',
 
 	'FORCE_REACTIVATION_SUCCESS'	=> 'Tekrar aktiflik zorlaması başarılı.',
 	'FOUNDER'						=> 'Kurucu',
@@ -101,6 +101,7 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_SPECIAL'			=> 'Önceden tanımlanmış bir grup kullanıcısı',
 	'USER_LIFTED_NR'				=> 'Kullanıcının yeni kayıtlı üye durumu başarıyla değiştirildi.',
 	'USER_NO_ATTACHMENTS'			=> 'Gösterilecek herhangi bir iliştirili dosya yok.',
+	'USER_NO_POSTS_TO_DELETE'		=> 'Kullanıcının silinecek veya tutulacak iletisi mevcut değildir.',
 	'USER_OUTBOX_EMPTIED'			=> 'Kullanıcının özel mesaj gönderilenler klasörü başarıyla boşaltıldı.',
 	'USER_OUTBOX_EMPTY'				=> 'Kullanıcı özel mesaj gönderilenler klasörü zaten boştu.',
 	'USER_OVERVIEW_UPDATED'			=> 'Kullanıcı detayları güncellendi.',

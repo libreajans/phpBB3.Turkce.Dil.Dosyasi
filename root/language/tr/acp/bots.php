@@ -34,8 +34,8 @@ $lang = array_merge($lang, array(
 	'BOT_NAME_EXPLAIN'	=> 'Sadece kendi bilgileriniz için kullanılır.',
 	'BOT_NEVER'			=> 'Hiç',
 	'BOT_NAME_TAKEN'	=> 'İsim panoda zaten kullanımda olduğundan bot için kullanamazsınız.',
-	'BOT_STYLE'			=> 'Bot stili',
-	'BOT_STYLE_EXPLAIN'	=> 'Arama botları tarafından kullanılacak pano stili.',
+	'BOT_STYLE'			=> 'Bot biçimi',
+	'BOT_STYLE_EXPLAIN'	=> 'Arama botları tarafından kullanılacak pano biçimi.',
 	'BOT_UPDATED'		=> 'Mevcut olan bot başarı ile güncellendi.',
 
 	'ERR_BOT_AGENT_MATCHES_UA'	=> 'Girdiğiniz bot ajanı halihazırda kullandığınız bir başka bot ajanına benziyor. Lütfen ajanı bu bota uyarlayın.',

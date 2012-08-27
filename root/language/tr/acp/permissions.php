@@ -17,10 +17,10 @@ $lang = array_merge($lang, array(
 		<p>İzinler yüksek derecede taneli ve gruplanmış dört belli başlı bölüme ayrılır:</p>
 
 		<h2>Genel İzinler</h2>
-		<p>Bunlar genel düzeye erişimi sağlar ve burada yapılan değişiklikler tüm foruma etki eder. Kullanıcı’ İzinleri, Grup’ İzinleri, Yöneticiler ve Genel Yetkililer olarak kendi içinde ayrılmıştır.</p>
+		<p>Bunlar genel düzeye erişimi sağlar ve burada yapılan değişiklikler tüm foruma etki eder. Kullanıcı İzinleri, Grup İzinleri, Yöneticiler ve Genel Yetkililer olarak kendi içinde ayrılmıştır.</p>
 		
 		<h2>Forum Tabanlı İzinler</h2>
-		<p>Bunlar her bir forum bünyesinde erişime olanak tanır. Forum İzinleri, Forum Yetkilileri, Kullanıcı’ Forum İzinleri ve Grup’ Forum İzinleri olarak kendi arasında ayrılmıştır.</p> 
+		<p>Bunlar her bir forum bünyesinde erişime olanak tanır. Forum İzinleri, Forum Yetkilileri, Kullanıcı Forum İzinleri ve Grup Forum İzinleri olarak kendi arasında ayrılmıştır.</p> 
 		
 		<h2>İzin Rolleri</h2>
 		<p>Bunlar, değişik izin tipleri için rol-tabanlı durumlara daha sonra atanabilecek ayarları hazırlamak için kullanılır. Hazır gelen roller, mesaj panolarının yönetimini kapsamak zorundadır. Rolleri ekleyebilir, düzenleyebilir, silebilirsiniz.</p>
@@ -147,7 +147,7 @@ $lang = array_merge($lang, array(
 	'ROLE_FORUM_POLLS'			=> 'Standart Erişim + Anketler',
 	'ROLE_FORUM_READONLY'		=> 'Sadece Okuma Erişimi',
 	'ROLE_FORUM_STANDARD'		=> 'Standart Erişim',
-	'ROLE_FORUM_NEW_MEMBER'		=> 'Yeni Kayıtlı Kullanıcı',
+	'ROLE_FORUM_NEW_MEMBER'		=> 'Yeni Kayıtlı Kullanıcı Erişimi',
 	'ROLE_MOD_FULL'				=> 'Tam Yetkili',
 	'ROLE_MOD_QUEUE'			=> 'Onay Yetkilisi',
 	'ROLE_MOD_SIMPLE'			=> 'Basit Yetkili',
@@ -157,7 +157,7 @@ $lang = array_merge($lang, array(
 	'ROLE_USER_NOAVATAR'		=> 'Avatar Yok',
 	'ROLE_USER_NOPM'			=> 'Özel Mesajlaşma Yok',
 	'ROLE_USER_STANDARD'		=> 'Standart Özellikler',
-	'ROLE_USER_NEW_MEMBER'		=> 'Yeni Kayıtlı Kullanıcı',
+	'ROLE_USER_NEW_MEMBER'		=> 'Yeni Kayıtlı Kullanıcı Özellikleri',
 
 	'ROLE_DESCRIPTION_ADMIN_FORUM'			=> 'Forum yönetimine ulaşabilir ve forum izinlerini düzenleyebilir.',
 	'ROLE_DESCRIPTION_ADMIN_FULL'			=> 'Panonun bütün yönetimsel görevlerine erişim hakkına sahip olabilir.<br />Tavsiye edilmez.',

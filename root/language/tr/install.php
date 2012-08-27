@@ -29,7 +29,8 @@ $lang = array_merge($lang, array(
 	'BLANK_PREFIX_FOUND'			=> 'Tablolarınızın gözden geçirilmesi esnasında, tablolarınızın kurulumunda geçerli bir ön-ek kullanmadığınız gözlenmiştir.',
 	'BOARD_NOT_INSTALLED'			=> 'Kurulum bulunamadı',
 	'BOARD_NOT_INSTALLED_EXPLAIN'	=> 'phpBB dönüştürücüsü çalışmak için varsayılan phpBB3 kurulumuna ihtiyaç duyar, lütfen önce <a href="%s">phpBB3’ü kurarak</a> devam ediniz.',
-
+	'BACKUP_NOTICE'					=> 'Güncelleme işleminde herhangi bir sorun çıkma olasılığına karşı lütfen güncellemeye başlamadan önce gereken yedekleri alınız.',
+	
 	'CATEGORY'					=> 'Kategori',
 	'CACHE_STORE'				=> 'Önbellek türü',
 	'CACHE_STORE_EXPLAIN'		=> 'Önbellek verilerinin saklandığı fiziksel konum, dosya sistemi tercih edilir.',

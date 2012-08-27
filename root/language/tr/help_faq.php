@@ -74,7 +74,7 @@ $help = array(
 	),
 	array(
 		0 => 'Kullanıcı adımın altında nasıl resim gösterebilirim?',
-		1 => 'İletilere bakarken kullanıcı adınızın altında iki resim olabilir. Kullanılan stile bağılı olarak, birinci resim sizin seviyeniz ile ilgilidir, genel olarak yıldızlardan ya da sizin ne kadar ileti gönderdiğinizi ya da forumdaki statünüzü gösteren bir blok olabilir. Aşağısında avatar diye bilinen daha geniş bir resim olabilir, bu genel olarak kullanıcıya özeldir. Avatar kullanımını aktif hale getirmek pano yöneticisine bağlıdır ve nasıl bir avatarın gösterilebileceği konusunda seçim yapma hakkına sahiptirler. Eğer avatar kullanamıyorsanız bu pano yöneticisinin kararıdır, bu durumun sebebini yöneticilere sorabilirsiniz.'
+		1 => 'İletilere bakarken kullanıcı adınızın altında iki resim olabilir. Kullanılan biçime bağılı olarak, birinci resim sizin seviyeniz ile ilgilidir, genel olarak yıldızlardan ya da sizin ne kadar ileti gönderdiğinizi ya da forumdaki statünüzü gösteren bir blok olabilir. Aşağısında avatar diye bilinen daha geniş bir resim olabilir, bu genel olarak kullanıcıya özeldir. Avatar kullanımını aktif hale getirmek pano yöneticisine bağlıdır ve nasıl bir avatarın gösterilebileceği konusunda seçim yapma hakkına sahiptirler. Eğer avatar kullanamıyorsanız bu pano yöneticisinin kararıdır, bu durumun sebebini yöneticilere sorabilirsiniz.'
 	),
 	array(
 		0 => 'Seviye nedir ve nasıl değiştirebilirim?',
@@ -146,7 +146,7 @@ $help = array(
 	),
 	array(
 		0 => 'Biçim kodu nedir?',
-		1 => 'Biçim kodu (BBCode) özel bir HTML uygulamasıdır, yönetici tarafından belirlenen biçim kodu seçeneklerini kullanabilirsiiz (aynı zamanda iletilerinize göre bu seçeneği iptal edebilirsiniz). Biçim kodları HTML stillerine benzer, kodlar &lt; ve &gt; yerine köşeli parantez içine yazılır [ve] ve bazen uygulanmayabilir. Daha ayrıntılı bilgi için ileti penceresindeki biçim kodları rehberine bakabilirsiniz.'
+		1 => 'Biçim kodu (BBCode) özel bir HTML uygulamasıdır, yönetici tarafından belirlenen biçim kodu seçeneklerini kullanabilirsiiz (aynı zamanda iletilerinize göre bu seçeneği iptal edebilirsiniz). Biçim kodları HTML biçimlerine benzer, kodlar &lt; ve &gt; yerine köşeli parantez içine yazılır [ve] ve bazen uygulanmayabilir. Daha ayrıntılı bilgi için ileti penceresindeki biçim kodları rehberine bakabilirsiniz.'
 	),
 	array(
 		0 => 'HTML kullanabilir miyim?',
@@ -316,7 +316,8 @@ $help = array(
 	),
 	array(
 		0 => 'Neden X özelliği yok?',
-		1 => 'Bu yazılım phpBB Grubu tarafından yazılmış ve lisanslanmıştır. Eğer bir özelliğin eklenmesi gerektiğine inanıyorsanız, lütfen, <a href="http://www.phpbb.com">phpbb.com</a> web sitesini ziyaret edin ve phpBB grubunun ne söylediğini görün. Lütfen <a href="http://www.phpbb.com">phpbb.com</a> adresine özellik isteme ricası içeren iletiler göndermeyin, grup yeni özelliklerin taslaklarını SourceForge kullanarak tutmaktadır. Lütfen, forumları okuyun ve phpBB grubunun üzerinde çalıştığı bir özellik olup olmadığını görün ve sonra orada verilen prosedürü takip edin.'
+		1 => 'Bu yazılım phpBB Grubu tarafından yazılmış ve lisanslanmıştır. Eğer bir özelliğin eklenmesi gerektiğine inanıyorsanız lütfen "phpBB <a href="http://area51.phpbb.com/">Area51</a>" web sitesini ziyaret edin. Bu web sayfasında gerekli tüm bilgileri bulabilirsiniz.'
+
 	),
 	array(
 		0 => 'Bu panodaki hatalı kullanım ve/veya yasal konularla ilgili olarak kimle iletişim kurmalıyım?',

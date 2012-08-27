@@ -9,7 +9,7 @@
 // -------------------------------------------------------------------------------------
 // [ phpBB3 Türkçe Dil Paketi ]
 //
-// SÜRÜM	: 1.0.9 - 04 Ocak 2012 - phpBB 3.0.10
+// SÜRÜM	: 1.0.10 - 27 Ağustos 2012 - phpBB 3.0.11
 // TERCÜME	: phpBB Türkiye - http://phpbbturkiye.net
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
@@ -184,7 +184,7 @@ $lang = array_merge($lang, array(
 	'FORM_INVALID'			=> 'Gönderilen form geçersizdir. Tekrar göndermeyi deneyin.',
 	'FORUM'					=> 'Forum',
 	'FORUMS'				=> 'Forumlar',
-	'FORUMS_MARKED'			=> 'Seçilen forumlar okundu olarak işaretlendi.',
+	'FORUMS_MARKED'			=> 'Forumlar okundu olarak işaretlendi.',
 	'FORUM_CAT'				=> 'Forum kategorisi',
 	'FORUM_INDEX'			=> 'Pano anasayfası',
 	'FORUM_LINK'			=> 'Forum linki',
@@ -443,6 +443,7 @@ $lang = array_merge($lang, array(
 	'POST_TIME'					=> 'Gönderilme zamanı',
 	'POST_TOPIC'				=> 'Yeni bir konu gönder',
 	'POST_UNAPPROVED'			=> 'Bu ileti onay bekliyor',
+'POWERED_BY'				=> 'Powered by %s',
 	'PREVIEW'					=> 'Önizleme',
 	'PREVIOUS'					=> 'Önceki', // sayfalama fonksiyonunda kullanılıyor
 	'PREVIOUS_STEP'				=> 'Önceki', // "önceki aşama" anlamında
@@ -452,6 +453,7 @@ $lang = array_merge($lang, array(
 	'PRIVATE_MESSAGING'			=> 'Özel mesajlaşma',
 	'PROFILE'					=> 'Kullanıcı Paneli',
 
+	'RANK'						=> 'Seviye', // Rank
 	'READING_FORUM'				=> '%s içinde konulara bakıyor',
 	'READING_GLOBAL_ANNOUNCE'	=> 'Genel Duyuru okuyor',
 	'READING_LINK'				=> 'Forum linkini izliyor %s',
