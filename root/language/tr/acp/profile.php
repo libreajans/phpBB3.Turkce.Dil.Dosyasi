@@ -106,6 +106,8 @@ $lang = array_merge($lang, array(
 
 	'SAVE'							=> 'Kaydet',
 	'SECOND_OPTION'					=> 'İkinci seçenek',
+	'SHOW_NOVALUE_FIELD'			=> 'Değeri seçilmeyen alanları göster',
+	'SHOW_NOVALUE_FIELD_EXPLAIN'	=> 'İsteğe bağlı alanlar için hiçbir değer seçilmediyse veya gerekli alanlar için henüz bir değer seçilmediyse bunların profil alanında görülüp görülmeyeceğini ayarlar.',
 	'STEP_1_EXPLAIN_CREATE'			=> 'Burada yeni hesap alanınızın temel parametrelerini değiştirebilirsiniz. Bu bilgiler kalan seçeneklerin ayarlanması ve ikinci aşama için gereklidir.',
 	'STEP_1_EXPLAIN_EDIT'			=> 'Burada hesap alanınızın temel parametrelerini değiştirebilirsiniz. İlgili seçenek değişiklikleri ikinci aşamada tekrar hesaplanır.',
 	'STEP_1_TITLE_CREATE'			=> 'Hesap alanını gir',

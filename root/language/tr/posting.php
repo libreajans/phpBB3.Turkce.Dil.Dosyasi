@@ -19,6 +19,7 @@ $lang = array_merge($lang, array(
 	'ADD_POLL'					=> 'Anket oluştur',
 	'ADD_POLL_EXPLAIN'			=> 'Eğer konuya anket eklemek istemiyorsanız burayı boş bırakınız.',
 	'ALREADY_DELETED'			=> 'Üzgünüz, ama bu ileti zaten silinmiş.',
+	'ATTACH_DISK_FULL'			=> 'Bu eki göndermek için yeterli boş disk alanı yok.',
 	'ATTACH_QUOTA_REACHED'		=> 'Üzgünüz, ama izin verilen pano eklenti limitine ulaşıldı.',
 	'ATTACH_SIG'				=> 'İmza ekle (imza Kullanıcı Paneli’nden değiştirilebilir)',
 

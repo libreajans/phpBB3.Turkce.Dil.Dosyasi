@@ -87,7 +87,6 @@ $lang = array_merge($lang, array(
 
 	'POST_IP'				=> 'IP/alan adı',
 
-	'RANK'					=> 'Seviye',
 	'REAL_NAME'				=> 'Alıcının adı',
 	'RECIPIENT'				=> 'Alıcı',
 	'REMOVE_FOE'			=> 'Yasaklı sil',

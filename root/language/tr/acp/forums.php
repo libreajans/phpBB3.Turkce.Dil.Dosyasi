@@ -30,7 +30,7 @@ $lang = array_merge($lang, array(
 
 	'DECIDE_MOVE_DELETE_CONTENT'		=> 'İçeriği sil veya başka bir foruma taşı',
 	'DECIDE_MOVE_DELETE_SUBFORUMS'		=> 'Alt forumu sil veya başka bir foruma taşı',
-	'DEFAULT_STYLE'						=> 'Varsayılan stil',
+	'DEFAULT_STYLE'						=> 'Varsayılan biçim',
 	'DELETE_ALL_POSTS'					=> 'İletileri sil',
 	'DELETE_SUBFORUMS'					=> 'Alt forum iletilerini temizle',
 	'DISPLAY_ACTIVE_TOPICS'				=> 'Aktif konuları aç',
@@ -87,13 +87,13 @@ $lang = array_merge($lang, array(
 	'FORUM_RULES_TOO_LONG'				=> 'Forum kuralları 4000 karakterden az olmalıdır.',
 	'FORUM_SETTINGS'					=> 'Forum ayarları',
 	'FORUM_STATUS'						=> 'Forum durumu',
-	'FORUM_STYLE'						=> 'Forum stili',
+	'FORUM_STYLE'						=> 'Forum biçimi',
 	'FORUM_TOPICS_PAGE'					=> 'Sayfa başına konu',
 	'FORUM_TOPICS_PAGE_EXPLAIN'			=> 'Eğer sıfır değilse buraya yazılan değer varsayılan sayfa başına konunun üzerine yazılacaktır.',
 	'FORUM_TYPE'						=> 'Forum tipi',
 	'FORUM_UPDATED'						=> 'Forum bilgileri güncellendi.',
 
-	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'Altforum linki sayesinde menkul forumunuzu değiştirmek istiyorsunuz. Lütfen devam etmeden önce tüm altforumları bu forumdan taşıyın çünkü, linki değiştirdikten sonra şu anda foruma bağlanan altforumları göremeyeceksiniz.',
+	'FORUM_WITH_SUBFORUMS_NOT_TO_LINK'	=> 'Alt forum linki sayesinde menkul forumunuzu değiştirmek istiyorsunuz. Lütfen devam etmeden önce tüm altforumları bu forumdan taşıyın çünkü, linki değiştirdikten sonra şu anda foruma bağlanan altforumları göremeyeceksiniz.',
 	
 	'GENERAL_FORUM_SETTINGS'			=> 'Genel Forum Ayarları',
 

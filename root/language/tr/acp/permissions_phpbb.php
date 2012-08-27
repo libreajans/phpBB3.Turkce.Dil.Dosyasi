@@ -204,7 +204,7 @@ $lang = array_merge($lang, array(
 	'acl_a_roles'		=> array('lang' => 'Rolleri yönetebilir', 'cat' => 'permissions'),
 	'acl_a_switchperm'	=> array('lang' => 'Diğer yetkileri kullanabilir', 'cat' => 'permissions'),
 
-	'acl_a_styles'		=> array('lang' => 'Stilleri yönetebilir', 'cat' => 'misc'),
+	'acl_a_styles'		=> array('lang' => 'Biçimleri yönetebilir', 'cat' => 'misc'),
 	'acl_a_viewlogs'	=> array('lang' => 'Kayıtları görebilir', 'cat' => 'misc'),
 	'acl_a_clearlogs'	=> array('lang' => 'Kayıtları temizleyebilir', 'cat' => 'misc'),
 	'acl_a_modules'		=> array('lang' => 'Modülleri yönetebilir', 'cat' => 'misc'),

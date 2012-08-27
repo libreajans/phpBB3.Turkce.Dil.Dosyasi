@@ -43,7 +43,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAT_MAINTENANCE'		=> 'Bakım',
 	'ACP_CAT_PERMISSIONS'		=> 'İzinler',
 	'ACP_CAT_POSTING'			=> 'Gönderim',
-	'ACP_CAT_STYLES'			=> 'Stiller',
+	'ACP_CAT_STYLES'			=> 'Biçimler',
 	'ACP_CAT_SYSTEM'			=> 'Sistem',
 	'ACP_CAT_USERGROUP'			=> 'Kullanıcı ve gruplar',
 	'ACP_CAT_USERS'				=> 'Kullanıcılar',
@@ -72,10 +72,10 @@ $lang = array_merge($lang, array(
 	'ACP_GLOBAL_MODERATORS'			=> 'Genel yetkili',
 	'ACP_GLOBAL_PERMISSIONS'		=> 'Genel izinler',
 	'ACP_GROUPS'					=> 'Gruplar',
-	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Grup’ forum izinleri',
+	'ACP_GROUPS_FORUM_PERMISSIONS'	=> 'Grup forum izinleri',
 	'ACP_GROUPS_MANAGE'				=> 'Grup yönetimi',
 	'ACP_GROUPS_MANAGEMENT'			=> 'Grup yönetimi',
-	'ACP_GROUPS_PERMISSIONS'		=> 'Grup’ izinleri',
+	'ACP_GROUPS_PERMISSIONS'		=> 'Grup izinleri',
 
 	'ACP_ICONS'					=> 'Konu ikonları',
 	'ACP_ICONS_SMILIES'			=> 'Konu ikonları/ifadeler',
@@ -138,9 +138,9 @@ $lang = array_merge($lang, array(
 	'ACP_SERVER_SETTINGS'		=> 'Sunucu ayarları',
 	'ACP_SIGNATURE_SETTINGS'	=> 'İmza ayarları',
 	'ACP_SMILIES'				=> 'İfadeler',
-	'ACP_STYLE_COMPONENTS'		=> 'Stil bileşenleri',
-	'ACP_STYLE_MANAGEMENT'		=> 'Stil yönetimi',
-	'ACP_STYLES'				=> 'Stiller',
+	'ACP_STYLE_COMPONENTS'		=> 'Biçim bileşenleri',
+	'ACP_STYLE_MANAGEMENT'		=> 'Biçim yönetimi',
+	'ACP_STYLES'				=> 'Biçimler',
 
 	'ACP_SUBMIT_CHANGES'		=> 'Değişiklikleri gönder',
 	
@@ -148,9 +148,9 @@ $lang = array_merge($lang, array(
 	'ACP_THEMES'				=> 'Temalar', // Themes
 
 	'ACP_UPDATE'					=> 'Güncelleme',
-	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Kullanıcı’ forum izinleri',
+	'ACP_USERS_FORUM_PERMISSIONS'	=> 'Kullanıcı forum izinleri',
 	'ACP_USERS_LOGS'				=> 'Kullanıcı kayıtları',
-	'ACP_USERS_PERMISSIONS'			=> 'Kullanıcı’ izinleri',
+	'ACP_USERS_PERMISSIONS'			=> 'Kullanıcı izinleri',
 	'ACP_USER_ATTACH'				=> 'Mesaj ekleri',
 	'ACP_USER_AVATAR'				=> 'Avatar',
 	'ACP_USER_FEEDBACK'				=> 'Geri bildirim',
@@ -381,8 +381,7 @@ $lang = array_merge($lang, array(
 	'INACTIVE_USERS'				=> 'Pasif kullanıcılar',
 
 	'INACTIVE_USERS_EXPLAIN'		=> 'Hesabı aktif olmayan kullanıcıların listesidir. İsterseniz bu kullanıcıları aktif edebilir, silebilir veya kullanıcılara e-posta yolu ile aktivasyon hatırlatması yapabilirsiniz.',
-	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Hesabı aktif olmayan son 10 kullanıcının listesidir. Uygun menü seçimi ile, kullanıcıları aktif edebilir, silebililir ya da e-posta yoluyla hatırlatmada bulunabilirsiniz.',
-
+	'INACTIVE_USERS_EXPLAIN_INDEX'	=> 'Hesabı aktif olmayan son 10 kullanıcının listesidir. Bu hesaplar aktif değildir çünkü hesap aktivasyonu kullanıcı kayıt ayarlarında açıktır ve bu kullanıcıların hesabı henüz aktif edilmemiştir veya kullanıcı hesapları pasif edilmiştir. Kullanıcı aktivasyonu, kullanıcı silme veya hatırlatma e-postası gönderebileceğiniz tam listeye aşağıdaki bağlantıdan erişilebilir.',
 	'NO_INACTIVE_USERS'	=> 'Pasif kullanıcı yok',
 
 	'SORT_INACTIVE'		=> 'Hesabın pasif olma tarihi',
