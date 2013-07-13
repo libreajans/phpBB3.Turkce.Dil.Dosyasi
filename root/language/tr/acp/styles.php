@@ -1,11 +1,12 @@
 <?php defined('IN_PHPBB') OR die('No direct access allowed.');
 /**
  * @author Sevdin Filiz <angelside@users.sourceforge.net>
- * @copyright (c) phpBB Group <http://phpbb.com>			[phpBB sistemi]
- * @copyright (c) Canver Software <http://canversoft.net>	[tercüme]
+ *
+ * @copyright (c) phpBB Group 		<http://phpbb.com>			[phpBB sistemi]
+ * @copyright (c) Canver Software	<http://canversoft.net>		[Tercüme]
+ *
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
-
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();

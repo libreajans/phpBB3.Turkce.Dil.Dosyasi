@@ -1,8 +1,10 @@
 <?php defined('IN_PHPBB') OR die('No direct access allowed.');
 /**
  * @author Sevdin Filiz <angelside@users.sourceforge.net>
- * @copyright 2005 phpBB Group <http://phpbb.com>			[phpBB sistemi]
- * @copyright 2010 Canver Software <http://canversoft.net>	[tercüme]
+ *
+ * @copyright (c) phpBB Group 		<http://phpbb.com>			[phpBB sistemi]
+ * @copyright (c) Canver Software	<http://canversoft.net>		[Tercüme]
+ *
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
