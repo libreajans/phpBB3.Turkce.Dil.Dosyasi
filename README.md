@@ -15,7 +15,7 @@ phpBB3 Türkçe Dil Dosyaları
 
 ## Dil dosyası kurulumu ##
 
-**NOT:** phpBB3'ü yeni kuruyorsanız "**Dosyaları kopyalayın**" adımını gerçekleştirin ve kurulum ekranında "*Türkçe [TR]*" dil seçeneğini seçip kuruluma devam edin.
+**NOT:** phpBB3'ü yeni kuruyorsanız **Dosyaları kopyalayın** adımını gerçekleştirin ve kurulum ekranında *Türkçe [TR]* dil seçeneğini seçip kuruluma devam edin.
 
 ### Dosyaları kopyalayın ###
 
@@ -23,19 +23,19 @@ Sıkıştırılmış olan *phpbb3.lang_turkish* paketini açın ve *root/* dizin
  
 ### Türkçe dil dosyasını sisteme yükleyin ###
 
-Panoya yönetici olarak oturum açın ve yönetim paneline giriş yapın. "*SYSTEM*" sekmesi altında bulunan "*GENERAL TASKS*" menüsündeki "*Language packs*" seçeneğine tıklayın ve "*Uninstalled language packs*" başlığı altındaki "*Turkish [TR]*" yazısının karşısındaki "*Install*" bağına tıklayarak Türkçe dil dosyasını yükleyin. Türkçe dil dosyası sisteme yüklendi ve kullanıma hazırdır.
+Panoya yönetici olarak oturum açın ve yönetim paneline giriş yapın. *SYSTEM* sekmesi altında bulunan *GENERAL TASKS* menüsündeki *Language packs* seçeneğine tıklayın ve *Uninstalled language packs* başlığı altındaki *Turkish [TR]* yazısının karşısındaki *Install* bağına tıklayarak Türkçe dil dosyasını yükleyin. Türkçe dil dosyası sisteme yüklendi ve kullanıma hazırdır.
  
 ### Varsayılan pano dilini değiştirin ###
 
-Yönetim panelindeki "*GENERAL*" sekmesine geçin, "*BOARD CONFIGURATION*" menüsündeki "Board settings" seçeneğine tıklayın ve "*Default language*" yazısının karşısındaki kutudan "*Türkçe [TR]*" yi seçin, sayfa altındaki "*Submit*" butonuna tıklayın. Panonuzun varsayılan dili Türkçe olmuştur.
+Yönetim panelindeki *GENERAL* sekmesine geçin, *BOARD CONFIGURATION* menüsündeki *Board settings* seçeneğine tıklayın ve *Default language* yazısının karşısındaki kutudan *Türkçe [TR]* yi seçin, sayfa altındaki *Submit* butonuna tıklayın. Panonuzun varsayılan dili Türkçe olmuştur.
  
 ### Türkçe butonları tanıtın ###
 
-Yönetim panelindeki "*STYLES*" sekmesine geçin. "*Style components*" menüsü altındaki "*Imagesets*" bağına tıklayın ve açılan sayfada Türkçe buton eklediğiniz tüm temaların karşısındaki "*Refresh*" bağına tıklayın. Çıkan doğrulama sayfalarında "*Yes*" butonuna tıklayın. Türkçe butonlar sisteme tanıtılmıştır.
+Yönetim panelindeki *STYLES* sekmesine geçin. *Style components* menüsü altındaki *Imagesets* bağına tıklayın ve açılan sayfada Türkçe buton eklediğiniz tüm temaların karşısındaki *Refresh* bağına tıklayın. Çıkan doğrulama sayfalarında *Yes* butonuna tıklayın. Türkçe butonlar sisteme tanıtılmıştır.
  
 ### Siz de Türkçe'ye geçin ###
 
-Eğer panoyu Türkçe kullanmak istiyorsanız, pano anasayfasındaki "*User Control Panel*" bağını kullanarak profil ayarlarınıza ulaşın. "*Forum preferences*" bağına tıklayın ve "*My language*" yazısının karşısından "*Türkçe [TR]*" 'yi seçerek en alttaki "*Submit*" butonuna tıklayın. Yönlendirme işleminden sonra pano dili sizin için Türkçe olacaktır.
+Eğer panoyu Türkçe kullanmak istiyorsanız, pano anasayfasındaki *User Control Panel* bağını kullanarak profil ayarlarınıza ulaşın. *Forum preferences* bağına tıklayın ve *My language* yazısının karşısından *Türkçe [TR]* 'yi seçerek en alttaki *Submit* butonuna tıklayın. Yönlendirme işleminden sonra pano dili sizin için Türkçe olacaktır.
 
 
 ## Geliştirme, hata bildirme ##
