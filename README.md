@@ -5,7 +5,7 @@ phpBB3 Türkçe Dil Dosyaları
 
 ## Dil dosyası hakkında ##
 
-- Bu paket; phpBB ve işlevselliği konusunda tecrübeli bir oluşum olan [phpBB Türkiye](http://phpbbturkiye.net) grubu tarafından phpBB3 için tercüme edilen ve geliştirilen, yüksek kalite ve işlevsellik amaçlanan ve standart olarak UTF-8 formatında olan "**phpBB3 Türkçe Dil Dosyası**" 'dır.
+- Bu paket; phpBB ve işlevselliği konusunda tecrübeli bir oluşum olan [phpBB Türkiye](http://phpbbturkiye.net) grubu tarafından phpBB3 için tercüme edilen ve geliştirilen, yüksek kalite ve işlevsellik amaçlanan ve standart olarak UTF-8 formatında olan **phpBB3 Türkçe Dil Dosyası** 'dır.
 
 - Tercümede; görünüm, işlev, uyumluluk gibi bazı kriterlere göre sözlük tercümesinden farklı, daha uygun kelime ve cümleler kullanılmış, bazı kelimeler üzerinde günlerce tartışılmış, anlamı tamamlayıcı değişiklikler yapılmıştır.
 
