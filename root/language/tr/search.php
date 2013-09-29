@@ -56,6 +56,7 @@ $lang = array_merge($lang, array(
 
 	'SEARCHED_FOR'				=> 'Aranan kelime(ler)',
 	'SEARCHED_TOPIC'			=> 'Aranan konu',
+	'SEARCHED_QUERY'			=> 'Aranan sorgu',
 	'SEARCH_ALL_TERMS'			=> 'Tüm terimler için ara ya da girilen sorguyu kullan',
 	'SEARCH_ANY_TERMS'			=> 'Herhangi bir terim için ara',
 	'SEARCH_AUTHOR'				=> 'Yazara göre ara',

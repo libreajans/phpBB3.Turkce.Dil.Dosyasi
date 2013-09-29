@@ -310,15 +310,15 @@ $help = array(
 	),
 	array(
 		0 => 'Bu mesaj panosunu kim yazdı?',
-		1 => 'Bu yazılım (değiştirilmemiş hali ile) <a href="http://www.phpbb.com/">phpBB Grubu</a> tarafından yazılmış ve lisanslanmıştır. “<a href="http://phpbbturkiye.net/hakkinda/gpl-lisansi.html" title="GNU Genel Kamu Lisansı">GNU Genel Kamu Lisansı</a>” altında kullanıma sunulmuştur ve bu lisansın maddelerine uyarak yazılım üzerinde özgürce değişiklik yapabilirsiniz.'
+		1 => 'Bu yazılım (değiştirilmemiş hali ile) <a href="https://www.phpbb.com/">phpBB Grubu</a> tarafından yazılmış ve lisanslanmıştır. “<a href="http://phpbbturkiye.net/hakkinda/gpl-lisansi.html" title="GNU Genel Kamu Lisansı">GNU Genel Kamu Lisansı</a>” altında kullanıma sunulmuştur ve bu lisansın maddelerine uyarak yazılım üzerinde özgürce değişiklik yapabilirsiniz.'
 	),
 		array(
 		0 => 'Bu yazılımı kim Türkçe’ye tercüme etti?',
-		1 => '“phpBB3 Türkçe dil dosyası” bir “<a href="http://canversoft.net/" title="profesyonel phpBB3 çözümleri ve web hizmetleri">Canver Software</a>” iştirakı olan “<strong><a href="http://phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme">phpBB Türkiye</a></strong>” grubu tarafından tercüme edilmiş ve “<a href="http://phpbbturkiye.net/hakkinda/gpl-lisansi.html" title="GPL - genel kamu lisansı">GPL - genel kamu lisansı</a>” ile dağıtıma sunulmuştur. Tüm eser ve telif hakları “phpBB Türkiye” grubuna aittir. Detaylı bilgi ve “Kullanım & Bulundurma Koşulları” için “<a href="http://phpbbturkiye.net/dosyalar/phpbb3-dil-dosyasi.html">Yükleme ve Kullanım Kılavuzu</a>” ’na bakınız. Lütfen gözden kaçan hataları, önerilerinizi, yorumlarınızı “phpBB Türkiye” sitemiz “phpBB3 Türkçe Dil Paketi” bölümündeki <a href="http://phpbbturkiye.net/hata-raporlari-f93/">Hata Raporları</a> forumuna bildiriniz.'
+		1 => '“phpBB3 Türkçe dil dosyası” bir “<a href="http://canversoft.net/" title="Web tabanlı yazılım/proje geliştirme ve internet çözümleri">Canver Software</a>” iştirakı olan “<strong><a href="http://phpbbturkiye.net" title="phpBB3 Türkçe destek ve geliştirme">phpBB Türkiye</a></strong>” grubu tarafından tercüme edilmiş ve “<a href="http://phpbbturkiye.net/hakkinda/gpl-lisansi.html" title="GPL - genel kamu lisansı">GPL - genel kamu lisansı</a>” ile dağıtıma sunulmuştur. Tüm eser ve telif hakları “phpBB Türkiye” grubuna aittir. Detaylı bilgi ve “Kullanım & Bulundurma Koşulları” için “<a href="http://phpbbturkiye.net/dosyalar/phpbb3-dil-dosyasi.html">Yükleme ve Kullanım Kılavuzu</a>” ’na bakınız. Lütfen gözden kaçan hataları, önerilerinizi, yorumlarınızı “phpBB Türkiye” sitemiz “phpBB3 Türkçe Dil Paketi” bölümündeki <a href="http://phpbbturkiye.net/hata-raporlari-f93/">Hata Raporları</a> forumuna bildiriniz.'
 	),
 	array(
 		0 => 'Neden X özelliği yok?',
-		1 => 'Bu yazılım phpBB Grubu tarafından yazılmış ve lisanslanmıştır. Eğer bir özelliğin eklenmesi gerektiğine inanıyorsanız lütfen "phpBB <a href="http://area51.phpbb.com/">Area51</a>" web sitesini ziyaret edin. Bu web sayfasında gerekli tüm bilgileri bulabilirsiniz.'
+		1 => 'Bu yazılım phpBB Grubu tarafından yazılmış ve lisanslanmıştır. Eğer bir özelliğin eklenmesi gerektiğine inanıyorsanız lütfen <a href="https://www.phpbb.com/ideas/">phpBB Ideas Centre</a> sayfasını ziyaret ediniz. Bu sayfadan yeni özellikler önerebilir veya önceden yapılmış önerilere oy vrebilirsiniz.'
 
 	),
 	array(

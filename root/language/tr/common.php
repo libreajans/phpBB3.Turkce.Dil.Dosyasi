@@ -11,7 +11,7 @@
 // -------------------------------------------------------------------------------------
 // [ phpBB3 Türkçe Dil Paketi ]
 //
-// SÜRÜM	: 1.0.10 - 27 Ağustos 2012 - phpBB 3.0.11
+// SÜRÜM	: 1.0.11 - 28 Eylül 2013 - phpBB 3.0.13
 // TERCÜME	: phpBB Türkiye - http://phpbbturkiye.net
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
@@ -155,6 +155,7 @@ $lang = array_merge($lang, array(
 	'EDIT_POST'							=> 'İletiyi değiştir',
 	'EMAIL'								=> 'E-posta', // Short form for EMAIL_ADDRESS
 	'EMAIL_ADDRESS'						=> 'E-posta adresi',
+	'EMAIL_INVALID_EMAIL'				=> 'Yazdığınız e-posta adresi geçersizdir.',
 	'EMAIL_SMTP_ERROR_RESPONSE'			=> 'E-posta gönderilirken problem oluştu <strong>Satır %s</strong> Yanıt: %s.',
 	'EMPTY_SUBJECT'						=> 'Yeni konu gönderebilmek için ileti konusu yazmalısınız.',	
 	'EMPTY_MESSAGE_SUBJECT'				=> 'Yeni mesaj gönderebilmek için mesaj konusu yazmalısınız.',
@@ -385,6 +386,7 @@ $lang = array_merge($lang, array(
 	'NO_POSTS_TIME_FRAME'		=> 'Bu konu içinde, seçilen zaman çerçevesine ait ileti mevcut değil.',
 	'NO_FEED_ENABLED'			=> 'Bu panoda besleme mevcut değil.',
 	'NO_FEED'					=> 'İstenilen besleme mevcut değil.',
+	'NO_STYLE_DATA'				=> 'Stil verisi alınamadı',
 	'NO_SUBJECT'				=> 'Hiçbir konu belirtmedi',
 	'NO_SUCH_SEARCH_MODULE'		=> 'Seçilen arama türü bulunamadı.',
 	'NO_SUPPORTED_AUTH_METHODS'	=> 'Desteklenmeyen doğrulama metodu.',
@@ -563,9 +565,11 @@ $lang = array_merge($lang, array(
 	'SUBJECT'					=> 'Konu',
 	'SUBMIT'					=> 'Gönder',
 
+	'TB'				=> 'TB',
 	'TERMS_USE'			=> 'Kullanım koşulları',
 	'TEST_CONNECTION'	=> 'Bağlantıyı test et',
 	'THE_TEAM'			=> 'Yönetim ekibi',
+	'TIB'				=> 'TiB',
 	'TIME'				=> 'Zaman',
 
 	'TOO_LARGE'						=> 'Girdiğiniz değer çok büyük.',
@@ -707,6 +711,7 @@ $lang = array_merge($lang, array(
 	'WHO_IS_ONLINE'			=> 'Kimler çevrimiçi',
 	'WRONG_PASSWORD'		=> 'Yanlış bir parola girdiniz.',
 
+	'WRONG_DATA_COLOUR'		=> 'Girdiğiniz renk değeri geçersiz.',
 	'WRONG_DATA_ICQ'		=> 'Girdiğiniz numara geçerli bir ICQ numarası değil.',
 	'WRONG_DATA_JABBER'		=> 'Girdiğiniz isim geçerli bir Jabber hesap adı değil.',
 	'WRONG_DATA_LANG'		=> 'Belirtilen dil geçerli değil.',

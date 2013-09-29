@@ -31,7 +31,7 @@ $lang = array_merge($lang, array(
 		<p>Bunlar, Yetkililer (Yerel ve Genel), Kullanıcılar, Yöneticiler veya Forumlara atanan efektif izinlerin görülebilmesi için kullanılır.</p>
 		<br />
 
-		<p>phpBB3 panonuzdaki izinlerin kurulması ve yönetilmesini sağlamak hakkında daha fazla bigi edinmek isterseniz, hızlı başlangıç rehberindeki <a  href="http://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5 of our Quick Start Guide</a> bölümüne bakınız.</p>
+		<p>phpBB3 panonuzdaki izinlerin kurulması ve yönetilmesini sağlamak hakkında daha fazla bigi edinmek isterseniz, hızlı başlangıç rehberindeki <a href="https://www.phpbb.com/support/documentation/3.0/quickstart/quick_permissions.html">Chapter 1.5 of our Quick Start Guide</a> bölümüne bakınız.</p>
 	',
 
 	'ACL_NEVER'				=> 'Asla',
