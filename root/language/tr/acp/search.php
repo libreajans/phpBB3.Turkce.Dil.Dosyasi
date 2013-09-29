@@ -32,7 +32,7 @@ $lang = array_merge($lang, array(
 	'DELETING_INDEX_IN_PROGRESS_EXPLAIN'	=> 'Arama uygulaması indeksi siliniyor. Bu işlem bir kaç dakika sürebilir.',
 
 	'FULLTEXT_MYSQL_INCOMPATIBLE_VERSION'	=> 'MySQL tam metin (fulltext) indekslemesi sadece MySQL4 ve üzeri ile kullanılabilir.',
-	'FULLTEXT_MYSQL_NOT_MYISAM'				=> 'MySQL tam metin (fulltext) indekslemesi sadece MyISAM tablolar ile kullanılabilir.',
+	'FULLTEXT_MYSQL_NOT_SUPPORTED'			=> 'MySQL tam metin (fulltext) indekslemesi sadece MyISAM veya InnoDB tablolar ile kullanılabilir. InnoDB tabloları tam metin indeksleme özellikleri için MySQL 5.6.4 veya üstü sürüm gerekmektedir.',
 	'FULLTEXT_MYSQL_TOTAL_POSTS'			=> 'Kayıt altına alınan mesajların toplam sayısı',
 	'FULLTEXT_MYSQL_MBSTRING'				=> 'Latin olmayan UTF-8 karakterleri için mbstring kullanımı:',
 	'FULLTEXT_MYSQL_PCRE'					=> 'Latin olmayan UTF-8 karakterleri için PCRE kullanımı:',

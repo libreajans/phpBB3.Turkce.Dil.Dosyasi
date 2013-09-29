@@ -270,7 +270,7 @@ $lang = array_merge($lang, array(
 
 // PHP info
 $lang = array_merge($lang, array(
-	'ACP_PHP_INFO_EXPLAIN'	=> 'Bu sayfa sunucunuz tarafından kullanılan PHP sürümüne ilişkin bilgileri listelemektedir. Bu bilgiler, yüklü olan modüllerin içeriğini ve varsayılan ayarlar hakkında verileri de kapsamaktadır. Bu bilgiler, çeşitli problemlerle karşıldığında size yardımcı olabilir. Lütfen unutmayınız ki, bazı servis sağlayıcılar hostunuzla ilgili olan bu gibi bilgileri güvenlik gerekçesi ile tam olarak listelemeyebilmektedir. Burada yer alan bilgileri destek forumu üzerinde <a href="http://www.phpbb.com/about/team/">resmi destek ekibi</a> dışındaki birileri ile paylaşmamanız tavsiye edilmemektir.',
+	'ACP_PHP_INFO_EXPLAIN'	=> 'Bu sayfa sunucunuz tarafından kullanılan PHP sürümüne ilişkin bilgileri listelemektedir. Bu bilgiler, yüklü olan modüllerin içeriğini ve varsayılan ayarlar hakkında verileri de kapsamaktadır. Bu bilgiler, çeşitli problemlerle karşıldığında size yardımcı olabilir. Lütfen unutmayınız ki, bazı servis sağlayıcılar hostunuzla ilgili olan bu gibi bilgileri güvenlik gerekçesi ile tam olarak listelemeyebilmektedir. Burada yer alan bilgileri destek forumu üzerinde <a href="https://www.phpbb.com/about/team/">resmi destek ekibi</a> dışındaki birileri ile paylaşmamanız tavsiye edilmemektir.',
 	'NO_PHPINFO_AVAILABLE'	=> 'PHP yapılandırmanız hakkındaki bilgiler alınamadı. phpinfo() bilgileri güvenlik nedeniyle devre dışı bırakılmıştır.',
 ));
 

@@ -2,10 +2,10 @@ Subject: {SITENAME} - izlediğiniz "{FORUM_NAME}" forumuna yeni ileti(ler) yazı
 
 Sayın {USERNAME},
 
-Bu e-posta, "{SITENAME}" mesaj panosunda abone olduğunuz "{FORUM_NAME}" forumuna yeni ileti(ler) yazıldığını haber vermek için sistem tarafından otomatik olarak gönderilmiştir.
+Bu e-posta, "{SITENAME}" mesaj panosunda abone olduğunuz "{FORUM_NAME}" forumuna yeni ileti(ler) yazıldığını haber vermek için sistem tarafından otomatik olarak gönderilmiştir. Bu forum son ziyaretinizden veri "{TOPIC_TITLE}" konusuna<!-- IF AUTHOR_NAME !== '' --> {AUTHOR_NAME} tarafından<!-- ENDIF --> yeni bir yanıt eklenmiştir.
 
-Abone olduğunuz forum: {FORUM_NAME}
-Yeni ileti(ler): {U_NEWEST_POST}
+{U_NEWEST_POST}
+
 İletilerin bulunuğu konu: {U_TOPIC}
 İletilerin bulunuğu forum: {U_FORUM}
 

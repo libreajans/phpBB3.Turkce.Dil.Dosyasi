@@ -17,7 +17,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 	'TERMS_OF_USE_CONTENT'	=> '“%1$s” (bu yazıda “biz”, “bize”, “bizim”, “%1$s”, “%2$s” olarak anılacak) kullanım hakkı için, takip eden şartların yasal bağlayıcılığını kabul etmelisiniz. Eğer yasal bağlayıcılığı olan bu şartların tümünü kabul etmiyorsanız lütfen “%1$s” mesaj panosuna erişmeyin ve/veya kullanmayın. Şartları herhangi bir zaman değiştirebilir ve sizi azami derecede bilgilendirebiliriz. Ancak, yasal bağlayıcılığı olan bu şartları düzenli olarak incelemelisiniz. Yapılan değişiklik ve güncellemeleri kabul ediyorsanız “%1$s” mesaj panosunu kullanmaya devam edin.<br />
 	<br />
-	Forumlarımız gücünü bir mesaj panosu çözümü olan <a href="http://www.phpbb.com">phpBB</a> (bu yazıda “onlar”, “onlara”, “onların”, “phpBB yazılımı”, “www.phpbb.com”, “phpBB Grubu”, “phpBB Takımı” olarak anılacak) yazılımından alır. phpBB yazılımı sadece internet tabanlı tartışma ve mesajlaşmayı kolaylaştırır. phpBB hakkında daha fazla bilgi için <a href="http://phpbbturkiye.net/">phpBB Türkiye</a> sitesine göz atabilirsiniz.<br />
+	Forumlarımız gücünü bir mesaj panosu çözümü olan <a href="https://www.phpbb.com">phpBB</a> (bu yazıda “onlar”, “onlara”, “onların”, “phpBB yazılımı”, “www.phpbb.com”, “phpBB Grubu”, “phpBB Takımı” olarak anılacak) yazılımından alır. phpBB yazılımı sadece internet tabanlı tartışma ve mesajlaşmayı kolaylaştırır. phpBB hakkında daha fazla bilgi için <a href="http://phpbbturkiye.net/">phpBB Türkiye</a> sitesine göz atabilirsiniz.<br />
 	<br />
 	Küfür, müstehcen, terbiyesiz, iftira niteliğinde, iğrenç, tehdit edici, cinsel yönü olan iletiler veya ülkenizdeki kanunları, “%1$s” mesaj panosunun barındırıldığı ülkenin veya uluslararası kanunları çiğneyecek herhangi bir içerik göndermeyeceğinizi kabul ediyorsunuz. Aksi halde, hemen ve sürekli olarak uzaklaştırılabileceğiniz gibi eğer tarafımızca uygun görülürse internet servis sağlayıcınız da haberdar edilebilir. Bu koşulları güçlendirmek için tüm iletilerdeki IP adresleri kayıt altına alınır. Uygun görüldüğünde, herhangi bir konunuzun, herhangi bir zamanda “%1$s” tarafından silinebileceğini, değiştirilebileceğini, taşınabileceğini veya kilitlenebileceğini kabul ediyorsunuz. Bir kullanıcı olarak girdiğiniz tüm bilgilerin bir veritabanında saklanacağını kabul ediyorsunuz. İzniniz olmadan bu bilgiler üçüncü şahıslara dağıtılmayacak, ancak yapılacak herhangi bir saldırı / hack sonucunda bu bilgilerin dağıtılmasından ne “%1$s” ne de phpBB sorumlu tutulamaz.',
 
@@ -153,7 +153,6 @@ $lang = array_merge($lang, array(
 
 	'EDIT_DRAFT_EXPLAIN'		=> 'Buradan taslaklarınızı düzenleyebilirsiniz. Taslaklar eklenti ve anket içeremezler.',
 	'EMAIL_BANNED_EMAIL'		=> 'Girdiğiniz e-posta adresinin kullanımına izin verilmiyor.',
-	'EMAIL_INVALID_EMAIL'		=> 'Girdiğiniz e-posta adresi geçerli değil.',
 	'EMAIL_REMIND'				=> 'Bu hesabınızla ilişkili e-posta adresi olmalı. Eğer kullanıcı panelinizden değiştirmediyseniz, kayıt olurken kullandığınız e-posta adresidir.',
 	'EMAIL_TAKEN_EMAIL'			=> 'Girilen e-posta adresi zaten kullanılmaktadır.',
 	'EMPTY_DRAFT'				=> 'Değişiklikleri gönderebilmek için bir mesaj yazmalısınız.',
@@ -234,8 +233,9 @@ $lang = array_merge($lang, array(
 	'MESSAGE_BY_AUTHOR'				=> 'Gönderen', // by
 	'MESSAGE_COLOURS'				=> 'Mesaj renkleri',
 	'MESSAGE_DELETED'				=> 'Mesaj silindi.',
+	'MESSAGE_EDITED'				=> 'Mesaj güncellendi.',
 	'MESSAGE_HISTORY'				=> 'Mesaj geçmişi',
-	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Bu mesaj teslim edilmeden önce yazarı tarafından silinmiş.',
+	'MESSAGE_REMOVED_FROM_OUTBOX'	=> 'Bu mesaj yazarı tarafından silinmiş.',
 	'MESSAGE_SENT_ON'				=> 'Tarih', // on
 	'MESSAGE_STORED'				=> 'Mesaj gönderildi.',
 	'MESSAGE_TO'					=> 'Kime',

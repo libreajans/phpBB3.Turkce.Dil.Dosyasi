@@ -2,10 +2,9 @@ Subject: {SITENAME} - "{FORUM_NAME}" forumuna yeni bir konu açıldı.
 
 Sayın {USERNAME},
 
-Bu e-posta, "{SITENAME}" mesaj panosunda yer alan "{FORUM_NAME}" forumunu izlemeye aldığınız için sistem tarafından otomatik olarak gönderilmiştir.
+Bu e-posta, "{SITENAME}" mesaj panosunda yer alan "{FORUM_NAME}" forumunu izlemeye aldığınız için sistem tarafından otomatik olarak gönderilmiştir. Bu forum son ziyaretinizden veri "{TOPIC_TITLE}" başlığı ile<!-- IF AUTHOR_NAME !== '' --> {AUTHOR_NAME} tarafından<!-- ENDIF --> yeni bir konu eklenmiştir.
 
 İzlemeye aldığınız forum: {U_FORUM}
-Foruma açılan yeni konu: {TOPIC_TITLE}
 
 Eğer forum içeriğini daha fazla izlemek istemiyorsanız, konu sayfasındaki "Forum izlemeyi durdur" bağlantısını veya asağıdaki bağlantıyı kullanabilirsiniz:
 
