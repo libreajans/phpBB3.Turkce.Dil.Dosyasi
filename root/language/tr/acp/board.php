@@ -361,7 +361,7 @@ $lang = array_merge($lang, array(
 
 // Auth settings
 $lang = array_merge($lang, array(
-	'ACP_AUTH_SETTINGS_EXPLAIN' => 'phpBB, yetkilendirme eklentilerini, modüllerini desteklemektedir. Bunlar kullanıcılarınızın panoya oturum açarken nasıl tanımlanacağına karar vermenize yardımcı olur. Standart olarak 3 eklenti sağlanmaktadır. Bu eklentiler; DB, LDAP and Apache eklentileridir. Her metod ayrıca bilgi verilmesine ihtiyaç duymaz, öyle ise ilgili boşlukları seçilmiş metod ile uyumlu ise doldurun.',
+	'ACP_AUTH_SETTINGS_EXPLAIN' => 'phpBB, yetkilendirme eklentilerini, modüllerini desteklemektedir. Bunlar kullanıcılarınızın panoya oturum açarken nasıl tanımlanacağına karar vermenize yardımcı olur. Standart olarak 3 eklenti sağlanmaktadır. Bu eklentiler; DB, LDAP, Apache eklentileridir. Her metod ayrıca bilgi verilmesine ihtiyaç duymaz, öyle ise ilgili boşlukları seçilmiş metod ile uyumlu ise doldurun.',
 
 	'AUTH_METHOD'				=> 'Bir yetkilendirme metodu seçiniz',
 
