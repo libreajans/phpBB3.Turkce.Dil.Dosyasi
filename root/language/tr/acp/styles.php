@@ -7,6 +7,10 @@
  *
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
+ 
+/**
+ * DEĞİŞTİRMEYİN
+ */
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
