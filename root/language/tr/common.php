@@ -8,27 +8,29 @@
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
-// -------------------------------------------------------------------------------------
-// [ phpBB3 Türkçe Dil Paketi ]
-//
-// SÜRÜM	: phpBB 3.1.x - Geliştirme
-// TERCÜME	: phpBB Türkiye - http://phpbbturkiye.net
-// LİSANS	: Genel Kamu Lisansı (GPL)  http://phpbbturkiye.net/hakkinda/gpl-lisansi.html
-//
-//--------------------------------------------------------------------------------------
-// [ Hata bildirimi ]
-//
-// Gözden kaçan hataları veya yanlış olduğunu düşündüğünüz ifadeler için önerilerinizi lütfen bildiriniz.
-//
-// phpBB Türkiye, phpBB3 Türkçe dil dosyası hata bildirim sayfası
-// 		http://phpbbturkiye.net/hata-raporlari-f93/
-//
-// GitHub, phpBB3 Türkçe dil dosyası hata bildirim sayfası
-//		https://github.com/angelside/phpBB3.Turkce.Dil.Dosyasi/issues
-//
-// Kopyala-yapıştır yapabileceğiniz bazı karakterler:
-// ’ » “ ” …
-// -------------------------------------------------------------------------------------
+/** ---------------------------------------------------------------------------------------------------------
+ *  [ phpBB3 Türkçe Dil Paketi ]
+ * 
+ *  SÜRÜM	: phpBB 3.1.x - Geliştirme
+ *  TERCÜME	: phpBB Türkiye - http://phpbbturkiye.net
+ *  LİSANS	: Genel Kamu Lisansı (GPL)  http://phpbbturkiye.net/hakkinda/gpl-lisansi.html
+ * 
+ * ----------------------------------------------------------------------------------------------------------
+ *  [ Hata bildirimi ]
+ * 
+ *  Gözden kaçan hataları veya yanlış olduğunu düşündüğünüz ifadeler için önerilerinizi lütfen bildiriniz.
+ * 
+ *  phpBB Türkiye, phpBB3 Türkçe dil dosyası hata bildirim sayfası
+ *		http://phpbbturkiye.net/hata-raporlari-f93/
+ * 
+ *  GitHub, phpBB3 Türkçe dil dosyası hata bildirim sayfası
+ *		https://github.com/angelside/phpBB3.Turkce.Dil.Dosyasi/issues
+ * 
+ *  Kopyala-yapıştır yapabileceğiniz bazı karakterler:
+ *		’ » “ ” …
+ *-----------------------------------------------------------------------------------------------------------
+ */
+
 
 /**
  * DEĞİŞTİRMEYİN
