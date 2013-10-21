@@ -20,8 +20,11 @@
 //
 // Gözden kaçan hataları veya yanlış olduğunu düşündüğünüz ifadeler için önerilerinizi lütfen bildiriniz.
 //
-// phpBB Türkiye, phpBB3 Türkçe dil dosyası hata bildirim forumu
+// phpBB Türkiye, phpBB3 Türkçe dil dosyası hata bildirim sayfası
 // 		http://phpbbturkiye.net/hata-raporlari-f93/
+//
+// GitHub, phpBB3 Türkçe dil dosyası hata bildirim sayfası
+//		https://github.com/angelside/phpBB3.Turkce.Dil.Dosyasi/issues
 //
 // Kopyala-yapıştır yapabileceğiniz bazı karakterler:
 // ’ » “ ” …
