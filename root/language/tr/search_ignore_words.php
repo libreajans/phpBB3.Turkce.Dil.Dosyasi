@@ -5,7 +5,7 @@
  * @copyright (c) phpBB Group 		<http://phpbb.com>			[phpBB sistemi]
  * @copyright (c) Canver Software	<http://canversoft.net>		[Tercüme]
  *
- * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
  */
 
 // Listeye dahil edilebilecek uygun kelimeleri lütfen bildiriniz
