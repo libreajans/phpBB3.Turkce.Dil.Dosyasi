@@ -16,7 +16,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
+// Dil değişkenleri
 $lang = array_merge($lang, array(
 	'ATTACHMENT'						=> 'Eklenti',
 	'ATTACHMENT_FUNCTIONALITY_DISABLED'	=> 'Eklenti özelliği kapalı.',

@@ -16,7 +16,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
+// Dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACP_PERMISSIONS_EXPLAIN'	=> '
 		<p>İzinler yüksek derecede taneli ve gruplanmış dört belli başlı bölüme ayrılır:</p>

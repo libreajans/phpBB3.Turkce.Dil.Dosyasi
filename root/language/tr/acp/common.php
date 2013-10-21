@@ -16,7 +16,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// genel dil değişkenleri
+// Genel dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS'		=> 'Yöneticiler',
 	'ACP_ADMIN_LOGS'			=> 'Yönetici kayıtları',
@@ -42,7 +42,7 @@ $lang = array_merge($lang, array(
 	'ACP_CAPTCHA'				=> 'Doğrulama kodu',
 
 	'ACP_CAT_DATABASE'			=> 'Veritabanı',
-	'ACP_CAT_DOT_MODS'			=> '.MODs', // tercüme edilmesin
+	'ACP_CAT_DOT_MODS'			=> '.MODs', // Tercüme edilmesin !
 	'ACP_CAT_FORUMS'			=> 'Forumlar',
 	'ACP_CAT_GENERAL'			=> 'Genel',
 	'ACP_CAT_MAINTENANCE'		=> 'Bakım',

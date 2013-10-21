@@ -16,7 +16,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
+// Dil değişkenleri
 $lang = array_merge($lang, array(
 	'ALL_AVAILABLE'			=> 'Tümü',
 	'ALL_RESULTS'			=> 'Tüm sonuçlar',

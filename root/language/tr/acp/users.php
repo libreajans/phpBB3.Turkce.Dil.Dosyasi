@@ -16,7 +16,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
+// Dil değişkenleri
 $lang = array_merge($lang, array(
 	'ADMIN_SIG_PREVIEW'		=> 'İmza önizleme',
 	'AT_LEAST_ONE_FOUNDER' 	=> 'Bu kurucu kişiyi normal kullanıcı olarak değiştirmeniz mümkün değildir. Bu pano için en azından bir kurucu olması şarttır. Eğer bu kullanıcının yöneticilik vasfını kaldırmak istiyorsanız, başka bir kullanıcıyı kurucu seviyesine yükseltmeniz gerekmektedir.',

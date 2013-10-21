@@ -8,8 +8,8 @@
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
-// listeye dahil edilebilecek uygun kelimeleri lütfen bildiriniz
-// http://phpbbturkiye.net/hata-raporlari-f93/
+// Listeye dahil edilebilecek uygun kelimeleri lütfen bildiriniz
+// 		http://phpbbturkiye.net/hata-raporlari-f93/
 $synonyms = array(
 	'arasıra'			=> 'ara sıra',
 	'akşam üstü'		=> 'akşamüstü',

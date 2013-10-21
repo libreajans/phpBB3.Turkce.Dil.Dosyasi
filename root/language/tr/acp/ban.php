@@ -16,7 +16,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
+// Dil değişkenleri
 $lang = array_merge($lang, array(
 	'1_HOUR'					=> '1 saat',
 	'30_MINS'					=> '30 dakika',

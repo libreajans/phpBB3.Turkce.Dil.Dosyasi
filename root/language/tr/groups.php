@@ -16,7 +16,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
+// Dil değişkenleri
 $lang = array_merge($lang, array(
 	'ALREADY_DEFAULT_GROUP'		=> 'Seçili grup zaten sizin varsayılan grubunuz.',
 	'ALREADY_IN_GROUP'			=> 'Bu gruba zaten üyesiniz.',

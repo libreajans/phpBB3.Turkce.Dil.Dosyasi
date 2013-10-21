@@ -36,7 +36,7 @@ $lang = array_merge($lang, array(
 	', // opt-in opt-out hakkında bir fikrim olmadığı için olduğu gibi bıraktım.
 ));
 
-// dil değişkenleri
+// Dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACCOUNT_ACTIVE'				=> 'Hesabınız şimdi aktif edildi. Kayıt olduğunuz için teşekkürler',
 	'ACCOUNT_ACTIVE_ADMIN'			=> 'Hesabınız şimdi aktif edildi.',

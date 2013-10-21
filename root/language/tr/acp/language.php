@@ -16,7 +16,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
+// Dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACP_FILES'						=> 'Yönetim dil dosyaları',
 	'ACP_LANGUAGE_PACKS_EXPLAIN'	=> 'Buradan dil paketleri yükleyip silebilirsiniz. Varsayılan dil paketi bir yıldız ile işaretlenmiştir (*).',
