@@ -67,5 +67,3 @@ $lang = array_merge($lang, array(
 
 	'TOPICS_PRUNED'		=> 'Konular temizlendi',
 ));
-
-?>

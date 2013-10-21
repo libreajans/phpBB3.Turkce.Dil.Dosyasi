@@ -94,5 +94,3 @@ $help = array(
 		1 => 'Eğer bu mesaj panosunda bir yönetici iseniz ve gerekli izinlere sahipseniz, özel biçim kodları bölümünden ilave biçim kodları ekleyebilirsiniz.'
 	)
 );
-
-?>

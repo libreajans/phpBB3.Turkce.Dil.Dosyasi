@@ -264,5 +264,3 @@ $lang = array_merge($lang, array(
 	'WRONG_PERMISSION_TYPE'				=> 'Yanlış izin tipi seçildi.',
 	'WRONG_PERMISSION_SETTING_FORMAT'	=> 'İzin ayarları geçersiz bir biçimdedir, phpBB doğru olarak işlem yapmayacaktır.',
 ));
-
-?>

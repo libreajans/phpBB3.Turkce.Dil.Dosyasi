@@ -152,5 +152,3 @@ $lang = array_merge($lang, array(
 	'UPLOAD_ICON'					=> 'Yükleme ikonu',
 	'UPLOAD_NOT_DIR'				=> 'Özelleştirdiğiniz yükleme yolu, bir dizin olarak görünmüyor.',
 ));
-
-?>

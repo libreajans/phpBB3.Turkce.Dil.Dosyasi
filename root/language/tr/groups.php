@@ -74,5 +74,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEMOTE_CONFIRM'	=> 'Seçtiğiniz gruptaki liderliğinizi kaldırmak istediğinizden emin misiniz?',
 	'USER_GROUP_DEMOTED'		=> 'Grup liderliğiniz kaldırıldı.',
 ));
-
-?>

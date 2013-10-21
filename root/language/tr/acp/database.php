@@ -56,5 +56,3 @@ $lang = array_merge($lang, array(
 	'TABLE_SELECT'			=> 'Tablo seçimi',
 	'TABLE_SELECT_ERROR'	=> 'En az bir tablo seçmelisiniz.',
 ));
-
-?>

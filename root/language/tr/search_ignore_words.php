@@ -150,4 +150,3 @@ $words = array(
 	'zaten',
 	'zaman',
 );
-?>

@@ -50,5 +50,3 @@ $lang = array_merge($lang, array(
 	'NO_BOT'		=> 'Belirtilen ID numarasında bot bulunamadı.',
 	'NO_BOT_GROUP'	=> 'Özel bot grubu bulunamadı.',
 ));
-
-?>

@@ -220,5 +220,3 @@ $lang = array_merge($lang, array(
 	'acl_a_backup'		=> array('lang' => 'Veritabanını yedekleyebilir/geri yükleyebilir', 'cat' => 'misc'),
 	'acl_a_search'		=> array('lang' => 'Arama geçmişlerini ve ayarlarını yönetebilir', 'cat' => 'misc'),
 ));
-
-?>

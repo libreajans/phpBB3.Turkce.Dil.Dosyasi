@@ -530,5 +530,3 @@ $lang = array_merge($lang, array(
 	'JAB_USERNAME'				=> 'Jabber kullanıcı adı veya JID',
 	'JAB_USERNAME_EXPLAIN'		=> 'Geçerli bir kayıtlı kullanıcı adı veya JID tanımlayın. Kullanıcı adının geçerli olup olmadığı kontrol edilmeyecektir. Sadece bir kullanıcı adı tanımlarsanız, JID değeriniz kullanıcı adınız ve sunucu da yukarıda tanımlandığınız olacaktır. Aksi halde, geçerli bir JID tanımlayın, örneğin kullanıcı@jabber.org.',
 ));
-
-?>

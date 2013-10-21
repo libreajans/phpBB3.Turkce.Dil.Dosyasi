@@ -47,5 +47,3 @@ $lang = array_merge($lang, array(
 	'NO_EMAIL_MESSAGE'		=> 'Lütfen mesajınızı yazınız.',
 	'NO_EMAIL_SUBJECT'		=> 'Mesajı göndermek için bir konu girmelisiniz.',
 ));
-
-?>

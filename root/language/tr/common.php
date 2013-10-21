@@ -890,5 +890,3 @@ $lang = array_merge($lang, array(
 	// Uygun gördüğünüz başka bir saat biçimi ile değiştirebilirsiniz
 	'default_dateformat'	=> 'd M Y, H:i', // 01 Oca 2007, 13:37
 ));
-
-?>

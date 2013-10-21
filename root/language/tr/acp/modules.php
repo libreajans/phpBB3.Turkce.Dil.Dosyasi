@@ -62,5 +62,3 @@ $lang = array_merge($lang, array(
 
 	'SELECT_MODULE'			=> 'Bir modül seçiniz.',
 ));
-
-?>

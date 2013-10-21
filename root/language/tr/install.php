@@ -635,5 +635,3 @@ $lang = array_merge($lang, array(
 	
 	'TOPICS_TOPIC_TITLE'			=> 'phpBB3’e Hoşgeldiniz',
 ));
-
-?>

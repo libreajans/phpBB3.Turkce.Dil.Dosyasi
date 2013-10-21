@@ -415,5 +415,3 @@ $lang = array_merge($lang, array(
 	'UNINSTALLED_THEME'		=> 'Kurulu olmayan temalar',
 	'UNSET'					=> 'Tanımsız',
 ));
-
-?>

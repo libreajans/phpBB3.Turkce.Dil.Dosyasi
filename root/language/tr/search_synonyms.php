@@ -86,4 +86,3 @@ $synonyms = array(
 
 	'zatüre'			=> 'zatürree',
 );
-?>

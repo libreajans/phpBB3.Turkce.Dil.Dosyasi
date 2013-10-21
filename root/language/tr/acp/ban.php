@@ -62,5 +62,3 @@ $lang = array_merge($lang, array(
 	'USER_UNBAN'				=> 'Kullanıcı uzaklaştırması kaldır',
 	'USER_UNBAN_EXPLAIN'		=> 'Bilgisayarınız ve tarayıcınız için fare ve klavyenin uygun kombinasyonunu kullanarak, birden çok kullanıcı için tek seferde uzaklaştırmayı kaldırabilir veya uzaklaştırma dışı tutabilirsiniz. Ayrı tutulan kullanıcılar arka planda işaretlenecektir.',
 ));
-
-?>

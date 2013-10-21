@@ -81,5 +81,3 @@ $lang = array_merge($lang, array(
 
 	'WRONG_LANGUAGE_FILE'		=> 'Seçilen dil dosyası geçersiz',
 ));
-
-?>

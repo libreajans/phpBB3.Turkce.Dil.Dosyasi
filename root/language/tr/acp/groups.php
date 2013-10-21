@@ -110,5 +110,3 @@ $lang = array_merge($lang, array(
 	'USER_GROUP_DEFAULT_EXPLAIN'	=> 'Buraya evet derseniz bu grup seçili tüm üyeleri için varsayılan grup olacaktır.',
 	'USER_GROUP_LEADER'				=> 'Grup lideri yap',
 ));
-
-?>

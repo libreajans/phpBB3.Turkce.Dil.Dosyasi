@@ -30,5 +30,3 @@ $lang = array_merge($lang, array(
 
 	'RECAPTCHA_EXPLAIN'			=> 'Otomatik kayıtları engellemek için iki kelime gösterilir ve bu kelimelerin yazı alanına yazılması istenir.',
 ));
-
-?>

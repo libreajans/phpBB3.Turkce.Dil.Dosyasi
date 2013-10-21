@@ -726,5 +726,3 @@ $lang = array_merge($lang, array(
 	'LOG_WORD_DELETE'	=> '<strong>Kelime sansürü silindi</strong><br />» %s',
 	'LOG_WORD_EDIT'		=> '<strong>Kelime sansürü düzenlendi</strong><br />» %s',
 ));
-
-?>

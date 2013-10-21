@@ -204,5 +204,3 @@ $lang = array_merge($lang, array(
 	'WRONG_FILESIZE'			=> 'Dosya çok büyük, en fazla dosya boyutu %1d %2s',
 	'WRONG_SIZE'				=> 'Seçtiğiniz resim en az %1$d px genişliğinde, %2$d px yüksekliğinde ve en fazla %3$d px genişliğinde, %4$d px yüksekliğinde olabilir. Seçtiğiniz resim %5$d px genişliğinde ve %6$d px yüksekliğindedir.',
 ));
-
-?>

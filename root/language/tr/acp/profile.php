@@ -134,5 +134,3 @@ $lang = array_merge($lang, array(
 
 	'VISIBILITY_OPTION'	=> 'Görünürlük seçenekleri',
 ));
-
-?>

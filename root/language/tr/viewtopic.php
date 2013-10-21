@@ -94,5 +94,3 @@ $lang = array_merge($lang, array(
 	'VOTE_SUBMITTED'		=> 'Oyunuz eklendi.',
 	'VOTE_CONVERTED'		=> 'Dönüştürülen anketlerde oyları değiştirme özelliği desteklenmiyor',	
 ));
-
-?>

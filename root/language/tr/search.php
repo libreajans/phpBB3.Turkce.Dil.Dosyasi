@@ -85,5 +85,3 @@ $lang = array_merge($lang, array(
 	
 	'TOO_FEW_AUTHOR_CHARS'	=> 'Yazar adının en azından %d karakterini yazmalısınız.',
 ));
-
-?>

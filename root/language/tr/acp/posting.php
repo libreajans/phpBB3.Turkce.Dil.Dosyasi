@@ -256,5 +256,3 @@ $lang = array_merge($lang, array(
 
 	'USED_IN_REPORTS'		=> 'Raporlarda kullanılır',
 ));
-
-?>

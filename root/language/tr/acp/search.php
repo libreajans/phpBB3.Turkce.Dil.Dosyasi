@@ -89,5 +89,3 @@ $lang = array_merge($lang, array(
 	'YES_SEARCH_UPDATE'						=> 'Tam metin güncellemesini aç',
 	'YES_SEARCH_UPDATE_EXPLAIN'				=> 'Her ileti gönderildiğinde tam metin arama indeksi güncellenir. Eğer arama özelliği kapalıysa güncelleme yapılmaz.',
 ));
-
-?>
