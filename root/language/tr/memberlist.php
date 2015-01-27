@@ -117,6 +117,7 @@ $lang = array_merge($lang, array(
 	),
 	'USER_ONLINE'			=> 'Çevrimiçi',
 	'USER_PRESENCE'			=> 'Pano görünüşü',
+	'USERS_PER_PAGE'		=> 'Sayfa başına kullanıcı',
 
 	'VIEWING_PROFILE'		=> '%s hesap bilgileri',
 	'VISITED'				=> 'Son ziyaret',

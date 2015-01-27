@@ -31,6 +31,7 @@ $lang = array_merge($lang, array(
 	'CANNOT_FORCE_REACT_FOUNDER'	=> 'Kurucu hesaplarını tekrar aktif olmaları için zorlayamazsınız.',
 	'CANNOT_FORCE_REACT_YOURSELF'	=> 'Kendi hesabınızı tekrar aktif olması için zorlayamazsınız.',
 	'CANNOT_REMOVE_ANONYMOUS'		=> 'Misafir kullanıcı hesabı silemezsiniz.',
+	'CANNOT_REMOVE_FOUNDER'			=> 'Kurucu üye hesabını silemezsiniz.',
 	'CANNOT_REMOVE_YOURSELF'		=> 'Kendi kullanıcı hesabınızı silemezsiniz.',
 	'CANNOT_SET_FOUNDER_IGNORED'	=> 'Kurucu üye pozisyonundaki yöneticileri terfi ettirmeye yetkiniz yok.',
 	'CANNOT_SET_FOUNDER_INACTIVE'	=> 'Üyeleri kurucu pozisyonuna terfi ettirmek için bu üyeleri aktif hale getirmiş olmanız gerekiyor. Sadece aktif üyeler terfi ettirilebilir.',

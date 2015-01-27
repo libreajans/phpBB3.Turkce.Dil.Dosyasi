@@ -52,11 +52,11 @@ $lang = array_merge($lang, array(
 	'PERMANENT'					=> 'Sürekli',
 	
 	'UNTIL'						=> 'Önce',
-	'USER_BAN'					=> 'Bir veya birden fazla kullanıcı uzaklaştırma',
+	'USER_BAN'					=> 'Bir veya birden fazla kullanıcıyı kullanıcı adına göre uzaklaştır',
 	'USER_BAN_EXCLUDE_EXPLAIN'	=> 'Girilen kullanıcıları geçerli uzaklaştırmanın dışında tut.',
 	'USER_BAN_EXPLAIN'			=> 'Bir seferde birden fazla kullanıcıyı uzaklaştırabilmeniz için, herbir isimi yeni satıra giriniz. <span style="text-decoration: underline;">Üye ara</span> kolaylığından yararlanarak bir veya daha fazla kullanıcıyı otomatik olarak ekleyebilirsiniz.',
 	'USER_NO_BANNED'			=> 'Uzaklaştırılmış kullanıcı yok',
-	'USER_UNBAN'				=> 'Kullanıcı uzaklaştırması kaldır',
+	'USER_UNBAN'				=> 'Kullanıcı uzaklaştırmasını kullanıcı adına göre kaldır',
 	'USER_UNBAN_EXPLAIN'		=> 'Bilgisayarınız ve tarayıcınız için fare ve klavyenin uygun kombinasyonunu kullanarak, birden çok kullanıcı için tek seferde uzaklaştırmayı kaldırabilir veya uzaklaştırma dışı tutabilirsiniz. Ayrı tutulan kullanıcılar arka planda işaretlenecektir.',
 ));
 

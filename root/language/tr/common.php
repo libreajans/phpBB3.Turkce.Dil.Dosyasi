@@ -11,7 +11,7 @@
 // -------------------------------------------------------------------------------------
 // [ phpBB3 Türkçe Dil Paketi ]
 //
-// SÜRÜM	: 1.0.11 - 28 Eylül 2013 - phpBB 3.0.13
+// SÜRÜM	: 1.0.12 - 27 Ocak 2015 - phpBB 3.0.13
 // TERCÜME	: phpBB Türkiye - http://phpbbturkiye.net
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
@@ -83,9 +83,10 @@ $lang = array_merge($lang, array(
 	'AVATAR_PARTIAL_UPLOAD'			=> 'Belirtilen dosyanın sadece bir kısmı yüklendi.',
 	'AVATAR_PHP_SIZE_NA'			=> 'Avatar dosya boyutu çok büyük.<br />php.ini dosyasında bulunan en fazla boyut PHP tarafından belirlenemedi.',
 	'AVATAR_PHP_SIZE_OVERRUN'		=> 'Avatar dosya boyutu çok büyük. En fazla yükleme boyutu %1$d %2$s.<br />Lütfen php.ini dosyasında bulunan bu yükleme boyutunu not alınız ve aşmayınız.',
+	'AVATAR_REMOTE_UPLOAD_TIMEOUT'	=> 'Dosya zaman aşımına uğradığından belirtilen avatar yüklenemedi.',
 	'AVATAR_URL_INVALID'			=> 'Belirtilen adres geçersizdir.',
 	'AVATAR_URL_NOT_FOUND'			=> 'Belirtilen dosya bulunamadı.',
-	'AVATAR_WRONG_FILESIZE'			=> 'Avatar 0 ve %1d %2s arasında olmalıdır.',
+	'AVATAR_WRONG_FILESIZE'			=> 'Avatar 0 ve %1$d %2$s arasında olmalıdır.',
 	'AVATAR_WRONG_SIZE'				=> 'Eklenmek istenen avatar %5$d px genişlikte ve %6$d px yüksekliktedir. Avatar en az %1$d px genişlikte ve %2$d px yükseklikte olmalı, %3$d px genişlik ve %4$d px yükseklik değerinden de çok olmamalıdır.',
 	
 	'BACK_TO_TOP'			=> 'Sayfa başı',
@@ -336,6 +337,9 @@ $lang = array_merge($lang, array(
 	'MODERATE'				=> 'Düzenle',
 	'MODERATOR'				=> 'Yetkili',
 	'MODERATORS'			=> 'Yetkili',
+	'MODULE_NOT_ACCESS'		=> 'Modül erişilemez',
+	'MODULE_NOT_FIND'		=> '%s isimli modül bulunamadı',
+	'MODULE_FILE_INCORRECT_CLASS'	=> '%s modül dosyası doğru sınıfı içermiyor [%s]',
 	'MONTH'					=> 'Ay',
 	'MOVE'					=> 'Taşı',
 	'MSNM'					=> 'MSNM/WLM',
@@ -641,7 +645,7 @@ $lang = array_merge($lang, array(
 	'TOTAL_USERS_ZERO'	=> 'Toplam üye <strong>0</strong>',
 	'TRACKED_PHP_ERROR'	=> 'İzlenen PHP hataları: %s',
 
-	'UNABLE_GET_IMAGE_SIZE'		=> 'Resim boyut bilgilerine erişilemiyor.',
+	'UNABLE_GET_IMAGE_SIZE'		=> 'Resim boyut bilgilerine erişilemiyor. Lütfen yazılan URL adresinin doğruluğunu kopntrol ediniz.',
 	'UNABLE_TO_DELIVER_FILE'	=> 'Dosya teslim edilmeye uygun değil.',
 	'UNKNOWN_BROWSER'			=> 'Bilinmeyen tarayıcı',
 	'UNMARK_ALL'				=> 'İşaretleri kaldır',

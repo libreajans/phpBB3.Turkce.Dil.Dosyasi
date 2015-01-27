@@ -243,7 +243,7 @@ $lang = array_merge($lang, array(
 	'MOVE_DELETED_MESSAGES_TO'		=> 'Silinen klasördeki mesajları taşı',
 	'MOVE_DOWN'						=> 'Aşağı taşı',
 	'MOVE_MARKED_TO_FOLDER'			=> 'İşaretlileri taşı %s',
-	'MOVE_PM_ERROR'					=> 'Mesajları yeni klasöre taşırken hata oluştu, %2d mesajın %1d tanesi taşınabildi.',
+	'MOVE_PM_ERROR'					=> 'Mesajları yeni klasöre taşırken hata oluştu, %2$d mesajın %1$d tanesi taşınabildi.',
 	'MOVE_TO_FOLDER'				=> 'Klasöre taşı',
 	'MOVE_UP'						=> 'Yukarı taşı',
 
