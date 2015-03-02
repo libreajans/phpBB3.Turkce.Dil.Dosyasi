@@ -11,7 +11,7 @@
 // -------------------------------------------------------------------------------------
 // [ phpBB3 Türkçe Dil Paketi ]
 //
-// SÜRÜM	: 1.0.12 - 27 Ocak 2015 - phpBB 3.0.13
+// SÜRÜM	: 1.0.13 - 02 Mart 2015 - phpBB 3.0.13.PL1
 // TERCÜME	: phpBB Türkiye - http://phpbbturkiye.net
 // LİSANS	: Genel Kamu Lisansı (GPL)  http://phpbbturkiye.net/hakkinda/gpl-lisansi.html
 //
