@@ -13,7 +13,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACP_IMAGESETS_EXPLAIN'	=> 'Resim setleri, pano tarafından kullanılan her türlü buton, forum, klasör vb. spesifik imajları içermektedir. Buradan mevcut resim setlerini değiştirebilir, silebilir, yenilerini yükleyebilir ve aktif hale getirebilirsiniz.',
 	'ACP_STYLES_EXPLAIN'	=> 'Buradan forumunuz için mevcut olan biçimleri yönetebilirsiniz. Biçim; şablon, tema ve resim setlerinden meydana gelmektedir. Var olan biçimleri; silebilir, aktif veya deaktif hale getirebilir, yeni bir tane oluşturabilir ve bunları yükleyebilirsiniz. Önizleme seçeneğini kullanarak biçimlerin nasıl göründüklerine bakabilirsiniz. Şu anda kullanılan biçim, bir yıldız işareti (*) ile gösterilmiştir. Ayrıca biçimi kullanan kişi sayısı da yazmaktadır.',

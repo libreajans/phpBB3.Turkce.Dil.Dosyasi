@@ -13,7 +13,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
 $lang = array_merge($lang, array(
 	'RECAPTCHA_LANG'			=> 'tr',
 	'RECAPTCHA_NOT_AVAILABLE'	=> 'reCaptcha kullanmak istiyorsanız, <a href="http://www.google.com/recaptcha">www.google.com/recaptcha</a> web sitesinden bir hesap açmalısınız.',

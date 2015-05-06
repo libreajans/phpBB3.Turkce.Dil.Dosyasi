@@ -13,7 +13,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACP_SEARCH_INDEX_EXPLAIN'				=> 'Buradan arama uygulama indekslerini yönetebilirsiniz. Normal olarak bir indeksi kullanmadan veya yeni indeks oluşturmadan önce mevcut indekslerin hepsini silmelisiniz. Bazı arama ayarlarını değiştirdikten sonra (ör. en düşük/en yüksek karakter sayısı) değişikliklerin indekse yansıması için yeniden indeksleme yapılmalıdır.',
 	'ACP_SEARCH_SETTINGS_EXPLAIN'			=> 'Buradan arama ve mesaj indekslemesi için kullanılacak olan uygulamayı belirleyebilirsiniz. Bu seçeneklerin ne kadar işleme tabi tutması gerektirdiğini etkileyebilen çeşitli seçenekleri belirleyebilirsiniz. Bu ayarların bazıları tüm arama motorları için aynıdır.',

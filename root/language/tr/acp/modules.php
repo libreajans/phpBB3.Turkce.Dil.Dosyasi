@@ -13,7 +13,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACP_MODULE_MANAGEMENT_EXPLAIN'	=> 'Buradan, bütün modül çeşitlerini yönetebilirsiniz. Lütfen Yönetim Paneli’nin üç-seviyeli menü yapısını hatırlayınız (Kategori -> Kategori -> Modül). Yerine göre iki-seviyeli menü yapısı da olabiliyordu (Kategori -> Modül). Modülleri siler veya devre dışı bırakırsanız, modülün sorumlu olduğu fonksiyonları kullanamazsınız.',
 	'ADD_MODULE'					=> 'Modül ekle',

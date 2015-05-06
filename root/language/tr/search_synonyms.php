@@ -8,8 +8,6 @@
  * @license GNU General Public License, version 2 (GPL-2.0)		http://opensource.org/licenses/gpl-2.0.php
  */
 
-// listeye dahil edilebilecek uygun kelimeleri lütfen bildiriniz
-// http://phpbbturkiye.net/hata-raporlari-f93/
 $synonyms = array(
 	'arasıra'			=> 'ara sıra',
 	'akşam üstü'		=> 'akşamüstü',
@@ -86,4 +84,3 @@ $synonyms = array(
 
 	'zatüre'			=> 'zatürree',
 );
-?>

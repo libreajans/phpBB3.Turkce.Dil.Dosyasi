@@ -39,7 +39,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
 $lang = array_merge($lang, array(
 	'TRANSLATION_INFO'	=> 'phpBB3 Türkçe: <a href="http://phpbbturkiye.net" title="phpBB3 geliştirme ve destek" rel="external">phpBB Türkiye</a>',
 	'DIRECTION'			=> 'ltr',

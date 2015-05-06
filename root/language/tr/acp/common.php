@@ -7,12 +7,12 @@
  *
  * @license GNU General Public License, version 2 (GPL-2.0)		http://opensource.org/licenses/gpl-2.0.php
  */
+
 if (empty($lang) || !is_array($lang))
 {
 	$lang = array();
 }
 
-// genel dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACP_ADMINISTRATORS'		=> 'Yöneticiler',
 	'ACP_ADMIN_LOGS'			=> 'Yönetici kayıtları',

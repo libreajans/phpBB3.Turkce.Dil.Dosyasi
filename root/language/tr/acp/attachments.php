@@ -13,7 +13,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACP_ATTACHMENT_SETTINGS_EXPLAIN'	=> 'Burada, eklentiler ve birleştirilmiş özel kategoriler için temel ayarları kontrol edebilirsiniz.',
 	'ACP_EXTENSION_GROUPS_EXPLAIN'		=> 'Burada, uzantı grupları ekleyebilir, silebilir, değiştirebilir veya devredışı bırakabilirsiniz. Bundan başka; özel bir kategorinin görevleri, dosya indirme mekanizmasını değiştirme ve ait olduğu grubun mesaj/ileti eki önünde gösterilecek olan yükleme simgesini belirleme ayarları bulunmaktadır. ',

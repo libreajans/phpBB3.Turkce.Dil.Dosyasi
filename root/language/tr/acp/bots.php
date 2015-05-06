@@ -13,7 +13,7 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// Bot ayarları
+// Bot settings
 $lang = array_merge($lang, array(
 	'BOTS'				=> 'Botları yönet',
 	'BOTS_EXPLAIN' 		=> '“Bot”, “Örümcek”, genellikle arama motorları tarafından kullanılan otomatik ajanlardır ve web örümcekleri olarak da tanınırlar. Botların amacı siteleri gezerek topladıkları bilgileri bağlı bulundukları arama motorunun veri tabanına iletmektir. Bu sayede arama motorları en son verilerle veritabanlarını güncel tutarlar. Örümcekler; kimi zaman sistemlere ciddi yükler binderebilir ve ziyaretçilerinizin erişimini güçleştirebilir. Bunun yanı sıra; zaman zaman sitenizden bilgi edinmekte de zorlanabilir. Düzgün veri akışı sağlanamaz ise sayfalarınız bu ajanlar tarafından tam indexlenemeyebilir. Bu problemlerin üzerinden gelebilmek için ise buradan özel bir kullanıcı tanımlamanız mümkündür.',

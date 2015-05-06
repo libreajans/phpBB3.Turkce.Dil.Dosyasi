@@ -8,7 +8,6 @@
  * @license GNU General Public License, version 2 (GPL-2.0)		http://opensource.org/licenses/gpl-2.0.php
  */
 
-// dil değişkenleri
 $help = array(
 	array(
 		0 => '--',

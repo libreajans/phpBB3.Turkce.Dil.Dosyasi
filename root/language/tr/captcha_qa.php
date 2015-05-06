@@ -13,7 +13,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
 $lang = array_merge($lang, array(
 	'CAPTCHA_QA'				=> 'Soru/Cevap doğrulama kodu',
 	'CONFIRM_QUESTION_EXPLAIN'	=> 'Bu sorular otomatik kayıtları engellemek için doğrulama sağlayacaktır.',

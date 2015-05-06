@@ -13,7 +13,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACTION'				=> 'İşlem',
 	'ACTION_NOTE'			=> 'İşlem/Not',

@@ -13,7 +13,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
 $lang = array_merge($lang, array(
 	'ACP_GROUPS_MANAGE_EXPLAIN'		=> 'Bu panel sayesinde yeni gruplar oluşturabilir, var olanları yönetebilir veya silebilirsiniz. Grup liderlerini seçebilir, grupların açık veya kapalı grup olmasına karar verebilirsiniz. Aynı zamanda grup adı ve açıklamasını da ayarlayabilirsiniz.',
 	'ADD_USERS'						=> 'Kullanıcı ekle',

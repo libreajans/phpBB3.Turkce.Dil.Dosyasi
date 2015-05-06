@@ -13,7 +13,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
 $lang = array_merge($lang, array(
 	'ADMIN_CONFIG'				=> 'Yönetici ayarları',
 	'ADMIN_PASSWORD'			=> 'Yönetici parolası',

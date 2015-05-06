@@ -13,7 +13,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-// dil değişkenleri
 $lang = array_merge($lang, array(
 	'ADD_ATTACHMENT'			=> 'Dosya ekle', // Eklenti yükle
 	'ADD_ATTACHMENT_EXPLAIN'	=> 'Eğer bir veya daha fazla eklenti göndermek istiyorsanız lütfen detayları giriniz.',
