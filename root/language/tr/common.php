@@ -8,25 +8,31 @@
  * @license http://opensource.org/licenses/gpl-license.php GNU Public License
  */
 
-// -------------------------------------------------------------------------------------
-// [ phpBB3 Türkçe Dil Paketi ]
-//
-// SÜRÜM	: 1.0.13 - 02 Mart 2015 - phpBB 3.0.13.PL1
-// TERCÜME	: phpBB Türkiye - http://phpbbturkiye.net
-// LİSANS	: Genel Kamu Lisansı (GPL)  http://phpbbturkiye.net/hakkinda/gpl-lisansi.html
-//
-//--------------------------------------------------------------------------------------
-// [ Hata bildirimi ]
-//
-// Gözden kaçan hataları veya yanlış olduğunu düşündüğünüz ifadeler için önerilerinizi lütfen bildiriniz.
-//
-// phpBB Türkiye, phpBB3 Türkçe dil dosyası hata bildirim forumu
-// http://phpbbturkiye.net/hata-raporlari-f93/
-//
-//
-// Kopyala-yapıştır yapabileceğiniz bazı karakterler:
-// ’ » “ ” …
-// -------------------------------------------------------------------------------------
+/** ---------------------------------------------------------------------------------------------------------
+ *  [ phpBB Türkçe Dil Paketi ]
+ * 
+ *  SÜRÜM/VERSİYON:
+ *		phpBB		: 3.0.14
+ *		Dil dosyası	: 1.0.14 - 06 Mayıs 2015
+ *		Etiket		: 1.0.14-phpBB.3.0.14
+ *
+ *  TERCÜME	: phpBB Türkiye					http://phpbbturkiye.net
+ *  LİSANS	: Genel Kamu Lisansı (GPL-2.0)	http://opensource.org/licenses/gpl-2.0.php
+ * ----------------------------------------------------------------------------------------------------------
+ *  [ Hata bildirimi ]
+ * 
+ *  Gözden kaçan hataları veya yanlış olduğunu düşündüğünüz ifadeler için önerilerinizi lütfen bildiriniz.
+ * 
+ *  phpBB Türkiye, phpBB Türkçe dil dosyası hata bildirim sayfası
+ *		http://phpbbturkiye.net/hata-raporlari-f93/
+ * 
+ *  GitHub, phpBB Türkçe dil dosyası hata bildirim sayfası
+ *		https://github.com/juy/phpBB.Turkce.Dil.Paketi
+ * ----------------------------------------------------------------------------------------------------------
+ *  Kopyala-yapıştır yapabileceğiniz bazı karakterler:
+ *		’ » “ ” …
+ *-----------------------------------------------------------------------------------------------------------
+ */
 
 if (empty($lang) || !is_array($lang))
 {
