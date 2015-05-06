@@ -1,11 +1,11 @@
-<?php defined('IN_PHPBB') or die('No direct access allowed.');
+<?php defined('IN_PHPBB') || die('No direct access allowed.');
 /**
  * @author Sevdin Filiz <angelside@users.sourceforge.net>
  *
- * @copyright (c) phpBB Group 		<http://phpbb.com>			[phpBB sistemi]
- * @copyright (c) Canver Software	<http://canversoft.net>		[Tercüme]
+ * @copyright (c) phpBB Limited		<http://phpbb.com>			[phpBB sistemi]
+ * @copyright (c) Juy Software		<http://juysoft.com>		[Tercüme]
  *
- * @license http://opensource.org/licenses/gpl-license.php GNU Public License
+ * @license GNU General Public License, version 2 (GPL-2.0)		http://opensource.org/licenses/gpl-2.0.php
  */
 
 if (empty($lang) || !is_array($lang))
