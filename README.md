@@ -1,5 +1,5 @@
 ## phpBB3 Türkçe Dil Dosyaları
-[![Still Maintained][stillmaintained-img]][stillmaintained-url] [![Lisans][license-img]][license-url] [![Etiket][tag-img]][tag-url] [![PayPal ile destek][paypal-donate-img]][paypal-donate-url]
+![][maintainedstatus-img] [![Lisans][license-img]][license-url] [![PayPal ile destek][paypal-donate-img]][paypal-donate-url]
 
 > "[phpBB Türkiye](http://phpbbturkiye.net)" tarafından phpBB 3.0.x sürümleri için tercüme edilen ve geliştirilen phpBB Türkçe dil dosyalarıdır.
 
@@ -80,14 +80,10 @@ Gözden kaçan hataları, yanlış olduğunu düşündüğünüz tercüme ve ifa
 
 
 
-[stillmaintained-img]: http://img.shields.io/badge/project-maintained-brightgreen.svg?style=flat-square
-[stillmaintained-url]: http://stillmaintained.com/angelside/phpBB3.Turkce.Dil.Dosyasi
+[maintainedstatus-img]: http://img.shields.io/badge/proje-aktif-brightgreen.svg?style=flat-square
 
 [license-img]: http://img.shields.io/badge/lisans-GPL-blue.svg?style=flat-square
 [license-url]: http://opensource.org/licenses/gpl-2.0.php
-
-[tag-img]: https://img.shields.io/github/tag/angelside/phpBB3.Turkce.Dil.Dosyasi.svg?style=flat-square
-[tag-url]: https://github.com/angelside/phpBB3.Turkce.Dil.Dosyasi
 
 [release-img]: https://img.shields.io/github/release/angelside/phpBB3.Turkce.Dil.Dosyasi.svg?style=flat-square
 [release-url]: https://github.com/angelside/phpBB3.Turkce.Dil.Dosyasi
