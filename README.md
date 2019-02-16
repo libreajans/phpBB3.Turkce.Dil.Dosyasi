@@ -83,6 +83,9 @@ Gözden kaçan hataları, yanlış olduğunu düşündüğünüz tercüme ve ifa
 ## Lisans
 Açık kaynaklı olan bu proje [GPL lisansı][license-url] ile lisanslanmıştır.
 
+# License
+You may copy and reproduce the project under GPL V3 license.
+
 
 
 [license-img]: http://img.shields.io/badge/lisans-GPL-orange.svg?style=flat-square
